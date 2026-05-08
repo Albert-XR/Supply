@@ -3,23 +3,126 @@ layout: home
 title: Home
 ---
 
+<style>
+/* 基础样式 */
+.hero {
+  background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+  color: white;
+  padding: 60px 20px;
+  text-align: center;
+  margin: -20px -20px 30px -20px;
+}
+.hero h1 { font-size: 2.2em; margin-bottom: 15px; }
+.hero-subtitle { font-size: 1.1em; opacity: 0.9; margin-bottom: 20px; }
+.hero-badges { margin: 20px 0; }
+.hero-badges span {
+  background: rgba(255,255,255,0.15);
+  padding: 6px 14px;
+  border-radius: 20px;
+  margin: 0 5px;
+  font-size: 0.85em;
+  display: inline-block;
+  margin-bottom: 8px;
+}
+.cta-button {
+  display: inline-block;
+  background: #e94560;
+  color: white;
+  padding: 12px 28px;
+  border-radius: 6px;
+  text-decoration: none;
+  margin: 8px;
+  font-weight: bold;
+}
+.cta-button.secondary {
+  background: transparent;
+  border: 2px solid white;
+}
+
+.stats-bar {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+  gap: 20px;
+  padding: 40px 20px;
+  background: #f8f9fa;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.stat-item strong {
+  display: block;
+  font-size: 2em;
+  color: #e94560;
+}
+.stat-item span { color: #666; font-size: 0.9em; }
+
+section { padding: 30px 20px; max-width: 1100px; margin: 0 auto; }
+h2 { text-align: center; margin-bottom: 25px; }
+
+.category-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+  margin: 25px 0;
+}
+.category-card {
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+  padding: 15px;
+  text-align: center;
+}
+.category-card img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 6px;
+  margin-bottom: 12px;
+  background: #f0f0f0;
+}
+.category-card h3 { margin: 10px 0 5px 0; }
+.category-card p { font-size: 0.9em; color: #666; margin-bottom: 10px; }
+.category-card a { color: #e94560; text-decoration: none; font-weight: bold; }
+
+.features-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  margin: 25px 0;
+}
+.feature {
+  padding: 20px;
+  background: #f8f9fa;
+  border-radius: 8px;
+}
+.feature h4 { margin-top: 0; color: #1a1a2e; }
+
+.cta-section {
+  background: #1a1a2e;
+  color: white;
+  padding: 50px 20px;
+  text-align: center;
+  margin: 30px 0;
+}
+.cta-section h2 { margin-top: 0; }
+.contact-mini { opacity: 0.8; margin-top: 15px; font-size: 0.9em; }
+
+img { max-width: 100%; height: auto; }
+</style>
+
 <!-- 首屏横幅 -->
-<section class="hero">
-  <div class="hero-content">
-    <h1>Premium Stainless Steel Tableware Manufacturer</h1>
-    <p class="hero-subtitle">18/10 Food-Grade Stainless Steel · OEM/ODM · B2B Wholesale</p>
-    <div class="hero-badges">
-      <span>✓ ISO9001 Certified</span>
-      <span>✓ FDA & LFGB Approved</span>
-      <span>✓ 15+ Years Export Experience</span>
-    </div>
-    <a href="/products" class="cta-button">Browse Products</a>
-    <a href="/contact" class="cta-button secondary">Request Quote</a>
+<div class="hero">
+  <h1>Premium Stainless Steel Tableware Manufacturer</h1>
+  <p class="hero-subtitle">18/10 Food-Grade Stainless Steel · OEM/ODM · B2B Wholesale</p>
+  <div class="hero-badges">
+    <span>✓ ISO9001 Certified</span>
+    <span>✓ FDA & LFGB Approved</span>
+    <span>✓ 15+ Years Export Experience</span>
   </div>
-</section>
+  <a href="/products" class="cta-button">Browse Products</a>
+  <a href="/contact" class="cta-button secondary">Request Quote</a>
+</div>
 
 <!-- 核心数据 -->
-<section class="stats-bar">
+<div class="stats-bar">
   <div class="stat-item">
     <strong>500+</strong>
     <span>Product Designs</span>
@@ -36,41 +139,41 @@ title: Home
     <strong>200+</strong>
     <span>Factory Workers</span>
   </div>
-</section>
+</div>
 
 <!-- 产品分类 -->
-<section class="product-categories">
+<section>
   <h2>Our Product Categories</h2>
   <div class="category-grid">
     <div class="category-card">
-      <img src="/assets/images/cat-cutlery.jpg" alt="Cutlery Sets">
+      <img src="https://via.placeholder.com/400x300?text=Cutlery+Set" alt="Cutlery Sets">
       <h3>Cutlery Sets</h3>
-      <p>16pc/24pc/72pc dinnerware sets, 18/10 stainless steel, mirror/satin finish</p>
-      <a href="/products#cutlery">View Products →</a>
+      <p>16pc/24pc/72pc dinnerware sets, 18/10 stainless steel</p>
+      <a href="/products">View Products →</a>
     </div>
     <div class="category-card">
-      <img src="/assets/images/cat-flatware.jpg" alt="Flatware">
+      <img src="https://via.placeholder.com/400x300?text=Flatware" alt="Flatware">
       <h3>Flatware</h3>
-      <p>Dinner forks, knives, spoons, dessert sets. Custom designs available</p>
-      <a href="/products#flatware">View Products →</a>
+      <p>Dinner forks, knives, spoons. Custom designs available</p>
+      <a href="/products">View Products →</a>
     </div>
     <div class="category-card">
-      <img src="/assets/images/cat-serving.jpg" alt="Serving Utensils">
+      <img src="https://via.placeholder.com/400x300?text=Serving" alt="Serving Utensils">
       <h3>Serving Utensils</h3>
-      <p>Serving spoons, ladles, tongs, cake servers for hotels & restaurants</p>
-      <a href="/products#serving">View Products →</a>
+      <p>Serving spoons, ladles, tongs for hotels & restaurants</p>
+      <a href="/products">View Products →</a>
     </div>
     <div class="category-card">
-      <img src="/assets/images/cat-hotel.jpg" alt="Hotel Supplies">
+      <img src="https://via.placeholder.com/400x300?text=Hotel" alt="Hotel Supplies">
       <h3>Hotel & Restaurant</h3>
-      <p>Bulk flatware, buffet utensils, custom logo engraving, premium packaging</p>
-      <a href="/products#hotel">View Products →</a>
+      <p>Bulk orders, custom logo engraving, premium packaging</p>
+      <a href="/products">View Products →</a>
     </div>
   </div>
 </section>
 
 <!-- 为什么选择我们 -->
-<section class="why-us">
+<section>
   <h2>Why Choose Us</h2>
   <div class="features-grid">
     <div class="feature">
@@ -92,46 +195,11 @@ title: Home
   </div>
 </section>
 
-<!-- 工厂实力 -->
-<section class="factory-showcase">
-  <h2>Factory & Production</h2>
-  <div class="factory-content">
-    <div class="factory-images">
-      <img src="/assets/images/factory-1.jpg" alt="Production Line">
-      <img src="/assets/images/factory-2.jpg" alt="Quality Inspection">
-      <img src="/assets/images/factory-3.jpg" alt="Warehouse">
-    </div>
-    <div class="factory-text">
-      <ul>
-        <li>Advanced CNC polishing machines</li>
-        <li>Dust-free electroplating workshop</li>
-        <li>Automated laser engraving</li>
-        <li>10,000㎡ raw material warehouse</li>
-      </ul>
-      <a href="/about" class="link-arrow">View Factory Details →</a>
-    </div>
-  </div>
-</section>
-
-<!-- 客户/认证 -->
-<section class="trust-signals">
-  <h2>Trusted by Global Buyers</h2>
-  <div class="cert-logos">
-    <img src="/assets/images/cert-iso.jpg" alt="ISO9001">
-    <img src="/assets/images/cert-fda.jpg" alt="FDA">
-    <img src="/assets/images/cert-lfgb.jpg" alt="LFGB">
-    <img src="/assets/images/cert-sgs.jpg" alt="SGS">
-  </div>
-  <p class="client-note">Serving buyers from USA, Germany, UK, France, Japan, Australia, UAE...</p>
-</section>
-
 <!-- 询盘引导 -->
-<section class="cta-section">
+<div class="cta-section">
   <h2>Ready to Source Premium Tableware?</h2>
-  <p>Tell us your target product, quantity, and destination country. We'll reply within 24 hours.</p>
-  <div class="cta-buttons">
-    <a href="/contact" class="cta-button large">Get Free Quote</a>
-    <a href="https://wa.me/86138xxxxxxxx" class="cta-button secondary large" target="_blank">Chat on WhatsApp</a>
-  </div>
+  <p>Tell us your target product, quantity, and destination country.</p>
+  <a href="/contact" class="cta-button">Get Free Quote</a>
+  <a href="https://wa.me/86138xxxxxxxx" class="cta-button secondary" target="_blank">Chat on WhatsApp</a>
   <p class="contact-mini">📧 sales@yourcompany.com | 📱 +86 138-xxxx-xxxx</p>
-</section>
+</div>
