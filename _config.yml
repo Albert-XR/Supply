@@ -109,3 +109,9 @@ jekyll-archives:
     category: '/:name/'
   category_archive:
     type: liquid
+
+header_pages:
+  - index.md
+  - products.md
+  - about.md
+  - contact.md
