@@ -1,0 +1,128 @@
+/* 首屏 */
+.hero {
+  background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+  color: white;
+  padding: 80px 20px;
+  text-align: center;
+}
+.hero h1 { font-size: 2.5em; margin-bottom: 15px; }
+.hero-subtitle { font-size: 1.2em; opacity: 0.9; margin-bottom: 25px; }
+.hero-badges { margin: 20px 0; }
+.hero-badges span {
+  background: rgba(255,255,255,0.15);
+  padding: 8px 16px;
+  border-radius: 20px;
+  margin: 0 5px;
+  font-size: 0.9em;
+}
+
+/* CTA按钮 */
+.cta-button {
+  display: inline-block;
+  background: #e94560;
+  color: white;
+  padding: 14px 32px;
+  border-radius: 6px;
+  text-decoration: none;
+  margin: 10px;
+  font-weight: bold;
+  transition: transform 0.2s;
+}
+.cta-button:hover { transform: translateY(-2px); }
+.cta-button.secondary {
+  background: transparent;
+  border: 2px solid white;
+}
+
+/* 数据栏 */
+.stats-bar {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 30px;
+  padding: 50px 20px;
+  background: #f8f9fa;
+  text-align: center;
+}
+.stat-item strong {
+  display: block;
+  font-size: 2.5em;
+  color: #e94560;
+}
+.stat-item span { color: #666; font-size: 0.95em; }
+
+/* 产品分类 */
+.category-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 25px;
+  margin: 30px 0;
+}
+.category-card {
+  border: 1px solid #e0e0e0;
+  border-radius: 12px;
+  padding: 20px;
+  text-align: center;
+  transition: box-shadow 0.3s;
+}
+.category-card:hover { box-shadow: 0 5px 20px rgba(0,0,0,0.1); }
+.category-card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+/* 为什么选择 */
+.features-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 25px;
+  margin: 30px 0;
+}
+.feature {
+  padding: 20px;
+  background: #f8f9fa;
+  border-radius: 10px;
+}
+.feature h4 { margin-top: 0; color: #1a1a2e; }
+
+/* 工厂展示 */
+.factory-images {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+  margin: 20px 0;
+}
+.factory-images img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+/* 认证 */
+.cert-logos {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+  margin: 30px 0;
+  opacity: 0.7;
+}
+.cert-logos img { height: 60px; }
+
+/* 询盘区 */
+.cta-section {
+  background: #1a1a2e;
+  color: white;
+  padding: 60px 20px;
+  text-align: center;
+  margin: 40px 0;
+}
+.cta-section h2 { margin-top: 0; }
+.contact-mini { opacity: 0.8; margin-top: 20px; }
+
+/* 通用 */
+section { padding: 40px 20px; max-width: 1200px; margin: 0 auto; }
+h2 { text-align: center; margin-bottom: 30px; }
