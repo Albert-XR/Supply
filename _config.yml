@@ -117,3 +117,7 @@ header_pages:
   - products.md
   - about.md
   - contact.md
+
+# 自定义CSS
+custom_css:
+  - /assets/css/custom.css
