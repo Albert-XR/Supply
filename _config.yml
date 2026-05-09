@@ -9,7 +9,7 @@ google_analytics_key:
 
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
 logo: /siteicon.png
-tagline:
+tagline: "Professional Manufacturer"
 description: Jekyll template for e-commerce with Gumroad integration
 author:
   name: Albert
@@ -17,13 +17,13 @@ author:
   twitter: TemplatesSupply # twitter username without the @ symbol
   phone: ""
 social:
-  name: Templates Supply # replace this
+  name: "Ding-Yong Products"
   links:
   whatsapp: "+8613822066349"
 
 # Build settings
 markdown: kramdown
-timezone: FR
+timezone: Asia/Shanghai
 
 collections:
   products:
