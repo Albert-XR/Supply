@@ -200,6 +200,6 @@ img { max-width: 100%; height: auto; }
   <h2>Ready to Source Premium Tableware?</h2>
   <p>Tell us your target product, quantity, and destination country.</p>
   <a href="/contact" class="cta-button">Get Free Quote</a>
-  <a href="https://wa.me/86138xxxxxxxx" class="cta-button secondary" target="_blank">Chat on WhatsApp</a>
-  <p class="contact-mini">📧 sales@yourcompany.com | 📱 +86 138-xxxx-xxxx</p>
+  <a href="https://wa.me/8617718828885" class="cta-button secondary" target="_blank">Chat on WhatsApp</a>
+  <p class="contact-mini">📧 sales@ding-yong.com | 📱 +86 17718828885</p>
 </div>
