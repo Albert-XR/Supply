@@ -190,7 +190,7 @@ img { max-width: 100%; height: auto; }
     </div>
     <div class="feature">
       <h4>🎨 Global Footprint</h4>
-      <p>Proven experience serving clients across Europe, the Americas, Middle East and Southeast Asia etc. 50 countries.</p>
+      <p>Proven experience serving clients across Europe, the Americas, Middle East and Southeast Asia etc. 40+ countries.</p>
     </div>
   </div>
 </section>
