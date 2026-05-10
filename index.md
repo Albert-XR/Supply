@@ -111,10 +111,10 @@ img { max-width: 100%; height: auto; }
 <!-- 首屏横幅 -->
 <div class="hero">
   <h1>JIEYANG DINGYONG HARDWARE & PLASTIC PRODUCTS CO., LTD</h1>
-  <p class="hero-subtitle">Your Global Partner in Premium 18/10 Food-Grade Stainless Steel Tableware</p>
+  <p class="hero-subtitle">Your Strategic Partner for OEM/ODM Cutlery Solutions</p>
   <div class="hero-badges">
     <span>✓ ISO9001 Certified</span>
-    <span>✓ FDA & LFGB Approved</span>
+    <span>✓ BSCI Approved</span>
     <span>✓ 15+ Years Export Experience</span>
   </div>
   <a href="/products" class="cta-button">Browse Products</a>
