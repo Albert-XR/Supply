@@ -113,8 +113,8 @@ img { max-width: 100%; height: auto; }
   <h1>JIEYANG DINGYONG HARDWARE & PLASTIC PRODUCTS CO., LTD</h1>
   <p class="hero-subtitle">Your Strategic Partner for OEM/ODM Cutlery Solutions</p>
   <div class="hero-badges">
-    <span>✓ ISO9001 Certified</span>
-    <span>✓ BSCI Approved</span>
+    <span>✓ ISO9001 & BSCI Certified</span>
+    <span>✓ FDA & LFGB Approved</span>
     <span>✓ 15+ Years Export Experience</span>
   </div>
   <a href="/products" class="cta-button">Browse Products</a>
