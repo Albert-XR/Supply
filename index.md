@@ -124,11 +124,11 @@ img { max-width: 100%; height: auto; }
 <!-- 核心数据 -->
 <div class="stats-bar">
   <div class="stat-item">
-    <strong>500+</strong>
+    <strong>600+</strong>
     <span>Product Designs</span>
   </div>
   <div class="stat-item">
-    <strong>50+</strong>
+    <strong>40+</strong>
     <span>Export Countries</span>
   </div>
   <div class="stat-item">
