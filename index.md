@@ -178,19 +178,19 @@ img { max-width: 100%; height: auto; }
   <div class="features-grid">
     <div class="feature">
       <h4>🏭 Factory Direct</h4>
-      <p>5,000㎡ production facility, no middlemen. Competitive pricing guaranteed.</p>
+      <p>5,000㎡ production facility, full support for bespoke molds, finishes (PVD/Mirror/Satin), and branding.</p>
     </div>
     <div class="feature">
-      <h4>🔬 Quality Control</h4>
-      <p>100% inspection before shipment. SGS/BV third-party inspection supported.</p>
+      <h4>🔬 Quality Assured</h4>
+      <p>Rigorous in-house QC protocols to meet international standards (EU/FDA/LFGB).</p>
     </div>
     <div class="feature">
-      <h4>🎨 Custom OEM/ODM</h4>
-      <p>Logo laser engraving, custom packaging, unique mold development.</p>
+      <h4>🚢 Agile Production</h4>
+      <p>Flexible MOQs and optimized lead times for rapid market entry.</p>
     </div>
     <div class="feature">
-      <h4>🚢 Fast Delivery</h4>
-      <p>30-45 days lead time. FOB Shenzhen/Guangzhou. Express samples in 7 days.</p>
+      <h4>🎨 Global Footprint</h4>
+      <p>Proven experience serving clients across Europe, the Americas, Middle East and Southeast Asia etc. 50 countries.</p>
     </div>
   </div>
 </section>
