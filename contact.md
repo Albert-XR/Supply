@@ -161,78 +161,56 @@ permalink: /contact/
       </div>
     </div>
 
-    <!-- 右侧表单 -->
-    <div class="contact-form">
-      <h2>Send Inquiry</h2>
-      
-      <!-- 使用Formspree（免费，50条/月） -->
-      <!-- 注册 https://formspree.io 获取你的form ID，替换下面的action -->
-      <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST" id="inquiryForm">
-        
-        <div class="success-msg" id="successMsg">
-          ✅ Thank you! Your inquiry has been sent. We'll reply within 24 hours.
-        </div>
+    <!-- 替换整个表单区域 -->
 
-        <div class="form-group">
-          <label>Your Name <span class="required">*</span></label>
-          <input type="text" name="name" required placeholder="John Smith">
-        </div>
+<div class="contact-form">
+  <h2>How to Inquire</h2>
+  
+  <div style="background: #e8f4fd; padding: 20px; border-radius: 10px; margin-bottom: 20px; border-left: 4px solid #2196F3;">
+    <p style="margin: 0; font-size: 0.95em;">
+      <strong>💡 Recommended:</strong> For fastest response, send inquiry via WhatsApp or email with:
+    </p>
+    <ul style="margin: 10px 0 0 20px; font-size: 0.9em; color: #555;">
+      <li>Product name or photo</li>
+      <li>Target quantity</li>
+      <li>Destination country</li>
+      <li>Any custom requirements</li>
+    </ul>
+  </div>
 
-        <div class="form-group">
-          <label>Email <span class="required">*</span></label>
-          <input type="email" name="email" required placeholder="john@yourcompany.com">
-        </div>
+  <div style="text-align: center; padding: 30px 20px;">
+    <div style="margin-bottom: 25px;">
+      <div style="font-size: 2.5em; margin-bottom: 10px;">📧</div>
+      <h4 style="margin: 5px 0;">Email Us</h4>
+      <a href="mailto:sales@ding-yong.com" style="color: #e94560; font-size: 1.1em; text-decoration: none;">
+        sales@ding-yong.com
+      </a>
+      <p style="font-size: 0.85em; color: #888; margin-top: 5px;">Reply within 24 hours</p>
+    </div>
 
-        <div class="form-group">
-          <label>Company Name</label>
-          <input type="text" name="company" placeholder="Your Company Ltd.">
-        </div>
+    <div style="margin-bottom: 25px;">
+      <div style="font-size: 2.5em; margin-bottom: 10px;">💬</div>
+      <h4 style="margin: 5px 0;">WhatsApp</h4>
+      <a href="https://wa.me/8613822066349" target="_blank" style="color: #e94560; font-size: 1.1em; text-decoration: none;">
+        +86 138-2206-6349
+      </a>
+      <p style="font-size: 0.85em; color: #888; margin-top: 5px;">Fastest response</p>
+    </div>
 
-        <div class="form-group">
-          <label>WhatsApp / Phone</label>
-          <input type="tel" name="phone" placeholder="+1 234 567 8900">
-        </div>
-
-        <div class="form-group">
-          <label>Product Interest <span class="required">*</span></label>
-          <select name="product" required>
-            <option value="">Select a product category</option>
-            <option value="cutlery-sets">Cutlery Sets</option>
-            <option value="flatware">Flatware (Forks, Knives, Spoons)</option>
-            <option value="serving">Serving Utensils</option>
-            <option value="hotel">Hotel & Restaurant Supplies</option>
-            <option value="custom">Custom OEM/ODM</option>
-          </select>
-        </div>
-
-        <div class="form-group">
-          <label>Estimated Quantity</label>
-          <select name="quantity">
-            <option value="">Select quantity range</option>
-            <option value="1000-3000">1,000 - 3,000 pcs</option>
-            <option value="3000-5000">3,000 - 5,000 pcs</option>
-            <option value="5000-10000">5,000 - 10,000 pcs</option>
-            <option value="10000+">10,000+ pcs</option>
-          </select>
-        </div>
-
-        <div class="form-group">
-          <label>Destination Country</label>
-          <input type="text" name="country" placeholder="e.g., USA, Germany, Japan">
-        </div>
-
-        <div class="form-group">
-          <label>Message / Requirements <span class="required">*</span></label>
-          <textarea name="message" required placeholder="Please describe your needs: product specifications, packaging requirements, target price, delivery timeline, etc."></textarea>
-        </div>
-
-        <button type="submit" class="submit-btn">Send Inquiry</button>
-      </form>
-
-      <p style="text-align: center; margin-top: 15px; font-size: 0.85em; color: #888;">
-        🔒 Your information is secure and will never be shared.
+    <div>
+      <div style="font-size: 2.5em; margin-bottom: 10px;">🕐</div>
+      <h4 style="margin: 5px 0;">Working Hours</h4>
+      <p style="color: #555; font-size: 0.95em;">
+        Mon-Sat: 8:30 AM - 6:00 PM (GMT+8)<br>
+        <span style="color: #888;">Sunday: Closed</span>
       </p>
     </div>
+  </div>
+
+  <a href="https://wa.me/8613822066349" target="_blank" class="submit-btn" style="display: block; text-align: center; text-decoration: none; margin-top: 10px;">
+    Chat on WhatsApp Now
+  </a>
+</div>
   </div>
 
   <!-- 底部CTA -->
