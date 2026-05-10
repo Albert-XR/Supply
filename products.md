@@ -168,7 +168,7 @@ permalink: /products/
         </div>
         <div class="product-actions">
           <a href="/contact?product=24pc-cutlery" class="btn btn-primary">Inquire Now</a>
-          <a href="/products/stainless-cutlery-set/" class="btn btn-secondary">Details</a>
+          <a href="/products/24pc-cutlery-set/" class="btn btn-secondary">Details</a>
         </div>
       </div>
     </div>
