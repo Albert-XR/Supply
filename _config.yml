@@ -54,7 +54,6 @@ jekyll-archives:
   enabled:
     - categories
 
-theme: supply
 plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
