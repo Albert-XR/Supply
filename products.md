@@ -190,7 +190,7 @@ permalink: /products/
         </div>
         <div class="product-actions">
           <a href="/contact?product=dinner-fork" class="btn btn-primary">Inquire Now</a>
-          <a href="#" class="btn btn-secondary">Details</a>
+          <a href="/products/dinner-fork.md/" class="btn btn-secondary">Details</a>
         </div>
       </div>
     </div>
