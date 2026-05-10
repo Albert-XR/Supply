@@ -146,7 +146,7 @@ img { max-width: 100%; height: auto; }
   <h2>Our Product Categories</h2>
   <div class="category-grid">
     <div class="category-card">
-      <img src="/assets/images/cutlery-set_small.jpg" alt="Cutlery Sets">
+      <img src="/assets/images/cutlery-set.jpg" alt="Cutlery Sets">
       <h3>Cutlery Sets</h3>
       <p>16pc/24pc/72pc dinnerware sets, 18/10 stainless steel</p>
       <a href="/products">View Products →</a>
@@ -158,7 +158,7 @@ img { max-width: 100%; height: auto; }
       <a href="/products">View Products →</a>
     </div>
     <div class="category-card">
-      <img src="/assets/images/hotel_small.jpg" alt="Serving Utensils">
+      <img src="/assets/images/cutlery-set_small.jpg" alt="Serving Utensils">
       <h3>Serving Utensils</h3>
       <p>Serving spoons, ladles, tongs for hotels & restaurants</p>
       <a href="/products">View Products →</a>
