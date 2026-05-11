@@ -32,7 +32,7 @@ permalink: /products/24pc-cutlery-set/
   width: 100%;
   border-radius: 12px;
   background: #f8f9fa;
-  aspect-ratio: 4/3;
+  aspect-ratio: 1/1;
   object-fit: cover;
 }
 .thumbnail-list {
@@ -43,6 +43,7 @@ permalink: /products/24pc-cutlery-set/
 .thumbnail {
   width: 80px;
   height: 80px;
+  aspect-ratio: 1/1;
   border-radius: 8px;
   object-fit: cover;
   cursor: pointer;
