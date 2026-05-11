@@ -285,12 +285,12 @@ permalink: /products/24pc-cutlery-set/
 
   <!-- 左侧图片 -->
   <div class="product-gallery">
-    <img src="/assets/images/cutlery-set_large.jpg" alt="24-Piece Cutlery Set" class="main-image" id="mainImage">
+    <img src="/assets/images/products/cutlery-set_main_01.jpg" alt="24-Piece Cutlery Set" class="main-image" id="mainImage">
     <div class="thumbnail-list">
-      <img src="/assets/images/cutlery-set_small.jpg" class="thumbnail active" onclick="changeImage(this, '/assets/images/cutlery-set_large.jpg')">
-      <img src="/assets/images/flatware_small.jpg" class="thumbnail" onclick="changeImage(this, '/assets/images/flatware_large.jpg')">
-      <img src="/assets/images/serving_small.jpg" class="thumbnail" onclick="changeImage(this, '/assets/images/serving_large.jpg')">
-      <img src="/assets/images/hotel_small.jpg" class="thumbnail" onclick="changeImage(this, '/assets/images/hotel_large.jpg')">
+      <img src="/assets/images/products/cutlery-set_small.jpg" class="thumbnail active" onclick="changeImage(this, '/assets/images/cutlery-set_large.jpg')">
+      <img src="/assets/images/products/flatware_small.jpg" class="thumbnail" onclick="changeImage(this, '/assets/images/flatware_large.jpg')">
+      <img src="/assets/images/products/serving_small.jpg" class="thumbnail" onclick="changeImage(this, '/assets/images/serving_large.jpg')">
+      <img src="/assets/images/products/hotel_small.jpg" class="thumbnail" onclick="changeImage(this, '/assets/images/hotel_large.jpg')">
     </div>
   </div>
 
