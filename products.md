@@ -155,7 +155,7 @@ permalink: /products/
     <div class="product-card" data-category="cutlery">
       <img src="https://via.placeholder.com/400x300?text=24pc+Cutlery+Set" alt="24-Piece Cutlery Set" class="product-image">
       <div class="product-info">
-        <h3>24-Piece Stainless Steel Cutlery Set</h3>
+        <h3>Luxury 24-Piece Customizable Spoon Fork Knife Tableware Set for Western Home Dining Dinnerware Sets Diamond Bottle Flatware Sets</h3>
         <div class="product-meta">
           <span class="product-price">$12.50/set</span>
           <span class="product-moq">MOQ: 1000 sets</span>
