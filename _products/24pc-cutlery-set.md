@@ -277,7 +277,7 @@ permalink: /products/24pc-cutlery-set/
 
 <!-- 面包屑 -->
 <div class="breadcrumb">
-  <a href="/">Home</a> / <a href="/products">Products</a> / <span>24-Piece Cutlery Set</span>
+  <a href="/">Home</a> / <a href="/products">Products</a> / <span>Diamond Bottle Tableware Set</span>
 </div>
 
 <!-- 产品主区域 -->
@@ -285,28 +285,29 @@ permalink: /products/24pc-cutlery-set/
 
   <!-- 左侧图片 -->
   <div class="product-gallery">
-    <img src="/assets/images/products/cutlery-set_main_01.jpg" alt="24-Piece Cutlery Set" class="main-image" id="mainImage">
+    <img src="/assets/images/diamond/diamond-main-1024.jpg" alt="Diamond Bottle Tableware" class="main-image" id="mainImage">
     <div class="thumbnail-list">
-      <img src="/assets/images/products/cutlery-set_small.jpg" class="thumbnail active" onclick="changeImage(this, '/assets/images/cutlery-set_large.jpg')">
-      <img src="/assets/images/products/flatware_small.jpg" class="thumbnail" onclick="changeImage(this, '/assets/images/flatware_large.jpg')">
-      <img src="/assets/images/products/serving_small.jpg" class="thumbnail" onclick="changeImage(this, '/assets/images/serving_large.jpg')">
-      <img src="/assets/images/products/hotel_small.jpg" class="thumbnail" onclick="changeImage(this, '/assets/images/hotel_large.jpg')">
+      <img src="/assets/images/diamond/diamond-main-180.jpg" class="thumbnail active" onclick="changeImage(this, '/assets/images/diamond/diamond-main-1024.jpg')">
+      <img src="/assets/images/diamond/diamond-detail-1-180.jpg" class="thumbnail" onclick="changeImage(this, '/assets/images/diamond/diamond-detail-1-1024.jpg')">
+      <img src="/assets/images/diamond/diamond-detail-2-180.jpg" class="thumbnail" onclick="changeImage(this, '/assets/images/diamond/diamond-detail-2-1024.jpg')">
+      <img src="/assets/images/diamond/diamond-detail-3-180.jpg" class="thumbnail" onclick="changeImage(this, '/assets/images/diamond/diamond-detail-3-1024.jpg')">
+      <img src="/assets/images/diamond/diamond-detail-4-180.jpg" class="thumbnail" onclick="changeImage(this, '/assets/images/diamond/diamond-detail-4-1024.jpg')">
     </div>
   </div>
 
   <!-- 右侧信息 -->
   <div class="product-info">
-    <h1>24-Piece Stainless Steel Cutlery Set</h1>
-    <p class="product-sku">SKU: DY-CS24-001 | Model: Portugal Series</p>
-    
-    <div class="product-price">$12.50 <span style="font-size:0.5em; color:#888; font-weight:normal;">/ set FOB Shenzhen</span></div>
-    <p class="product-moq">MOQ: 1,000 sets | Lead Time: 30-45 days</p>
+    <h1>Diamond Bottle Tableware Set</h1>
+    <p class="product-sku">SKU: DY-DB24-001 | Model: Diamond Series</p>
+    <div class="product-price">$18.50 <span>/ set FOB Shenzhen</span></div>
+    <p class="product-moq">MOQ: 500 sets | Lead Time: 35-50 days</p>
     
     <div class="feature-tags">
-      <span class="tag">&#10003; 18/10 Stainless Steel</span>
-      <span class="tag">&#10003; FDA Certified</span>
-      <span class="tag">&#10003; LFGB Approved</span>
-      <span class="tag">&#10003; OEM Available</span>
+      <span class="tag">✓ 18/10 Stainless Steel</span>
+      <span class="tag">✓ Diamond Bottle Design</span>
+      <span class="tag">✓ Gold/Silver Finish</span>
+      <span class="tag">✓ Gift Box Packaging</span>
+      <span class="tag">✓ OEM/ODM Available</span>
     </div>
 
     <!-- 快速询盘 -->
@@ -361,12 +362,11 @@ permalink: /products/24pc-cutlery-set/
     <h2>Product Specifications</h2>
     <table class="spec-table">
       <tr><td>Material</td><td>18/10 (304) Austenitic Stainless Steel</td></tr>
-      <tr><td>Finish</td><td>Mirror Polish / Satin / PVD Gold / Rose Gold / Black</td></tr>
-      <tr><td>Set Composition</td><td>6 × Dinner Knife (23.5cm) + 6 × Dinner Fork (20.5cm) + 6 × Dinner Spoon (20cm) + 6 × Tea Spoon (14cm)</td></tr>
-      <tr><td>Weight</td><td>2.8 kg / set (approx. 70g per piece)</td></tr>
-      <tr><td>Thickness</td><td>Knife: 8mm, Fork: 4mm, Spoon: 3mm</td></tr>
-      <tr><td>Handle Design</td><td>Portugal Series - ergonomic square handle with rounded edges</td></tr>
-      <tr><td>Dishwasher Safe</td><td>Yes (recommend gentle cycle)</td></tr>
+      <tr><td>Finish</td><td>Mirror Polish / PVD Gold / Silver</td></tr>
+      <tr><td>Set Composition</td><td>6 × Dinner Knife + 6 × Dinner Fork + 6 × Dinner Spoon + 6 × Tea Spoon (24 pieces total)</td></tr>
+      <tr><td>Container Design</td><td>Unique diamond-shaped bottle with transparent lid</td></tr>
+      <tr><td>Weight</td><td>3.2 kg / set (including bottle container)</td></tr>
+      <tr><td>Dimensions</td><td>Bottle: 18cm diameter × 22cm height</td></tr>
       <tr><td>Customization</td><td>Laser logo engraving, custom color, pattern handle</td></tr>
     </table>
 
@@ -385,19 +385,19 @@ permalink: /products/24pc-cutlery-set/
     <h2>Packaging Options</h2>
     <div class="packaging-show">
       <div class="pack-item">
-        <img src="/assets/images/hotel_small.jpg" alt="Color Box">
-        <h4>Color Box</h4>
-        <p style="font-size:0.85em; color:#666;">Standard gift packaging with product image. MOQ: 1,000 sets.</p>
+        <img src="/assets/images/diamond/diamond-detail-4-1024.jpg" alt="Gift Box">
+        <h4>Diamond Gift Box</h4>
+        <p style="font-size:0.85em; color:#666;">Premium packaging with product image. MOQ: 500 sets.</p>
       </div>
       <div class="pack-item">
-        <img src="/assets/images/hotel_small.jpg" alt="Blister Pack">
-        <h4>Blister Pack</h4>
-        <p style="font-size:0.85em; color:#666;">Retail-ready hanging display. MOQ: 2,000 sets.</p>
+        <img src="/assets/images/diamond/diamond-detail-1-1024.jpg" alt="Gold Finish">
+        <h4>Gold Finish</h4>
+        <p style="font-size:0.85em; color:#666;">PVD gold plating, durable and elegant.</p>
       </div>
       <div class="pack-item">
-        <img src="/assets/images/hotel_small.jpg" alt="Custom OEM">
-        <h4>Custom OEM Box</h4>
-        <p style="font-size:0.85em; color:#666;">Your logo, design, barcode. MOQ: 3,000 sets.</p>
+        <img src="/assets/images/diamond/diamond-detail-2-1024.jpg" alt="Silver Finish">
+        <h4>Silver Finish</h4>
+        <p style="font-size:0.85em; color:#666;">Classic mirror polish, timeless design.</p>
       </div>
     </div>
     <div style="background:#f8f9fa; padding:20px; border-radius:10px; margin-top:20px;">
@@ -517,7 +517,7 @@ function buildInquiry(form) {
   var qty = form.quantity.value;
   var country = form.country.value;
   
-  var subject = 'Inquiry: 24pc Cutlery Set - ' + qty + ' sets';
+  var subject = 'Inquiry: Diamond Bottle Tableware Set - ' + qty + ' sets';
   var body = 'Dear Sales Team,%0D%0A%0D%0A' +
     'I am interested in your 24-Piece Stainless Steel Cutlery Set.%0D%0A%0D%0A' +
     'Name: ' + name + '%0D%0A' +
