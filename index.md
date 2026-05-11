@@ -146,25 +146,25 @@ img { max-width: 100%; height: auto; }
   <h2>Our Product Categories</h2>
   <div class="category-grid">
     <div class="category-card">
-      <img src="/assets/images/cutlery-set.jpg" alt="Cutlery Sets">
+      <img src="/assets/images/products/cutlery-set.jpg" alt="Cutlery Sets">
       <h3>Cutlery Sets</h3>
       <p>16pc/24pc/72pc dinnerware sets, 18/10 stainless steel</p>
       <a href="/products">View Products →</a>
     </div>
     <div class="category-card">
-      <img src="/assets/images/flatware_small.jpg" alt="Flatware">
+      <img src="/assets/images/products/flatware_small.jpg" alt="Flatware">
       <h3>Flatware</h3>
       <p>Dinner forks, knives, spoons. Custom designs available</p>
       <a href="/products">View Products →</a>
     </div>
     <div class="category-card">
-      <img src="/assets/images/cutlery-set_small.jpg" alt="Serving Utensils">
+      <img src="/assets/images/products/cutlery-set_small.jpg" alt="Serving Utensils">
       <h3>Serving Utensils</h3>
       <p>Serving spoons, ladles, tongs for hotels & restaurants</p>
       <a href="/products">View Products →</a>
     </div>
     <div class="category-card">
-      <img src="/assets/images/serving_small.jpg" alt="Hotel Supplies">
+      <img src="/assets/images/products/serving_small.jpg" alt="Hotel Supplies">
       <h3>Hotel & Restaurant</h3>
       <p>Bulk orders, custom logo engraving, premium packaging</p>
       <a href="/products">View Products →</a>
