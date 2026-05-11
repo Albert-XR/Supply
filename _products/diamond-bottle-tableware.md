@@ -1,7 +1,7 @@
 ---
 layout: page
-title: 24-Piece Stainless Steel Cutlery Set
-permalink: /products/24pc-cutlery-set/
+title: diamond-bottle-tableware
+permalink: /products/diamond-bottle-tableware/
 ---
 
 <style>
