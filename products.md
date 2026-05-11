@@ -153,7 +153,7 @@ permalink: /products/
     
     <!-- 产品1 -->
     <div class="product-card" data-category="cutlery">
-      <img src="https://via.placeholder.com/400x300?text=24pc+Cutlery+Set" alt="24-Piece Cutlery Set" class="product-image">
+      <img src="/assets/images/diamond/diamond-main-400.jpg" alt="Diamond Bottle Tableware">
       <div class="product-info">
         <h3>Luxury 24-Piece Customizable Spoon Fork Knife Tableware Set for Western Home Dining Dinnerware Sets Diamond Bottle Flatware Sets</h3>
         <div class="product-meta">
@@ -168,7 +168,7 @@ permalink: /products/
         </div>
         <div class="product-actions">
           <a href="/contact?product=24pc-cutlery" class="btn btn-primary">Inquire Now</a>
-          <a href="/products/24pc-cutlery-set/" class="btn btn-secondary">Details</a>
+          <a href="/products/diamond-bottle-tableware/" class="btn btn-secondary">Details</a>
         </div>
       </div>
     </div>
