@@ -1,10 +1,275 @@
 ---
 layout: default
 ---
-<div class="content pa3 ph6-l">
-	<section class="page measure-wide f5 f4-ns lh-copy avenir">
-		<div class="container {% if page.full_width %}max-container{% endif %}">
-			{{ content }}
-		</div>
-	</section>
+
+<div class="content pa3 ph6-1">
+    <section class="page measure-wide f5 f4-ns lh-copy avenir">
+        <div class="container {% if page.full_width %}max-container{% endif %}">
+            {{ content }}
+        </div>
+    </section>
 </div>
+
+<!-- 页脚导航栏 -->
+<style>
+.site-footer {
+  background: #1a1a2e;
+  color: rgba(255,255,255,0.85);
+  padding: 60px 20px 30px;
+  margin: 60px -20px -20px -20px;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1.2fr 1fr 1.2fr 1fr;
+  gap: 40px;
+}
+
+.footer-brand h3 {
+  color: white;
+  font-size: 1.4em;
+  margin-bottom: 15px;
+}
+
+.footer-brand .tagline {
+  color: rgba(255,255,255,0.6);
+  font-size: 0.9em;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.footer-brand .cert-badges {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.cert-badge {
+  background: rgba(255,255,255,0.1);
+  padding: 6px 12px;
+  border-radius: 4px;
+  font-size: 0.75em;
+  color: rgba(255,255,255,0.7);
+}
+
+.footer-links h4,
+.footer-contact h4,
+.footer-social h4 {
+  color: white;
+  font-size: 1.1em;
+  margin-bottom: 20px;
+  position: relative;
+  padding-bottom: 10px;
+}
+
+.footer-links h4::after,
+.footer-contact h4::after,
+.footer-social h4::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 40px;
+  height: 2px;
+  background: #e94560;
+}
+
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-links li {
+  margin-bottom: 12px;
+}
+
+.footer-links a {
+  color: rgba(255,255,255,0.7);
+  text-decoration: none;
+  font-size: 0.9em;
+  transition: color 0.2s;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.footer-links a::before {
+  content: '›';
+  color: #e94560;
+  font-size: 1.2em;
+}
+
+.footer-links a:hover {
+  color: white;
+}
+
+.footer-contact .contact-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  margin-bottom: 15px;
+  font-size: 0.9em;
+  line-height: 1.5;
+}
+
+.footer-contact .contact-icon {
+  width: 20px;
+  text-align: center;
+  flex-shrink: 0;
+  color: #e94560;
+}
+
+.footer-contact a {
+  color: rgba(255,255,255,0.7);
+  text-decoration: none;
+}
+
+.footer-contact a:hover {
+  color: white;
+}
+
+.footer-social .social-icons {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 25px;
+}
+
+.social-icon {
+  width: 40px;
+  height: 40px;
+  background: rgba(255,255,255,0.1);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-decoration: none;
+  font-size: 1.1em;
+  transition: all 0.3s;
+}
+
+.social-icon:hover {
+  background: #e94560;
+  transform: translateY(-3px);
+}
+
+.footer-social .map-placeholder {
+  width: 100%;
+  height: 120px;
+  background: rgba(255,255,255,0.05);
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgba(255,255,255,0.4);
+  font-size: 0.85em;
+  border: 1px dashed rgba(255,255,255,0.1);
+}
+
+.footer-bottom {
+  max-width: 1200px;
+  margin: 40px auto 0;
+  padding-top: 25px;
+  border-top: 1px solid rgba(255,255,255,0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.85em;
+  color: rgba(255,255,255,0.5);
+}
+
+.footer-bottom a {
+  color: rgba(255,255,255,0.5);
+  text-decoration: none;
+  margin-left: 20px;
+}
+
+.footer-bottom a:hover {
+  color: white;
+}
+
+@media (max-width: 900px) {
+  .footer-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .footer-container {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+  .footer-bottom {
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+  }
+}
+</style>
+
+<footer class="site-footer">
+  <div class="footer-container">
+    
+    <div class="footer-brand">
+      <h3>DING-YONG</h3>
+      <p class="tagline">Premium Stainless Steel Tableware Manufacturer since 2010. Specializing in 18/10 cutlery, flatware and kitchen utensils.</p>
+      <div class="cert-badges">
+        <span class="cert-badge">ISO 9001</span>
+        <span class="cert-badge">FDA</span>
+        <span class="cert-badge">LFGB</span>
+        <span class="cert-badge">SGS</span>
+      </div>
+    </div>
+    
+    <div class="footer-links">
+      <h4>Quick Links</h4>
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/products">Products</a></li>
+        <li><a href="/about">About Us</a></li>
+        <li><a href="/contact">Contact</a></li>
+      </ul>
+    </div>
+    
+    <div class="footer-contact">
+      <h4>Contact Us</h4>
+      <div class="contact-item">
+        <span class="contact-icon">&#9742;</span>
+        <span>+86 177-1882-8885</span>
+      </div>
+      <div class="contact-item">
+        <span class="contact-icon">&#9993;</span>
+        <a href="mailto:sales@ding-yong.com">sales@ding-yong.com</a>
+      </div>
+      <div class="contact-item">
+        <span class="contact-icon">&#127968;</span>
+        <span>Ding-Yong Industrial Park, No.168 Yongxing Road, Chaozhou, Guangdong, China</span>
+      </div>
+    </div>
+    
+    <div class="footer-social">
+      <h4>Follow Us</h4>
+      <div class="social-icons">
+        <a href="#" class="social-icon" title="Facebook">f</a>
+        <a href="#" class="social-icon" title="LinkedIn">in</a>
+        <a href="#" class="social-icon" title="YouTube">&#9658;</a>
+        <a href="https://wa.me/8617718828885" class="social-icon" title="WhatsApp" target="_blank">&#128172;</a>
+      </div>
+      <div class="map-placeholder">
+        [Factory Location Map]
+      </div>
+    </div>
+    
+  </div>
+  
+  <div class="footer-bottom">
+    <div>&copy; 2026 DING-YONG PRODUCTS CO., LTD. All rights reserved.</div>
+    <div>
+      <a href="#">Privacy Policy</a>
+      <a href="#">Terms of Service</a>
+    </div>
+  </div>
+</footer>
