@@ -281,12 +281,6 @@ Best regards,
 
 </div>
 
-<div class="cta-bottom">
-<h3>Prefer to Visit Our Factory?</h3>
-<p>We welcome factory audits and video inspections. Schedule a visit today.</p>
-<a href="mailto:sales@ding-yong.com?subject=Factory Visit Request" class="cta-button">Schedule Factory Visit</a>
-<a href="https://wa.me/8617718828885" class="cta-button secondary" target="_blank">Video Call on WhatsApp</a>
-</div>
 </div>
 
 <script>
