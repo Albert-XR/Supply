@@ -60,8 +60,8 @@ h2 { text-align: center; margin-bottom: 25px; }
 
 .category-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 25px;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
   margin: 30px 0;
 }
 
@@ -80,33 +80,47 @@ h2 { text-align: center; margin-bottom: 25px; }
 
 .category-card img {
   width: 100%;
-  aspect-ratio: 16/9;        /* 16:9比例 */
+  aspect-ratio: 16/9;
   object-fit: cover;
   display: block;
 }
 
 .category-info {
-  padding: 20px;
+  padding: 15px;
 }
 
 .category-info h3 {
-  font-size: 1.1em;
-  margin-bottom: 8px;
+  font-size: 1em;
+  margin-bottom: 6px;
   color: #1a1a2e;
 }
 
 .category-info p {
   color: #666;
-  font-size: 0.9em;
-  line-height: 1.5;
-  margin-bottom: 15px;
+  font-size: 0.85em;
+  line-height: 1.4;
+  margin-bottom: 10px;
 }
 
 .category-info a {
   color: #e94560;
   text-decoration: none;
   font-weight: bold;
-  font-size: 0.95em;
+  font-size: 0.9em;
+}
+
+/* 响应式：平板2列 */
+@media (max-width: 1024px) {
+  .category-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* 响应式：手机1列 */
+@media (max-width: 600px) {
+  .category-grid {
+    grid-template-columns: 1fr;
+  }
 }
 
 .features-grid {
