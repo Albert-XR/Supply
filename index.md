@@ -60,27 +60,54 @@ h2 { text-align: center; margin-bottom: 25px; }
 
 .category-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-  gap: 20px;
-  margin: 25px 0;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 25px;
+  margin: 30px 0;
 }
+
 .category-card {
-  border: 1px solid #e0e0e0;
-  border-radius: 10px;
-  padding: 15px;
-  text-align: center;
+  border: 1px solid #e8e8e8;
+  border-radius: 12px;
+  overflow: hidden;
+  transition: box-shadow 0.3s, transform 0.3s;
+  background: white;
 }
+
+.category-card:hover {
+  box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+  transform: translateY(-5px);
+}
+
 .category-card img {
   width: 100%;
-  height: 150px;
+  aspect-ratio: 16/9;        /* 16:9比例 */
   object-fit: cover;
-  border-radius: 6px;
-  margin-bottom: 12px;
-  background: #f0f0f0;
+  display: block;
 }
-.category-card h3 { margin: 10px 0 5px 0; }
-.category-card p { font-size: 0.9em; color: #666; margin-bottom: 10px; }
-.category-card a { color: #e94560; text-decoration: none; font-weight: bold; }
+
+.category-info {
+  padding: 20px;
+}
+
+.category-info h3 {
+  font-size: 1.1em;
+  margin-bottom: 8px;
+  color: #1a1a2e;
+}
+
+.category-info p {
+  color: #666;
+  font-size: 0.9em;
+  line-height: 1.5;
+  margin-bottom: 15px;
+}
+
+.category-info a {
+  color: #e94560;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 0.95em;
+}
 
 .features-grid {
   display: grid;
@@ -145,30 +172,43 @@ img { max-width: 100%; height: auto; }
 <section>
   <h2>Our Product Categories</h2>
   <div class="category-grid">
+    
     <div class="category-card">
-      <img src="/assets/images/products/cutlery-set.jpg" alt="Cutlery Sets">
-      <h3>Cutlery Sets</h3>
-      <p>16pc/24pc/72pc dinnerware sets, 18/10 stainless steel</p>
-      <a href="/products">View Products →</a>
+      <img src="/assets/images/portugal-400.jpg" alt="Portugal Series Cutlery">
+      <div class="category-info">
+        <h3>Cutlery Sets</h3>
+        <p>24pc/72pc dinnerware sets, Portugal Series, multi-colour titanium plated</p>
+        <a href="/products">View Products →</a>
+      </div>
     </div>
+
     <div class="category-card">
-      <img src="/assets/images/products/flatware_small.jpg" alt="Flatware">
-      <h3>Flatware</h3>
-      <p>Dinner forks, knives, spoons. Custom designs available</p>
-      <a href="/products">View Products →</a>
+      <img src="/assets/images/christmas-400.jpg" alt="Christmas Flatware">
+      <div class="category-info">
+        <h3>Flatware</h3>
+        <p>Christmas dessert spoons, patterned handles, gift-giving preferred</p>
+        <a href="/products">View Products →</a>
+      </div>
     </div>
+
     <div class="category-card">
-      <img src="/assets/images/products/cutlery-set_small.jpg" alt="Serving Utensils">
-      <h3>Serving Utensils</h3>
-      <p>Serving spoons, ladles, tongs for hotels & restaurants</p>
-      <a href="/products">View Products →</a>
+      <img src="/assets/images/kitchen-400.jpg" alt="Kitchen Anti-scalding Set">
+      <div class="category-info">
+        <h3>Serving Utensils</h3>
+        <p>Kitchen anti-scalding set, patented product, beautiful and practical</p>
+        <a href="/products">View Products →</a>
+      </div>
     </div>
+
     <div class="category-card">
-      <img src="/assets/images/products/serving_small.jpg" alt="Hotel Supplies">
-      <h3>Hotel & Restaurant</h3>
-      <p>Bulk orders, custom logo engraving, premium packaging</p>
-      <a href="/products">View Products →</a>
+      <img src="/assets/images/goldbox-400.jpg" alt="Gold Box with Handle">
+      <div class="category-info">
+        <h3>Hotel & Restaurant</h3>
+        <p>Gold gift box with handle, exquisite packaging, thickened material</p>
+        <a href="/products">View Products →</a>
+      </div>
     </div>
+
   </div>
 </section>
 
