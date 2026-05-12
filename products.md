@@ -284,14 +284,6 @@ permalink: /products/
     </div>
 
   </div>
-
-  <!-- 底部询盘 -->
-  <div class="cta-bottom">
-    <h2>Can't Find What You Need?</h2>
-    <p>We support full OEM/ODM service. Send us your design, sample, or idea. We'll produce exactly what you want.</p>
-    <a href="/contact" class="cta-button">Request Custom Quote</a>
-    <a href="https://wa.me/8613822066349" class="cta-button secondary" target="_blank">Chat on WhatsApp</a>
-  </div>
 </div>
 
 <script>
