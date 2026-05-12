@@ -232,11 +232,4 @@ permalink: /about/
     </div>
   </div>
 
-  <!-- CTA -->
-  <div style="background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%); color: white; padding: 50px 30px; text-align: center; border-radius: 12px; margin: 50px 0;">
-    <h2 style="margin-bottom: 15px;">Visit Our Factory</h2>
-    <p style="opacity: 0.9; margin-bottom: 25px;">We welcome factory audits and video inspections. Schedule a visit or virtual tour today.</p>
-    <a href="/contact" class="cta-button">Schedule Factory Visit</a>
-    <a href="https://wa.me/8613822066349" class="cta-button secondary" target="_blank">Video Call on WhatsApp</a>
-  </div>
 </div>
