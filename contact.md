@@ -205,8 +205,7 @@ permalink: /contact/
 <div class="info-icon">&#127981;</div>
 <div class="info-content">
 <h4>Factory Address</h4>
-<p>No. 2, 1st Floor, Maifeng Commercial Building, Chating Road, Xixi Village, Xichang Town</p>
-<p>Jieyang City, Guangdong Province, China 521000</p>
+<p>No. 2, 1st Floor, Maifeng Commercial Building, Chating Road, Xixi Village, Xichang Town, Jiedong District, Jieyang City, Guangdong Province, China</p>
 </div>
 </div>
 
