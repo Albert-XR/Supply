@@ -13,6 +13,59 @@
 <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
 
 <style>
+nav { 
+  background: #1a1a2e; 
+  width: 100%;
+}
+
+/* 内容容器 - 跟主体内容对齐 */
+.nav-container {
+  max-width: 1200px;        /* 限制最大宽度 */
+  margin: 0 auto;             /* 居中 */
+  padding: 10px 20px;         /* 左右 padding 跟主体内容一致 */
+  display: flex;              /* 横向排列 */
+  align-items: center;        /* 垂直居中 */
+  justify-content: space-between;  /* 左右分布 */
+  flex-wrap: nowrap;          /* 不换行 */
+}
+
+/* Logo 链接 */
+.nav-logo {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  flex-shrink: 0;             /* 不缩小 */
+}
+
+/* Logo 图片 */
+.nav-logo img {
+  height: 40px;
+  width: auto;
+  display: block;
+}
+
+/* 链接容器 */
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: nowrap;
+  flex-shrink: 0;
+}
+
+/* 导航链接 */
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 0.9em;
+  white-space: nowrap;        /* 文字不换行 */
+  transition: opacity 0.2s;
+}
+
+.nav-links a:hover {
+  opacity: 0.8;
+}
+
 /* 基础样式 */
 body { 
   font-family: Arial, sans-serif; 
@@ -22,26 +75,10 @@ body {
   line-height: 1.6; 
 }
 
-nav { 
-  background: #1a1a2e; 
-  padding: 15px 40px; 
-  margin: 0; 
-  display: flex;
-  align-items: center;
-  width: 100%;
-  box-sizing: border-box;
-}
-
 main, .content {
   max-width: 1200px;
   margin: 0 auto;
   padding: 20px;
-}
-
-nav a { 
-  color: white; 
-  text-decoration: none; 
-  margin-right: 20px; 
 }
 
 img { 
