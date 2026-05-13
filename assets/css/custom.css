@@ -19,16 +19,19 @@
 /* 导航栏 */
 nav {
   background: #1a1a2e;
-  padding: 10px 40px;
+  width: 100%;
+}
+
+.nav-container {
+  max-width: 1200px;        /* 跟 body 原来的 max-width 一致 */
+  margin: 0 auto;           /* 居中 */
+  padding: 10px 20px;       /* 左右 padding 跟主体内容一致 */
   display: flex;
   align-items: center;
-  width: 100%;
-  box-sizing: border-box;
 }
 
 /* Logo 链接 */
 .nav-logo {
-  margin-right: auto;
   display: flex;
   align-items: center;
   text-decoration: none;
@@ -45,17 +48,12 @@ nav {
 nav a {
   color: white;
   text-decoration: none;
-  margin-right: 25px;
   font-size: 0.95em;
   transition: opacity 0.2s;
 }
 
 nav a:hover {
   opacity: 0.8;
-}
-
-nav a:last-child {
-  margin-right: 0;
 }
 
 /* CTA按钮 */
