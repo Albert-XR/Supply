@@ -10,26 +10,33 @@ title: Home
   color: white;
   padding: 60px 20px;
   text-align: center;
-  margin: -20px -20px 30px -20px;
+  margin: 0 -20px 30px -20px;    /* 突破 .container 的 padding */
+  width: calc(100% + 40px);       /* 补偿负 margin */
+  position: relative;
+  left: -20px;                    /* 对齐 */
+  box-sizing: border-box;
 }
 /* 大屏幕：一行显示 */
 .hero h1 {
-  font-size: clamp(1.4em, 3.5vw, 2.2em);  /* 自适应字体大小 */
+  font-size: clamp(1.0em, 2.2vw, 1.6em);  /* 自适应字体大小 */
   margin-bottom: 15px;
   white-space: nowrap;                      /* 强制不换行 */
+  overflow: hidden;
+  text-overflow: ellipsis;          /* 如果还是超出，显示省略号 */
 }
 /* 中等屏幕：缩小字体 */
 @media (max-width: 1024px) {
   .hero h1 {
-    font-size: 1.6em;
+    font-size: 1.3em;
   }
 }
 /* 小屏幕：允许换行 */
 @media (max-width: 768px) {
   .hero h1 {
-    font-size: 1.2em;
+    font-size: 1.1em;
     white-space: normal;    /* 允许换行 */
     word-break: keep-all;   /* 保持单词完整 */
+    overflow: visible;
   }
 }
 .hero-subtitle { font-size: 1.1em; opacity: 0.9; margin-bottom: 20px; }
