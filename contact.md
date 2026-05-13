@@ -205,8 +205,8 @@ permalink: /contact/
 <div class="info-icon">&#127981;</div>
 <div class="info-content">
 <h4>Factory Address</h4>
-<p>Ding-Yong Industrial Park, No. 168 Yongxing Road</p>
-<p>Chaozhou City, Guangdong Province, China 521000</p>
+<p>No. 2, 1st Floor, Maifeng Commercial Building, Chating Road, Xixi Village, Xichang Town</p>
+<p>Jieyang City, Guangdong Province, China 521000</p>
 </div>
 </div>
 
