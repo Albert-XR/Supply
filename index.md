@@ -12,7 +12,26 @@ title: Home
   text-align: center;
   margin: -20px -20px 30px -20px;
 }
-.hero h1 { font-size: 2.2em; margin-bottom: 15px; }
+/* 大屏幕：一行显示 */
+.hero h1 {
+  font-size: clamp(1.4em, 3.5vw, 2.2em);  /* 自适应字体大小 */
+  margin-bottom: 15px;
+  white-space: nowrap;                      /* 强制不换行 */
+}
+/* 中等屏幕：缩小字体 */
+@media (max-width: 1024px) {
+  .hero h1 {
+    font-size: 1.6em;
+  }
+}
+/* 小屏幕：允许换行 */
+@media (max-width: 768px) {
+  .hero h1 {
+    font-size: 1.2em;
+    white-space: normal;    /* 允许换行 */
+    word-break: keep-all;   /* 保持单词完整 */
+  }
+}
 .hero-subtitle { font-size: 1.1em; opacity: 0.9; margin-bottom: 20px; }
 .hero-badges { margin: 20px 0; }
 .hero-badges span {
