@@ -28,6 +28,8 @@ nav {
   padding: 10px 20px;       /* 左右 padding 跟主体内容一致 */
   display: flex;
   align-items: center;
+  justify-content: space-between;  /* 关键：左右分布 */
+  flex-wrap: nowrap;               /* 关键：不换行 */
 }
 
 /* Logo 链接 */
@@ -35,6 +37,7 @@ nav {
   display: flex;
   align-items: center;
   text-decoration: none;
+  flex-shrink: 0;
 }
 
 /* Logo 图片 */
@@ -44,15 +47,24 @@ nav {
   display: block;
 }
 
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 20px;                       /* 稍微减小间距 */
+  flex-wrap: nowrap;               /* 关键：不换行 */
+  flex-shrink: 0;                  /* 关键：链接不缩小 */
+}
+
 /* 导航链接 */
-nav a {
+.nav-links a {
   color: white;
   text-decoration: none;
-  font-size: 0.95em;
+  font-size: 0.9em;                /* 稍微减小字体 */
+  white-space: nowrap;             /* 关键：文字不换行 */
   transition: opacity 0.2s;
 }
 
-nav a:hover {
+.nav-links a:hover {
   opacity: 0.8;
 }
 
