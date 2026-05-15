@@ -166,8 +166,8 @@ permalink: /products/
       <div class="product-info">
         <h3>Luxury 24-Piece Customizable Spoon Fork Knife Tableware Set for Western Home Dining Dinnerware Sets Diamond Bottle Flatware Sets</h3>
         <div class="product-meta">
-          <span class="product-price">$12.50/set</span>
-          <span class="product-moq">MOQ: 1000 sets</span>
+          <span class="product-price">US$13.78-14.78</span>
+          <span class="product-moq">MOQ: 8 pieces</span>
         </div>
         <p class="product-desc">18/10 stainless steel, mirror polish finish. Includes 6 dinner knives, 6 forks, 6 spoons, 6 teaspoons.</p>
         <div class="product-tags">
