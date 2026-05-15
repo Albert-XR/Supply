@@ -285,13 +285,13 @@ permalink: /products/diamond-bottle-tableware/
 
   <!-- 左侧图片 -->
   <div class="product-gallery">
-    <img src="/assets/images/diamond/diamond-main-1024.jpg" alt="Diamond Bottle Tableware" class="main-image" id="mainImage">
+    <img src="/assets/images/diamond-bottle/diamond-main-1024.jpg" alt="Diamond Bottle Tableware" class="main-image" id="mainImage">
     <div class="thumbnail-list">
-      <img src="/assets/images/diamond/diamond-main-180.jpg" class="thumbnail active" onclick="changeImage(this, '/assets/images/diamond/diamond-main-1024.jpg')">
-      <img src="/assets/images/diamond/diamond-detail-1-180.jpg" class="thumbnail" onclick="changeImage(this, '/assets/images/diamond/diamond-detail-1-1024.jpg')">
-      <img src="/assets/images/diamond/diamond-detail-2-180.jpg" class="thumbnail" onclick="changeImage(this, '/assets/images/diamond/diamond-detail-2-1024.jpg')">
-      <img src="/assets/images/diamond/diamond-detail-3-180.jpg" class="thumbnail" onclick="changeImage(this, '/assets/images/diamond/diamond-detail-3-1024.jpg')">
-      <img src="/assets/images/diamond/diamond-detail-4-180.jpg" class="thumbnail" onclick="changeImage(this, '/assets/images/diamond/diamond-detail-4-1024.jpg')">
+      <img src="/assets/images/diamond-bottle/diamond-main-180.jpg" class="thumbnail active" onclick="changeImage(this, '/assets/images/diamond/diamond-main-1024.jpg')">
+      <img src="/assets/images/diamond-bottle/diamond-detail-1-180.jpg" class="thumbnail" onclick="changeImage(this, '/assets/images/diamond/diamond-detail-1-1024.jpg')">
+      <img src="/assets/images/diamond-bottle/diamond-detail-2-180.jpg" class="thumbnail" onclick="changeImage(this, '/assets/images/diamond/diamond-detail-2-1024.jpg')">
+      <img src="/assets/images/diamond-bottle/diamond-detail-3-180.jpg" class="thumbnail" onclick="changeImage(this, '/assets/images/diamond/diamond-detail-3-1024.jpg')">
+      <img src="/assets/images/diamond-bottle/diamond-detail-4-180.jpg" class="thumbnail" onclick="changeImage(this, '/assets/images/diamond/diamond-detail-4-1024.jpg')">
     </div>
   </div>
 
