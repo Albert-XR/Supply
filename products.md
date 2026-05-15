@@ -68,6 +68,15 @@ permalink: /products/
   font-size: 1.1em;
   margin-bottom: 8px;
   color: #1a1a2e;
+
+   /* 新增：限制两行显示 */
+  display: -webkit-box;           /* 启用弹性盒模型 */
+  -webkit-line-clamp: 2;          /* 限制两行 */
+  -webkit-box-orient: vertical;   /* 垂直排列 */
+  overflow: hidden;               /* 隐藏溢出 */
+  text-overflow: ellipsis;        /* 省略号 */
+  line-height: 1.4;               /* 行高，确保两行高度一致 */
+  max-height: 2.8em;              /* 两行高度 = 1.4 * 2 */
 }
 .product-meta {
   display: flex;
