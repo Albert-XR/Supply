@@ -44,6 +44,8 @@ permalink: /products/
   overflow: hidden;
   transition: box-shadow 0.3s, transform 0.3s;
   background: white;
+  display: flex;
+  flex-direction: column;
 }
 .product-card:hover {
   box-shadow: 0 8px 25px rgba(0,0,0,0.1);
@@ -51,11 +53,17 @@ permalink: /products/
 }
 .product-image {
   width: 100%;
-  height: 220px;
+  aspect-ratio: 1/1;
   object-fit: cover;
   background: #f5f5f5;
+  display: block;
 }
-.product-info { padding: 20px; }
+.product-info {
+  padding: 20px;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+}
 .product-info h3 {
   font-size: 1.1em;
   margin-bottom: 8px;
@@ -96,6 +104,7 @@ permalink: /products/
   color: #555;
 }
 .product-actions {
+  margin-top: auto;
   display: flex;
   gap: 10px;
 }
