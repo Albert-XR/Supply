@@ -162,7 +162,7 @@ permalink: /products/
     
     <!-- 产品1 -->
     <div class="product-card" data-category="cutlery">
-      <img src="/assets/images/diamond/diamond-main-400.jpg" alt="Diamond Bottle Tableware">
+      <img src="/assets/images/products/diamond-detail-3-400.jpg" alt="Diamond Bottle Tableware">
       <div class="product-info">
         <h3>Luxury 24-Piece Customizable Spoon Fork Knife Tableware Set for Western Home Dining Dinnerware Sets Diamond Bottle Flatware Sets</h3>
         <div class="product-meta">
