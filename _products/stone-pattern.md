@@ -1,7 +1,7 @@
 ---
 layout: page
-title: diamond-bottle-tableware
-permalink: /products/diamond-bottle-tableware/
+title: stone-pattern
+permalink: /products/stone-pattern/
 ---
 
 <style>
@@ -285,22 +285,24 @@ permalink: /products/diamond-bottle-tableware/
 
   <!-- 左侧图片 -->
   <div class="product-gallery">
-    <img src="/assets/images/diamond-bottle/diamond-main-1024.jpg" alt="Diamond Bottle Tableware" class="main-image" id="mainImage">
+    <img src="/assets/images/stone-pattern/stone-pattern-01-800.jpg" alt="Stone Pattern" class="main-image" id="mainImage">
     <div class="thumbnail-list">
-      <img src="/assets/images/diamond-bottle/diamond-main-180.jpg" class="thumbnail active" onclick="changeImage(this, '/assets/images/diamond-bottle/diamond-main-1024.jpg')">
-      <img src="/assets/images/diamond-bottle/diamond-detail-1-180.jpg" class="thumbnail" onclick="changeImage(this, '/assets/images/diamond-bottle/diamond-detail-1-1024.jpg')">
-      <img src="/assets/images/diamond-bottle/diamond-detail-2-180.jpg" class="thumbnail" onclick="changeImage(this, '/assets/images/diamond-bottle/diamond-detail-2-1024.jpg')">
-      <img src="/assets/images/diamond-bottle/diamond-detail-3-180.jpg" class="thumbnail" onclick="changeImage(this, '/assets/images/diamond-bottle/diamond-detail-3-1024.jpg')">
-      <img src="/assets/images/diamond-bottle/diamond-detail-4-180.jpg" class="thumbnail" onclick="changeImage(this, '/assets/images/diamond-bottle/diamond-detail-4-1024.jpg')">
+      <img src="/assets/images/stone-pattern/stone-pattern-1-180.jpg" class="thumbnail active" onclick="changeImage(this, '/assets/images/stone-pattern/stone-pattern-01-800.jpg')">
+      <img src="/assets/images/stone-pattern/stone-pattern-2-180.jpg" class="thumbnail" onclick="changeImage(this, '/assets/images/stone-pattern/stone-pattern-02-800.jpg')">
+      <img src="/assets/images/stone-pattern/stone-pattern-3-180.jpg" class="thumbnail" onclick="changeImage(this, '/assets/images/stone-pattern/stone-pattern-03-800.jpg')">
+      <img src="/assets/images/stone-pattern/stone-pattern-4-180.jpg" class="thumbnail" onclick="changeImage(this, '/assets/images/stone-pattern/stone-pattern-04-800.jpg')">
+      <img src="/assets/images/stone-pattern/stone-pattern-5-180.jpg" class="thumbnail" onclick="changeImage(this, '/assets/images/stone-pattern/stone-pattern-05-800.jpg')">
+      <img src="/assets/images/stone-pattern/stone-pattern-6-180.jpg" class="thumbnail" onclick="changeImage(this, '/assets/images/stone-pattern/stone-pattern-06-800.jpg')">
+      <img src="/assets/images/stone-pattern/stone-pattern-7-180.jpg" class="thumbnail" onclick="changeImage(this, '/assets/images/stone-pattern/stone-pattern-07-800.jpg')">
     </div>
   </div>
 
   <!-- 右侧信息 -->
   <div class="product-info">
-    <h1>Diamond Bottle Tableware Set</h1>
-    <p class="product-sku">SKU: DY-DB24-001 | Model: Diamond Series</p>
-    <div class="product-price">$18.50 <span>/ set FOB Shenzhen</span></div>
-    <p class="product-moq">MOQ: 500 sets | Lead Time: 35-50 days</p>
+    <h1>Thickened Mirror Polished Modern Stainless Steel Flatware Set Creative Stone Pattern Western Steak Tea Dessert Tableware Party</h1>
+    <p class="product-sku">SKU: DY-DB24-001 | Model: Stone Pattern Series</p>
+    <div class="product-price">$2.29 <span>/ set FOB Shenzhen</span></div>
+    <p class="product-moq">MOQ: 20 sets | Lead Time: 35-50 days</p>
     
     <div class="feature-tags">
       <span class="tag">✓ 18/10 Stainless Steel</span>
