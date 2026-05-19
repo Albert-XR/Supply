@@ -193,7 +193,7 @@ permalink: /products/
 
     <!-- 产品2 -->
     <div class="product-card" data-category="flatware">
-      <img src="https://via.placeholder.com/400x300?text=Dinner+Fork" alt="Dinner Fork" class="product-image">
+      <img src="assets/images/stone-pattern/stone-pattern-1-400.jpg" alt="Stone Pattern" class="product-image">
       <div class="product-info">
         <h3>Premium Dinner Fork</h3>
         <div class="product-meta">
