@@ -195,10 +195,10 @@ permalink: /products/
     <div class="product-card" data-category="flatware">
       <img src="assets/images/stone-pattern/stone-pattern-1-400.jpg" alt="Stone Pattern" class="product-image">
       <div class="product-info">
-        <h3>Premium Dinner Fork</h3>
+        <h3>Thickened Mirror Polished Modern Stainless Steel Flatware Set Creative Stone Pattern Western Steak Tea Dessert Tableware Party</h3>
         <div class="product-meta">
-          <span class="product-price">$0.85/pc</span>
-          <span class="product-moq">MOQ: 3000 pcs</span>
+          <span class="product-price">US$2.29</span>
+          <span class="product-moq">MOQ: 100 pcs</span>
         </div>
         <p class="product-desc">Heavy-duty 18/10 stainless steel dinner fork. Length: 20.5cm. Weight: 65g. Satin or mirror finish.</p>
         <div class="product-tags">
