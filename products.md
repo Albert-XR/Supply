@@ -193,7 +193,7 @@ permalink: /products/
 
     <!-- 产品2 -->
     <div class="product-card" data-category="flatware">
-      <img src="assets/images/stone-pattern/stone-pattern-1-400.jpg" alt="Stone Pattern">
+      <img src="/assets/images/stone-pattern/stone-pattern-1-400.jpg" alt="Stone Pattern">
       <div class="product-info">
         <h3>Thickened Mirror Polished Modern Stainless Steel Flatware Set Creative Stone Pattern Western Steak Tea Dessert Tableware Party</h3>
         <div class="product-meta">
