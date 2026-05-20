@@ -285,7 +285,7 @@ permalink: /about/
         <!-- 方案 1：YouTube 嵌入（推荐，替换 VIDEO_ID） -->
         
         <iframe 
-          src="https://www.youtube.com/embed/rxGmVh_LP3A" 
+          src="https://www.youtube.com/embed/rxGmVh_LP3A?modestbranding=1&rel=0&showinfo=0&controls=1" 
           title="Ding-Yong Factory Tour"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
           allowfullscreen>
