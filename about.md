@@ -312,16 +312,6 @@ permalink: /about/
         </video>
         -->
 
-        <!-- 方案 4：占位图（暂无视频时使用） -->
-        <div class="video-placeholder" onclick="alert('Video coming soon!')">
-          <div class="play-icon">
-            <svg viewBox="0 0 24 24">
-              <path d="M8 5v14l11-7z"/>
-            </svg>
-          </div>
-          <h3>Factory Tour Video</h3>
-          <p>Take a virtual tour of our 5,000㎡ production facility</p>
-        </div>
         
       </div>
       
