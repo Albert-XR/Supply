@@ -280,7 +280,7 @@ permalink: /about/
 
     <!-- 右侧：工厂视频 -->
     <div class="about-video">
-      <<div class="video-container" style="position: relative; width: 100%; aspect-ratio: 16/9; border-radius: 12px; overflow: hidden;">
+      <div class="video-container" style="position: relative; width: 100%; aspect-ratio: 16/9; border-radius: 12px; overflow: hidden;">
         
         <!-- 方案 1：YouTube 嵌入（推荐，替换 VIDEO_ID） -->
         <iframe 
@@ -292,45 +292,6 @@ permalink: /about/
           style="width: 100%; height: 100%; border: none;">
         </iframe>
 
-        <!-- 遮罩层：隐藏标题、logo 等 -->
-        <<div class="video-overlay" style="
-            position: absolute;
-            top: 0; left: 0; right: 0; height: 60px;
-            background: linear-gradient(to bottom, rgba(0,0,0,0.8) 0%, transparent 100%);
-            z-index: 10;
-            pointer-events: none;
-        "></div>
-
-        <!-- 自定义播放键（初始显示，点击后隐藏） -->
-        <<div id="custom-play" style="
-            position: absolute;
-            top: 50%; left: 50%;
-            transform: translate(-50%, -50%);
-            width: 80px; height: 80px;
-            background: rgba(220, 38, 38, 0.9);
-            border-radius: 50%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            cursor: pointer;
-            z-index: 20;
-            transition: opacity 0.3s;
-        ">
-            <<svg width="32" height="32" viewBox="0 0 24 24" fill="white">
-                <polygon points="8,5 8,19 19,12"></polygon>
-            </svg>
-        </div>
-    </div>
-    
-    <<script>
-        document.getElementById('custom-play').addEventListener('click', function() {
-            var iframe = document.getElementById('factory-video');
-            // 通过 postMessage 触发播放（需要启用 JS API）
-            iframe.contentWindow.postMessage('{"event":"command","func":"playVideo","args":""}', '*');
-            this.style.opacity = '0';
-            this.style.pointerEvents = 'none';
-        });
-    </script>
       
       <!-- 视频说明 -->
       <div style="margin-top: 15px; text-align: center; color: #666; font-size: 0.85em;">
