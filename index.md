@@ -234,7 +234,7 @@ img { max-width: 100%; height: auto; }
     <div class="category-card">
       <img src="/assets/images/home/kitchen-400.jpg" alt="Kitchen Anti-scalding Set">
       <div class="category-info">
-        <h3>Serving Utensils</h3>
+        <h3>Kitchen gadgets</h3>
         <p>Kitchen anti-scalding set, patented product, beautiful and practical</p>
         <a href="/products">View Products →</a>
       </div>
