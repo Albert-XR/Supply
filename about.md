@@ -280,40 +280,57 @@ permalink: /about/
 
     <!-- 右侧：工厂视频 -->
     <div class="about-video">
-      <div class="video-wrapper">
+      <<div class="video-container" style="position: relative; width: 100%; aspect-ratio: 16/9; border-radius: 12px; overflow: hidden;">
         
         <!-- 方案 1：YouTube 嵌入（推荐，替换 VIDEO_ID） -->
-        
         <iframe 
-          src="https://www.youtube.com/embed/rxGmVh_LP3A?modestbranding=1&rel=0&showinfo=0&controls=1" 
+          id="factory-video"
+          src="https://www.youtube.com/embed/rxGmVh_LP3A?modestbranding=1&controls=1&showinfo=0&rel=0&iv_load_policy=3" 
           title="Ding-Yong Factory Tour"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-          allowfullscreen>
+          allowfullscreen
+          style="width: 100%; height: 100%; border: none;">
         </iframe>
-        
 
-        <!-- 方案 2：Bilibili 嵌入（国内用户，替换 BV号） -->
-        <!--
-        <iframe 
-          src="https://player.bilibili.com/player.html?bvid=BVxxxxxx" 
-          scrolling="no" 
-          border="0" 
-          frameborder="no" 
-          framespacing="0" 
-          allowfullscreen="true">
-        </iframe>
-        -->
+        <!-- 遮罩层：隐藏标题、logo 等 -->
+        <<div class="video-overlay" style="
+            position: absolute;
+            top: 0; left: 0; right: 0; height: 60px;
+            background: linear-gradient(to bottom, rgba(0,0,0,0.8) 0%, transparent 100%);
+            z-index: 10;
+            pointer-events: none;
+        "></div>
 
-        <!-- 方案 3：本地视频（如果托管在其他服务器） -->
-        <!--
-        <video controls poster="/assets/images/factory-cover.jpg">
-          <source src="https://your-video-host.com/factory-tour.mp4" type="video/mp4">
-          Your browser does not support the video tag.
-        </video>
-        -->
-
-        
-      </div>
+        <!-- 自定义播放键（初始显示，点击后隐藏） -->
+        <<div id="custom-play" style="
+            position: absolute;
+            top: 50%; left: 50%;
+            transform: translate(-50%, -50%);
+            width: 80px; height: 80px;
+            background: rgba(220, 38, 38, 0.9);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            z-index: 20;
+            transition: opacity 0.3s;
+        ">
+            <<svg width="32" height="32" viewBox="0 0 24 24" fill="white">
+                <polygon points="8,5 8,19 19,12"></polygon>
+            </svg>
+        </div>
+    </div>
+    
+    <<script>
+        document.getElementById('custom-play').addEventListener('click', function() {
+            var iframe = document.getElementById('factory-video');
+            // 通过 postMessage 触发播放（需要启用 JS API）
+            iframe.contentWindow.postMessage('{"event":"command","func":"playVideo","args":""}', '*');
+            this.style.opacity = '0';
+            this.style.pointerEvents = 'none';
+        });
+    </script>
       
       <!-- 视频说明 -->
       <div style="margin-top: 15px; text-align: center; color: #666; font-size: 0.85em;">
