@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: product
 title: stone-pattern
 permalink: /products/stone-pattern/
 ---
