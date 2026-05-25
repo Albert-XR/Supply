@@ -208,7 +208,7 @@ permalink: /products/
         </div>
         <div class="product-actions">
           <a href="/contact?product=stone-pattern" class="btn btn-primary">Inquire Now</a>
-          <a href="/products/stone-pattern.md/" class="btn btn-secondary">Details</a>
+          <a href="/products/stone-pattern/" class="btn btn-secondary">Details</a>
         </div>
       </div>
     </div>
