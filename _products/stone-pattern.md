@@ -39,6 +39,18 @@ permalink: /products/stone-pattern/
   display: flex;
   gap: 10px;
   margin-top: 15px;
+  overflow-x: auto;          /* ← 添加：超出时横向滚动 */
+  max-width: 100%;           /* ← 添加：限制最大宽度 */
+  padding-bottom: 5px;       /* 滚动条空间 */
+}
+
+/* 隐藏滚动条但保留功能（可选，更美观） */
+.thumbnail-list::-webkit-scrollbar {
+    height: 4px;
+}
+.thumbnail-list::-webkit-scrollbar-thumb {
+    background: #ccc;
+    border-radius: 2px;
 }
 .thumbnail {
   width: 80px;
