@@ -197,8 +197,8 @@ permalink: /products/
       <div class="product-info">
         <h3>Thickened Mirror Polished Modern Stainless Steel Flatware Set Creative Stone Pattern Western Steak Tea Dessert Tableware Party</h3>
         <div class="product-meta">
-          <span class="product-price">US$2.29</span>
-          <span class="product-moq">MOQ: 100 pcs</span>
+          <span class="product-price">US$0.29-0.39</span>
+          <span class="product-moq">MOQ: 250 pcs</span>
         </div>
         <p class="product-desc">Heavy-duty 18/10 stainless steel dinner fork. Length: 20.5cm. Weight: 65g. Satin or mirror finish.</p>
         <div class="product-tags">
@@ -215,9 +215,9 @@ permalink: /products/
 
     <!-- 产品3 -->
     <div class="product-card" data-category="serving">
-      <img src="https://via.placeholder.com/400x300?text=Serving+Spoon" alt="Serving Spoon" class="product-image">
+      <img src="/assets/images/anti-scalding-set/anti-scalding-set-2-400x400.jpg" alt="Anti-scalding Set" class="product-image">
       <div class="product-info">
-        <h3>Large Serving Spoon</h3>
+        <h3>Dingyong Wholesale Four-piece Set Stainless Steel Anti-Scalding Household Kitchen Utensils Bowl Anti-Slip Scalding Bowl Clip</h3>
         <div class="product-meta">
           <span class="product-price">$1.20/pc</span>
           <span class="product-moq">MOQ: 2000 pcs</span>
