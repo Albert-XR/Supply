@@ -1,0 +1,89 @@
+{% assign current_cat = page.category_id %}
+
+<div class="filter-bar">
+  <div class="filter-group">
+    <span class="filter-label">Material:</span>
+    <div class="filter-options">
+      <a href="?material=18-10" class="filter-chip {% if page.material == '18-10' %}active{% endif %}">18/10 Stainless</a>
+      <a href="?material=430" class="filter-chip {% if page.material == '430' %}active{% endif %}">430 Stainless</a>
+      <a href="?material=titanium" class="filter-chip {% if page.material == 'titanium' %}active{% endif %}">Titanium Plated</a>
+      <a href="?material=pvd" class="filter-chip {% if page.material == 'pvd' %}active{% endif %}">PVD Coated</a>
+    </div>
+  </div>
+  
+  <div class="filter-group">
+    <span class="filter-label">Finish:</span>
+    <div class="filter-options">
+      <a href="?finish=mirror" class="filter-chip {% if page.finish == 'mirror' %}active{% endif %}">Mirror</a>
+      <a href="?finish=satin" class="filter-chip {% if page.finish == 'satin' %}active{% endif %}">Satin</a>
+      <a href="?finish=matte" class="filter-chip {% if page.finish == 'matte' %}active{% endif %}">Matte</a>
+    </div>
+  </div>
+  
+  <div class="filter-group">
+    <span class="filter-label">MOQ:</span>
+    <div class="filter-options">
+      <a href="?moq=500" class="filter-chip {% if page.moq == '500' %}active{% endif %}">500 pcs</a>
+      <a href="?moq=1000" class="filter-chip {% if page.moq == '1000' %}active{% endif %}">1000 pcs</a>
+      <a href="?moq=3000" class="filter-chip {% if page.moq == '3000' %}active{% endif %}">3000+ pcs</a>
+    </div>
+  </div>
+</div>
+
+<style>
+.filter-bar {
+  background: #f8fafc;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 32px;
+}
+.filter-group {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 12px;
+}
+.filter-group:last-child {
+  margin-bottom: 0;
+}
+.filter-label {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #64748b;
+  min-width: 70px;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+.filter-options {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.filter-chip {
+  display: inline-block;
+  padding: 6px 14px;
+  background: #fff;
+  border: 1px solid #e2e8f0;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  color: #475569;
+  text-decoration: none;
+  transition: all 0.2s;
+}
+.filter-chip:hover {
+  border-color: #1a3a5c;
+  color: #1a3a5c;
+}
+.filter-chip.active {
+  background: #1a3a5c;
+  color: #fff;
+  border-color: #1a3a5c;
+}
+@media (max-width: 640px) {
+  .filter-group {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+  }
+}
+</style>
