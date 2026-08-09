@@ -99,6 +99,13 @@ permalink: /products/
   line-height: 1.5;
   margin-bottom: 15px;
 }
+.spec {
+  font-size: 0.75rem;
+  color: #555;
+  background: #f5f5f5;
+  padding: 4px 10px;
+  border-radius: 20px;
+}
 .product-tags {
   display: flex;
   gap: 8px;
@@ -135,6 +142,35 @@ permalink: /products/
 .btn-secondary {
   background: #f0f0f0;
   color: #333;
+}
+.btn-view,
+.btn-quote {
+  flex: 1;
+  text-align: center;
+  padding: 10px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-size: 0.85rem;
+  font-weight: 600;
+  transition: all 0.2s;
+}
+
+.btn-view {
+  background: #f5f5f5;
+  color: #333;
+}
+
+.btn-view:hover {
+  background: #e8e8e8;
+}
+
+.btn-quote {
+  background: #e94560;
+  color: #fff;
+}
+
+.btn-quote:hover {
+  background: #d63a52;
 }
 
 /* 询盘引导 */
