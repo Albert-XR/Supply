@@ -196,7 +196,7 @@ permalink: /contact/
 <div class="info-icon">&#128241;</div>
 <div class="info-content">
 <h4>WhatsApp / WeChat</h4>
-<p><a href="https://wa.me/8617718828885" target="_blank">+86 177-1882-8885</a></p>
+<p><a href="https://wa.me/8613822066349" target="_blank">+86 138-2206-6349</a></p>
 <p style="font-size: 0.85em; color: #888; margin-top: 5px;">Fastest response for urgent matters</p>
 </div>
 </div>
@@ -243,11 +243,11 @@ permalink: /contact/
 <div class="contact-method">
 <div class="method-icon">&#128172;</div>
 <h4>WhatsApp</h4>
-<p><a href="https://wa.me/8617718828885" target="_blank">+86 177-1882-8885</a></p>
+<p><a href="https://wa.me/8613822066349" target="_blank">+86 138-2206-6349</a></p>
 <p>Fastest response</p>
 </div>
 
-<a href="https://wa.me/8617718828885" target="_blank" class="whatsapp-btn">&#128172; Chat on WhatsApp Now</a>
+<a href="https://wa.me/8613822066349" target="_blank" class="whatsapp-btn">&#128172; Chat on WhatsApp Now</a>
 
 <div class="inquiry-template">
 <h4>&#128203; Copy-Paste Inquiry Template</h4>
