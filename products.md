@@ -321,5 +321,7 @@ function filterProducts(category) {
       card.style.display = 'none';
     }
   });
+
+{% include cta-quote.html product="Portugal Series Cutlery Set" %}
 }
 </script>
