@@ -1,0 +1,74 @@
+{% assign moq = page.moq | default: "500 pcs" %}
+{% assign lead_time = page.lead_time | default: "25-35 days" %}
+{% assign sample_time = page.sample_time | default: "7-15 days" %}
+{% assign certifications = page.certifications | default: "FDA, LFGB, ISO9001" %}
+
+<div class="product-meta-bar">
+  <div class="meta-item">
+    <span class="meta-icon">📦</span>
+    <div>
+      <div class="meta-label">MOQ</div>
+      <div class="meta-value">{{ moq }}</div>
+    </div>
+  </div>
+  <div class="meta-item">
+    <span class="meta-icon">🚢</span>
+    <div>
+      <div class="meta-label">Lead Time</div>
+      <div class="meta-value">{{ lead_time }}</div>
+    </div>
+  </div>
+  <div class="meta-item">
+    <span class="meta-icon">⚡</span>
+    <div>
+      <div class="meta-label">Sample</div>
+      <div class="meta-value">{{ sample_time }}</div>
+    </div>
+  </div>
+  <div class="meta-item">
+    <span class="meta-icon">✓</span>
+    <div>
+      <div class="meta-label">Certified</div>
+      <div class="meta-value">{{ certifications }}</div>
+    </div>
+  </div>
+</div>
+
+<style>
+.product-meta-bar {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px;
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 24px 0;
+}
+.meta-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.meta-icon {
+  font-size: 1.4rem;
+  flex-shrink: 0;
+}
+.meta-label {
+  font-size: 0.75rem;
+  color: #64748b;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+.meta-value {
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: #1e293b;
+}
+@media (max-width: 640px) {
+  .product-meta-bar {
+    grid-template-columns: repeat(2, 1fr);
+    padding: 16px;
+  }
+}
+</style>
