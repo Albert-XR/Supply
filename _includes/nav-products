@@ -1,0 +1,180 @@
+<nav class="product-nav">
+  <ul class="nav-tier1">
+    {% for cat in site.data.products.categories %}
+    <li class="nav-item has-dropdown">
+      <a href="/products/{{ cat.id }}/" class="nav-link">
+        <span class="nav-icon">{{ cat.icon }}</span>
+        {{ cat.name }}
+      </a>
+      <div class="dropdown-panel">
+        <div class="dropdown-header">
+          <h4>{{ cat.name }}</h4>
+          <p>{{ cat.description }}</p>
+        </div>
+        <div class="dropdown-grid">
+          {% for sub in cat.subcategories %}
+          <div class="dropdown-col">
+            <h5>{{ sub.name }}</h5>
+            <ul>
+              {% for item in sub.items %}
+              <li>
+                <a href="/products/{{ cat.id }}/{{ item.slug }}/">
+                  {{ item.name }}
+                </a>
+              </li>
+              {% endfor %}
+            </ul>
+          </div>
+          {% endfor %}
+        </div>
+        <div class="dropdown-footer">
+          <a href="/products/{{ cat.id }}/" class="view-all">
+            View All {{ cat.name }} →
+          </a>
+        </div>
+      </div>
+    </li>
+    {% endfor %}
+    
+    <li class="nav-item highlight">
+      <a href="/oem-odm/" class="nav-link oem-link">
+        <span class="nav-icon">⚙️</span>
+        OEM / ODM
+      </a>
+    </li>
+  </ul>
+</nav>
+
+<style>
+.product-nav {
+  background: #fff;
+  border-bottom: 1px solid #e2e8f0;
+}
+.nav-tier1 {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.nav-item {
+  position: relative;
+}
+.nav-link {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 16px 20px;
+  text-decoration: none;
+  color: #334155;
+  font-weight: 500;
+  font-size: 0.95rem;
+  transition: color 0.2s;
+}
+.nav-link:hover {
+  color: #1a3a5c;
+}
+.nav-icon {
+  font-size: 1.1rem;
+}
+.nav-item.has-dropdown:hover .dropdown-panel {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+.dropdown-panel {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 600px;
+  background: #fff;
+  border: 1px solid #e2e8f0;
+  border-radius: 0 0 12px 12px;
+  box-shadow: 0 10px 40px rgba(0,0,0,0.1);
+  padding: 24px;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(-8px);
+  transition: all 0.25s ease;
+  z-index: 100;
+}
+.dropdown-header h4 {
+  margin: 0 0 4px;
+  color: #1a3a5c;
+}
+.dropdown-header p {
+  margin: 0 0 16px;
+  color: #64748b;
+  font-size: 0.9rem;
+}
+.dropdown-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+.dropdown-col h5 {
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: #94a3b8;
+  margin: 0 0 10px;
+}
+.dropdown-col ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.dropdown-col li {
+  margin-bottom: 6px;
+}
+.dropdown-col a {
+  color: #475569;
+  text-decoration: none;
+  font-size: 0.9rem;
+  transition: color 0.2s;
+}
+.dropdown-col a:hover {
+  color: #1a3a5c;
+}
+.dropdown-footer {
+  margin-top: 16px;
+  padding-top: 16px;
+  border-top: 1px solid #f1f5f9;
+}
+.view-all {
+  color: #1a3a5c;
+  font-weight: 600;
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+.nav-item.highlight .nav-link {
+  color: #1a3a5c;
+  background: #f0f4f8;
+  border-radius: 6px;
+  margin: 8px;
+  padding: 8px 16px;
+}
+.oem-link {
+  color: #1a3a5c !important;
+}
+@media (max-width: 768px) {
+  .dropdown-panel {
+    position: static;
+    width: 100%;
+    opacity: 1;
+    visibility: visible;
+    transform: none;
+    box-shadow: none;
+    border: none;
+    padding: 0 16px;
+    display: none;
+  }
+  .nav-item.has-dropdown.active .dropdown-panel {
+    display: block;
+  }
+  .nav-tier1 {
+    flex-direction: column;
+  }
+}
+</style>
