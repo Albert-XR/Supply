@@ -1,0 +1,71 @@
+categories:
+  - id: cutlery-sets
+    name: Cutlery Sets
+    icon: 🍽️
+    description: "Complete dinnerware sets for hotels, restaurants, and retail"
+    subcategories:
+      - id: by-piece
+        name: By Piece Count
+        items:
+          - { name: "16pc Set", slug: "16pc-set" }
+          - { name: "24pc Set", slug: "24pc-set" }
+          - { name: "72pc Set", slug: "72pc-set" }
+      - id: by-occasion
+        name: By Occasion
+        items:
+          - { name: "Daily Use", slug: "daily" }
+          - { name: "Wedding & Event", slug: "wedding" }
+          - { name: "Christmas Edition", slug: "christmas" }
+      - id: by-packaging
+        name: By Packaging
+        items:
+          - { name: "Bulk Pack", slug: "bulk" }
+          - { name: "Gift Box", slug: "gift-box" }
+          - { name: "Wooden Box", slug: "wooden-box" }
+
+  - id: loose-flatware
+    name: Loose Flatware
+    icon: 🍴
+    description: "Individual pieces for mix-and-match orders"
+    subcategories:
+      - id: by-type
+        name: By Type
+        items:
+          - { name: "Dinner Fork", slug: "dinner-fork" }
+          - { name: "Dinner Knife", slug: "dinner-knife" }
+          - { name: "Dinner Spoon", slug: "dinner-spoon" }
+          - { name: "Dessert Spoon", slug: "dessert-spoon" }
+          - { name: "Coffee Spoon", slug: "coffee-spoon" }
+          - { name: "Steak Knife", slug: "steak-knife" }
+          - { name: "Serving Set", slug: "serving-set" }
+
+  - id: kitchen-tools
+    name: Kitchen Tools
+    icon: 🛠️
+    description: "Patented and practical kitchen gadgets"
+    subcategories:
+      - id: by-function
+        name: By Function
+        items:
+          - { name: "Anti-scalding Tools", slug: "anti-scalding" }
+          - { name: "Food Clips & Tongs", slug: "clips-tongs" }
+          - { name: "Peelers & Slicers", slug: "peelers" }
+
+  - id: hotel-catering
+    name: "Hotel & Catering"
+    icon: 🏨
+    description: "Commercial-grade supply for hospitality industry"
+    subcategories:
+      - id: by-service
+        name: By Service
+        items:
+          - { name: "Custom Logo Cutlery", slug: "custom-logo" }
+          - { name: "Bulk Flatware", slug: "bulk-flatware" }
+          - { name: "Serving Items", slug: "serving-items" }
+
+collections:
+  - id: oem-odm
+    name: "OEM / ODM Services"
+    icon: ⚙️
+    description: "Your design, our manufacturing"
+    is_service: true
