@@ -1,0 +1,90 @@
+{% assign product_name = include.product | default: page.title %}
+{% assign style = include.style | default: "primary" %}
+
+<div class="cta-quote-wrapper cta-{{ style }}">
+  <div class="cta-content">
+    <h3>Request a Quote for {{ product_name }}</h3>
+    <p>MOQ from 500 pcs · 15-day sample lead time · Free OEM consultation</p>
+  </div>
+  <div class="cta-actions">
+    <a href="/contact/?product={{ product_name | url_encode }}" class="btn btn-primary">
+      Get Quote Now
+    </a>
+    <a href="https://wa.me/8613822066349?text=Hi%2C%20I%20want%20a%20quote%20for%20{{ product_name | url_encode }}" 
+       target="_blank" class="btn btn-whatsapp">
+      WhatsApp Us
+    </a>
+  </div>
+</div>
+
+<style>
+.cta-quote-wrapper {
+  background: linear-gradient(135deg, #1a3a5c 0%, #2d5a87 100%);
+  color: #fff;
+  padding: 32px;
+  border-radius: 12px;
+  margin: 32px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 24px;
+  flex-wrap: wrap;
+}
+.cta-content h3 {
+  margin: 0 0 8px 0;
+  font-size: 1.4rem;
+}
+.cta-content p {
+  margin: 0;
+  opacity: 0.9;
+  font-size: 0.95rem;
+}
+.cta-actions {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+.btn {
+  display: inline-flex;
+  align-items: center;
+  padding: 12px 28px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 0.95rem;
+  transition: all 0.2s;
+  border: none;
+  cursor: pointer;
+}
+.btn-primary {
+  background: #fff;
+  color: #1a3a5c;
+}
+.btn-primary:hover {
+  background: #f0f4f8;
+  transform: translateY(-1px);
+}
+.btn-whatsapp {
+  background: #25D366;
+  color: #fff;
+}
+.btn-whatsapp:hover {
+  background: #1ebe57;
+  transform: translateY(-1px);
+}
+@media (max-width: 640px) {
+  .cta-quote-wrapper {
+    flex-direction: column;
+    text-align: center;
+    padding: 24px;
+  }
+  .cta-actions {
+    width: 100%;
+    justify-content: center;
+  }
+  .btn {
+    flex: 1;
+    justify-content: center;
+  }
+}
+</style>
