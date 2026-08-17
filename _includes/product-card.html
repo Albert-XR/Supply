@@ -1,9 +1,13 @@
 {% assign p = include.product | default: product %}
 
 <div class="product-card">
-  <div class="product-image">
-    <img src="{{ p.image | default: '/images/placeholder.jpg' }}" 
-         alt="{{ p.title }}" loading="lazy">
+  <div class="product-image-wrapper">
+    <a href="{{ p.url }}">
+      <img class="product-image" 
+           src="{{ p.image | default: '/images/placeholder.jpg' }}" 
+           alt="{{ p.title }}" 
+           loading="lazy">
+    </a>
     {% if p.is_new %}
     <span class="badge badge-new">NEW</span>
     {% endif %}
@@ -13,7 +17,9 @@
   </div>
   
   <div class="product-info">
-    <h3 class="product-title">{{ p.title }}</h3>
+    <h3 class="product-title">
+      <a href="{{ p.url }}">{{ p.title }}</a>
+    </h3>
     {% if p.series %}
     <p class="product-series">{{ p.series }}</p>
     {% endif %}
@@ -37,102 +43,3 @@
     </div>
   </div>
 </div>
-
-<style>
-.product-card {
-  background: #fff;
-  border: 1px solid #e2e8f0;
-  border-radius: 12px;
-  overflow: hidden;
-  transition: box-shadow 0.3s;
-}
-.product-card:hover {
-  box-shadow: 0 8px 30px rgba(0,0,0,0.08);
-}
-.product-image {
-  position: relative;
-  aspect-ratio: 4/3;
-  overflow: hidden;
-}
-.product-image img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  transition: transform 0.3s;
-}
-.product-card:hover .product-image img {
-  transform: scale(1.05);
-}
-.badge {
-  position: absolute;
-  top: 12px;
-  left: 12px;
-  padding: 4px 10px;
-  border-radius: 4px;
-  font-size: 0.7rem;
-  font-weight: 700;
-  text-transform: uppercase;
-}
-.badge-new { background: #10b981; color: #fff; }
-.badge-hot { background: #f59e0b; color: #fff; }
-.product-info { padding: 20px; }
-.product-title {
-  margin: 0 0 4px;
-  font-size: 1.05rem;
-  color: #1e293b;
-}
-.product-series {
-  margin: 0 0 12px;
-  font-size: 0.85rem;
-  color: #64748b;
-}
-.product-specs {
-  display: flex;
-  gap: 12px;
-  margin-bottom: 12px;
-}
-.spec {
-  font-size: 0.8rem;
-  color: #475569;
-  background: #f1f5f9;
-  padding: 4px 10px;
-  border-radius: 4px;
-}
-.product-tags {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 6px;
-  margin-bottom: 16px;
-}
-.tag {
-  font-size: 0.75rem;
-  color: #64748b;
-  border: 1px solid #e2e8f0;
-  padding: 3px 8px;
-  border-radius: 4px;
-}
-.product-actions {
-  display: flex;
-  gap: 8px;
-}
-.btn-view, .btn-quote {
-  flex: 1;
-  text-align: center;
-  padding: 10px;
-  border-radius: 8px;
-  text-decoration: none;
-  font-size: 0.85rem;
-  font-weight: 600;
-  transition: all 0.2s;
-}
-.btn-view {
-  background: #f1f5f9;
-  color: #334155;
-}
-.btn-view:hover { background: #e2e8f0; }
-.btn-quote {
-  background: #1a3a5c;
-  color: #fff;
-}
-.btn-quote:hover { background: #2d5a87; }
-</style>
