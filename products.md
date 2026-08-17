@@ -38,67 +38,55 @@ permalink: /products/
   gap: 25px;
   margin: 30px 0;
 }
-.product-card {
-  border: 1px solid #e8e8e8;
-  border-radius: 12px;
-  overflow: hidden;
-  transition: box-shadow 0.3s, transform 0.3s;
-  background: white;
-  display: flex;
-  flex-direction: column;
-}
-.product-card:hover {
-  box-shadow: 0 8px 25px rgba(0,0,0,0.1);
-  transform: translateY(-5px);
-}
-.product-image {
+
+/* B2B 产品卡片增强样式 */
+.product-image-wrapper {
+  position: relative;
   width: 100%;
   aspect-ratio: 1/1;
-  object-fit: cover;
-  background: #f5f5f5;
-  display: block;
+  overflow: hidden;
 }
-.product-info {
-  padding: 20px;
-  flex-grow: 1;
-  display: flex;
-  flex-direction: column;
-}
-.product-info h3 {
-  font-size: 1.1em;
-  margin-bottom: 8px;
-  color: #1a1a2e;
 
-   /* 新增：限制两行显示 */
-  display: -webkit-box;           /* 启用弹性盒模型 */
-  -webkit-line-clamp: 2;          /* 限制两行 */
-  -webkit-box-orient: vertical;   /* 垂直排列 */
-  overflow: hidden;               /* 隐藏溢出 */
-  text-overflow: ellipsis;        /* 省略号 */
-  line-height: 1.4;               /* 行高，确保两行高度一致 */
-  max-height: 2.8em;              /* 两行高度 = 1.4 * 2 */
+.product-image-wrapper .product-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s;
 }
-.product-meta {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 12px;
+
+.product-card:hover .product-image-wrapper .product-image {
+  transform: scale(1.05);
 }
-.product-price {
-  color: #e94560;
-  font-size: 1.2em;
-  font-weight: bold;
+
+.badge {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  padding: 4px 10px;
+  border-radius: 4px;
+  font-size: 0.7rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #fff;
+  z-index: 2;
 }
-.product-moq {
+
+.badge-new { background: #10b981; }
+.badge-hot { background: #f59e0b; }
+
+.product-series {
+  margin: 0 0 10px;
+  font-size: 0.85rem;
   color: #888;
-  font-size: 0.85em;
 }
-.product-desc {
-  color: #666;
-  font-size: 0.9em;
-  line-height: 1.5;
-  margin-bottom: 15px;
+
+.product-specs {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 12px;
+  flex-wrap: wrap;
 }
+
 .spec {
   font-size: 0.75rem;
   color: #555;
@@ -106,43 +94,28 @@ permalink: /products/
   padding: 4px 10px;
   border-radius: 20px;
 }
+
 .product-tags {
   display: flex;
-  gap: 8px;
   flex-wrap: wrap;
-  margin-bottom: 15px;
+  gap: 6px;
+  margin-bottom: 16px;
 }
+
 .tag {
-  background: #f0f0f0;
-  padding: 4px 12px;
-  border-radius: 15px;
-  font-size: 0.8em;
-  color: #555;
+  font-size: 0.7rem;
+  color: #777;
+  border: 1px solid #e0e0e0;
+  padding: 3px 8px;
+  border-radius: 4px;
 }
+
 .product-actions {
-  margin-top: auto;
   display: flex;
-  gap: 10px;
+  gap: 8px;
+  margin-top: auto;
 }
-.btn {
-  flex: 1;
-  padding: 10px;
-  text-align: center;
-  border-radius: 6px;
-  text-decoration: none;
-  font-size: 0.9em;
-  font-weight: bold;
-  transition: opacity 0.2s;
-}
-.btn:hover { opacity: 0.85; }
-.btn-primary {
-  background: #e94560;
-  color: white;
-}
-.btn-secondary {
-  background: #f0f0f0;
-  color: #333;
-}
+
 .btn-view,
 .btn-quote {
   flex: 1;
@@ -172,192 +145,26 @@ permalink: /products/
 .btn-quote:hover {
   background: #d63a52;
 }
-
-/* 询盘引导 */
-.cta-bottom {
-  background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
-  color: white;
-  padding: 50px 30px;
-  text-align: center;
-  border-radius: 12px;
-  margin: 50px 0;
-}
-.cta-bottom h2 { margin-bottom: 15px; }
-.cta-bottom p { opacity: 0.9; margin-bottom: 25px; }
 </style>
 
 <div class="products-page">
   <h1>Our Stainless Steel Products</h1>
-  <p class="products-intro">
-    Browse our complete catalog of premium 18/10 stainless steel tableware. 
-    All products support OEM/ODM with custom logo and packaging.
-  </p>
-
+  <p class="products-intro">Browse our complete catalog of premium 18/10 stainless steel tableware. All products support OEM/ODM with custom logo and packaging.</p>
+  
   <!-- 分类筛选 -->
   <div class="category-filter">
-    <button class="filter-btn active" onclick="filterProducts('all')">All Products</button>
-    <button class="filter-btn" onclick="filterProducts('cutlery')">Cutlery Sets</button>
-    <button class="filter-btn" onclick="filterProducts('flatware')">Flatware</button>
-    <button class="filter-btn" onclick="filterProducts('serving')">Serving</button>
-    <button class="filter-btn" onclick="filterProducts('hotel')">Hotel & Restaurant</button>
+    <button class="filter-btn active">All</button>
+    <button class="filter-btn">Cutlery Sets</button>
+    <button class="filter-btn">Loose Flatware</button>
+    <button class="filter-btn">Kitchen Tools</button>
   </div>
 
-  <!-- 产品网格 -->
-  <div class="product-grid" id="productGrid">
-    
-    <!-- 产品1 -->
-    <div class="product-card" data-category="cutlery">
-      <img src="/assets/images/products/diamond-detail-3-400.jpg" alt="Diamond Bottle Tableware">
-      <div class="product-info">
-        <h3>Luxury 24-Piece Customizable Spoon Fork Knife Tableware Set for Western Home Dining Dinnerware Sets Diamond Bottle Flatware Sets</h3>
-        <div class="product-meta">
-          <span class="product-price">US$13.78-14.78</span>
-          <span class="product-moq">MOQ: 8 pieces</span>
-        </div>
-        <p class="product-desc">18/10 stainless steel, mirror polish finish. Includes 6 dinner knives, 6 forks, 6 spoons, 6 teaspoons.</p>
-        <div class="product-tags">
-          <span class="tag">18/10 SS</span>
-          <span class="tag">Mirror Polish</span>
-          <span class="tag">FDA</span>
-        </div>
-        <div class="product-actions">
-          <a href="/contact?product=diamond-bottle-tableware" class="btn btn-primary">Inquire Now</a>
-          <a href="/products/diamond-bottle-tableware/" class="btn btn-secondary">Details</a>
-        </div>
-      </div>
-    </div>
-
-    <!-- 产品2 -->
-    <div class="product-card" data-category="flatware">
-      <img src="/assets/images/stone-pattern/stone-pattern-1-400.jpg" alt="Stone Pattern">
-      <div class="product-info">
-        <h3>Thickened Mirror Polished Modern Stainless Steel Flatware Set Creative Stone Pattern Western Steak Tea Dessert Tableware Party</h3>
-        <div class="product-meta">
-          <span class="product-price">US$0.29-0.39</span>
-          <span class="product-moq">MOQ: 250 pcs</span>
-        </div>
-        <p class="product-desc">Heavy-duty 18/10 stainless steel dinner fork. Length: 20.5cm. Weight: 65g. Satin or mirror finish.</p>
-        <div class="product-tags">
-          <span class="tag">18/10 SS</span>
-          <span class="tag">65g</span>
-          <span class="tag">LFGB</span>
-        </div>
-        <div class="product-actions">
-          <a href="/contact?product=stone-pattern" class="btn btn-primary">Inquire Now</a>
-          <a href="/products/stone-pattern/" class="btn btn-secondary">Details</a>
-        </div>
-      </div>
-    </div>
-
-    <!-- 产品3 -->
-    <div class="product-card" data-category="serving">
-      <img src="/assets/images/anti-scalding-set/anti-scalding-set-2-400x400.jpg" alt="Anti-scalding Set" class="product-image">
-      <div class="product-info">
-        <h3>Dingyong Wholesale Four-piece Set Stainless Steel Anti-Scalding Household Kitchen Utensils Bowl Anti-Slip Scalding Bowl Clip</h3>
-        <div class="product-meta">
-          <span class="product-price">$1.20/pc</span>
-          <span class="product-moq">MOQ: 2000 pcs</span>
-        </div>
-        <p class="product-desc">Professional serving spoon for buffet and restaurant use. Length: 28cm. Dishwasher safe.</p>
-        <div class="product-tags">
-          <span class="tag">28cm</span>
-          <span class="tag">Hotel Grade</span>
-          <span class="tag">Dishwasher Safe</span>
-        </div>
-        <div class="product-actions">
-          <a href="/contact?product=serving-spoon" class="btn btn-primary">Inquire Now</a>
-          <a href="#" class="btn btn-secondary">Details</a>
-        </div>
-      </div>
-    </div>
-
-    <!-- 产品4 -->
-    <div class="product-card" data-category="hotel">
-      <img src="https://via.placeholder.com/400x300?text=Hotel+Bulk" alt="Hotel Bulk Set" class="product-image">
-      <div class="product-info">
-        <h3>Hotel Bulk Flatware Set (500pc)</h3>
-        <div class="product-meta">
-          <span class="product-price">$8.50/pc</span>
-          <span class="product-moq">MOQ: 500 pcs</span>
-        </div>
-        <p class="product-desc">Complete hotel restaurant flatware. Heavy gauge 18/0 or 18/10. Custom logo engraving available.</p>
-        <div class="product-tags">
-          <span class="tag">18/0 or 18/10</span>
-          <span class="tag">Logo Engraving</span>
-          <span class="tag">Bulk Pack</span>
-        </div>
-        <div class="product-actions">
-          <a href="/contact?product=hotel-bulk" class="btn btn-primary">Inquire Now</a>
-          <a href="#" class="btn btn-secondary">Details</a>
-        </div>
-      </div>
-    </div>
-
-    <!-- 产品5 -->
-    <div class="product-card" data-category="cutlery">
-      <img src="https://via.placeholder.com/400x300?text=16pc+Gift+Set" alt="16pc Gift Set" class="product-image">
-      <div class="product-info">
-        <h3>16-Piece Gift Box Set</h3>
-        <div class="product-meta">
-          <span class="product-price">$9.80/set</span>
-          <span class="product-moq">MOQ: 1500 sets</span>
-        </div>
-        <p class="product-desc">Elegant gift packaging for retail. 4-place setting with premium color box. Perfect for Amazon/eBay sellers.</p>
-        <div class="product-tags">
-          <span class="tag">Gift Box</span>
-          <span class="tag">Retail Ready</span>
-          <span class="tag">Amazon FBA</span>
-        </div>
-        <div class="product-actions">
-          <a href="/contact?product=gift-set" class="btn btn-primary">Inquire Now</a>
-          <a href="#" class="btn btn-secondary">Details</a>
-        </div>
-      </div>
-    </div>
-
-    <!-- 产品6 -->
-    <div class="product-card" data-category="flatware">
-      <img src="https://via.placeholder.com/400x300?text=Steak+Knife" alt="Steak Knife" class="product-image">
-      <div class="product-info">
-        <h3>Serrated Steak Knife</h3>
-        <div class="product-meta">
-          <span class="product-price">$1.50/pc</span>
-          <span class="product-moq">MOQ: 2500 pcs</span>
-        </div>
-        <p class="product-desc">Sharp serrated edge steak knife. 23.5cm length. Hollow handle design. Restaurant quality.</p>
-        <div class="product-tags">
-          <span class="tag">Serrated</span>
-          <span class="tag">23.5cm</span>
-          <span class="tag">Restaurant</span>
-        </div>
-        <div class="product-actions">
-          <a href="/contact?product=steak-knife" class="btn btn-primary">Inquire Now</a>
-          <a href="#" class="btn btn-secondary">Details</a>
-        </div>
-      </div>
-    </div>
-
+  <!-- 产品网格：从硬编码改为 Jekyll 循环 -->
+  <div class="product-grid">
+    {% for product in site.products %}
+      {% unless product.published == false %}
+        {% include product-card.html product=product %}
+      {% endunless %}
+    {% endfor %}
   </div>
 </div>
-
-<script>
-function filterProducts(category) {
-  // 更新按钮状态
-  document.querySelectorAll('.filter-btn').forEach(btn => {
-    btn.classList.remove('active');
-  });
-  event.target.classList.add('active');
-
-  // 筛选产品
-  const cards = document.querySelectorAll('.product-card');
-  cards.forEach(card => {
-    if (category === 'all' || card.dataset.category === category) {
-      card.style.display = 'block';
-    } else {
-      card.style.display = 'none';
-    }
-  });
-
-{% include cta-quote.html product="Portugal Series Cutlery Set" %}
-}
-</script>
