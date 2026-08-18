@@ -8,7 +8,7 @@ material: "18/10 Stainless Steel"
 finish: "Mirror Polish / Satin"
 certification: "LFGB"
 packaging: "Bulk / Custom"
-image: /assets/images/stone-pattern.jpg
+image: /assets/images/products/stone-pattern.jpg
 category: flatware
 tags: ["Stone Pattern", "Heavy-duty", "Restaurant Grade"]
 ---
