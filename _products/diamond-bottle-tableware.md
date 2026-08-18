@@ -1,7 +1,17 @@
 ---
-layout: page
-title: diamond-bottle-tableware
-permalink: /products/diamond-bottle-tableware/
+title: "Diamond Bottle Tableware Set"
+description: "18/10 stainless steel cutlery set with unique diamond bottle container"
+price: "$18.50 / set"
+moq: "500 sets"
+lead_time: "35-50 days"
+material: "18/10 (304) Austenitic Stainless Steel"
+finish: "Mirror Polish / PVD Gold / Silver"
+certification: "FDA, LFGB"
+packaging: "Diamond Gift Box"
+image: /assets/images/diamond-bottle.jpg
+category: dinnerware
+tags: ["18/10 SS", "Diamond Design", "PVD Gold", "Gift Box"]
+is_bestseller: true
 ---
 
 <style>
