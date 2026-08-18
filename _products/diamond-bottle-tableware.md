@@ -8,7 +8,7 @@ material: "18/10 (304) Austenitic Stainless Steel"
 finish: "Mirror Polish / PVD Gold / Silver"
 certification: "FDA, LFGB"
 packaging: "Diamond Gift Box"
-image: /assets/images/diamond-bottle.jpg
+image: /assets/images/products/diamond-bottle.jpg
 category: dinnerware
 tags: ["18/10 SS", "Diamond Design", "PVD Gold", "Gift Box"]
 is_bestseller: true
