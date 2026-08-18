@@ -1,7 +1,16 @@
 ---
-layout: product
-title: stone-pattern
-permalink: /products/stone-pattern/
+title: "Stone Pattern Stainless Steel Flatware Set"
+description: "Thickened mirror polished modern flatware with creative stone pattern handles"
+price: "$0.29-0.39 / pc"
+moq: "250 pcs"
+lead_time: "30-40 days"
+material: "18/10 Stainless Steel"
+finish: "Mirror Polish / Satin"
+certification: "LFGB"
+packaging: "Bulk / Custom"
+image: /assets/images/stone-pattern.jpg
+category: flatware
+tags: ["Stone Pattern", "Heavy-duty", "Restaurant Grade"]
 ---
 
 <style>
