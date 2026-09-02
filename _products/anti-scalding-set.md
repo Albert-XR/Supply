@@ -1,7 +1,17 @@
 ---
-layout: page
-title: 24-Piece Stainless Steel Cutlery Set
-permalink: /products/24pc-cutlery-set/
+title: "4-Piece Anti-Scalding Kitchen Tool Set"
+description: "Stainless steel hot plate gripper set with silicone mini oven mitts for safe handling of hot bowls, plates and pots"
+price: "$1.80 - $2.50 / set"
+moq: "1000 sets"
+lead_time: "25-35 days"
+material: "Stainless Steel + ABS + Food-Grade Silicone"
+finish: "Polished / Silicone Coated"
+certification: "FDA, LFGB, SGS"
+packaging: "Color Box / Custom OEM"
+image: /assets/images/products/anti-scalding-set.jpg
+category: kitchen-tools
+tags: ["Anti-Scalding", "Hot Plate Gripper", "Silicone Gloves", "Kitchen Tools", "Oven Mitts"]
+is_bestseller: true
 ---
 
 <style>
@@ -32,13 +42,23 @@ permalink: /products/24pc-cutlery-set/
   width: 100%;
   border-radius: 12px;
   background: #f8f9fa;
-  aspect-ratio: 4/3;
+  aspect-ratio: 1/1;
   object-fit: cover;
 }
 .thumbnail-list {
   display: flex;
   gap: 10px;
   margin-top: 15px;
+  overflow-x: auto;
+  max-width: 100%;
+  padding-bottom: 5px;
+}
+.thumbnail-list::-webkit-scrollbar {
+  height: 4px;
+}
+.thumbnail-list::-webkit-scrollbar-thumb {
+  background: #ccc;
+  border-radius: 2px;
 }
 .thumbnail {
   width: 80px;
@@ -48,6 +68,7 @@ permalink: /products/24pc-cutlery-set/
   cursor: pointer;
   border: 2px solid transparent;
   transition: border-color 0.2s;
+  flex-shrink: 0;
 }
 .thumbnail:hover, .thumbnail.active {
   border-color: #e94560;
@@ -119,7 +140,7 @@ permalink: /products/24pc-cutlery-set/
   gap: 10px;
   margin: 20px 0;
 }
-.tag {
+.feature-tags .tag {
   background: #fff3cd;
   color: #856404;
   padding: 6px 14px;
@@ -222,6 +243,18 @@ permalink: /products/24pc-cutlery-set/
   font-size: 2em;
 }
 
+/* 底部CTA */
+.bottom-cta {
+  background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+  color: white;
+  padding: 60px 30px;
+  text-align: center;
+  border-radius: 12px;
+  margin: 50px 0;
+}
+.bottom-cta h2 { margin-bottom: 15px; }
+.bottom-cta p { opacity: 0.9; margin-bottom: 25px; }
+
 /* 相关产品 */
 .related-products {
   margin: 50px 0;
@@ -253,18 +286,6 @@ permalink: /products/24pc-cutlery-set/
   font-weight: bold;
 }
 
-/* 底部CTA */
-.bottom-cta {
-  background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
-  color: white;
-  padding: 60px 30px;
-  text-align: center;
-  border-radius: 12px;
-  margin: 50px 0;
-}
-.bottom-cta h2 { margin-bottom: 15px; }
-.bottom-cta p { opacity: 0.9; margin-bottom: 25px; }
-
 /* 响应式 */
 @media (max-width: 768px) {
   .product-main { grid-template-columns: 1fr; }
@@ -276,7 +297,7 @@ permalink: /products/24pc-cutlery-set/
 
 <!-- 面包屑 -->
 <div class="breadcrumb">
-  <a href="/">Home</a> / <a href="/products">Products</a> / <span>24-Piece Cutlery Set</span>
+  <a href="/">Home</a> / <a href="/products">Products</a> / <span>4-Piece Anti-Scalding Kitchen Tool Set</span>
 </div>
 
 <!-- 产品主区域 -->
@@ -284,28 +305,29 @@ permalink: /products/24pc-cutlery-set/
 
   <!-- 左侧图片 -->
   <div class="product-gallery">
-    <img src="/assets/images/cutlery-set_large.jpg" alt="24-Piece Cutlery Set" class="main-image" id="mainImage">
+    <img src="/assets/images/anti-scalding-set/1.jpg" alt="4-Piece Anti-Scalding Kitchen Tool Set" class="main-image" id="mainImage">
     <div class="thumbnail-list">
-      <img src="/assets/images/cutlery-set_small.jpg" class="thumbnail active" onclick="changeImage(this, '/assets/images/cutlery-set_large.jpg')">
-      <img src="/assets/images/flatware_small.jpg" class="thumbnail" onclick="changeImage(this, '/assets/images/flatware_large.jpg')">
-      <img src="/assets/images/serving_small.jpg" class="thumbnail" onclick="changeImage(this, '/assets/images/serving_large.jpg')">
-      <img src="/assets/images/hotel_small.jpg" class="thumbnail" onclick="changeImage(this, '/assets/images/hotel_large.jpg')">
+      <img src="/assets/images/anti-scalding-set/1.jpg" class="thumbnail active" onclick="changeImage(this, '/assets/images/anti-scalding-set/1.jpg')">
+      <img src="/assets/images/anti-scalding-set/2.jpg" class="thumbnail" onclick="changeImage(this, '/assets/images/anti-scalding-set/2.jpg')">
+      <img src="/assets/images/anti-scalding-set/3.jpg" class="thumbnail" onclick="changeImage(this, '/assets/images/anti-scalding-set/3.jpg')">
+      <img src="/assets/images/anti-scalding-set/白底杏.jpg" class="thumbnail" onclick="changeImage(this, '/assets/images/anti-scalding-set/白底杏.jpg')">
+      <img src="/assets/images/anti-scalding-set/4.jpg" class="thumbnail" onclick="changeImage(this, '/assets/images/anti-scalding-set/4.jpg')">
     </div>
   </div>
 
   <!-- 右侧信息 -->
   <div class="product-info">
-    <h1>24-Piece Stainless Steel Cutlery Set</h1>
-    <p class="product-sku">SKU: DY-CS24-001 | Model: Portugal Series</p>
-    
-    <div class="product-price">$12.50 <span style="font-size:0.5em; color:#888; font-weight:normal;">/ set FOB Shenzhen</span></div>
-    <p class="product-moq">MOQ: 1,000 sets | Lead Time: 30-45 days</p>
-    
+    <h1>4-Piece Anti-Scalding Kitchen Tool Set</h1>
+    <p class="product-sku">SKU: DY-AS04-001 | Model: Anti-Scald Series</p>
+    <div class="product-price">$1.80 - $2.50 <span>/ set FOB Shenzhen</span></div>
+    <p class="product-moq">MOQ: 1000 sets | Lead Time: 25-35 days</p>
+
     <div class="feature-tags">
-      <span class="tag">&#10003; 18/10 Stainless Steel</span>
-      <span class="tag">&#10003; FDA Certified</span>
-      <span class="tag">&#10003; LFGB Approved</span>
-      <span class="tag">&#10003; OEM Available</span>
+      <span class="tag">✓ Stainless Steel + Silicone</span>
+      <span class="tag">✓ Heat Resistant to 230°C</span>
+      <span class="tag">✓ Non-Slip Grip</span>
+      <span class="tag">✓ One-Handed Operation</span>
+      <span class="tag">✓ OEM/ODM Available</span>
     </div>
 
     <!-- 快速询盘 -->
@@ -339,8 +361,8 @@ permalink: /products/24pc-cutlery-set/
     </div>
 
     <p style="font-size:0.9em; color:#666;">
-      <strong>Need samples?</strong> Sample cost $50/set, refundable upon order. 
-      <a href="mailto:sales@ding-yong.com?subject=Sample Request: 24pc Cutlery Set" style="color:#e94560;">Request Sample &rarr;</a>
+      <strong>Need samples?</strong> Sample cost $30/set, refundable upon order.
+      <a href="mailto:sales@ding-yong.com?subject=Sample Request: 4-Piece Anti-Scalding Kitchen Tool Set" style="color:#e94560;">Request Sample &rarr;</a>
     </p>
   </div>
 
@@ -359,23 +381,24 @@ permalink: /products/24pc-cutlery-set/
   <div id="specs" class="tab-content active">
     <h2>Product Specifications</h2>
     <table class="spec-table">
-      <tr><td>Material</td><td>18/10 (304) Austenitic Stainless Steel</td></tr>
-      <tr><td>Finish</td><td>Mirror Polish / Satin / PVD Gold / Rose Gold / Black</td></tr>
-      <tr><td>Set Composition</td><td>6 × Dinner Knife (23.5cm) + 6 × Dinner Fork (20.5cm) + 6 × Dinner Spoon (20cm) + 6 × Tea Spoon (14cm)</td></tr>
-      <tr><td>Weight</td><td>2.8 kg / set (approx. 70g per piece)</td></tr>
-      <tr><td>Thickness</td><td>Knife: 8mm, Fork: 4mm, Spoon: 3mm</td></tr>
-      <tr><td>Handle Design</td><td>Portugal Series - ergonomic square handle with rounded edges</td></tr>
-      <tr><td>Dishwasher Safe</td><td>Yes (recommend gentle cycle)</td></tr>
-      <tr><td>Customization</td><td>Laser logo engraving, custom color, pattern handle</td></tr>
+      <tr><td>Material</td><td>Stainless Steel + ABS + Food-Grade Silicone</td></tr>
+      <tr><td>Finish</td><td>Mirror Polished / Silicone Coated</td></tr>
+      <tr><td>Set Composition</td><td>1 × Anti-Scald Bowl Clip + 1 × Plate Lifter + 2 × Silicone Mini Oven Mitts (4 pieces total)</td></tr>
+      <tr><td>Bowl Clip Size</td><td>Approx. 18 × 8 cm</td></tr>
+      <tr><td>Plate Lifter Size</td><td>Approx. 18 × 14 cm</td></tr>
+      <tr><td>Mini Mitt Size</td><td>Approx. 11 × 8 cm</td></tr>
+      <tr><td>Weight</td><td>Approx. 215g / set</td></tr>
+      <tr><td>Heat Resistance</td><td>Up to 230°C / 446°F</td></tr>
+      <tr><td>Color Options</td><td>Navy Blue / Beige / Custom colors</td></tr>
+      <tr><td>Customization</td><td>Laser logo, custom color, custom packaging</td></tr>
     </table>
 
     <h3 style="margin-top:30px;">Available Colors</h3>
     <div style="display:flex; gap:15px; flex-wrap:wrap; margin:15px 0;">
-      <div style="text-align:center;"><div style="width:60px; height:60px; background:linear-gradient(135deg, #c0c0c0, #e8e8e8); border-radius:50%; margin-bottom:5px;"></div><span style="font-size:0.85em;">Silver</span></div>
-      <div style="text-align:center;"><div style="width:60px; height:60px; background:linear-gradient(135deg, #FFD700, #FFA500); border-radius:50%; margin-bottom:5px;"></div><span style="font-size:0.85em;">Gold</span></div>
-      <div style="text-align:center;"><div style="width:60px; height:60px; background:linear-gradient(135deg, #B76E79, #E6B8B8); border-radius:50%; margin-bottom:5px;"></div><span style="font-size:0.85em;">Rose Gold</span></div>
-      <div style="text-align:center;"><div style="width:60px; height:60px; background:linear-gradient(135deg, #1a1a1a, #4a4a4a); border-radius:50%; margin-bottom:5px;"></div><span style="font-size:0.85em;">Black</span></div>
-      <div style="text-align:center;"><div style="width:60px; height:60px; background:linear-gradient(135deg, #8B0000, #DC143C); border-radius:50%; margin-bottom:5px;"></div><span style="font-size:0.85em;">Red</span></div>
+      <div style="text-align:center;"><div style="width:60px; height:60px; background:linear-gradient(135deg, #2E5C8A, #4A7BA7); border-radius:50%; margin-bottom:5px;"></div><span style="font-size:0.85em;">Navy Blue</span></div>
+      <div style="text-align:center;"><div style="width:60px; height:60px; background:linear-gradient(135deg, #F5E6D3, #EAD0B3); border-radius:50%; margin-bottom:5px;"></div><span style="font-size:0.85em;">Beige</span></div>
+      <div style="text-align:center;"><div style="width:60px; height:60px; background:linear-gradient(135deg, #E8A5A5, #D98B8B); border-radius:50%; margin-bottom:5px;"></div><span style="font-size:0.85em;">Pink (Custom)</span></div>
+      <div style="text-align:center;"><div style="width:60px; height:60px; background:linear-gradient(135deg, #333, #666); border-radius:50%; margin-bottom:5px;"></div><span style="font-size:0.85em;">Dark Grey (Custom)</span></div>
     </div>
   </div>
 
@@ -384,29 +407,29 @@ permalink: /products/24pc-cutlery-set/
     <h2>Packaging Options</h2>
     <div class="packaging-show">
       <div class="pack-item">
-        <img src="/assets/images/hotel_small.jpg" alt="Color Box">
+        <img src="/assets/images/anti-scalding-set/2.jpg" alt="Color Box Packaging">
         <h4>Color Box</h4>
-        <p style="font-size:0.85em; color:#666;">Standard gift packaging with product image. MOQ: 1,000 sets.</p>
+        <p style="font-size:0.85em; color:#666;">Premium retail packaging with product image. MOQ: 1000 sets.</p>
       </div>
       <div class="pack-item">
-        <img src="/assets/images/hotel_small.jpg" alt="Blister Pack">
-        <h4>Blister Pack</h4>
-        <p style="font-size:0.85em; color:#666;">Retail-ready hanging display. MOQ: 2,000 sets.</p>
+        <img src="/assets/images/anti-scalding-set/白底杏.jpg" alt="Beige Color Option">
+        <h4>Beige Set</h4>
+        <p style="font-size:0.85em; color:#666;">Elegant beige color option for modern kitchens.</p>
       </div>
       <div class="pack-item">
-        <img src="/assets/images/hotel_small.jpg" alt="Custom OEM">
-        <h4>Custom OEM Box</h4>
-        <p style="font-size:0.85em; color:#666;">Your logo, design, barcode. MOQ: 3,000 sets.</p>
+        <img src="/assets/images/anti-scalding-set/3.jpg" alt="Detail View">
+        <h4>Product Detail</h4>
+        <p style="font-size:0.85em; color:#666;">Stainless steel structure with non-slip silicone.</p>
       </div>
     </div>
     <div style="background:#f8f9fa; padding:20px; border-radius:10px; margin-top:20px;">
       <h4>Outer Carton Information</h4>
       <table class="spec-table">
-        <tr><td>Carton Size</td><td>58 × 42 × 32 cm</td></tr>
-        <tr><td>Quantity</td><td>12 sets / carton</td></tr>
-        <tr><td>Gross Weight</td><td>15 kg / carton</td></tr>
-        <tr><td>20'FCL Load</td><td>1,200 cartons (14,400 sets)</td></tr>
-        <tr><td>40'FCL Load</td><td>2,500 cartons (30,000 sets)</td></tr>
+        <tr><td>Carton Size</td><td>52 × 38 × 28 cm</td></tr>
+        <tr><td>Quantity</td><td>100 sets / carton</td></tr>
+        <tr><td>Gross Weight</td><td>24 kg / carton</td></tr>
+        <tr><td>20'FCL Load</td><td>800 cartons (80,000 sets)</td></tr>
+        <tr><td>40'FCL Load</td><td>1,600 cartons (160,000 sets)</td></tr>
       </table>
     </div>
   </div>
@@ -437,7 +460,7 @@ permalink: /products/24pc-cutlery-set/
       </div>
     </div>
     <p style="text-align:center; color:#666; margin-top:20px;">
-      All certifications available for download upon request. 
+      All certifications available for download upon request.
       <a href="mailto:sales@ding-yong.com?subject=Certification Request" style="color:#e94560;">Request Documents &rarr;</a>
     </p>
   </div>
@@ -448,14 +471,14 @@ permalink: /products/24pc-cutlery-set/
     <table class="spec-table">
       <tr><td>Trade Terms</td><td>FOB Shenzhen / Guangzhou, CIF, DDP (select destinations)</td></tr>
       <tr><td>Payment</td><td>T/T 30% deposit, 70% before shipment. L/C at sight for large orders.</td></tr>
-      <tr><td>Lead Time</td><td>30-45 days after deposit. Sample: 7 days.</td></tr>
+      <tr><td>Lead Time</td><td>25-35 days after deposit. Sample: 7 days.</td></tr>
       <tr><td>Port</td><td>Shenzhen / Guangzhou / Shantou</td></tr>
       <tr><td>Shipping</td><td>Sea freight (FCL/LCL), Air freight, Express (DHL/FedEx/UPS)</td></tr>
       <tr><td>Insurance</td><td>All-risk marine insurance available</td></tr>
     </table>
     <div style="background:#e8f4fd; padding:20px; border-radius:10px; margin-top:20px; border-left:4px solid #2196F3;">
       <strong>&#128161; Pro Tip for New Buyers</strong>
-      <p style="margin:5px 0 0; color:#555;">For orders under $5,000, we recommend Express shipping (7-10 days). For larger orders, sea freight reduces cost by 60-70%.</p>
+      <p style="margin:5px 0 0; color:#555;">For orders under $3,000, we recommend Express shipping (7-10 days). For larger orders, sea freight reduces cost by 60-70%.</p>
     </div>
   </div>
 
@@ -465,26 +488,15 @@ permalink: /products/24pc-cutlery-set/
 <div class="related-products">
   <h2>You May Also Like</h2>
   <div class="related-grid">
+    {% for p in site.products %}
+      {% unless p.url == page.url %}
     <div class="related-card">
-      <img src="/assets/images/flatware_small.jpg" alt="Dinner Fork">
-      <h4>Premium Dinner Fork</h4>
-      <div class="rel-price">$0.85/pc</div>
+      <a href="{{ p.url }}"><img src="{{ p.image }}" alt="{{ p.title }}"></a>
+      <h4><a href="{{ p.url }}" style="color:#1a1a2e; text-decoration:none;">{{ p.title }}</a></h4>
+      <div class="rel-price">{{ p.price }}</div>
     </div>
-    <div class="related-card">
-      <img src="/assets/images/serving_small.jpg" alt="Serving Spoon">
-      <h4>Large Serving Spoon</h4>
-      <div class="rel-price">$1.20/pc</div>
-    </div>
-    <div class="related-card">
-      <img src="/assets/images/hotel_small.jpg" alt="Hotel Set">
-      <h4>Hotel Bulk Set 500pc</h4>
-      <div class="rel-price">$8.50/pc</div>
-    </div>
-    <div class="related-card">
-      <img src="/assets/images/flatware_small.jpg" alt="Gift Set">
-      <h4>16-Piece Gift Box Set</h4>
-      <div class="rel-price">$9.80/set</div>
-    </div>
+      {% endunless %}
+    {% endfor %}
   </div>
 </div>
 
@@ -515,17 +527,17 @@ function buildInquiry(form) {
   var email = form.email.value;
   var qty = form.quantity.value;
   var country = form.country.value;
-  
-  var subject = 'Inquiry: 24pc Cutlery Set - ' + qty + ' sets';
+
+  var subject = 'Inquiry: 4-Piece Anti-Scalding Kitchen Tool Set - ' + qty + ' sets';
   var body = 'Dear Sales Team,%0D%0A%0D%0A' +
-    'I am interested in your 24-Piece Stainless Steel Cutlery Set.%0D%0A%0D%0A' +
+    'I am interested in your 4-Piece Anti-Scalding Kitchen Tool Set.%0D%0A%0D%0A' +
     'Name: ' + name + '%0D%0A' +
     'Email: ' + email + '%0D%0A' +
     'Quantity: ' + qty + '%0D%0A' +
     'Destination: ' + country + '%0D%0A%0D%0A' +
     'Please send quotation and catalog.%0D%0A%0D%0A' +
     'Best regards';
-  
+
   form.action = 'mailto:sales@ding-yong.com?subject=' + encodeURIComponent(subject) + '&body=' + body;
   return true;
 }

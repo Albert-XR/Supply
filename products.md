@@ -40,6 +40,18 @@ permalink: /products/
 }
 
 /* B2B 产品卡片增强样式 */
+.product-card {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.product-info {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
 .product-image-wrapper {
   position: relative;
   width: 100%;
@@ -153,10 +165,10 @@ permalink: /products/
   
   <!-- 分类筛选 -->
   <div class="category-filter">
-    <button class="filter-btn active">All</button>
-    <button class="filter-btn">Cutlery Sets</button>
-    <button class="filter-btn">Loose Flatware</button>
-    <button class="filter-btn">Kitchen Tools</button>
+    <button class="filter-btn active" data-filter="all">All</button>
+    <button class="filter-btn" data-filter="cutlery-sets">Cutlery Sets</button>
+    <button class="filter-btn" data-filter="flatware">Loose Flatware</button>
+    <button class="filter-btn" data-filter="kitchen-tools">Kitchen Tools</button>
   </div>
 
   <!-- 产品网格：从硬编码改为 Jekyll 循环 -->
@@ -168,3 +180,28 @@ permalink: /products/
     {% endfor %}
   </div>
 </div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  var buttons = document.querySelectorAll('.filter-btn');
+  var cards = document.querySelectorAll('.product-card');
+
+  buttons.forEach(function(btn) {
+    btn.addEventListener('click', function() {
+      // 切换按钮激活状态
+      buttons.forEach(function(b) { b.classList.remove('active'); });
+      btn.classList.add('active');
+
+      var filter = btn.getAttribute('data-filter');
+      cards.forEach(function(card) {
+        var cat = card.getAttribute('data-category');
+        if (filter === 'all' || cat === filter) {
+          card.style.display = '';
+        } else {
+          card.style.display = 'none';
+        }
+      });
+    });
+  });
+});
+</script>

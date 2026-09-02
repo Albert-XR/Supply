@@ -1,25 +1,18 @@
 # This will be the first part of the title tag for your site <title> site.name + page.title </title>
 title: "DINGYONG"
-description: "Professional manufacturer of 18/10 stainless steel cutlery"
+description: "Professional manufacturer of stainless steel cutlery, flatware and kitchen tools for hotels, restaurants and retail brands"
 email: sales@ding-yong.com
 url: "https://www.ding-yong.com" # the base hostname & protocol for your site, e.g. http://example.com, also used in jekyll-seo-tag
 baseurl: ""
-repo: https://github.com/YJPL/Supply/
 google_analytics_key:
 
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
 logo: /siteicon.png
 tagline: "Professional Manufacturer"
-description: Jekyll template for e-commerce with Gumroad integration
 author:
-  name: Albert
+  name: DINGYONG
   email: sales@ding-yong.com
-  twitter: TemplatesSupply # twitter username without the @ symbol
-  phone: ""
-social:
-  name: "Ding-Yong Products"
-  links:
-  whatsapp: "+8613822066349"
+  phone: "+8613822066349"
 
 # Build settings
 markdown: kramdown
@@ -50,16 +43,11 @@ defaults:
     values:
       layout: "default"
 
-jekyll-archives:
-  enabled:
-    - categories
-
 plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
   - jekyll-leaflet
   - jekyll-feed
-  - jekyll-archives # not on Supply theme
 
 include:
   - .htaccess
@@ -77,39 +65,11 @@ exclude:
   - vendor/ruby/
 
 # Contact settings
-formcarry: https://formcarry.com/ # add you formcarry endpoint url (see https://formcarry.com/documentation/getting-started)
-
-# Social
-
-social_icons:
-  - Email
-  - Facebook
-  - Google Plus
-  - Instagram
-  - LinkedIn
-  - Pinterest
-  - Tumblr
-  - Twitter
-  - YouTube
-  - RSS
 
 feed:
   collections:
     products:
       path: "/products.xml"
-
-# Jekyll Archives Settings https://github.com/jekyll/jekyll-archives
-jekyll-archives:
-  enabled: 'all'
-  layout: 'archive'
-  permalinks:
-    year: '/:year/'
-    month: '/:year/:month/'
-    day: '/:year/:month/:day/'
-    tag: '/tag/:name/'
-    category: '/:name/'
-  category_archive:
-    type: liquid
 
 header_pages:
   - index.md

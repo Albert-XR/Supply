@@ -10,7 +10,7 @@
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 
-<title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
+{% seo %}
 
 <style>
 nav { 
@@ -381,7 +381,7 @@ img {
 
   <!-- 底部版权 -->
   <div class="footer-bottom">
-    <div>&copy; 2026 DING-YONG PRODUCTS CO., LTD. All rights reserved.</div>
+    <div>&copy; {{ 'now' | date: '%Y' }} DING-YONG PRODUCTS CO., LTD. All rights reserved.</div>
     <div>
       <a href="#">Privacy Policy</a>
       <a href="#">Terms of Service</a>

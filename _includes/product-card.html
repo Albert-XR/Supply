@@ -1,6 +1,6 @@
 {% assign p = include.product | default: product %}
 
-<div class="product-card">
+<div class="product-card" data-category="{{ p.category }}">
   <div class="product-image-wrapper">
     <a href="{{ p.url }}">
       <img class="product-image" 

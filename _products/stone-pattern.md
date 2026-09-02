@@ -1,16 +1,16 @@
 ---
-title: "Stone Pattern Stainless Steel Flatware Set"
-description: "Thickened mirror polished modern flatware with creative stone pattern handles"
-price: "$0.29-0.39 / pc"
-moq: "250 pcs"
-lead_time: "30-40 days"
-material: "18/10 Stainless Steel"
-finish: "Mirror Polish / Satin"
-certification: "LFGB"
-packaging: "Bulk / Custom"
+title: "410 Stainless Steel Knife Fork Spoon Set"
+description: "DINGYONG OEM/ODM 410 Stainless Steel Knife Fork Spoon Set - Hotel Restaurant Tableware Nordic/Minimalist Design Boxed"
+price: "$1.01 - $2.43 / pc"
+moq: "100 pieces"
+lead_time: "25-35 days"
+material: "410 Stainless Steel"
+finish: "Mirror Polish / PVD Gold / Silver / Black / Rose Gold / Custom"
+certification: "LFGB / FDA / SGS"
+packaging: "Bulk / Color Box / Custom"
 image: /assets/images/products/stone-pattern.jpg
 category: flatware
-tags: ["Stone Pattern", "Heavy-duty", "Restaurant Grade"]
+tags: ["Nordic Style", "Minimalist", "410 Stainless Steel", "Hotel Restaurant", "OEM/ODM"]
 ---
 
 <style>
@@ -298,7 +298,7 @@ tags: ["Stone Pattern", "Heavy-duty", "Restaurant Grade"]
 
 <!-- 面包屑 -->
 <div class="breadcrumb">
-  <a href="/">Home</a> / <a href="/products">Products</a> / <span>Diamond Bottle Tableware Set</span>
+  <a href="/">Home</a> / <a href="/products">Products</a> / <span>410 Stainless Steel Knife Fork Spoon Set</span>
 </div>
 
 <!-- 产品主区域 -->
@@ -320,17 +320,18 @@ tags: ["Stone Pattern", "Heavy-duty", "Restaurant Grade"]
 
   <!-- 右侧信息 -->
   <div class="product-info">
-    <h1>Thickened Mirror Polished Modern Stainless Steel Flatware Set Creative Stone Pattern Western Steak Tea Dessert Tableware Party</h1>
-    <p class="product-sku">SKU: DY-DB24-001 | Model: Stone Pattern Series</p>
-    <div class="product-price">$2.29 <span>/ set FOB Shenzhen</span></div>
-    <p class="product-moq">MOQ: 20 sets | Lead Time: 35-50 days</p>
-    
+    <h1>410 Stainless Steel Knife Fork Spoon Set - Hotel Restaurant Tableware Nordic/Minimalist Design Boxed</h1>
+    <p class="product-sku">SKU: DY-SP-001 | Model: Nordic/Minimalist Series</p>
+    <div class="product-price">$1.01 - $2.43 <span>/ pc FOB Shenzhen</span></div>
+    <p class="product-moq">MOQ: 100 pieces | Lead Time: 25-35 days</p>
+
     <div class="feature-tags">
-      <span class="tag">✓ 18/10 Stainless Steel</span>
-      <span class="tag">✓ Diamond Bottle Design</span>
-      <span class="tag">✓ Gold/Silver Finish</span>
-      <span class="tag">✓ Gift Box Packaging</span>
-      <span class="tag">✓ OEM/ODM Available</span>
+      <span class="tag">✓ 410 Stainless Steel</span>
+      <span class="tag">✓ Nordic / Minimalist Design</span>
+      <span class="tag">✓ Knife, Fork & Spoon Set</span>
+      <span class="tag">✓ Hotel & Restaurant Grade</span>
+      <span class="tag">✓ Multi-color Optional</span>
+      <span class="tag">✓ OEM / ODM / Custom Logo</span>
     </div>
 
     <!-- 快速询盘 -->
@@ -349,10 +350,10 @@ tags: ["Stone Pattern", "Heavy-duty", "Restaurant Grade"]
           <div class="form-group">
             <select name="quantity" required>
               <option value="">Select Quantity</option>
-              <option value="1000-3000">1,000 - 3,000 sets</option>
-              <option value="3000-5000">3,000 - 5,000 sets</option>
-              <option value="5000-10000">5,000 - 10,000 sets</option>
-              <option value="10000+">10,000+ sets</option>
+              <option value="100-500">100 - 500 pieces</option>
+              <option value="500-1000">500 - 1,000 pieces</option>
+              <option value="1000-3000">1,000 - 3,000 pieces</option>
+              <option value="3000+">3,000+ pieces</option>
             </select>
           </div>
           <div class="form-group">
@@ -365,7 +366,7 @@ tags: ["Stone Pattern", "Heavy-duty", "Restaurant Grade"]
 
     <p style="font-size:0.9em; color:#666;">
       <strong>Need samples?</strong> Sample cost $50/set, refundable upon order. 
-      <a href="mailto:sales@ding-yong.com?subject=Sample Request: 24pc Cutlery Set" style="color:#e94560;">Request Sample &rarr;</a>
+      <a href="mailto:sales@ding-yong.com?subject=Sample Request: 410 Stainless Steel Knife Fork Spoon Set" style="color:#e94560;">Request Sample &rarr;</a>
     </p>
   </div>
 
@@ -384,16 +385,20 @@ tags: ["Stone Pattern", "Heavy-duty", "Restaurant Grade"]
   <div id="specs" class="tab-content active">
     <h2>Product Specifications</h2>
     <table class="spec-table">
-      <tr><td>Material</td><td>18/10 (304) Austenitic Stainless Steel</td></tr>
-      <tr><td>Finish</td><td>Mirror Polish / PVD Gold / Silver</td></tr>
-      <tr><td>Set Composition</td><td>6 × Dinner Knife + 6 × Dinner Fork + 6 × Dinner Spoon + 6 × Tea Spoon (24 pieces total)</td></tr>
-      <tr><td>Container Design</td><td>Unique diamond-shaped bottle with transparent lid</td></tr>
-      <tr><td>Weight</td><td>3.2 kg / set (including bottle container)</td></tr>
-      <tr><td>Dimensions</td><td>Bottle: 18cm diameter × 22cm height</td></tr>
-      <tr><td>Customization</td><td>Laser logo engraving, custom color, pattern handle</td></tr>
+      <tr><td>Material</td><td>410 Stainless Steel</td></tr>
+      <tr><td>Finish</td><td>Mirror Polish / PVD Gold / Silver / Black / Rose Gold (customizable)</td></tr>
+      <tr><td>Flatware Type</td><td>Knife, Fork, and Spoon Set</td></tr>
+      <tr><td>Handle Design</td><td>Textured stone-pattern handle, Nordic/Minimalist style</td></tr>
+      <tr><td>Style</td><td>Nordic style, Minimalist style</td></tr>
+      <tr><td>Occasion</td><td>Hotel, Restaurant, Catering, Daily Use, Gift</td></tr>
+      <tr><td>Features</td><td>Portable, Reusable, Dishwasher-safe</td></tr>
+      <tr><td>Handle Material</td><td>Stainless Steel</td></tr>
+      <tr><td>Thickness</td><td>2.0 - 3.0 mm</td></tr>
+      <tr><td>Customization</td><td>Laser logo engraving, custom color/finish, private label (color +$0.10/pc, min. 100 pcs)</td></tr>
     </table>
 
-    <h3 style="margin-top:30px;">Available Colors</h3>
+    <h3 style="margin-top:30px;">Available Colors & Customization</h3>
+    <p style="color:#666; margin-bottom:15px;">Multiple colors in stock. Custom color/finish available with +$0.10/pc, minimum order 100 pieces. Drawing-based, sample-based and full customization supported.</p>
     <div style="display:flex; gap:15px; flex-wrap:wrap; margin:15px 0;">
       <div style="text-align:center;"><div style="width:60px; height:60px; background:linear-gradient(135deg, #c0c0c0, #e8e8e8); border-radius:50%; margin-bottom:5px;"></div><span style="font-size:0.85em;">Silver</span></div>
       <div style="text-align:center;"><div style="width:60px; height:60px; background:linear-gradient(135deg, #FFD700, #FFA500); border-radius:50%; margin-bottom:5px;"></div><span style="font-size:0.85em;">Gold</span></div>
@@ -408,29 +413,30 @@ tags: ["Stone Pattern", "Heavy-duty", "Restaurant Grade"]
     <h2>Packaging Options</h2>
     <div class="packaging-show">
       <div class="pack-item">
-        <img src="/assets/images/diamond/diamond-detail-4-1024.jpg" alt="Gift Box">
-        <h4>Diamond Gift Box</h4>
-        <p style="font-size:0.85em; color:#666;">Premium packaging with product image. MOQ: 500 sets.</p>
+        <img src="/assets/images/stone-pattern/stone-pattern-01-800.jpg" alt="Nordic Flatware Set">
+        <h4>Nordic Knife Fork Spoon Set</h4>
+        <p style="font-size:0.85em; color:#666;">Complete hotel/restaurant flatware set in minimalist design.</p>
       </div>
       <div class="pack-item">
-        <img src="/assets/images/diamond/diamond-detail-1-1024.jpg" alt="Gold Finish">
-        <h4>Gold Finish</h4>
-        <p style="font-size:0.85em; color:#666;">PVD gold plating, durable and elegant.</p>
+        <img src="/assets/images/stone-pattern/stone-pattern-04-800.jpg" alt="Stone Pattern Handle">
+        <h4>Textured Stone Handle</h4>
+        <p style="font-size:0.85em; color:#666;">Elegant grip with Nordic/Minimalist pattern.</p>
       </div>
       <div class="pack-item">
-        <img src="/assets/images/diamond/diamond-detail-2-1024.jpg" alt="Silver Finish">
-        <h4>Silver Finish</h4>
-        <p style="font-size:0.85em; color:#666;">Classic mirror polish, timeless design.</p>
+        <img src="/assets/images/stone-pattern/stone-pattern-05-800.jpg" alt="Multi-color Finish">
+        <h4>Multi-color Finish</h4>
+        <p style="font-size:0.85em; color:#666;">Silver, gold, rose gold, black and custom PVD colors.</p>
       </div>
     </div>
     <div style="background:#f8f9fa; padding:20px; border-radius:10px; margin-top:20px;">
       <h4>Outer Carton Information</h4>
       <table class="spec-table">
-        <tr><td>Carton Size</td><td>58 × 42 × 32 cm</td></tr>
-        <tr><td>Quantity</td><td>12 sets / carton</td></tr>
-        <tr><td>Gross Weight</td><td>15 kg / carton</td></tr>
-        <tr><td>20'FCL Load</td><td>1,200 cartons (14,400 sets)</td></tr>
-        <tr><td>40'FCL Load</td><td>2,500 cartons (30,000 sets)</td></tr>
+        <tr><td>Carton Size</td><td>Custom / standard export carton</td></tr>
+        <tr><td>Packing</td><td>Bulk packing, color box, gift box, or individual wrapping (custom)</td></tr>
+        <tr><td>Quantity</td><td>1,000 - 2,000 pcs / carton (depends on item/set)</td></tr>
+        <tr><td>MOQ</td><td>100 pieces</td></tr>
+        <tr><td>20'FCL Load</td><td>Approx. 22 - 26 tons</td></tr>
+        <tr><td>40'FCL Load</td><td>Approx. 26 - 28 tons</td></tr>
       </table>
     </div>
   </div>
@@ -489,26 +495,15 @@ tags: ["Stone Pattern", "Heavy-duty", "Restaurant Grade"]
 <div class="related-products">
   <h2>You May Also Like</h2>
   <div class="related-grid">
+    {% for p in site.products %}
+      {% unless p.url == page.url %}
     <div class="related-card">
-      <img src="/assets/images/flatware_small.jpg" alt="Dinner Fork">
-      <h4>Premium Dinner Fork</h4>
-      <div class="rel-price">$0.85/pc</div>
+      <a href="{{ p.url }}"><img src="{{ p.image }}" alt="{{ p.title }}"></a>
+      <h4><a href="{{ p.url }}" style="color:#1a1a2e; text-decoration:none;">{{ p.title }}</a></h4>
+      <div class="rel-price">{{ p.price }}</div>
     </div>
-    <div class="related-card">
-      <img src="/assets/images/serving_small.jpg" alt="Serving Spoon">
-      <h4>Large Serving Spoon</h4>
-      <div class="rel-price">$1.20/pc</div>
-    </div>
-    <div class="related-card">
-      <img src="/assets/images/hotel_small.jpg" alt="Hotel Set">
-      <h4>Hotel Bulk Set 500pc</h4>
-      <div class="rel-price">$8.50/pc</div>
-    </div>
-    <div class="related-card">
-      <img src="/assets/images/flatware_small.jpg" alt="Gift Set">
-      <h4>16-Piece Gift Box Set</h4>
-      <div class="rel-price">$9.80/set</div>
-    </div>
+      {% endunless %}
+    {% endfor %}
   </div>
 </div>
 
@@ -540,12 +535,12 @@ function buildInquiry(form) {
   var qty = form.quantity.value;
   var country = form.country.value;
   
-  var subject = 'Inquiry: Diamond Bottle Tableware Set - ' + qty + ' sets';
+  var subject = 'Inquiry: 410 Stainless Steel Knife Fork Spoon Set - ' + qty + ' pieces';
   var body = 'Dear Sales Team,%0D%0A%0D%0A' +
-    'I am interested in your 24-Piece Stainless Steel Cutlery Set.%0D%0A%0D%0A' +
+    'I am interested in your 410 Stainless Steel Knife Fork Spoon Set.%0D%0A%0D%0A' +
     'Name: ' + name + '%0D%0A' +
     'Email: ' + email + '%0D%0A' +
-    'Quantity: ' + qty + '%0D%0A' +
+    'Quantity: ' + qty + ' pieces%0D%0A' +
     'Destination: ' + country + '%0D%0A%0D%0A' +
     'Please send quotation and catalog.%0D%0A%0D%0A' +
     'Best regards';

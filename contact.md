@@ -255,7 +255,7 @@ permalink: /contact/
 
 I am interested in your stainless steel tableware products. Please find my inquiry details below:
 
-Product Interest: [e.g., 24pc Cutlery Set / Dinner Fork / Custom OEM]
+Product Interest: [e.g., 410 Stainless Steel Knife Fork Spoon Set / Diamond Bottle Tableware Set / Custom OEM]
 Quantity: [e.g., 3,000 sets]
 Destination Country: [e.g., USA / Germany / Japan]
 Target Price: [optional]

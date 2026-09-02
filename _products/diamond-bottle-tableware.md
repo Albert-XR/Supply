@@ -9,7 +9,7 @@ finish: "Mirror Polish / PVD Gold / Silver"
 certification: "FDA, LFGB"
 packaging: "Diamond Gift Box"
 image: /assets/images/products/diamond-bottle.jpg
-category: dinnerware
+category: cutlery-sets
 tags: ["18/10 SS", "Diamond Design", "PVD Gold", "Gift Box"]
 is_bestseller: true
 ---
@@ -352,7 +352,7 @@ is_bestseller: true
 
     <p style="font-size:0.9em; color:#666;">
       <strong>Need samples?</strong> Sample cost $50/set, refundable upon order. 
-      <a href="mailto:sales@ding-yong.com?subject=Sample Request: 24pc Cutlery Set" style="color:#e94560;">Request Sample &rarr;</a>
+      <a href="mailto:sales@ding-yong.com?subject=Sample Request: Diamond Bottle Tableware Set" style="color:#e94560;">Request Sample &rarr;</a>
     </p>
   </div>
 
@@ -395,17 +395,17 @@ is_bestseller: true
     <h2>Packaging Options</h2>
     <div class="packaging-show">
       <div class="pack-item">
-        <img src="/assets/images/diamond/diamond-detail-4-1024.jpg" alt="Gift Box">
+        <img src="/assets/images/diamond-bottle/diamond-detail-4-1024.jpg" alt="Gift Box">
         <h4>Diamond Gift Box</h4>
         <p style="font-size:0.85em; color:#666;">Premium packaging with product image. MOQ: 500 sets.</p>
       </div>
       <div class="pack-item">
-        <img src="/assets/images/diamond/diamond-detail-1-1024.jpg" alt="Gold Finish">
+        <img src="/assets/images/diamond-bottle/diamond-detail-1-1024.jpg" alt="Gold Finish">
         <h4>Gold Finish</h4>
         <p style="font-size:0.85em; color:#666;">PVD gold plating, durable and elegant.</p>
       </div>
       <div class="pack-item">
-        <img src="/assets/images/diamond/diamond-detail-2-1024.jpg" alt="Silver Finish">
+        <img src="/assets/images/diamond-bottle/diamond-detail-2-1024.jpg" alt="Silver Finish">
         <h4>Silver Finish</h4>
         <p style="font-size:0.85em; color:#666;">Classic mirror polish, timeless design.</p>
       </div>
@@ -476,26 +476,15 @@ is_bestseller: true
 <div class="related-products">
   <h2>You May Also Like</h2>
   <div class="related-grid">
+    {% for p in site.products %}
+      {% unless p.url == page.url %}
     <div class="related-card">
-      <img src="/assets/images/flatware_small.jpg" alt="Dinner Fork">
-      <h4>Premium Dinner Fork</h4>
-      <div class="rel-price">$0.85/pc</div>
+      <a href="{{ p.url }}"><img src="{{ p.image }}" alt="{{ p.title }}"></a>
+      <h4><a href="{{ p.url }}" style="color:#1a1a2e; text-decoration:none;">{{ p.title }}</a></h4>
+      <div class="rel-price">{{ p.price }}</div>
     </div>
-    <div class="related-card">
-      <img src="/assets/images/serving_small.jpg" alt="Serving Spoon">
-      <h4>Large Serving Spoon</h4>
-      <div class="rel-price">$1.20/pc</div>
-    </div>
-    <div class="related-card">
-      <img src="/assets/images/hotel_small.jpg" alt="Hotel Set">
-      <h4>Hotel Bulk Set 500pc</h4>
-      <div class="rel-price">$8.50/pc</div>
-    </div>
-    <div class="related-card">
-      <img src="/assets/images/flatware_small.jpg" alt="Gift Set">
-      <h4>16-Piece Gift Box Set</h4>
-      <div class="rel-price">$9.80/set</div>
-    </div>
+      {% endunless %}
+    {% endfor %}
   </div>
 </div>
 
@@ -529,7 +518,7 @@ function buildInquiry(form) {
   
   var subject = 'Inquiry: Diamond Bottle Tableware Set - ' + qty + ' sets';
   var body = 'Dear Sales Team,%0D%0A%0D%0A' +
-    'I am interested in your 24-Piece Stainless Steel Cutlery Set.%0D%0A%0D%0A' +
+    'I am interested in your Diamond Bottle Tableware Set.%0D%0A%0D%0A' +
     'Name: ' + name + '%0D%0A' +
     'Email: ' + email + '%0D%0A' +
     'Quantity: ' + qty + '%0D%0A' +
