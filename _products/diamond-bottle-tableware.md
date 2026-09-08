@@ -297,11 +297,11 @@ is_bestseller: true
   <div class="product-gallery">
     <img src="/assets/images/diamond-bottle/diamond-main-1024.jpg" alt="Diamond Bottle Tableware" class="main-image" id="mainImage">
     <div class="thumbnail-list">
-      <img src="/assets/images/diamond-bottle/diamond-main-180.jpg" class="thumbnail active" onclick="changeImage(this, '/assets/images/diamond-bottle/diamond-main-1024.jpg')">
-      <img src="/assets/images/diamond-bottle/diamond-detail-1-180.jpg" class="thumbnail" onclick="changeImage(this, '/assets/images/diamond-bottle/diamond-detail-1-1024.jpg')">
-      <img src="/assets/images/diamond-bottle/diamond-detail-2-180.jpg" class="thumbnail" onclick="changeImage(this, '/assets/images/diamond-bottle/diamond-detail-2-1024.jpg')">
-      <img src="/assets/images/diamond-bottle/diamond-detail-3-180.jpg" class="thumbnail" onclick="changeImage(this, '/assets/images/diamond-bottle/diamond-detail-3-1024.jpg')">
-      <img src="/assets/images/diamond-bottle/diamond-detail-4-180.jpg" class="thumbnail" onclick="changeImage(this, '/assets/images/diamond-bottle/diamond-detail-4-1024.jpg')">
+      <img src="/assets/images/diamond-bottle/diamond-main-180.jpg" class="thumbnail active" loading="lazy" onclick="changeImage(this, '/assets/images/diamond-bottle/diamond-main-1024.jpg')">
+      <img src="/assets/images/diamond-bottle/diamond-detail-1-180.jpg" class="thumbnail" loading="lazy" onclick="changeImage(this, '/assets/images/diamond-bottle/diamond-detail-1-1024.jpg')">
+      <img src="/assets/images/diamond-bottle/diamond-detail-2-180.jpg" class="thumbnail" loading="lazy" onclick="changeImage(this, '/assets/images/diamond-bottle/diamond-detail-2-1024.jpg')">
+      <img src="/assets/images/diamond-bottle/diamond-detail-3-180.jpg" class="thumbnail" loading="lazy" onclick="changeImage(this, '/assets/images/diamond-bottle/diamond-detail-3-1024.jpg')">
+      <img src="/assets/images/diamond-bottle/diamond-detail-4-180.jpg" class="thumbnail" loading="lazy" onclick="changeImage(this, '/assets/images/diamond-bottle/diamond-detail-4-1024.jpg')">
     </div>
   </div>
 
@@ -323,7 +323,11 @@ is_bestseller: true
     <!-- 快速询盘 -->
     <div class="quick-inquiry">
       <h3>Quick Inquiry</h3>
-      <form action="mailto:sales@ding-yong.com" method="GET" onsubmit="return buildInquiry(this)">
+      <form action="https://api.web3forms.com/submit" method="POST">
+        <input type="hidden" name="access_key" value="{{ site.web3forms_access_key }}">
+        <input type="hidden" name="subject" value="New Inquiry: Diamond Bottle Tableware Set">
+        <input type="hidden" name="redirect" value="https://www.ding-yong.com/thank-you/">
+        <input type="checkbox" name="botcheck" class="hidden" style="display:none;" tabindex="-1" autocomplete="off">
         <div class="form-row">
           <div class="form-group">
             <input type="text" name="name" placeholder="Your Name" required>
@@ -510,23 +514,4 @@ function switchTab(tabId) {
   event.target.classList.add('active');
 }
 
-function buildInquiry(form) {
-  var name = form.name.value;
-  var email = form.email.value;
-  var qty = form.quantity.value;
-  var country = form.country.value;
-  
-  var subject = 'Inquiry: Diamond Bottle Tableware Set - ' + qty + ' sets';
-  var body = 'Dear Sales Team,%0D%0A%0D%0A' +
-    'I am interested in your Diamond Bottle Tableware Set.%0D%0A%0D%0A' +
-    'Name: ' + name + '%0D%0A' +
-    'Email: ' + email + '%0D%0A' +
-    'Quantity: ' + qty + '%0D%0A' +
-    'Destination: ' + country + '%0D%0A%0D%0A' +
-    'Please send quotation and catalog.%0D%0A%0D%0A' +
-    'Best regards';
-  
-  form.action = 'mailto:sales@ding-yong.com?subject=' + encodeURIComponent(subject) + '&body=' + body;
-  return true;
-}
 </script>

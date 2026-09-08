@@ -307,11 +307,11 @@ is_bestseller: true
   <div class="product-gallery">
     <img src="/assets/images/anti-scalding-set/1.jpg" alt="4-Piece Anti-Scalding Kitchen Tool Set" class="main-image" id="mainImage">
     <div class="thumbnail-list">
-      <img src="/assets/images/anti-scalding-set/1.jpg" class="thumbnail active" onclick="changeImage(this, '/assets/images/anti-scalding-set/1.jpg')">
-      <img src="/assets/images/anti-scalding-set/2.jpg" class="thumbnail" onclick="changeImage(this, '/assets/images/anti-scalding-set/2.jpg')">
-      <img src="/assets/images/anti-scalding-set/3.jpg" class="thumbnail" onclick="changeImage(this, '/assets/images/anti-scalding-set/3.jpg')">
-      <img src="/assets/images/anti-scalding-set/白底杏.jpg" class="thumbnail" onclick="changeImage(this, '/assets/images/anti-scalding-set/白底杏.jpg')">
-      <img src="/assets/images/anti-scalding-set/4.jpg" class="thumbnail" onclick="changeImage(this, '/assets/images/anti-scalding-set/4.jpg')">
+      <img src="/assets/images/anti-scalding-set/1.jpg" class="thumbnail active" loading="lazy" onclick="changeImage(this, '/assets/images/anti-scalding-set/1.jpg')">
+      <img src="/assets/images/anti-scalding-set/2.jpg" class="thumbnail" loading="lazy" onclick="changeImage(this, '/assets/images/anti-scalding-set/2.jpg')">
+      <img src="/assets/images/anti-scalding-set/3.jpg" class="thumbnail" loading="lazy" onclick="changeImage(this, '/assets/images/anti-scalding-set/3.jpg')">
+      <img src="/assets/images/anti-scalding-set/白底杏.jpg" class="thumbnail" loading="lazy" onclick="changeImage(this, '/assets/images/anti-scalding-set/白底杏.jpg')">
+      <img src="/assets/images/anti-scalding-set/4.jpg" class="thumbnail" loading="lazy" onclick="changeImage(this, '/assets/images/anti-scalding-set/4.jpg')">
     </div>
   </div>
 
@@ -333,7 +333,11 @@ is_bestseller: true
     <!-- 快速询盘 -->
     <div class="quick-inquiry">
       <h3>Quick Inquiry</h3>
-      <form action="mailto:sales@ding-yong.com" method="GET" onsubmit="return buildInquiry(this)">
+      <form action="https://api.web3forms.com/submit" method="POST">
+        <input type="hidden" name="access_key" value="{{ site.web3forms_access_key }}">
+        <input type="hidden" name="subject" value="New Inquiry: 4-Piece Anti-Scalding Kitchen Tool Set">
+        <input type="hidden" name="redirect" value="https://www.ding-yong.com/thank-you/">
+        <input type="checkbox" name="botcheck" class="hidden" style="display:none;" tabindex="-1" autocomplete="off">
         <div class="form-row">
           <div class="form-group">
             <input type="text" name="name" placeholder="Your Name" required>
@@ -522,23 +526,4 @@ function switchTab(tabId) {
   event.target.classList.add('active');
 }
 
-function buildInquiry(form) {
-  var name = form.name.value;
-  var email = form.email.value;
-  var qty = form.quantity.value;
-  var country = form.country.value;
-
-  var subject = 'Inquiry: 4-Piece Anti-Scalding Kitchen Tool Set - ' + qty + ' sets';
-  var body = 'Dear Sales Team,%0D%0A%0D%0A' +
-    'I am interested in your 4-Piece Anti-Scalding Kitchen Tool Set.%0D%0A%0D%0A' +
-    'Name: ' + name + '%0D%0A' +
-    'Email: ' + email + '%0D%0A' +
-    'Quantity: ' + qty + '%0D%0A' +
-    'Destination: ' + country + '%0D%0A%0D%0A' +
-    'Please send quotation and catalog.%0D%0A%0D%0A' +
-    'Best regards';
-
-  form.action = 'mailto:sales@ding-yong.com?subject=' + encodeURIComponent(subject) + '&body=' + body;
-  return true;
-}
 </script>

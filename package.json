@@ -28,6 +28,7 @@
     "postcss-import": "^16.1.1",
     "postcss-nested": "^7.0.2",
     "postcss-preset-env": "^11.2.1",
+    "sharp": "^0.35.4",
     "uglify-js": "^3.19.3"
   },
   "contributors": [
@@ -42,6 +43,7 @@
     "minify-js": "uglifyjs assets/js/*.js -o assets/js/script.min.js",
     "build": "npm run build:css && npm run minify:css",
     "build:css": "postcss src/sup-tachyons.css > assets/css/sup-tachyons.css",
-    "minify:css": "postcss assets/css/sup-tachyons.css > assets/css/sup-tachyons.min.css  --use cssnano"
+    "minify:css": "postcss assets/css/sup-tachyons.css > assets/css/sup-tachyons.min.css  --use cssnano",
+    "optimize:images": "node scripts/optimize-images.js"
   }
 }

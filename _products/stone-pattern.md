@@ -308,13 +308,13 @@ tags: ["Nordic Style", "Minimalist", "410 Stainless Steel", "Hotel Restaurant", 
   <div class="product-gallery">
     <img src="/assets/images/stone-pattern/stone-pattern-01-800.jpg" alt="Stone Pattern" class="main-image" id="mainImage">
     <div class="thumbnail-list">
-      <img src="/assets/images/stone-pattern/stone-pattern-1-180.jpg" class="thumbnail active" onclick="changeImage(this, '/assets/images/stone-pattern/stone-pattern-01-800.jpg')">
-      <img src="/assets/images/stone-pattern/stone-pattern-2-180.jpg" class="thumbnail" onclick="changeImage(this, '/assets/images/stone-pattern/stone-pattern-02-800.jpg')">
-      <img src="/assets/images/stone-pattern/stone-pattern-3-180.jpg" class="thumbnail" onclick="changeImage(this, '/assets/images/stone-pattern/stone-pattern-03-800.jpg')">
-      <img src="/assets/images/stone-pattern/stone-pattern-4-180.jpg" class="thumbnail" onclick="changeImage(this, '/assets/images/stone-pattern/stone-pattern-04-800.jpg')">
-      <img src="/assets/images/stone-pattern/stone-pattern-5-180.jpg" class="thumbnail" onclick="changeImage(this, '/assets/images/stone-pattern/stone-pattern-05-800.jpg')">
-      <img src="/assets/images/stone-pattern/stone-pattern-6-180.jpg" class="thumbnail" onclick="changeImage(this, '/assets/images/stone-pattern/stone-pattern-06-800.jpg')">
-      <img src="/assets/images/stone-pattern/stone-pattern-7-180.jpg" class="thumbnail" onclick="changeImage(this, '/assets/images/stone-pattern/stone-pattern-07-800.jpg')">
+      <img src="/assets/images/stone-pattern/stone-pattern-1-180.jpg" class="thumbnail active" loading="lazy" onclick="changeImage(this, '/assets/images/stone-pattern/stone-pattern-01-800.jpg')">
+      <img src="/assets/images/stone-pattern/stone-pattern-2-180.jpg" class="thumbnail" loading="lazy" onclick="changeImage(this, '/assets/images/stone-pattern/stone-pattern-02-800.jpg')">
+      <img src="/assets/images/stone-pattern/stone-pattern-3-180.jpg" class="thumbnail" loading="lazy" onclick="changeImage(this, '/assets/images/stone-pattern/stone-pattern-03-800.jpg')">
+      <img src="/assets/images/stone-pattern/stone-pattern-4-180.jpg" class="thumbnail" loading="lazy" onclick="changeImage(this, '/assets/images/stone-pattern/stone-pattern-04-800.jpg')">
+      <img src="/assets/images/stone-pattern/stone-pattern-5-180.jpg" class="thumbnail" loading="lazy" onclick="changeImage(this, '/assets/images/stone-pattern/stone-pattern-05-800.jpg')">
+      <img src="/assets/images/stone-pattern/stone-pattern-6-180.jpg" class="thumbnail" loading="lazy" onclick="changeImage(this, '/assets/images/stone-pattern/stone-pattern-06-800.jpg')">
+      <img src="/assets/images/stone-pattern/stone-pattern-7-180.jpg" class="thumbnail" loading="lazy" onclick="changeImage(this, '/assets/images/stone-pattern/stone-pattern-07-800.jpg')">
     </div>
   </div>
 
@@ -337,7 +337,11 @@ tags: ["Nordic Style", "Minimalist", "410 Stainless Steel", "Hotel Restaurant", 
     <!-- 快速询盘 -->
     <div class="quick-inquiry">
       <h3>Quick Inquiry</h3>
-      <form action="mailto:sales@ding-yong.com" method="GET" onsubmit="return buildInquiry(this)">
+      <form action="https://api.web3forms.com/submit" method="POST">
+        <input type="hidden" name="access_key" value="{{ site.web3forms_access_key }}">
+        <input type="hidden" name="subject" value="New Inquiry: 410 Stainless Steel Knife Fork Spoon Set">
+        <input type="hidden" name="redirect" value="https://www.ding-yong.com/thank-you/">
+        <input type="checkbox" name="botcheck" class="hidden" style="display:none;" tabindex="-1" autocomplete="off">
         <div class="form-row">
           <div class="form-group">
             <input type="text" name="name" placeholder="Your Name" required>
@@ -529,23 +533,4 @@ function switchTab(tabId) {
   event.target.classList.add('active');
 }
 
-function buildInquiry(form) {
-  var name = form.name.value;
-  var email = form.email.value;
-  var qty = form.quantity.value;
-  var country = form.country.value;
-  
-  var subject = 'Inquiry: 410 Stainless Steel Knife Fork Spoon Set - ' + qty + ' pieces';
-  var body = 'Dear Sales Team,%0D%0A%0D%0A' +
-    'I am interested in your 410 Stainless Steel Knife Fork Spoon Set.%0D%0A%0D%0A' +
-    'Name: ' + name + '%0D%0A' +
-    'Email: ' + email + '%0D%0A' +
-    'Quantity: ' + qty + ' pieces%0D%0A' +
-    'Destination: ' + country + '%0D%0A%0D%0A' +
-    'Please send quotation and catalog.%0D%0A%0D%0A' +
-    'Best regards';
-  
-  form.action = 'mailto:sales@ding-yong.com?subject=' + encodeURIComponent(subject) + '&body=' + body;
-  return true;
-}
 </script>

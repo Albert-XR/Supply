@@ -4,7 +4,7 @@ description: "Professional manufacturer of stainless steel cutlery, flatware and
 email: sales@ding-yong.com
 url: "https://www.ding-yong.com" # the base hostname & protocol for your site, e.g. http://example.com, also used in jekyll-seo-tag
 baseurl: ""
-google_analytics_key:
+google_analytics_key: "G-ZF0WEH06MP"
 
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
 logo: /siteicon.png
@@ -63,8 +63,12 @@ exclude:
   - vendor/cache/
   - vendor/gems/
   - vendor/ruby/
+  - backup-images-*/
 
 # Contact settings
+# 询盘表单后端：Web3Forms（https://web3forms.com，免费 250 次提交/月）
+# 到 web3forms.com 输入 sales@ding-yong.com 获取 Access Key 后，替换下面占位符
+web3forms_access_key: "f554575e-288a-4f38-aef1-80fda15f66e2"
 
 feed:
   collections:

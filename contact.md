@@ -141,6 +141,53 @@ permalink: /contact/
   font-size: 0.9em;
 }
 
+.contact-form {
+  background: white;
+  padding: 25px;
+  border-radius: 12px;
+  border: 1px solid #e0e0e0;
+  margin-bottom: 25px;
+}
+.contact-form h3 { margin: 0 0 18px 0; color: #1a1a2e; }
+.contact-form input,
+.contact-form select,
+.contact-form textarea {
+  width: 100%;
+  padding: 12px 14px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 0.95em;
+  font-family: inherit;
+  margin-bottom: 14px;
+  box-sizing: border-box;
+  background: #fff;
+  color: #333;
+}
+.contact-form input:focus,
+.contact-form select:focus,
+.contact-form textarea:focus {
+  outline: none;
+  border-color: #e94560;
+}
+.cform-row { display: flex; gap: 14px; }
+.cform-row > * { flex: 1; }
+.submit-btn {
+  width: 100%;
+  padding: 14px;
+  background: #e94560;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 1.05em;
+  font-weight: bold;
+  cursor: pointer;
+}
+.submit-btn:hover { background: #d1334d; }
+
+@media (max-width: 768px) {
+  .cform-row { flex-direction: column; gap: 0; }
+}
+
 @media (max-width: 768px) {
   .contact-grid { grid-template-columns: 1fr; }
 }
@@ -222,6 +269,36 @@ permalink: /contact/
 
 <div class="inquiry-guide">
 <h2>How to Inquire</h2>
+
+<div class="contact-form">
+<h3>&#128221; Send Us an Inquiry</h3>
+<form action="https://api.web3forms.com/submit" method="POST">
+  <input type="hidden" name="access_key" value="{{ site.web3forms_access_key }}">
+  <input type="hidden" name="subject" value="New Website Inquiry from Contact Page">
+  <input type="hidden" name="redirect" value="https://www.ding-yong.com/thank-you/">
+  <input type="checkbox" name="botcheck" class="hidden" style="display:none;" tabindex="-1" autocomplete="off">
+  <div class="cform-row">
+    <input type="text" name="name" placeholder="Your Name *" required>
+    <input type="email" name="email" placeholder="Email Address *" required>
+  </div>
+  <div class="cform-row">
+    <input type="text" name="company" placeholder="Company (optional)">
+    <input type="text" name="country" placeholder="Country / Region">
+  </div>
+  <div class="cform-row">
+    <select name="quantity" required>
+      <option value="">Target Quantity *</option>
+      <option value="Samples first">Samples first</option>
+      <option value="Under 1,000 pcs">Under 1,000 pcs</option>
+      <option value="1,000 - 5,000 pcs">1,000 - 5,000 pcs</option>
+      <option value="5,000 - 10,000 pcs">5,000 - 10,000 pcs</option>
+      <option value="10,000+ pcs">10,000+ pcs</option>
+    </select>
+  </div>
+  <textarea name="message" rows="4" placeholder="Tell us about your needs (product, material, finish, packaging, logo...)"></textarea>
+  <button type="submit" class="submit-btn">Submit Inquiry</button>
+</form>
+</div>
 
 <div class="tip-box">
 <p><strong>&#128161; Recommended:</strong> For fastest response, include:</p>

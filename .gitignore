@@ -13,3 +13,6 @@ Gemfile.lock
 node_modules
 npm-debug.log*
 .nova
+
+# Local image compression backups
+backup-images-*/

@@ -214,7 +214,7 @@ img { max-width: 100%; height: auto; }
   <div class="category-grid">
     
     <div class="category-card">
-      <img src="/assets/images/home/portugal-400.jpg" alt="Portugal Series Cutlery">
+      <img src="/assets/images/home/portugal-400.jpg" alt="Portugal Series Cutlery" loading="lazy">
       <div class="category-info">
         <h3>Cutlery Sets</h3>
         <p>24pc/72pc dinnerware sets, Portugal Series, multi-colour titanium plated</p>
@@ -223,7 +223,7 @@ img { max-width: 100%; height: auto; }
     </div>
 
     <div class="category-card">
-      <img src="/assets/images/home/christmas-400.jpg" alt="Christmas Flatware">
+      <img src="/assets/images/home/christmas-400.jpg" alt="Christmas Flatware" loading="lazy">
       <div class="category-info">
         <h3>Flatware</h3>
         <p>Christmas dessert spoons, patterned handles, gift-giving preferred</p>
@@ -232,7 +232,7 @@ img { max-width: 100%; height: auto; }
     </div>
 
     <div class="category-card">
-      <img src="/assets/images/home/kitchen-400.jpg" alt="Kitchen Anti-scalding Set">
+      <img src="/assets/images/home/kitchen-400.jpg" alt="Kitchen Anti-scalding Set" loading="lazy">
       <div class="category-info">
         <h3>Kitchen gadgets</h3>
         <p>Kitchen anti-scalding set, patented product, beautiful and practical</p>
@@ -241,7 +241,7 @@ img { max-width: 100%; height: auto; }
     </div>
 
     <div class="category-card">
-      <img src="/assets/images/home/goldbox-400.jpg" alt="Gold Box with Handle">
+      <img src="/assets/images/home/goldbox-400.jpg" alt="Gold Box with Handle" loading="lazy">
       <div class="category-info">
         <h3>Hotel & Restaurant</h3>
         <p>Gold gift box with handle, exquisite packaging, thickened material</p>
