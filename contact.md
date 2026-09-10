@@ -275,7 +275,8 @@ permalink: /contact/
 <form action="https://api.web3forms.com/submit" method="POST">
   <input type="hidden" name="access_key" value="{{ site.web3forms_access_key }}">
   <input type="hidden" name="subject" value="New Website Inquiry from Contact Page">
-  <input type="hidden" name="redirect" value="https://www.ding-yong.com/thank-you/">
+  <input type="hidden" name="redirect" id="form-redirect" value="">
+  <script>document.getElementById('form-redirect').value = window.location.origin + '/thank-you/';</script>
   <input type="checkbox" name="botcheck" class="hidden" style="display:none;" tabindex="-1" autocomplete="off">
   <div class="cform-row">
     <input type="text" name="name" placeholder="Your Name *" required>

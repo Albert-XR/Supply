@@ -340,7 +340,8 @@ tags: ["Nordic Style", "Minimalist", "410 Stainless Steel", "Hotel Restaurant", 
       <form action="https://api.web3forms.com/submit" method="POST">
         <input type="hidden" name="access_key" value="{{ site.web3forms_access_key }}">
         <input type="hidden" name="subject" value="New Inquiry: 410 Stainless Steel Knife Fork Spoon Set">
-        <input type="hidden" name="redirect" value="https://www.ding-yong.com/thank-you/">
+        <input type="hidden" name="redirect" id="form-redirect" value="">
+        <script>document.getElementById('form-redirect').value = window.location.origin + '/thank-you/';</script>
         <input type="checkbox" name="botcheck" class="hidden" style="display:none;" tabindex="-1" autocomplete="off">
         <div class="form-row">
           <div class="form-group">
