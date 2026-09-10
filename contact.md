@@ -219,6 +219,84 @@ permalink: /contact/
   background: transparent;
   border: 2px solid white;
 }
+
+/* Why Choose Us (整行 section) */
+.why-choose-full {
+  background: #f8f9fa;
+  padding: 30px;
+  border-radius: 12px;
+  margin: 30px 0 0 0;
+}
+.why-choose-full h3 {
+  color: #1a1a2e;
+  margin: 0 0 18px 0;
+  font-size: 1.2em;
+  text-align: center;
+}
+.feature-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 12px;
+}
+.feature {
+  background: white;
+  padding: 18px 12px;
+  border-radius: 8px;
+  border-left: 3px solid #e94560;
+  text-align: center;
+}
+.feature-icon { font-size: 1.8em; display: block; margin-bottom: 6px; }
+.feature strong {
+  display: block;
+  color: #1a1a2e;
+  font-size: 0.95em;
+  margin-bottom: 4px;
+}
+.feature p {
+  margin: 0;
+  color: #666;
+  font-size: 0.85em;
+  line-height: 1.4;
+}
+
+@media (max-width: 992px) {
+  .feature-grid { grid-template-columns: 1fr 1fr; }
+}
+@media (max-width: 480px) {
+  .feature-grid { grid-template-columns: 1fr; }
+}
+
+/* 表单上方提示语 */
+.guide-text {
+  color: #555;
+  margin: 0 0 18px 0;
+  font-size: 0.95em;
+  line-height: 1.5;
+}
+
+/* 邮件模板（全宽 section） */
+.inquiry-template-full {
+  background: #f8f9fa;
+  padding: 30px;
+  border-radius: 12px;
+  margin-top: 30px;
+}
+.inquiry-template-full h3 {
+  color: #1a1a2e;
+  margin: 0 0 8px 0;
+}
+.inquiry-template-full > p {
+  color: #666;
+  font-size: 0.9em;
+  margin: 0 0 15px 0;
+}
+
+@media (max-width: 992px) {
+  .feature-grid { grid-template-columns: 1fr 1fr; }
+}
+@media (max-width: 480px) {
+  .feature-grid { grid-template-columns: 1fr; }
+}
 </style>
 
 <div class="contact-page">
@@ -235,7 +313,7 @@ permalink: /contact/
 <div class="info-content">
 <h4>Email</h4>
 <p><a href="mailto:sales@ding-yong.com">sales@ding-yong.com</a></p>
-<p style="font-size: 0.85em; color: #888; margin-top: 5px;">For quotes & general inquiries</p>
+<p style="font-size: 0.85em; color: #888; margin-top: 5px;">For quotes &amp; general inquiries</p>
 </div>
 </div>
 
@@ -268,10 +346,10 @@ permalink: /contact/
 </div>
 
 <div class="inquiry-guide">
-<h2>How to Inquire</h2>
+<h2>Send Us an Inquiry</h2>
+<p class="guide-text">We reply within 24 hours. For fastest response, please include target product, quantity, and destination country.</p>
 
 <div class="contact-form">
-<h3>&#128221; Send Us an Inquiry</h3>
 <form action="https://api.web3forms.com/submit" method="POST">
   <input type="hidden" name="access_key" value="{{ site.web3forms_access_key }}">
   <input type="hidden" name="subject" value="New Website Inquiry from Contact Page">
@@ -301,34 +379,41 @@ permalink: /contact/
 </form>
 </div>
 
-<div class="tip-box">
-<p><strong>&#128161; Recommended:</strong> For fastest response, include:</p>
-<ul>
-<li>Product name or photo</li>
-<li>Target quantity</li>
-<li>Destination country</li>
-<li>Any custom requirements (logo, packaging, etc.)</li>
-</ul>
-</div>
-
-<div class="contact-method">
-<div class="method-icon">&#9993;</div>
-<h4>Email Us</h4>
-<p><a href="mailto:sales@ding-yong.com">sales@ding-yong.com</a></p>
-<p>Reply within 24 hours</p>
-</div>
-
-<div class="contact-method">
-<div class="method-icon">&#128172;</div>
-<h4>WhatsApp</h4>
-<p><a href="https://wa.me/8613822066349" target="_blank">+86 138-2206-6349</a></p>
-<p>Fastest response</p>
-</div>
-
 <a href="https://wa.me/8613822066349" target="_blank" class="whatsapp-btn">&#128172; Chat on WhatsApp Now</a>
 
-<div class="inquiry-template">
-<h4>&#128203; Copy-Paste Inquiry Template</h4>
+</div>
+
+</div>
+
+<div class="why-choose-full">
+<h3>Why Work With Us</h3>
+<div class="feature-grid">
+  <div class="feature">
+    <span class="feature-icon">&#127981;</span>
+    <strong>20+ Years Experience</strong>
+    <p>Stainless steel cutlery manufacturing since 2003</p>
+  </div>
+  <div class="feature">
+    <span class="feature-icon">&#128101;</span>
+    <strong>200+ Workers</strong>
+    <p>Skilled team in 8,000 m&sup2; facility</p>
+  </div>
+  <div class="feature">
+    <span class="feature-icon">&#127757;</span>
+    <strong>30+ Countries</strong>
+    <p>Exporting to North America, Europe, Middle East, SE Asia</p>
+  </div>
+  <div class="feature">
+    <span class="feature-icon">&#9989;</span>
+    <strong>Certified Quality</strong>
+    <p>FDA, LFGB, BSCI, ISO 9001 compliant</p>
+  </div>
+</div>
+</div>
+
+<div class="inquiry-template-full">
+<h3>&#128203; Copy-Paste Email Template</h3>
+<p>Prefer email? Copy and paste this template to <a href="mailto:sales@ding-yong.com">sales@ding-yong.com</a>:</p>
 <pre id="templateText">Dear Sales Team,
 
 I am interested in your stainless steel tableware products. Please find my inquiry details below:
@@ -352,10 +437,6 @@ Best regards,
 [Your Company]
 [Your WhatsApp/Email]</pre>
 <button class="copy-btn" onclick="copyTemplate()">&#128203; Copy Template</button>
-</div>
-
-</div>
-
 </div>
 
 </div>

@@ -16,3 +16,7 @@ npm-debug.log*
 
 # Local image compression backups
 backup-images-*/
+
+# Local dev scripts (one-off tooling, not for production)
+scripts/
+*.bat
