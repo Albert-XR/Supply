@@ -79,11 +79,6 @@ permalink: /about/
   padding: 40px 20px;
 }
 
-/* 覆盖主题默认的 measure-wide 窄宽度，让 About 页内容更宽 */
-.page.measure-wide {
-  max-width: 1200px !important;
-}
-
 /* 标题区域 */
 .about-header {
   text-align: center;
@@ -231,7 +226,7 @@ permalink: /about/
   font-size: 0.9em;
 }
 
-/* 时间线 - 横轴布局 */
+/* 时间线 */
 .timeline-section {
   margin: 60px 0;
 }
@@ -245,39 +240,31 @@ permalink: /about/
 
 .timeline {
   position: relative;
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-  padding-top: 30px;
-  gap: 20px;
+  padding-left: 30px;
 }
 
 .timeline::before {
   content: '';
   position: absolute;
-  top: 10px;
   left: 0;
-  right: 0;
-  height: 2px;
+  top: 0;
+  bottom: 0;
+  width: 2px;
   background: #e94560;
 }
 
 .timeline-item {
   position: relative;
-  flex: 1 1 0;
-  text-align: center;
-  padding-top: 30px;
-  min-width: 0;
+  padding-bottom: 30px;
 }
 
 .timeline-item::before {
   content: '';
   position: absolute;
+  left: -34px;
   top: 5px;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 12px;
-  height: 12px;
+  width: 10px;
+  height: 10px;
   border-radius: 50%;
   background: #e94560;
   border: 2px solid white;
@@ -288,13 +275,12 @@ permalink: /about/
   font-weight: bold;
   color: #e94560;
   font-size: 1.1em;
-  margin-bottom: 8px;
+  margin-bottom: 5px;
 }
 
 .timeline-text {
   color: #555;
   line-height: 1.6;
-  font-size: 0.95em;
 }
 
 /* 响应式 */
@@ -310,33 +296,6 @@ permalink: /about/
   
   .stats-section {
     grid-template-columns: repeat(2, 1fr);
-  }
-  
-  .timeline {
-    display: block;
-    padding-left: 30px;
-    padding-top: 0;
-  }
-  
-  .timeline::before {
-    left: 0;
-    top: 0;
-    bottom: 0;
-    width: 2px;
-    height: auto;
-    right: auto;
-  }
-  
-  .timeline-item {
-    text-align: left;
-    padding-top: 0;
-    padding-bottom: 25px;
-  }
-  
-  .timeline-item::before {
-    left: -34px;
-    top: 5px;
-    transform: none;
   }
 }
 
