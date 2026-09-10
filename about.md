@@ -4,6 +4,73 @@ title: About Us
 permalink: /about/
 ---
 
+<!-- LocalBusiness Schema (About 页) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "@id": "https://www.ding-yong.com/about/#localbusiness",
+  "name": "Ding-Yong Products Co., Ltd",
+  "alternateName": "DINGYONG",
+  "url": "https://www.ding-yong.com/about/",
+  "logo": "https://www.ding-yong.com/siteicon.png",
+  "image": "https://www.ding-yong.com/siteicon.png",
+  "description": "Stainless steel cutlery and flatware manufacturer in Guangdong, China. OEM/ODM services for hotels, restaurants, and retail brands.",
+  "telephone": "+86-138-2206-6349",
+  "email": "sales@ding-yong.com",
+  "foundingDate": "2010",
+  "priceRange": "$$",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "No. 2, 1st Floor, Maifeng Commercial Building, Chating Road, Xixi Village, Xichang Town, Jiedong District",
+    "addressLocality": "Jieyang City",
+    "addressRegion": "Guangdong Province",
+    "addressCountry": "CN"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 23.55,
+    "longitude": 116.37
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],
+      "opens": "08:30",
+      "closes": "18:00"
+    }
+  ],
+  "parentOrganization": {
+    "@type": "Organization",
+    "name": "Ding-Yong Products Co., Ltd",
+    "url": "https://www.ding-yong.com/"
+  }
+}
+</script>
+
+<!-- VideoObject Schema (工厂视频) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  "name": "Ding-Yong Factory Tour",
+  "description": "Watch how your stainless steel tableware is crafted from raw steel to finished products at our 5,000 m² facility in Guangdong, China.",
+  "thumbnailUrl": "https://i.ytimg.com/vi/rxGmVh_LP3A/maxresdefault.jpg",
+  "uploadDate": "2024-01-01",
+  "duration": "PT2M30S",
+  "contentUrl": "https://www.youtube.com/watch?v=rxGmVh_LP3A",
+  "embedUrl": "https://www.youtube.com/embed/rxGmVh_LP3A",
+  "publisher": {
+    "@type": "Organization",
+    "name": "Ding-Yong Products Co., Ltd",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://www.ding-yong.com/siteicon.png"
+    }
+  }
+}
+</script>
+
 <style>
 /* About 页面整体布局 */
 .about-container {

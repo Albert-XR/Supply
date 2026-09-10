@@ -220,52 +220,6 @@ permalink: /contact/
   border: 2px solid white;
 }
 
-/* Why Choose Us (整行 section) */
-.why-choose-full {
-  background: #f8f9fa;
-  padding: 30px;
-  border-radius: 12px;
-  margin: 30px 0 0 0;
-}
-.why-choose-full h3 {
-  color: #1a1a2e;
-  margin: 0 0 18px 0;
-  font-size: 1.2em;
-  text-align: center;
-}
-.feature-grid {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 12px;
-}
-.feature {
-  background: white;
-  padding: 18px 12px;
-  border-radius: 8px;
-  border-left: 3px solid #e94560;
-  text-align: center;
-}
-.feature-icon { font-size: 1.8em; display: block; margin-bottom: 6px; }
-.feature strong {
-  display: block;
-  color: #1a1a2e;
-  font-size: 0.95em;
-  margin-bottom: 4px;
-}
-.feature p {
-  margin: 0;
-  color: #666;
-  font-size: 0.85em;
-  line-height: 1.4;
-}
-
-@media (max-width: 992px) {
-  .feature-grid { grid-template-columns: 1fr 1fr; }
-}
-@media (max-width: 480px) {
-  .feature-grid { grid-template-columns: 1fr; }
-}
-
 /* 表单上方提示语 */
 .guide-text {
   color: #555;
@@ -289,13 +243,6 @@ permalink: /contact/
   color: #666;
   font-size: 0.9em;
   margin: 0 0 15px 0;
-}
-
-@media (max-width: 992px) {
-  .feature-grid { grid-template-columns: 1fr 1fr; }
-}
-@media (max-width: 480px) {
-  .feature-grid { grid-template-columns: 1fr; }
 }
 </style>
 
@@ -383,32 +330,6 @@ permalink: /contact/
 
 </div>
 
-</div>
-
-<div class="why-choose-full">
-<h3>Why Work With Us</h3>
-<div class="feature-grid">
-  <div class="feature">
-    <span class="feature-icon">&#127981;</span>
-    <strong>20+ Years Experience</strong>
-    <p>Stainless steel cutlery manufacturing since 2003</p>
-  </div>
-  <div class="feature">
-    <span class="feature-icon">&#128101;</span>
-    <strong>200+ Workers</strong>
-    <p>Skilled team in 8,000 m&sup2; facility</p>
-  </div>
-  <div class="feature">
-    <span class="feature-icon">&#127757;</span>
-    <strong>30+ Countries</strong>
-    <p>Exporting to North America, Europe, Middle East, SE Asia</p>
-  </div>
-  <div class="feature">
-    <span class="feature-icon">&#9989;</span>
-    <strong>Certified Quality</strong>
-    <p>FDA, LFGB, BSCI, ISO 9001 compliant</p>
-  </div>
-</div>
 </div>
 
 <div class="inquiry-template-full">
