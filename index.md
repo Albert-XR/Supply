@@ -173,7 +173,120 @@ h2 { text-align: center; margin-bottom: 25px; }
 .contact-mini { opacity: 0.8; margin-top: 15px; font-size: 0.9em; }
 
 img { max-width: 100%; height: auto; }
+
+/* FAQ 常见问题 */
+.faq-list {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.faq-item {
+  background: white;
+  border: 1px solid #e8e8e8;
+  border-radius: 8px;
+  margin-bottom: 12px;
+  transition: box-shadow 0.3s, border-color 0.3s;
+}
+
+.faq-item[open] {
+  border-color: #e94560;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+}
+
+.faq-item summary {
+  padding: 16px 48px 16px 20px;
+  cursor: pointer;
+  font-weight: bold;
+  color: #1a1a2e;
+  list-style: none;
+  position: relative;
+  font-size: 0.98em;
+}
+
+.faq-item summary::-webkit-details-marker { display: none; }
+
+.faq-item summary::after {
+  content: '+';
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 1.5em;
+  font-weight: normal;
+  color: #e94560;
+  line-height: 1;
+  transition: transform 0.3s;
+}
+
+.faq-item[open] summary::after {
+  transform: translateY(-50%) rotate(45deg);
+}
+
+.faq-answer {
+  padding: 0 20px 16px;
+  color: #555;
+  line-height: 1.7;
+  font-size: 0.92em;
+}
 </style>
+
+<!-- FAQ 结构化数据 -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is your MOQ (Minimum Order Quantity)?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Our standard MOQ is 1,000 pieces per design. For first-time cooperation or sample orders, we offer flexible MOQs to help you test the market."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the production lead time?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Normally 35-50 days after order confirmation and deposit received, depending on order quantity and finishing requirements. Rush orders can be arranged case by case."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do you provide free samples?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, we provide existing samples for free. You only need to cover the courier cost. Custom samples with your logo take 7-15 days and may involve a small sample fee, which is refundable in bulk orders."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can you do OEM/ODM, custom logo and packaging?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. We support logo laser engraving, custom PVD colors, bespoke molds, and tailored gift-box packaging. Our in-house design team can assist from drawing to final product."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What certifications do your products have?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Our factory is ISO9001 and BSCI certified. Products comply with FDA and LFGB food-contact standards, and SGS test reports are available on request."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are your payment terms?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "We accept T/T (30% deposit, 70% balance against B/L copy), and L/C at sight for large orders. Trade terms include FOB, CIF and EXW."
+      }
+    }
+  ]
+}
+</script>
 
 <!-- 首屏横幅 -->
 <div class="hero">
@@ -272,5 +385,55 @@ img { max-width: 100%; height: auto; }
       <h4>🎨 Global Footprint</h4>
       <p>Proven experience serving clients across Europe, the Americas, Middle East and Southeast Asia etc. 40+ countries.</p>
     </div>
+  </div>
+</section>
+
+<!-- 常见问题 -->
+<section>
+  <h2>Frequently Asked Questions</h2>
+  <div class="faq-list">
+
+    <details class="faq-item">
+      <summary>What is your MOQ (Minimum Order Quantity)?</summary>
+      <div class="faq-answer">
+        Our standard MOQ is 1,000 pieces per design. For first-time cooperation or sample orders, we offer flexible MOQs to help you test the market.
+      </div>
+    </details>
+
+    <details class="faq-item">
+      <summary>What is the production lead time?</summary>
+      <div class="faq-answer">
+        Normally 35-50 days after order confirmation and deposit received, depending on order quantity and finishing requirements. Rush orders can be arranged case by case.
+      </div>
+    </details>
+
+    <details class="faq-item">
+      <summary>Do you provide free samples?</summary>
+      <div class="faq-answer">
+        Yes, we provide existing samples for free. You only need to cover the courier cost. Custom samples with your logo take 7-15 days and may involve a small sample fee, which is refundable in bulk orders.
+      </div>
+    </details>
+
+    <details class="faq-item">
+      <summary>Can you do OEM/ODM, custom logo and packaging?</summary>
+      <div class="faq-answer">
+        Yes. We support logo laser engraving, custom PVD colors, bespoke molds, and tailored gift-box packaging. Our in-house design team can assist from drawing to final product.
+      </div>
+    </details>
+
+    <details class="faq-item">
+      <summary>What certifications do your products have?</summary>
+      <div class="faq-answer">
+        Our factory is ISO9001 and BSCI certified. Products comply with FDA and LFGB food-contact standards, and SGS test reports are available on request.
+      </div>
+    </details>
+
+    <details class="faq-item">
+      <summary>What are your payment terms?</summary>
+      <div class="faq-answer">
+        We accept T/T (30% deposit, 70% balance against B/L copy), and L/C at sight for large orders. Trade terms include FOB, CIF and EXW.
+      </div>
+    </details>
+
   </div>
 </section>
