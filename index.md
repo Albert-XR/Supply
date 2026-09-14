@@ -241,7 +241,7 @@ img { max-width: 100%; height: auto; }
       "name": "What is your MOQ (Minimum Order Quantity)?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "MOQ varies by product — from as low as 100 pieces for individual flatware items to 500 sets for packaged gift sets. For first-time cooperation or sample orders, we offer flexible MOQs to help you test the market."
+        "text": "MOQ varies by product — some designs start from as low as 11 sets, while others require 100-500 units. For first-time cooperation or sample orders, we offer flexible MOQs to help you test the market."
       }
     },
     {
@@ -396,7 +396,7 @@ img { max-width: 100%; height: auto; }
     <details class="faq-item">
       <summary>What is your MOQ (Minimum Order Quantity)?</summary>
       <div class="faq-answer">
-        MOQ varies by product — from as low as 100 pieces for individual flatware items to 500 sets for packaged gift sets. For first-time cooperation or sample orders, we offer flexible MOQs to help you test the market.
+        MOQ varies by product — some designs start from as low as 11 sets, while others require 100-500 units. For first-time cooperation or sample orders, we offer flexible MOQs to help you test the market.
       </div>
     </details>
 

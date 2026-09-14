@@ -2,7 +2,7 @@
 title: "24-Piece Stainless Steel Flatware Set with Pineapple Holder"
 description: "Luxury pineapple-shaped cutlery set with 24-piece stainless steel flatware and decorative storage holder, dishwasher safe, perfect for parties, weddings and hotel table settings"
 price: "$9.99 - $11.99 / set"
-moq: "500 sets"
+moq: "11 sets"
 lead_time: "35-50 days"
 material: "Stainless Steel Cutlery + ABS Electroplated Holder"
 finish: "Mirror Polished"
@@ -321,7 +321,7 @@ tags: ["Flatware Set", "Pineapple Design", "Stainless Steel Cutlery", "Party Tab
     <h1>24-Piece Stainless Steel Flatware Set with Pineapple Holder</h1>
     <p class="product-sku">SKU: DY-PF24-001 | Model: Pineapple Series</p>
     <div class="product-price">$9.99 - $11.99 <span>/ set FOB Shenzhen</span></div>
-    <p class="product-moq">MOQ: 500 sets | Lead Time: 35-50 days</p>
+    <p class="product-moq">MOQ: 11 sets | Lead Time: 35-50 days</p>
 
     <div class="feature-tags">
       <span class="tag">✓ 24-Piece Complete Set for 6</span>
@@ -352,10 +352,10 @@ tags: ["Flatware Set", "Pineapple Design", "Stainless Steel Cutlery", "Party Tab
           <div class="form-group">
             <select name="quantity" required>
               <option value="">Select Quantity</option>
+              <option value="11-100">11 - 100 sets</option>
+              <option value="100-500">100 - 500 sets</option>
               <option value="500-1000">500 - 1,000 sets</option>
-              <option value="1000-3000">1,000 - 3,000 sets</option>
-              <option value="3000-5000">3,000 - 5,000 sets</option>
-              <option value="5000+">5,000+ sets</option>
+              <option value="1000+">1,000+ sets</option>
             </select>
           </div>
           <div class="form-group">
