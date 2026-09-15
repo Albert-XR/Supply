@@ -39,10 +39,10 @@ tags: ["Flatware Set", "Pineapple Design", "Stainless Steel Cutlery", "Party Tab
 }
 .main-image {
   width: 100%;
+  height: auto;
   border-radius: 12px;
   background: #f8f9fa;
-  aspect-ratio: 1/1;
-  object-fit: cover;
+  object-fit: contain;
 }
 .thumbnail-list {
   display: flex;

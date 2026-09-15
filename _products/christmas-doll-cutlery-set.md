@@ -39,10 +39,10 @@ tags: ["Christmas", "Gift Box Set", "Gold Plated Spoon", "Dessert Fork", "Party 
 }
 .main-image {
   width: 100%;
+  height: auto;
   border-radius: 12px;
   background: #f8f9fa;
-  aspect-ratio: 1/1;
-  object-fit: cover;
+  object-fit: contain;
 }
 .thumbnail-list {
   display: flex;
@@ -313,6 +313,11 @@ tags: ["Christmas", "Gift Box Set", "Gold Plated Spoon", "Dessert Fork", "Party 
       <img src="/assets/images/christmas-doll-cutlery-set/christmas-doll-cutlery-set-05.jpg" class="thumbnail" loading="lazy" onclick="changeImage(this, '/assets/images/christmas-doll-cutlery-set/christmas-doll-cutlery-set-05.jpg')">
       <img src="/assets/images/christmas-doll-cutlery-set/christmas-doll-cutlery-set-06.jpg" class="thumbnail" loading="lazy" onclick="changeImage(this, '/assets/images/christmas-doll-cutlery-set/christmas-doll-cutlery-set-06.jpg')">
       <img src="/assets/images/christmas-doll-cutlery-set/christmas-doll-cutlery-set-07.jpg" class="thumbnail" loading="lazy" onclick="changeImage(this, '/assets/images/christmas-doll-cutlery-set/christmas-doll-cutlery-set-07.jpg')">
+      <img src="/assets/images/christmas-doll-cutlery-set/christmas-doll-cutlery-set-08.jpg" class="thumbnail" loading="lazy" onclick="changeImage(this, '/assets/images/christmas-doll-cutlery-set/christmas-doll-cutlery-set-08.jpg')">
+      <img src="/assets/images/christmas-doll-cutlery-set/christmas-doll-cutlery-set-09.jpg" class="thumbnail" loading="lazy" onclick="changeImage(this, '/assets/images/christmas-doll-cutlery-set/christmas-doll-cutlery-set-09.jpg')">
+      <img src="/assets/images/christmas-doll-cutlery-set/christmas-doll-cutlery-set-10.jpg" class="thumbnail" loading="lazy" onclick="changeImage(this, '/assets/images/christmas-doll-cutlery-set/christmas-doll-cutlery-set-10.jpg')">
+      <img src="/assets/images/christmas-doll-cutlery-set/christmas-doll-cutlery-set-11.jpg" class="thumbnail" loading="lazy" onclick="changeImage(this, '/assets/images/christmas-doll-cutlery-set/christmas-doll-cutlery-set-11.jpg')">
+      <img src="/assets/images/christmas-doll-cutlery-set/christmas-doll-cutlery-set-12.jpg" class="thumbnail" loading="lazy" onclick="changeImage(this, '/assets/images/christmas-doll-cutlery-set/christmas-doll-cutlery-set-12.jpg')">
     </div>
   </div>
 
