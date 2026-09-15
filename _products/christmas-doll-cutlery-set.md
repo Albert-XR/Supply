@@ -39,10 +39,10 @@ tags: ["Christmas", "Gift Box Set", "Gold Plated Spoon", "Dessert Fork", "Party 
 }
 .main-image {
   width: 100%;
-  height: auto;
   border-radius: 12px;
   background: #f8f9fa;
-  object-fit: contain;
+  aspect-ratio: 1/1;
+  object-fit: cover;
 }
 .thumbnail-list {
   display: flex;

@@ -39,10 +39,10 @@ tags: ["Flatware Set", "Pineapple Design", "Stainless Steel Cutlery", "Party Tab
 }
 .main-image {
   width: 100%;
-  height: auto;
   border-radius: 12px;
   background: #f8f9fa;
-  object-fit: contain;
+  aspect-ratio: 1/1;
+  object-fit: cover;
 }
 .thumbnail-list {
   display: flex;
@@ -309,7 +309,6 @@ tags: ["Flatware Set", "Pineapple Design", "Stainless Steel Cutlery", "Party Tab
       <img src="/assets/images/pineapple-flatware-set/pineapple-flatware-set-22.jpg" class="thumbnail active" loading="lazy" onclick="changeImage(this, '/assets/images/pineapple-flatware-set/pineapple-flatware-set-22.jpg')">
       <img src="/assets/images/pineapple-flatware-set/pineapple-flatware-set-02.jpg" class="thumbnail" loading="lazy" onclick="changeImage(this, '/assets/images/pineapple-flatware-set/pineapple-flatware-set-02.jpg')">
       <img src="/assets/images/pineapple-flatware-set/pineapple-flatware-set-21.jpg" class="thumbnail" loading="lazy" onclick="changeImage(this, '/assets/images/pineapple-flatware-set/pineapple-flatware-set-21.jpg')">
-      <img src="/assets/images/pineapple-flatware-set/pineapple-flatware-set-10.jpg" class="thumbnail" loading="lazy" onclick="changeImage(this, '/assets/images/pineapple-flatware-set/pineapple-flatware-set-10.jpg')">
       <img src="/assets/images/pineapple-flatware-set/pineapple-flatware-set-06.jpg" class="thumbnail" loading="lazy" onclick="changeImage(this, '/assets/images/pineapple-flatware-set/pineapple-flatware-set-06.jpg')">
       <img src="/assets/images/pineapple-flatware-set/pineapple-flatware-set-07.jpg" class="thumbnail" loading="lazy" onclick="changeImage(this, '/assets/images/pineapple-flatware-set/pineapple-flatware-set-07.jpg')">
       <img src="/assets/images/pineapple-flatware-set/pineapple-flatware-set-01.jpg" class="thumbnail" loading="lazy" onclick="changeImage(this, '/assets/images/pineapple-flatware-set/pineapple-flatware-set-01.jpg')">
