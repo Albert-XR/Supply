@@ -32,6 +32,9 @@ tags: ["Flatware Set", "Pineapple Design", "Stainless Steel Cutlery", "Party Tab
   gap: 50px;
   margin: 30px 0 50px;
 }
+.product-main > * {
+  min-width: 0;
+}
 
 /* 图片画廊 */
 .product-gallery {
