@@ -336,10 +336,10 @@ img { max-width: 100%; height: auto; }
     </div>
 
     <div class="category-card">
-      <img src="/assets/images/home/christmas-400.jpg" alt="Christmas Flatware" loading="lazy">
+      <img src="/assets/images/home/flatware-400.jpg" alt="Stainless Steel Flatware Gift Sets" loading="lazy">
       <div class="category-info">
         <h3>Flatware</h3>
-        <p>Christmas dessert spoons, patterned handles, gift-giving preferred</p>
+        <p>Christmas-themed spoon &amp; fork gift sets with gold-plated and colourful iridescent handles, retail-ready gift boxes</p>
         <a href="/products">View Products →</a>
       </div>
     </div>
