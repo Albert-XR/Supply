@@ -97,6 +97,8 @@ h2 { text-align: center; margin-bottom: 25px; }
   overflow: hidden;
   transition: box-shadow 0.3s, transform 0.3s;
   background: white;
+  display: flex;
+  flex-direction: column;
 }
 
 .category-card:hover {
@@ -113,6 +115,9 @@ h2 { text-align: center; margin-bottom: 25px; }
 
 .category-info {
   padding: 15px;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
 }
 
 .category-info h3 {
@@ -133,6 +138,7 @@ h2 { text-align: center; margin-bottom: 25px; }
   text-decoration: none;
   font-weight: bold;
   font-size: 0.9em;
+  margin-top: auto;
 }
 
 /* 响应式：平板2列 */
@@ -336,10 +342,10 @@ img { max-width: 100%; height: auto; }
     </div>
 
     <div class="category-card">
-      <img src="/assets/images/home/flatware-400.jpg" alt="Stainless Steel Flatware Gift Sets" loading="lazy">
+      <img src="/assets/images/home/flatware-400.jpg" alt="Mirror-polished stainless steel flatware set with fork, knife and spoons" loading="lazy">
       <div class="category-info">
         <h3>Flatware</h3>
-        <p>Christmas-themed spoon &amp; fork gift sets with gold-plated and colourful iridescent handles, retail-ready gift boxes</p>
+        <p>Classic mirror-polished stainless steel cutlery — fork, knife &amp; spoon sets, elegant design for hotel, restaurant &amp; home</p>
         <a href="/products">View Products →</a>
       </div>
     </div>
