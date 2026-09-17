@@ -1,11 +1,34 @@
 ---
 layout: default
 ---
+{% assign price_parts = page.price | split: "$" %}
+{% assign price_low = price_parts[1] | split: " " | first | plus: 0 %}
+{% if price_parts[2] %}
+  {% assign price_high = price_parts[2] | split: " " | first | plus: 0 %}
+{% endif %}
 <div class="content content pa3 ph6-l">
 	<section class="page measure-wide f5 f4-ns lh-copy avenir">
-			<div itemscope itemtype="http://schema.org/Product" class="product-container {% if page.full_width %}max-container{% endif %}">
+			<div class="product-container {% if page.full_width %}max-container{% endif %}">
 
 						{{ content }}
 			</div>
 	</section>
 </div>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": {{ page.title | jsonify }},
+  "description": {{ page.description | jsonify }},
+  "image": {{ page.image | absolute_url | jsonify }},
+  "brand": { "@type": "Brand", "name": "DINGYONG" },
+  "offers": {
+    "@type": "{% if price_high %}AggregateOffer{% else %}Offer{% endif %}",
+    "priceCurrency": "USD",
+    {% if price_high %}"lowPrice": {{ price_low }},
+    "highPrice": {{ price_high }},
+    "offerCount": 1{% else %}"price": {{ price_low }},
+    "availability": "https://schema.org/InStock"{% endif %}
+  }
+}
+</script>
