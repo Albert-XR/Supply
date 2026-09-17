@@ -336,7 +336,7 @@ img { max-width: 100%; height: auto; }
       <img src="/assets/images/home/goldbox-400.jpg" alt="Gold gift box cutlery set with patterned gold handles" loading="lazy">
       <div class="category-info">
         <h3>Cutlery Sets</h3>
-        <p>24pc/72pc dinnerware sets, Portugal Series, multi-colour titanium plated</p>
+        <p>24pc/72pc gold box cutlery sets, patterned gold handles, mirror polished, premium gift-box packaging</p>
         <a href="/products">View Products →</a>
       </div>
     </div>
@@ -362,7 +362,7 @@ img { max-width: 100%; height: auto; }
     <div class="category-card">
       <img src="/assets/images/home/christmas-400.jpg" alt="Christmas cartoon dessert spoon gift set" loading="lazy">
       <div class="category-info">
-        <h3>Hotel & Restaurant</h3>
+        <h3>Festival Gift Sets</h3>
         <p>Christmas cartoon dessert spoon &amp; fork gift sets with 3D figurine toppers, exquisite packaging, ideal for gifting and retail</p>
         <a href="/products">View Products →</a>
       </div>
