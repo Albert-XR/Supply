@@ -336,7 +336,7 @@ img { max-width: 100%; height: auto; }
       <img src="/assets/images/home/goldbox-400.jpg" alt="Gold gift box cutlery set with patterned gold handles" loading="lazy">
       <div class="category-info">
         <h3>Cutlery Sets</h3>
-        <p>24pc/72pc gold box cutlery sets, patterned gold handles, mirror polished, premium gift-box packaging</p>
+        <p>24pc/72pc cutlery &amp; dinnerware sets, boxed gift sets, mirror &amp; gold finishes — for retail, hotels and restaurants</p>
         <a href="/products">View Products →</a>
       </div>
     </div>
@@ -345,7 +345,7 @@ img { max-width: 100%; height: auto; }
       <img src="/assets/images/home/portugal-400.jpg" alt="Portugal Series multi-colour titanium plated cutlery" loading="lazy">
       <div class="category-info">
         <h3>Flatware</h3>
-        <p>Portugal Series cutlery — gold-plated heads with multi-colour titanium plated handles, fine workmanship, smooth edges</p>
+        <p>Knives, forks &amp; spoons in mirror, satin and multi-colour titanium PVD finishes — Portugal series and custom designs</p>
         <a href="/products">View Products →</a>
       </div>
     </div>
@@ -354,7 +354,7 @@ img { max-width: 100%; height: auto; }
       <img src="/assets/images/home/kitchen-400.jpg" alt="Kitchen Anti-scalding Set" loading="lazy">
       <div class="category-info">
         <h3>Kitchen gadgets</h3>
-        <p>Kitchen anti-scalding set, patented product, beautiful and practical</p>
+        <p>Anti-scalding clips, pot holders &amp; silicone mini mitts, patented designs, food-grade heat-resistant materials</p>
         <a href="/products">View Products →</a>
       </div>
     </div>
@@ -363,7 +363,7 @@ img { max-width: 100%; height: auto; }
       <img src="/assets/images/home/christmas-400.jpg" alt="Christmas cartoon dessert spoon gift set" loading="lazy">
       <div class="category-info">
         <h3>Festival Gift Sets</h3>
-        <p>Christmas cartoon dessert spoon &amp; fork gift sets with 3D figurine toppers, exquisite packaging, ideal for gifting and retail</p>
+        <p>Christmas &amp; holiday themed spoon and fork gift sets, cartoon toppers and festive boxes, ideal for seasonal retail</p>
         <a href="/products">View Products →</a>
       </div>
     </div>

@@ -9,7 +9,7 @@ finish: "Metallic Iridescent Finish, Titanium Gold Handle"
 certification: "FDA, LFGB, SGS"
 packaging: "Christmas Gift Box / Custom OEM"
 image: /assets/images/products/christmas-iridescent-cutlery-set.jpg
-category: cutlery-sets
+category: festival-gift-sets
 tags: ["Christmas", "Gift Box Set", "Iridescent Spoon", "Dessert Fork", "Party Tableware", "Dishwasher Safe"]
 ---
 

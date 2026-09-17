@@ -9,7 +9,7 @@ finish: "Titanium Gold Plated"
 certification: "FDA, LFGB, SGS"
 packaging: "Christmas Gift Box / Custom OEM"
 image: /assets/images/products/christmas-doll-cutlery-set.jpg
-category: cutlery-sets
+category: festival-gift-sets
 tags: ["Christmas", "Gift Box Set", "Gold Plated Spoon", "Dessert Fork", "Party Tableware", "Dishwasher Safe"]
 ---
 

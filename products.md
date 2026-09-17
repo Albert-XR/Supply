@@ -167,8 +167,9 @@ permalink: /products/
   <div class="category-filter">
     <button class="filter-btn active" data-filter="all">All</button>
     <button class="filter-btn" data-filter="cutlery-sets">Cutlery Sets</button>
-    <button class="filter-btn" data-filter="flatware">Loose Flatware</button>
-    <button class="filter-btn" data-filter="kitchen-tools">Kitchen Tools</button>
+    <button class="filter-btn" data-filter="flatware">Flatware</button>
+    <button class="filter-btn" data-filter="kitchen-tools">Kitchen Gadgets</button>
+    <button class="filter-btn" data-filter="festival-gift-sets">Festival Gift Sets</button>
   </div>
 
   <!-- 产品网格：从硬编码改为 Jekyll 循环 -->
