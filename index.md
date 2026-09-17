@@ -333,7 +333,7 @@ img { max-width: 100%; height: auto; }
   <div class="category-grid">
     
     <div class="category-card">
-      <img src="/assets/images/home/portugal-400.jpg" alt="Portugal Series Cutlery" loading="lazy">
+      <img src="/assets/images/home/goldbox-400.jpg" alt="Gold gift box cutlery set with patterned gold handles" loading="lazy">
       <div class="category-info">
         <h3>Cutlery Sets</h3>
         <p>24pc/72pc dinnerware sets, Portugal Series, multi-colour titanium plated</p>
@@ -342,10 +342,10 @@ img { max-width: 100%; height: auto; }
     </div>
 
     <div class="category-card">
-      <img src="/assets/images/home/flatware-400.jpg" alt="Mirror-polished stainless steel flatware set with fork, knife and spoons" loading="lazy">
+      <img src="/assets/images/home/portugal-400.jpg" alt="Portugal Series multi-colour titanium plated cutlery" loading="lazy">
       <div class="category-info">
         <h3>Flatware</h3>
-        <p>Classic mirror-polished stainless steel cutlery — fork, knife &amp; spoon sets, elegant design for hotel, restaurant &amp; home</p>
+        <p>Portugal Series cutlery — gold-plated heads with multi-colour titanium plated handles, fine workmanship, smooth edges</p>
         <a href="/products">View Products →</a>
       </div>
     </div>
@@ -360,10 +360,10 @@ img { max-width: 100%; height: auto; }
     </div>
 
     <div class="category-card">
-      <img src="/assets/images/home/goldbox-400.jpg" alt="Gold Box with Handle" loading="lazy">
+      <img src="/assets/images/home/christmas-400.jpg" alt="Christmas cartoon dessert spoon gift set" loading="lazy">
       <div class="category-info">
         <h3>Hotel & Restaurant</h3>
-        <p>Gold gift box with handle, exquisite packaging, thickened material</p>
+        <p>Christmas cartoon dessert spoon &amp; fork gift sets with 3D figurine toppers, exquisite packaging, ideal for gifting and retail</p>
         <a href="/products">View Products →</a>
       </div>
     </div>
