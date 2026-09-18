@@ -496,14 +496,15 @@ is_bestseller: true
 <div class="related-products">
   <h2>You May Also Like</h2>
   <div class="related-grid">
-    {% for p in site.products %}
-      {% unless p.url == page.url %}
+    {% assign same_cat = site.products | where: "category", page.category | where_exp: "p", "p.url != page.url" %}
+    {% assign other_cat = site.products | where_exp: "p", "p.url != page.url" | where_exp: "p", "p.category != page.category" %}
+    {% assign related = same_cat | concat: other_cat %}
+    {% for p in related limit: 4 %}
     <div class="related-card">
       <a href="{{ p.url }}"><img src="{{ p.image }}" alt="{{ p.title }}"></a>
       <h4><a href="{{ p.url }}" style="color:#1a1a2e; text-decoration:none;">{{ p.title }}</a></h4>
       <div class="rel-price">{{ p.price }}</div>
     </div>
-      {% endunless %}
     {% endfor %}
   </div>
 </div>
