@@ -202,9 +202,10 @@ permalink: /about/
 /* 数据统计 */
 .stats-section {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 30px;
-  margin: 60px 0;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 25px;
+  max-width: 760px;
+  margin: 60px auto;
   text-align: center;
 }
 
@@ -383,20 +384,20 @@ permalink: /about/
   <!-- 数据统计 -->
   <div class="stats-section">
     <div class="stat-item">
-      <div class="stat-number">5,000㎡</div>
-      <div class="stat-label">Production Area</div>
+      <div class="stat-number">12+</div>
+      <div class="stat-label">Years Experience</div>
     </div>
     <div class="stat-item">
-      <div class="stat-number">40+</div>
-      <div class="stat-label">Years Production Experience</div>
+      <div class="stat-number">4,000㎡</div>
+      <div class="stat-label">Factory Area</div>
     </div>
     <div class="stat-item">
-      <div class="stat-number">600㎡</div>
-      <div class="stat-label">Showroom</div>
+      <div class="stat-number">50-100</div>
+      <div class="stat-label">Workers</div>
     </div>
     <div class="stat-item">
-      <div class="stat-number">200</div>
-      <div class="stat-label">Outstanding Employees</div>
+      <div class="stat-number">10M+</div>
+      <div class="stat-label">Monthly Output (Pieces)</div>
     </div>
   </div>
 
