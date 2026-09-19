@@ -83,6 +83,7 @@ header_pages:
   - index.md
   - products.md
   - about.md
+  - blog.md
   - contact.md
 
 # 自定义CSS
