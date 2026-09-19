@@ -18,7 +18,7 @@ permalink: /about/
   "description": "Stainless steel cutlery and flatware manufacturer in Guangdong, China. OEM/ODM services for hotels, restaurants, and retail brands.",
   "telephone": "+86-138-2206-6349",
   "email": "sales@ding-yong.com",
-  "foundingDate": "2010",
+  "foundingDate": "2014",
   "priceRange": "$$",
   "address": {
     "@type": "PostalAddress",
@@ -54,7 +54,7 @@ permalink: /about/
   "@context": "https://schema.org",
   "@type": "VideoObject",
   "name": "Ding-Yong Factory Tour",
-  "description": "Watch how your stainless steel tableware is crafted from raw steel to finished products at our 5,000 m² facility in Guangdong, China.",
+  "description": "Watch how your stainless steel tableware is crafted from raw steel to finished products at our 4,000 m² facility in Guangdong, China.",
   "thumbnailUrl": "https://i.ytimg.com/vi/rxGmVh_LP3A/maxresdefault.jpg",
   "uploadDate": "2024-01-01",
   "duration": "PT2M30S",
@@ -311,7 +311,7 @@ permalink: /about/
   <!-- 标题 -->
   <div class="about-header">
     <h1>About Ding-Yong Products</h1>
-    <p class="subtitle">Professional Stainless Steel Tableware Manufacturer Since 2010</p>
+    <p class="subtitle">Professional Stainless Steel Tableware Manufacturer Since 2014</p>
   </div>
 
   <!-- 主内容：左文右视频 -->
@@ -323,12 +323,12 @@ permalink: /about/
       <p>
         Ding-Yong Products Co., Ltd is a leading manufacturer specializing in premium 
         18/10 stainless steel cutlery, flatware, and kitchen utensils. Based in 
-        Guangdong, China, we have been serving global B2B buyers for over 15 years.
+        Guangdong, China, we have been serving global B2B buyers for over a decade.
       </p>
       <p>
-        Our 5,000㎡ production facility houses 200+ skilled workers and advanced 
-        CNC polishing machines, enabling us to produce 500,000+ pieces monthly. 
-        We are committed to delivering restaurant-quality tableware at competitive 
+        Our 4,000㎡ production facility houses 50-100 skilled workers and advanced
+        CNC polishing machines, enabling us to produce 500,000+ pieces monthly.
+        We are committed to delivering restaurant-quality tableware at competitive
         factory-direct prices.
       </p>
       <p>
@@ -371,15 +371,15 @@ permalink: /about/
   <!-- 数据统计 -->
   <div class="stats-section">
     <div class="stat-item">
-      <div class="stat-number">15+</div>
+      <div class="stat-number">12+</div>
       <div class="stat-label">Years Experience</div>
     </div>
     <div class="stat-item">
-      <div class="stat-number">5,000㎡</div>
+      <div class="stat-number">4,000㎡</div>
       <div class="stat-label">Factory Area</div>
     </div>
     <div class="stat-item">
-      <div class="stat-number">200+</div>
+      <div class="stat-number">50-100</div>
       <div class="stat-label">Workers</div>
     </div>
     <div class="stat-item">
@@ -393,24 +393,24 @@ permalink: /about/
     <h2>Our Journey</h2>
     <div class="timeline">
       <div class="timeline-item">
-        <div class="timeline-year">2010</div>
-        <div class="timeline-text">Founded as a small family workshop with 10 workers, focusing on local market stainless steel flatware.</div>
-      </div>
-      <div class="timeline-item">
-        <div class="timeline-year">2013</div>
-        <div class="timeline-text">Expanded to 50 workers, obtained ISO9001 certification, began exporting to Southeast Asia.</div>
+        <div class="timeline-year">2014</div>
+        <div class="timeline-text">Entered the stainless steel tableware industry and began manufacturing cutlery and flatware in Jieyang, Guangdong.</div>
       </div>
       <div class="timeline-item">
         <div class="timeline-year">2016</div>
-        <div class="timeline-text">Moved to new 5,000㎡ facility, installed CNC polishing lines, reached 200 workers capacity.</div>
+        <div class="timeline-text">Registered our own trademark "DINGYONG", building a dedicated brand identity for our product lines.</div>
       </div>
       <div class="timeline-item">
-        <div class="timeline-year">2019</div>
-        <div class="timeline-text">Achieved FDA and LFGB certifications, entered European and North American markets.</div>
+        <div class="timeline-year">2021</div>
+        <div class="timeline-text">Products passed third-party laboratory testing and obtained food-contact safety certifications, including FDA, LFGB and SGS.</div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-year">2023</div>
+        <div class="timeline-text">Joined Alibaba International Station, opening direct wholesale channels to global B2B buyers.</div>
       </div>
       <div class="timeline-item">
         <div class="timeline-year">2024</div>
-        <div class="timeline-text">Launched PVD color and custom engraving services, serving 40+ countries worldwide.</div>
+        <div class="timeline-text">Expanded our factory to a 4,000㎡ production facility with upgraded equipment and capacity.</div>
       </div>
     </div>
   </div>

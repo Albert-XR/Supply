@@ -377,7 +377,7 @@ img { max-width: 100%; height: auto; }
   <div class="features-grid">
     <div class="feature">
       <h4>🏭 Factory Direct</h4>
-      <p>5,000㎡ production facility, full support for bespoke molds, finishes (PVD/Mirror/Satin), and branding.</p>
+      <p>4,000㎡ production facility, full support for bespoke molds, finishes (PVD/Mirror/Satin), and branding.</p>
     </div>
     <div class="feature">
       <h4>🔬 Quality Assured</h4>
