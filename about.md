@@ -16,7 +16,7 @@ permalink: /about/
   "logo": "https://www.ding-yong.com/siteicon.png",
   "image": "https://www.ding-yong.com/siteicon.png",
   "description": "Stainless steel cutlery and flatware manufacturer in Guangdong, China. OEM/ODM services for hotels, restaurants, and retail brands.",
-  "telephone": "+86-138-2206-6349",
+  "telephone": "+86-150-1337-1880",
   "email": "sales@ding-yong.com",
   "foundingDate": "2014",
   "priceRange": "$$",
