@@ -308,7 +308,7 @@ tags: ["Black Gift Box", "24-Piece Set", "Mirror Polished", "Stainless Steel Cut
 
   <!-- 左侧图片 -->
   <div class="product-gallery">
-    <img src="/assets/images/24pcs-cutlery-set-black-box/24pcs-cutlery-set-black-box-01.jpg" alt="24-Piece Mirror Polish Stainless Steel Cutlery Set with Black Gift Box" class="main-image" id="mainImage">
+    <img src="/assets/images/24pcs-cutlery-set-black-box/24pcs-cutlery-set-black-box-01.jpg" alt="24-Piece Black Stainless Steel Cutlery Set Packed in Black Gift Box" class="main-image" id="mainImage">
     <div class="thumbnail-list">
       <img src="/assets/images/24pcs-cutlery-set-black-box/24pcs-cutlery-set-black-box-01.jpg" class="thumbnail active" loading="lazy" onclick="changeImage(this, '/assets/images/24pcs-cutlery-set-black-box/24pcs-cutlery-set-black-box-01.jpg')">
       <img src="/assets/images/24pcs-cutlery-set-black-box/24pcs-cutlery-set-black-box-02.jpg" class="thumbnail" loading="lazy" onclick="changeImage(this, '/assets/images/24pcs-cutlery-set-black-box/24pcs-cutlery-set-black-box-02.jpg')">
