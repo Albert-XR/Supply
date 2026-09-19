@@ -72,176 +72,211 @@ permalink: /about/
 </script>
 
 <style>
-/* About 页面整体布局 */
-.about-container {
+/* Hero 横幅 */
+.about-hero img {
+  width: 100%;
+  display: block;
+  border-radius: 0 0 16px 16px;
+}
+
+/* 数字统计条 */
+.stats-band {
+  background: #1a1a2e;
+  border-radius: 14px;
+  display: flex;
+  gap: 10px;
+  padding: 26px 20px;
+  margin: 40px auto;
   max-width: 1200px;
-  margin: 0 auto;
-  padding: 40px 20px;
 }
 
-/* 标题区域 */
-.about-header {
+.stat-cell {
+  flex: 1;
   text-align: center;
-  margin-bottom: 50px;
 }
 
-.about-header h1 {
-  font-size: 2.2em;
+.stat-cell .num {
+  font-size: 2em;
+  font-weight: bold;
+  color: #fff;
+  line-height: 1.2;
+  white-space: nowrap;
+}
+
+.stat-cell .num em {
+  font-style: normal;
+  color: #e94560;
+}
+
+.stat-cell .lbl {
+  color: #aab0c0;
+  font-size: 0.85em;
+  margin-top: 6px;
+}
+
+/* 通用小节 */
+.about-section {
+  max-width: 1200px;
+  margin: 70px auto;
+  padding: 0 0;
+}
+
+.about-section > h2 {
+  text-align: center;
+  font-size: 1.8em;
   color: #1a1a2e;
-  margin-bottom: 10px;
+  margin-bottom: 12px;
 }
 
-.about-header .subtitle {
+.section-subtitle {
+  text-align: center;
   color: #666;
-  font-size: 1.1em;
+  margin-bottom: 35px;
 }
 
-/* 主内容区 - 左右布局 */
-.about-main {
+/* 我们是谁：左文右图 */
+.who-grid {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 50px;
-  align-items: start;
-  margin-bottom: 60px;
+  grid-template-columns: 1.1fr 1fr;
+  gap: 45px;
+  align-items: center;
 }
 
-/* 左侧文字内容 */
-.about-content h2 {
-  color: #1a1a2e;
-  font-size: 1.5em;
-  margin-bottom: 20px;
-  margin-top: 30px;
-}
-
-.about-content h2:first-child {
-  margin-top: 0;
-}
-
-.about-content p {
+.who-grid p {
   color: #555;
   line-height: 1.8;
   margin-bottom: 15px;
 }
 
-/* 右侧视频区域 */
-.about-video {
-  position: sticky;
-  top: 20px;
+.who-grid .strengths {
+  margin-top: 20px;
+  line-height: 2;
 }
 
-.video-wrapper {
-  position: relative;
-  padding-bottom: 56.25%; /* 16:9 比例 */
-  height: 0;
-  overflow: hidden;
-  border-radius: 12px;
-  box-shadow: 0 8px 30px rgba(0,0,0,0.1);
-}
-
-.video-wrapper iframe,
-.video-wrapper video {
-  position: absolute;
-  top: 0;
-  left: 0;
+.who-img img {
   width: 100%;
-  height: 100%;
+  border-radius: 12px;
+  display: block;
+  box-shadow: 0 8px 30px rgba(0,0,0,0.12);
+}
+
+/* 工厂视频 + 生产流程 */
+.factory-grid {
+  display: grid;
+  grid-template-columns: 1.2fr 1fr;
+  gap: 40px;
+  align-items: center;
+}
+
+.video-box {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16/9;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 8px 30px rgba(0,0,0,0.12);
+}
+
+.video-box iframe {
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
   border: none;
 }
 
-/* 视频封面图（无视频时显示） */
-.video-placeholder {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+.process-list {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  color: white;
-  text-align: center;
-  padding: 20px;
+  gap: 14px;
 }
 
-.video-placeholder .play-icon {
-  width: 80px;
-  height: 80px;
-  background: rgba(255,255,255,0.2);
+.process-item {
+  display: flex;
+  gap: 14px;
+  align-items: flex-start;
+  background: #f8f9fa;
+  border-radius: 10px;
+  padding: 14px 16px;
+}
+
+.process-item .step-no {
+  min-width: 34px;
+  height: 34px;
+  background: #e94560;
+  color: #fff;
   border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-bottom: 20px;
-  cursor: pointer;
-  transition: background 0.3s;
-}
-
-.video-placeholder .play-icon:hover {
-  background: rgba(255,255,255,0.3);
-}
-
-.video-placeholder .play-icon svg {
-  width: 30px;
-  height: 30px;
-  fill: white;
-  margin-left: 5px;
-}
-
-.video-placeholder h3 {
-  font-size: 1.3em;
-  margin-bottom: 10px;
-}
-
-.video-placeholder p {
-  font-size: 0.9em;
-  opacity: 0.8;
-}
-
-/* 数据统计 */
-.stats-section {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 25px;
-  max-width: 760px;
-  margin: 60px auto;
-  text-align: center;
-}
-
-.stat-item {
-  padding: 30px 20px;
-  background: #f8f9fa;
-  border-radius: 12px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.stat-number {
-  font-size: 2.2em;
   font-weight: bold;
-  color: #e94560;
-  margin-bottom: 8px;
-  white-space: nowrap;
-  line-height: 1.2;
+  font-size: 0.95em;
 }
 
-.stat-label {
+.process-item h4 {
+  margin: 0 0 3px;
+  font-size: 1em;
+  color: #1a1a2e;
+}
+
+.process-item p {
+  margin: 0;
   color: #666;
   font-size: 0.9em;
-  line-height: 1.4;
+  line-height: 1.5;
+}
+
+/* 证书墙 */
+.cert-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.cert-card {
+  background: #f8f9fa;
+  border-radius: 12px;
+  padding: 28px 18px;
+  text-align: center;
+  transition: transform 0.3s;
+}
+
+.cert-card:hover {
+  transform: translateY(-4px);
+}
+
+.cert-card .cert-icon {
+  width: 58px;
+  height: 58px;
+  margin: 0 auto 14px;
+  background: #fcebeb;
+  border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
-  text-align: center;
-  min-height: 2.8em; /* 固定两行标签区，保证四张卡片完全对齐 */
+}
+
+.cert-card .cert-icon svg {
+  width: 28px;
+  height: 28px;
+  fill: #e94560;
+}
+
+.cert-card h4 {
+  margin: 0 0 6px;
+  color: #1a1a2e;
+  font-size: 1.05em;
+}
+
+.cert-card p {
+  margin: 0;
+  color: #666;
+  font-size: 0.85em;
+  line-height: 1.5;
 }
 
 /* 时间线 */
 .timeline-section {
-  margin: 60px 0;
+  margin: 70px 0;
 }
 
 .timeline-section h2 {
@@ -254,6 +289,8 @@ permalink: /about/
 .timeline {
   position: relative;
   padding-left: 30px;
+  max-width: 860px;
+  margin: 0 auto;
 }
 
 .timeline::before {
@@ -298,7 +335,7 @@ permalink: /about/
 
 /* 展会图库 */
 .tradeshow-section {
-  margin: 60px 0;
+  margin: 70px 0;
 }
 
 .tradeshow-section h2 {
@@ -309,9 +346,7 @@ permalink: /about/
 }
 
 .tradeshow-section .section-subtitle {
-  text-align: center;
-  color: #666;
-  margin-bottom: 35px;
+  margin-bottom: 0;
 }
 
 .tradeshow-row-title {
@@ -348,23 +383,78 @@ permalink: /about/
   box-shadow: 0 8px 20px rgba(0,0,0,0.15);
 }
 
-/* 响应式 */
-@media (max-width: 768px) {
-  .about-main {
-    grid-template-columns: 1fr;
-  }
-  
-  .about-video {
-    position: relative;
-    order: -1;
-  }
-  
-  .stats-section {
-    grid-template-columns: repeat(2, 1fr);
-  }
+/* CTA 收口 */
+.cta-band {
+  background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+  border-radius: 14px;
+  text-align: center;
+  padding: 50px 30px;
+  margin: 70px auto 10px;
 }
 
+.cta-band h2 {
+  color: #fff;
+  font-size: 1.7em;
+  margin: 0 0 10px;
+}
+
+.cta-band p {
+  color: #aab0c0;
+  margin: 0 0 26px;
+}
+
+.cta-band .cta-btn {
+  display: inline-block;
+  background: #e94560;
+  color: #fff;
+  padding: 14px 38px;
+  border-radius: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 1.05em;
+  transition: background 0.3s;
+}
+
+.cta-band .cta-btn:hover {
+  background: #d13a54;
+}
+
+.cta-band .cta-contact {
+  margin-top: 18px;
+  font-size: 0.9em;
+}
+
+.cta-band .cta-contact a {
+  color: #aab0c0;
+  text-decoration: none;
+}
+
+.cta-band .cta-contact a:hover {
+  color: #fff;
+}
+
+/* 响应式 */
 @media (max-width: 768px) {
+  .stats-band {
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 22px 16px;
+  }
+
+  .stat-cell {
+    flex: 1 1 40%;
+  }
+
+  .who-grid,
+  .factory-grid {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+
+  .cert-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
   .tradeshow-row {
     flex-wrap: wrap;
   }
@@ -373,154 +463,218 @@ permalink: /about/
     flex: 1 1 45%;
     height: 150px;
   }
+
+  .about-section {
+    margin: 50px auto;
+  }
 }
 
 @media (max-width: 480px) {
-  .stats-section {
-    grid-template-columns: 1fr;
+  .stat-cell {
+    flex: 1 1 40%;
+  }
+
+  .stat-cell .num {
+    font-size: 1.5em;
   }
 }
 </style>
 
-<div class="about-container">
+<!-- Hero 横幅 -->
+<div class="about-hero">
+  <img src="/assets/images/about/hero-banner.jpg" alt="Dingyong - stainless steel cutlery manufacturer in Jieyang, Guangdong, China. OEM/ODM, wholesale, private label and export.">
+</div>
 
-  <!-- 标题 -->
-  <div class="about-header">
-    <h1>About Ding-Yong Products</h1>
-    <p class="subtitle">Professional Stainless Steel Tableware Manufacturer Since 2014</p>
+<!-- 数字统计条 -->
+<div class="stats-band">
+  <div class="stat-cell">
+    <div class="num">12<em>+</em></div>
+    <div class="lbl">Years Experience</div>
   </div>
+  <div class="stat-cell">
+    <div class="num">4,000<em>+</em></div>
+    <div class="lbl">㎡ Factory Area</div>
+  </div>
+  <div class="stat-cell">
+    <div class="num">50<em>+</em></div>
+    <div class="lbl">Skilled Workers</div>
+  </div>
+  <div class="stat-cell">
+    <div class="num">10M<em>+</em></div>
+    <div class="lbl">Pieces Monthly Output</div>
+  </div>
+</div>
 
-  <!-- 主内容：左文右视频 -->
-  <div class="about-main">
-    
-    <!-- 左侧：公司介绍 -->
-    <div class="about-content">
-      <h2>Who We Are</h2>
+<!-- 我们是谁 -->
+<div class="about-section">
+  <h2>Who We Are</h2>
+  <p class="section-subtitle">A trusted cutlery partner from Jieyang, Guangdong — the heartland of China's stainless steel tableware industry.</p>
+  <div class="who-grid">
+    <div>
       <p>
-        Ding-Yong Products Co., Ltd is a leading manufacturer specializing in premium 
-        18/10 stainless steel cutlery, flatware, and kitchen utensils. Based in 
-        Guangdong, China, we have been serving global B2B buyers for over a decade.
+        Ding-Yong Products Co., Ltd is a manufacturer specializing in premium 18/10
+        stainless steel cutlery, flatware, and kitchen utensils. Based in Jieyang,
+        Guangdong, we have been serving global B2B buyers for over a decade under
+        our own registered brand DINGYONG.
       </p>
       <p>
-        Our 4,000+㎡ production facility houses 50+ skilled workers and advanced
-        CNC polishing machines, enabling us to produce 500,000+ pieces monthly.
-        We are committed to delivering restaurant-quality tableware at competitive
-        factory-direct prices.
+        Our 4,000+㎡ production facility houses 50+ skilled workers and advanced CNC
+        polishing machines, enabling us to produce 10 million+ pieces monthly. From
+        small custom orders to large hotel chain contracts, we provide flexible
+        OEM/ODM solutions tailored to your market.
       </p>
-      <p>
-        From small custom orders to large hotel chain contracts, we provide flexible 
-        OEM/ODM solutions tailored to your market needs.
-      </p>
-
-      <h2>Our Strengths</h2>
-      <p>
+      <p class="strengths">
         ✓ <strong>Factory Direct</strong> — No middlemen, competitive pricing<br>
-        ✓ <strong>Quality Assured</strong> — ISO9001, FDA, LFGB, SGS certified<br>
+        ✓ <strong>Quality Assured</strong> — FDA, LFGB, SGS, ISO9001 certified<br>
         ✓ <strong>Custom Capacity</strong> — Logo engraving, custom packaging, PVD colors<br>
         ✓ <strong>Fast Delivery</strong> — 35-50 days lead time, flexible MOQ
       </p>
     </div>
-
-    <!-- 右侧：工厂视频 -->
-    <div class="about-video">
-      <div class="video-container" style="position: relative; width: 100%; aspect-ratio: 16/9; border-radius: 12px; overflow: hidden;">
-        
-        <!-- 方案 1：YouTube 嵌入（推荐，替换 VIDEO_ID） -->
-        <iframe 
-          id="factory-video"
-          src="https://www.youtube.com/embed/rxGmVh_LP3A?modestbranding=1&controls=1&showinfo=0&rel=0&iv_load_policy=3" 
-          title="Ding-Yong Factory Tour"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-          allowfullscreen
-          style="width: 100%; height: 100%; border: none;">
-        </iframe>
-
-      
-      <!-- 视频说明 -->
-      <div style="margin-top: 15px; text-align: center; color: #666; font-size: 0.85em;">
-        <p>🎬 Watch how your tableware is crafted from raw steel to finished products</p>
-      </div>
-    </div>
-
-  </div>
-
-  <!-- 数据统计 -->
-  <div class="stats-section">
-    <div class="stat-item">
-      <div class="stat-number">12+</div>
-      <div class="stat-label">Years Experience</div>
-    </div>
-    <div class="stat-item">
-      <div class="stat-number">4,000+</div>
-      <div class="stat-label">Factory Area</div>
-    </div>
-    <div class="stat-item">
-      <div class="stat-number">50+</div>
-      <div class="stat-label">Workers</div>
-    </div>
-    <div class="stat-item">
-      <div class="stat-number">10M+</div>
-      <div class="stat-label">Monthly Output (Pieces)</div>
+    <div class="who-img">
+      <img src="/assets/images/tradeshows/tradeshow-04.jpg" alt="Dingyong exhibition stand showcasing stainless steel cutlery sets" loading="lazy">
     </div>
   </div>
+</div>
 
-  <!-- 发展历程 -->
-  <div class="timeline-section">
-    <h2>Our Journey</h2>
-    <div class="timeline">
-      <div class="timeline-item">
-        <div class="timeline-year">2014</div>
-        <div class="timeline-text">Entered the stainless steel tableware industry and began manufacturing cutlery and flatware in Jieyang, Guangdong.</div>
+<!-- 工厂视频 + 生产流程 -->
+<div class="about-section">
+  <h2>Inside Our Factory</h2>
+  <p class="section-subtitle">See how your tableware is crafted — from raw steel to finished products.</p>
+  <div class="factory-grid">
+    <div class="video-box">
+      <iframe
+        src="https://www.youtube.com/embed/rxGmVh_LP3A?modestbranding=1&controls=1&showinfo=0&rel=0&iv_load_policy=3"
+        title="Ding-Yong Factory Tour"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen>
+      </iframe>
+    </div>
+    <div class="process-list">
+      <div class="process-item">
+        <div class="step-no">1</div>
+        <div>
+          <h4>Stamping &amp; Forming</h4>
+          <p>High-precision presses shape 18/10 stainless steel blanks into knife, fork and spoon profiles.</p>
+        </div>
       </div>
-      <div class="timeline-item">
-        <div class="timeline-year">2016</div>
-        <div class="timeline-text">Registered our own trademark "DINGYONG", building a dedicated brand identity for our product lines.</div>
+      <div class="process-item">
+        <div class="step-no">2</div>
+        <div>
+          <h4>Polishing</h4>
+          <p>Multi-stage CNC and hand polishing deliver the signature mirror finish.</p>
+        </div>
       </div>
-      <div class="timeline-item">
-        <div class="timeline-year">2021</div>
-        <div class="timeline-text">Products passed third-party laboratory testing and obtained food-contact safety certifications, including FDA, LFGB and SGS.</div>
+      <div class="process-item">
+        <div class="step-no">3</div>
+        <div>
+          <h4>Quality Inspection</h4>
+          <p>Every batch is checked for finish, edge and food-contact safety before packing.</p>
+        </div>
       </div>
-      <div class="timeline-item">
-        <div class="timeline-year">2023</div>
-        <div class="timeline-text">Joined Alibaba International Station, opening direct wholesale channels to global B2B buyers.</div>
-      </div>
-      <div class="timeline-item">
-        <div class="timeline-year">2024</div>
-        <div class="timeline-text">Expanded our factory to a 4,000+㎡ production facility with upgraded equipment and capacity.</div>
+      <div class="process-item">
+        <div class="step-no">4</div>
+        <div>
+          <h4>Packing &amp; Export</h4>
+          <p>Custom gift boxes, color boxes and export cartons, shipped worldwide.</p>
+        </div>
       </div>
     </div>
   </div>
+</div>
 
-  <!-- 展会图库 -->
-  <div class="tradeshow-section">
-    <h2>Trade Shows &amp; Exhibitions</h2>
-    <p class="section-subtitle">Meet us in person at international trade fairs — real booths, real conversations, real partnerships.</p>
-
-    <div class="tradeshow-row-title">Our Booths</div>
-    <div class="tradeshow-row">
-      <img src="/assets/images/tradeshows/tradeshow-01.jpg" alt="Dingyong stainless steel cutlery booth at trade fair" loading="lazy">
-      <img src="/assets/images/tradeshows/tradeshow-03.jpg" alt="Stainless steel tableware display at trade show" loading="lazy">
-      <img src="/assets/images/tradeshows/tradeshow-04.jpg" alt="Dingyong exhibition stand with cutlery sets and stainless steel products" loading="lazy">
-      <img src="/assets/images/tradeshows/tradeshow-05.jpg" alt="Dingyong branded booth showing flatware collections" loading="lazy">
-      <img src="/assets/images/tradeshows/tradeshow-06.jpg" alt="Product showcase at stainless steel industry exhibition" loading="lazy">
+<!-- 证书墙 -->
+<div class="about-section">
+  <h2>Certifications &amp; Quality</h2>
+  <p class="section-subtitle">Our products passed third-party laboratory testing — safe for food contact, trusted by importers worldwide.</p>
+  <div class="cert-grid">
+    <div class="cert-card">
+      <div class="cert-icon"><svg viewBox="0 0 24 24"><path d="M12 2l2.4 4.9 5.4.8-3.9 3.8.9 5.4L12 14.4 7.2 16.9l.9-5.4L4.2 7.7l5.4-.8L12 2z"/></svg></div>
+      <h4>FDA</h4>
+      <p>Food-contact material compliance for the US market</p>
     </div>
-
-    <div class="tradeshow-row-title">Buyers &amp; Business Talks</div>
-    <div class="tradeshow-row">
-      <img src="/assets/images/tradeshows/tradeshow-02.jpg" alt="Discussing cutlery collections with overseas buyers at exhibition" loading="lazy">
-      <img src="/assets/images/tradeshows/tradeshow-08.jpg" alt="Buyers reviewing stainless steel flatware samples" loading="lazy">
-      <img src="/assets/images/tradeshows/tradeshow-11.jpg" alt="Visitors at Dingyong trade show stand" loading="lazy">
-      <img src="/assets/images/tradeshows/tradeshow-12.jpg" alt="Buyers examining cutlery sets at exhibition booth" loading="lazy">
-      <img src="/assets/images/tradeshows/tradeshow-14.jpg" alt="Busy booth with buyers from Latin America at tableware fair" loading="lazy">
+    <div class="cert-card">
+      <div class="cert-icon"><svg viewBox="0 0 24 24"><path d="M12 2l2.4 4.9 5.4.8-3.9 3.8.9 5.4L12 14.4 7.2 16.9l.9-5.4L4.2 7.7l5.4-.8L12 2z"/></svg></div>
+      <h4>LFGB</h4>
+      <p>German food safety testing — stricter than EU standard</p>
     </div>
-
-    <div class="tradeshow-row-title">Moments with Clients</div>
-    <div class="tradeshow-row">
-      <img src="/assets/images/tradeshows/tradeshow-07.jpg" alt="Group photo with international customers at trade fair" loading="lazy">
-      <img src="/assets/images/tradeshows/tradeshow-09.jpg" alt="Team with international clients at cutlery exhibition" loading="lazy">
-      <img src="/assets/images/tradeshows/tradeshow-10.jpg" alt="Happy customers taking selfie at Dingyong booth" loading="lazy">
-      <img src="/assets/images/tradeshows/tradeshow-13.jpg" alt="Team with clients at Canton Fair booth" loading="lazy">
+    <div class="cert-card">
+      <div class="cert-icon"><svg viewBox="0 0 24 24"><path d="M12 2l2.4 4.9 5.4.8-3.9 3.8.9 5.4L12 14.4 7.2 16.9l.9-5.4L4.2 7.7l5.4-.8L12 2z"/></svg></div>
+      <h4>SGS</h4>
+      <p>Third-party quality inspection and audit reports</p>
+    </div>
+    <div class="cert-card">
+      <div class="cert-icon"><svg viewBox="0 0 24 24"><path d="M12 2l2.4 4.9 5.4.8-3.9 3.8.9 5.4L12 14.4 7.2 16.9l.9-5.4L4.2 7.7l5.4-.8L12 2z"/></svg></div>
+      <h4>ISO9001</h4>
+      <p>Quality management system across the whole factory</p>
     </div>
   </div>
+</div>
 
+<!-- 发展历程 -->
+<div class="timeline-section">
+  <h2>Our Journey</h2>
+  <div class="timeline">
+    <div class="timeline-item">
+      <div class="timeline-year">2014</div>
+      <div class="timeline-text">Entered the stainless steel tableware industry and began manufacturing cutlery and flatware in Jieyang, Guangdong.</div>
+    </div>
+    <div class="timeline-item">
+      <div class="timeline-year">2016</div>
+      <div class="timeline-text">Registered our own trademark "DINGYONG", building a dedicated brand identity for our product lines.</div>
+    </div>
+    <div class="timeline-item">
+      <div class="timeline-year">2021</div>
+      <div class="timeline-text">Products passed third-party laboratory testing and obtained food-contact safety certifications, including FDA, LFGB and SGS.</div>
+    </div>
+    <div class="timeline-item">
+      <div class="timeline-year">2023</div>
+      <div class="timeline-text">Joined Alibaba International Station, opening direct wholesale channels to global B2B buyers.</div>
+    </div>
+    <div class="timeline-item">
+      <div class="timeline-year">2024</div>
+      <div class="timeline-text">Expanded our factory to a 4,000+㎡ production facility with upgraded equipment and capacity.</div>
+    </div>
+  </div>
+</div>
+
+<!-- 展会图库 -->
+<div class="tradeshow-section">
+  <h2>Trade Shows &amp; Exhibitions</h2>
+  <p class="section-subtitle">Meet us in person at international trade fairs — real booths, real conversations, real partnerships.</p>
+
+  <div class="tradeshow-row-title">Our Booths</div>
+  <div class="tradeshow-row">
+    <img src="/assets/images/tradeshows/tradeshow-01.jpg" alt="Dingyong stainless steel cutlery booth at trade fair" loading="lazy">
+    <img src="/assets/images/tradeshows/tradeshow-03.jpg" alt="Stainless steel tableware display at trade show" loading="lazy">
+    <img src="/assets/images/tradeshows/tradeshow-04.jpg" alt="Dingyong exhibition stand with cutlery sets and stainless steel products" loading="lazy">
+    <img src="/assets/images/tradeshows/tradeshow-05.jpg" alt="Dingyong branded booth showing flatware collections" loading="lazy">
+    <img src="/assets/images/tradeshows/tradeshow-06.jpg" alt="Product showcase at stainless steel industry exhibition" loading="lazy">
+  </div>
+
+  <div class="tradeshow-row-title">Buyers &amp; Business Talks</div>
+  <div class="tradeshow-row">
+    <img src="/assets/images/tradeshows/tradeshow-02.jpg" alt="Discussing cutlery collections with overseas buyers at exhibition" loading="lazy">
+    <img src="/assets/images/tradeshows/tradeshow-08.jpg" alt="Buyers reviewing stainless steel flatware samples" loading="lazy">
+    <img src="/assets/images/tradeshows/tradeshow-11.jpg" alt="Visitors at Dingyong trade show stand" loading="lazy">
+    <img src="/assets/images/tradeshows/tradeshow-12.jpg" alt="Buyers examining cutlery sets at exhibition booth" loading="lazy">
+    <img src="/assets/images/tradeshows/tradeshow-14.jpg" alt="Busy booth with buyers from Latin America at tableware fair" loading="lazy">
+  </div>
+
+  <div class="tradeshow-row-title">Moments with Clients</div>
+  <div class="tradeshow-row">
+    <img src="/assets/images/tradeshows/tradeshow-07.jpg" alt="Group photo with international customers at trade fair" loading="lazy">
+    <img src="/assets/images/tradeshows/tradeshow-09.jpg" alt="Team with international clients at cutlery exhibition" loading="lazy">
+    <img src="/assets/images/tradeshows/tradeshow-10.jpg" alt="Happy customers taking selfie at Dingyong booth" loading="lazy">
+    <img src="/assets/images/tradeshows/tradeshow-13.jpg" alt="Team with clients at Canton Fair booth" loading="lazy">
+  </div>
+</div>
+
+<!-- CTA 收口 -->
+<div class="cta-band">
+  <h2>Ready to Start Your Order?</h2>
+  <p>Get a factory-direct quote, request free samples, or discuss your OEM/ODM project with our team.</p>
+  <a class="cta-btn" href="https://wa.me/8615013371880" target="_blank" rel="noopener">Get a Quote on WhatsApp</a>
+  <p class="cta-contact">
+    Or email us at <a href="mailto:sales@ding-yong.com">sales@ding-yong.com</a> — we reply within 24 hours.
+  </p>
 </div>
