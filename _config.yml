@@ -6,7 +6,7 @@ url: "https://www.ding-yong.com" # the base hostname & protocol for your site, e
 baseurl: ""
 google_analytics_key: "G-ZF0WEH06MP"
 # Microsoft Clarity 热力图/录屏（在 clarity.microsoft.com 创建项目后填入项目 ID，留空则不加载）
-clarity_key: ""
+clarity_key: "ykkdpt0rl8"
 
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
 logo: /siteicon.png
