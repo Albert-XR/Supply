@@ -22,7 +22,7 @@ sitemap: false
   <p>Your inquiry has been received. Our sales team will reply within <strong>24 hours</strong> (Mon&ndash;Sat).</p>
   <p>For urgent matters, reach us directly on WhatsApp.</p>
   <div class="thanks-actions">
-    <a class="thanks-btn whatsapp" href="https://wa.me/8613822066349" target="_blank">&#128172; Chat on WhatsApp</a>
+    <a class="thanks-btn whatsapp" href="https://wa.me/8615013371880" target="_blank">&#128172; Chat on WhatsApp</a>
     <a class="thanks-btn primary" href="/products/">Continue Browsing Products</a>
   </div>
 </div>

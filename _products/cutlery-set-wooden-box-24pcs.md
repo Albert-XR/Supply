@@ -519,7 +519,7 @@ tags: ["Wooden Gift Box", "24-Piece Set", "Mirror Polished", "Stainless Steel Cu
   <h2>Ready to Order?</h2>
   <p>Get your custom quote within 24 hours. Free sample available for serious buyers.</p>
   <a href="/contact" class="cta-button">Get Free Quote</a>
-  <a href="https://wa.me/8613822066349" class="cta-button secondary" target="_blank">Chat on WhatsApp</a>
+  <a href="https://wa.me/8615013371880" class="cta-button secondary" target="_blank">Chat on WhatsApp</a>
 </div>
 
 <script>
