@@ -209,21 +209,28 @@ permalink: /about/
 }
 
 .stat-item {
-  padding: 30px;
+  padding: 30px 20px;
   background: #f8f9fa;
   border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .stat-number {
-  font-size: 2.5em;
+  font-size: 2.2em;
   font-weight: bold;
   color: #e94560;
   margin-bottom: 8px;
+  white-space: nowrap;
+  line-height: 1.2;
 }
 
 .stat-label {
   color: #666;
   font-size: 0.9em;
+  line-height: 1.4;
 }
 
 /* 时间线 */
