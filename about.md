@@ -339,7 +339,7 @@ permalink: /about/
         Guangdong, China, we have been serving global B2B buyers for over a decade.
       </p>
       <p>
-        Our 4,000㎡ production facility houses 50-100 skilled workers and advanced
+        Our 4,000+㎡ production facility houses 50+ skilled workers and advanced
         CNC polishing machines, enabling us to produce 500,000+ pieces monthly.
         We are committed to delivering restaurant-quality tableware at competitive
         factory-direct prices.
@@ -388,11 +388,11 @@ permalink: /about/
       <div class="stat-label">Years Experience</div>
     </div>
     <div class="stat-item">
-      <div class="stat-number">4,000㎡</div>
+      <div class="stat-number">4,000+</div>
       <div class="stat-label">Factory Area</div>
     </div>
     <div class="stat-item">
-      <div class="stat-number">50-100</div>
+      <div class="stat-number">50+</div>
       <div class="stat-label">Workers</div>
     </div>
     <div class="stat-item">
@@ -423,7 +423,7 @@ permalink: /about/
       </div>
       <div class="timeline-item">
         <div class="timeline-year">2024</div>
-        <div class="timeline-text">Expanded our factory to a 4,000㎡ production facility with upgraded equipment and capacity.</div>
+        <div class="timeline-text">Expanded our factory to a 4,000+㎡ production facility with upgraded equipment and capacity.</div>
       </div>
     </div>
   </div>
