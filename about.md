@@ -231,6 +231,11 @@ permalink: /about/
   color: #666;
   font-size: 0.9em;
   line-height: 1.4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  min-height: 2.8em; /* 固定两行标签区，保证四张卡片完全对齐 */
 }
 
 /* 时间线 */
@@ -378,20 +383,20 @@ permalink: /about/
   <!-- 数据统计 -->
   <div class="stats-section">
     <div class="stat-item">
-      <div class="stat-number">12+</div>
-      <div class="stat-label">Years Experience</div>
+      <div class="stat-number">5,000㎡</div>
+      <div class="stat-label">Production Area</div>
     </div>
     <div class="stat-item">
-      <div class="stat-number">4,000㎡</div>
-      <div class="stat-label">Factory Area</div>
+      <div class="stat-number">40+</div>
+      <div class="stat-label">Years Production Experience</div>
     </div>
     <div class="stat-item">
-      <div class="stat-number">50-100</div>
-      <div class="stat-label">Workers</div>
+      <div class="stat-number">600㎡</div>
+      <div class="stat-label">Showroom</div>
     </div>
     <div class="stat-item">
-      <div class="stat-number">10M+</div>
-      <div class="stat-label">Monthly Output (Pieces)</div>
+      <div class="stat-number">200</div>
+      <div class="stat-label">Outstanding Employees</div>
     </div>
   </div>
 
