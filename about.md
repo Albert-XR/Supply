@@ -383,8 +383,8 @@ permalink: /about/
       <div class="stat-label">Workers</div>
     </div>
     <div class="stat-item">
-      <div class="stat-number">500K+</div>
-      <div class="stat-label">Monthly Output</div>
+      <div class="stat-number">10M+</div>
+      <div class="stat-label">Monthly Output (Pieces)</div>
     </div>
   </div>
 
