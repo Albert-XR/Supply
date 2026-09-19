@@ -314,22 +314,36 @@ permalink: /about/
   margin-bottom: 35px;
 }
 
-.tradeshow-grid {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 12px;
+.tradeshow-row-title {
+  text-align: center;
+  color: #555;
+  font-size: 1.05em;
+  font-weight: 600;
+  margin: 25px 0 12px;
 }
 
-.tradeshow-grid img {
+.tradeshow-row-title:first-of-type {
+  margin-top: 0;
+}
+
+.tradeshow-row {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 12px;
+}
+
+.tradeshow-row img {
+  flex: 1;
+  min-width: 0;
   width: 100%;
-  height: 200px;
+  height: 240px;
   object-fit: cover;
   border-radius: 10px;
   display: block;
   transition: transform 0.3s, box-shadow 0.3s;
 }
 
-.tradeshow-grid img:hover {
+.tradeshow-row img:hover {
   transform: translateY(-4px);
   box-shadow: 0 8px 20px rgba(0,0,0,0.15);
 }
@@ -351,11 +365,12 @@ permalink: /about/
 }
 
 @media (max-width: 768px) {
-  .tradeshow-grid {
-    grid-template-columns: repeat(2, 1fr);
+  .tradeshow-row {
+    flex-wrap: wrap;
   }
 
-  .tradeshow-grid img {
+  .tradeshow-row img {
+    flex: 1 1 45%;
     height: 150px;
   }
 }
@@ -480,21 +495,31 @@ permalink: /about/
   <div class="tradeshow-section">
     <h2>Trade Shows &amp; Exhibitions</h2>
     <p class="section-subtitle">Meet us in person at international trade fairs — real booths, real conversations, real partnerships.</p>
-    <div class="tradeshow-grid">
+
+    <div class="tradeshow-row-title">Our Booths</div>
+    <div class="tradeshow-row">
       <img src="/assets/images/tradeshows/tradeshow-01.jpg" alt="Dingyong stainless steel cutlery booth at trade fair" loading="lazy">
-      <img src="/assets/images/tradeshows/tradeshow-02.jpg" alt="Discussing cutlery collections with overseas buyers at exhibition" loading="lazy">
       <img src="/assets/images/tradeshows/tradeshow-03.jpg" alt="Stainless steel tableware display at trade show" loading="lazy">
       <img src="/assets/images/tradeshows/tradeshow-04.jpg" alt="Dingyong exhibition stand with cutlery sets and stainless steel products" loading="lazy">
       <img src="/assets/images/tradeshows/tradeshow-05.jpg" alt="Dingyong branded booth showing flatware collections" loading="lazy">
       <img src="/assets/images/tradeshows/tradeshow-06.jpg" alt="Product showcase at stainless steel industry exhibition" loading="lazy">
-      <img src="/assets/images/tradeshows/tradeshow-07.jpg" alt="Group photo with international customers at trade fair" loading="lazy">
+    </div>
+
+    <div class="tradeshow-row-title">Buyers &amp; Business Talks</div>
+    <div class="tradeshow-row">
+      <img src="/assets/images/tradeshows/tradeshow-02.jpg" alt="Discussing cutlery collections with overseas buyers at exhibition" loading="lazy">
       <img src="/assets/images/tradeshows/tradeshow-08.jpg" alt="Buyers reviewing stainless steel flatware samples" loading="lazy">
-      <img src="/assets/images/tradeshows/tradeshow-09.jpg" alt="Team with international clients at cutlery exhibition" loading="lazy">
-      <img src="/assets/images/tradeshows/tradeshow-10.jpg" alt="Happy customers taking selfie at Dingyong booth" loading="lazy">
       <img src="/assets/images/tradeshows/tradeshow-11.jpg" alt="Visitors at Dingyong trade show stand" loading="lazy">
       <img src="/assets/images/tradeshows/tradeshow-12.jpg" alt="Buyers examining cutlery sets at exhibition booth" loading="lazy">
-      <img src="/assets/images/tradeshows/tradeshow-13.jpg" alt="Team with clients at Canton Fair booth" loading="lazy">
       <img src="/assets/images/tradeshows/tradeshow-14.jpg" alt="Busy booth with buyers from Latin America at tableware fair" loading="lazy">
+    </div>
+
+    <div class="tradeshow-row-title">Moments with Clients</div>
+    <div class="tradeshow-row">
+      <img src="/assets/images/tradeshows/tradeshow-07.jpg" alt="Group photo with international customers at trade fair" loading="lazy">
+      <img src="/assets/images/tradeshows/tradeshow-09.jpg" alt="Team with international clients at cutlery exhibition" loading="lazy">
+      <img src="/assets/images/tradeshows/tradeshow-10.jpg" alt="Happy customers taking selfie at Dingyong booth" loading="lazy">
+      <img src="/assets/images/tradeshows/tradeshow-13.jpg" alt="Team with clients at Canton Fair booth" loading="lazy">
     </div>
   </div>
 
