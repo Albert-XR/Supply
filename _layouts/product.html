@@ -21,7 +21,7 @@ layout: default
   "name": {{ page.title | jsonify }},
   "description": {{ page.description | jsonify }},
   "image": {{ page.image | absolute_url | jsonify }},
-  "brand": { "@type": "Brand", "name": "DINGYONG" },
+  "brand": { "@type": "Brand", "name": "DINGYONG" }{% if page.price %},
   "offers": {
     "@type": "{% if price_high %}AggregateOffer{% else %}Offer{% endif %}",
     "priceCurrency": "USD",
@@ -29,6 +29,6 @@ layout: default
     "highPrice": {{ price_high }},
     "offerCount": 1{% else %}"price": {{ price_low }},
     "availability": "https://schema.org/InStock"{% endif %}
-  }
+  }{% endif %}
 }
 </script>
