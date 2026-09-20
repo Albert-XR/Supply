@@ -1,7 +1,6 @@
 ---
 title: "Christmas Cartoon Doll Gold-Plated Spoon & Fork Gift Box Set"
 description: "Festive Christmas cutlery gift set with 3D cartoon doll toppers (Santa, Snowman, Reindeer, Tree), gold-plated stainless steel spoons and forks in holiday gift boxes, dishwasher safe, ideal for Christmas gifting and party table settings"
-price: "$1.57 - $1.74 / set"
 moq: "80 pieces"
 lead_time: "25-35 days"
 material: "Stainless Steel + PVC Doll Topper"
@@ -328,8 +327,7 @@ tags: ["Christmas", "Gift Box Set", "Gold Plated Spoon", "Dessert Fork", "Party 
   <div class="product-info">
     <h1>Christmas Cartoon Doll Gold-Plated Spoon &amp; Fork Gift Box Set</h1>
     <p class="product-sku">SKU: DY-XM01-001 | Model: Christmas Doll Series</p>
-    <div class="product-price">$1.57 - $1.74 <span>/ set FOB Shenzhen</span></div>
-    <p class="product-moq">MOQ: 80 pieces | Lead Time: 25-35 days</p>
+    <p class="product-moq">MOQ: 80 pieces | Lead Time: 25-35 days<br>Contact us for current wholesale pricing.</p>
 
     <div class="feature-tags">
       <span class="tag">✓ 6 Cartoon Designs</span>
@@ -511,7 +509,7 @@ tags: ["Christmas", "Gift Box Set", "Gold Plated Spoon", "Dessert Fork", "Party 
     <div class="related-card">
       <a href="{{ p.url }}"><img src="{{ p.image }}" alt="{{ p.title }}"></a>
       <h4><a href="{{ p.url }}" style="color:#1a1a2e; text-decoration:none;">{{ p.title }}</a></h4>
-      <div class="rel-price">{{ p.price }}</div>
+      <div class="rel-price">{% if p.price %}{{ p.price }}{% else %}Contact Us{% endif %}</div>
     </div>
     {% endfor %}
   </div>

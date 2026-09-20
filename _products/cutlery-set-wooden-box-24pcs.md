@@ -1,7 +1,6 @@
 ---
 title: "24-Piece Mirror Polished Stainless Steel Cutlery Set with Wooden Gift Box"
 description: "24-piece stainless steel flatware set in a portable wooden gift box — 6 dinner knives, 6 forks, 6 spoons and 6 coffee spoons with high mirror polish; gold, rose gold, silver, black and rainbow options, dishwasher safe, ideal for weddings, events, business gifting and retail"
-price: "$5.99 - $7.88 / set"
 moq: "20 pieces"
 lead_time: "25-35 days"
 material: "Stainless Steel"
@@ -324,8 +323,7 @@ tags: ["Wooden Gift Box", "24-Piece Set", "Mirror Polished", "Stainless Steel Cu
   <div class="product-info">
     <h1>24-Piece Mirror Polished Stainless Steel Cutlery Set with Wooden Gift Box</h1>
     <p class="product-sku">SKU: DY-WB24-003 | Model: Wooden Box 24pcs Series</p>
-    <div class="product-price">$5.99 - $7.88 <span>/ set FOB Shenzhen</span></div>
-    <p class="product-moq">MOQ: 20 pieces | Lead Time: 25-35 days</p>
+    <p class="product-moq">MOQ: 20 pieces | Lead Time: 25-35 days<br>Contact us for current wholesale pricing.</p>
 
     <div class="feature-tags">
       <span class="tag">✓ Stainless Steel</span>
@@ -508,7 +506,7 @@ tags: ["Wooden Gift Box", "24-Piece Set", "Mirror Polished", "Stainless Steel Cu
     <div class="related-card">
       <a href="{{ p.url }}"><img src="{{ p.image }}" alt="{{ p.title }}"></a>
       <h4><a href="{{ p.url }}" style="color:#1a1a2e; text-decoration:none;">{{ p.title }}</a></h4>
-      <div class="rel-price">{{ p.price }}</div>
+      <div class="rel-price">{% if p.price %}{{ p.price }}{% else %}Contact Us{% endif %}</div>
     </div>
     {% endfor %}
   </div>

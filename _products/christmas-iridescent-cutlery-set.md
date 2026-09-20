@@ -1,7 +1,6 @@
 ---
 title: "Christmas Metallic Iridescent Cartoon Dessert Spoon & Fork Gift Set"
 description: "Festive Christmas dessert cutlery set with 3D cartoon figurine toppers (Santa, Christmas Tree) in glossy metallic iridescent finish, titanium gold stainless steel dessert spoons and forks, 2-piece and 4-piece holiday gift boxes, dishwasher safe, ideal for Christmas gifting and party tables"
-price: "$0.32 - $2.53 / set"
 moq: "300 pieces"
 lead_time: "25-35 days"
 material: "Stainless Steel + Electroplated Plastic Figurine Topper"
@@ -328,8 +327,7 @@ tags: ["Christmas", "Gift Box Set", "Iridescent Spoon", "Dessert Fork", "Party T
   <div class="product-info">
     <h1>Christmas Metallic Iridescent Cartoon Dessert Spoon &amp; Fork Gift Set</h1>
     <p class="product-sku">SKU: DY-XM01-002 | Model: Iridescent Figurine Series</p>
-    <div class="product-price">$0.32 - $2.53 <span>/ set FOB Shenzhen</span></div>
-    <p class="product-moq">MOQ: 300 pieces | Lead Time: 25-35 days</p>
+    <p class="product-moq">MOQ: 300 pieces | Lead Time: 25-35 days<br>Contact us for current wholesale pricing.</p>
 
     <div class="feature-tags">
       <span class="tag">✓ 4 Figurine Designs</span>
@@ -510,7 +508,7 @@ tags: ["Christmas", "Gift Box Set", "Iridescent Spoon", "Dessert Fork", "Party T
     <div class="related-card">
       <a href="{{ p.url }}"><img src="{{ p.image }}" alt="{{ p.title }}"></a>
       <h4><a href="{{ p.url }}" style="color:#1a1a2e; text-decoration:none;">{{ p.title }}</a></h4>
-      <div class="rel-price">{{ p.price }}</div>
+      <div class="rel-price">{% if p.price %}{{ p.price }}{% else %}Contact Us{% endif %}</div>
     </div>
     {% endfor %}
   </div>

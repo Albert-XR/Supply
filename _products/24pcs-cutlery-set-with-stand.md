@@ -1,7 +1,6 @@
 ---
 title: "24-Piece 1010 Stainless Steel Cutlery Set with Hanging Stand and Gift Box"
 description: "24-piece 1010 stainless steel flatware set with hanging display stand — 6 dinner knives, 6 forks, 6 spoons and 6 tea spoons in a portable gift box; high mirror polish, dishwasher safe, ideal for business gifting, retail and home dining"
-price: "$3.44 - $7.35 / set"
 moq: "20 sets"
 lead_time: "25-35 days"
 material: "1010 Stainless Steel"
@@ -325,8 +324,7 @@ tags: ["With Stand", "24-Piece Set", "Gift Box", "Stainless Steel Cutlery", "Dis
   <div class="product-info">
     <h1>24-Piece 1010 Stainless Steel Cutlery Set with Hanging Stand and Gift Box</h1>
     <p class="product-sku">SKU: DY-CS24-002 | Model: 1010-24 Stand Series</p>
-    <div class="product-price">$3.44 - $7.35 <span>/ set FOB Shenzhen</span></div>
-    <p class="product-moq">MOQ: 20 sets | Lead Time: 25-35 days</p>
+    <p class="product-moq">MOQ: 20 sets | Lead Time: 25-35 days<br>Contact us for current wholesale pricing.</p>
 
     <div class="feature-tags">
       <span class="tag">✓ 1010 Stainless Steel</span>
@@ -509,7 +507,7 @@ tags: ["With Stand", "24-Piece Set", "Gift Box", "Stainless Steel Cutlery", "Dis
     <div class="related-card">
       <a href="{{ p.url }}"><img src="{{ p.image }}" alt="{{ p.title }}"></a>
       <h4><a href="{{ p.url }}" style="color:#1a1a2e; text-decoration:none;">{{ p.title }}</a></h4>
-      <div class="rel-price">{{ p.price }}</div>
+      <div class="rel-price">{% if p.price %}{{ p.price }}{% else %}Contact Us{% endif %}</div>
     </div>
     {% endfor %}
   </div>

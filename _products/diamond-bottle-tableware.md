@@ -1,7 +1,6 @@
 ---
 title: "Diamond Bottle Tableware Set"
 description: "18/10 stainless steel cutlery set with unique diamond bottle container"
-price: "$18.50 / set"
 moq: "500 sets"
 lead_time: "35-50 days"
 material: "18/10 (304) Austenitic Stainless Steel"
@@ -312,8 +311,7 @@ is_bestseller: true
   <div class="product-info">
     <h1>Diamond Bottle Tableware Set</h1>
     <p class="product-sku">SKU: DY-DB24-001 | Model: Diamond Series</p>
-    <div class="product-price">$18.50 <span>/ set FOB Shenzhen</span></div>
-    <p class="product-moq">MOQ: 500 sets | Lead Time: 35-50 days</p>
+    <p class="product-moq">MOQ: 500 sets | Lead Time: 35-50 days<br>Contact us for current wholesale pricing.</p>
     
     <div class="feature-tags">
       <span class="tag">✓ 18/10 Stainless Steel</span>
@@ -491,7 +489,7 @@ is_bestseller: true
     <div class="related-card">
       <a href="{{ p.url }}"><img src="{{ p.image }}" alt="{{ p.title }}"></a>
       <h4><a href="{{ p.url }}" style="color:#1a1a2e; text-decoration:none;">{{ p.title }}</a></h4>
-      <div class="rel-price">{{ p.price }}</div>
+      <div class="rel-price">{% if p.price %}{{ p.price }}{% else %}Contact Us{% endif %}</div>
     </div>
     {% endfor %}
   </div>

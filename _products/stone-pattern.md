@@ -1,7 +1,6 @@
 ---
 title: "410 Stainless Steel Knife Fork Spoon Set"
 description: "DINGYONG OEM/ODM 410 Stainless Steel Knife Fork Spoon Set - Hotel Restaurant Tableware Nordic/Minimalist Design Boxed"
-price: "$1.01 - $2.43 / pc"
 moq: "100 pieces"
 lead_time: "25-35 days"
 material: "410 Stainless Steel"
@@ -325,8 +324,7 @@ tags: ["Nordic Style", "Minimalist", "410 Stainless Steel", "Hotel Restaurant", 
   <div class="product-info">
     <h1>410 Stainless Steel Knife Fork Spoon Set - Hotel Restaurant Tableware Nordic/Minimalist Design Boxed</h1>
     <p class="product-sku">SKU: DY-SP-001 | Model: Nordic/Minimalist Series</p>
-    <div class="product-price">$1.01 - $2.43 <span>/ pc FOB Shenzhen</span></div>
-    <p class="product-moq">MOQ: 100 pieces | Lead Time: 25-35 days</p>
+    <p class="product-moq">MOQ: 100 pieces | Lead Time: 25-35 days<br>Contact us for current wholesale pricing.</p>
 
     <div class="feature-tags">
       <span class="tag">✓ 410 Stainless Steel</span>
@@ -510,7 +508,7 @@ tags: ["Nordic Style", "Minimalist", "410 Stainless Steel", "Hotel Restaurant", 
     <div class="related-card">
       <a href="{{ p.url }}"><img src="{{ p.image }}" alt="{{ p.title }}"></a>
       <h4><a href="{{ p.url }}" style="color:#1a1a2e; text-decoration:none;">{{ p.title }}</a></h4>
-      <div class="rel-price">{{ p.price }}</div>
+      <div class="rel-price">{% if p.price %}{{ p.price }}{% else %}Contact Us{% endif %}</div>
     </div>
     {% endfor %}
   </div>

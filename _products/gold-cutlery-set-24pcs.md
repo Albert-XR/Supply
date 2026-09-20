@@ -1,7 +1,6 @@
 ---
 title: "24-Piece 1010 Stainless Steel Gold-Plated Cutlery Set with Gift Box"
 description: "Modern 24-piece 1010 stainless steel cutlery set with gold-plated mirror finish — 6 dinner knives, 6 forks, 6 spoons and 6 coffee spoons in a premium black gift box; dishwasher safe, ideal for hotels, restaurants, retail and gifting"
-price: "$4.72 - $6.63 / set"
 moq: "20 pieces"
 lead_time: "25-35 days"
 material: "1010 Stainless Steel"
@@ -326,8 +325,7 @@ tags: ["Gold Plated", "24-Piece Set", "Gift Box", "Stainless Steel Cutlery", "Di
   <div class="product-info">
     <h1>24-Piece 1010 Stainless Steel Gold-Plated Cutlery Set with Gift Box</h1>
     <p class="product-sku">SKU: DY-GB24-001 | Model: 1010 Gift Box Series</p>
-    <div class="product-price">$4.72 - $6.63 <span>/ set FOB Shenzhen</span></div>
-    <p class="product-moq">MOQ: 20 pieces | Lead Time: 25-35 days</p>
+    <p class="product-moq">MOQ: 20 pieces | Lead Time: 25-35 days<br>Contact us for current wholesale pricing.</p>
 
     <div class="feature-tags">
       <span class="tag">✓ 1010 Stainless Steel</span>
@@ -510,7 +508,7 @@ tags: ["Gold Plated", "24-Piece Set", "Gift Box", "Stainless Steel Cutlery", "Di
     <div class="related-card">
       <a href="{{ p.url }}"><img src="{{ p.image }}" alt="{{ p.title }}"></a>
       <h4><a href="{{ p.url }}" style="color:#1a1a2e; text-decoration:none;">{{ p.title }}</a></h4>
-      <div class="rel-price">{{ p.price }}</div>
+      <div class="rel-price">{% if p.price %}{{ p.price }}{% else %}Contact Us{% endif %}</div>
     </div>
     {% endfor %}
   </div>

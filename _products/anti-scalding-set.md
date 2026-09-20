@@ -1,7 +1,6 @@
 ---
 title: "4-Piece Anti-Scalding Kitchen Tool Set"
 description: "Stainless steel hot plate gripper set with silicone mini oven mitts for safe handling of hot bowls, plates and pots"
-price: "$1.80 - $2.50 / set"
 moq: "1000 sets"
 lead_time: "25-35 days"
 material: "Stainless Steel + ABS + Food-Grade Silicone"
@@ -322,8 +321,7 @@ is_bestseller: true
   <div class="product-info">
     <h1>4-Piece Anti-Scalding Kitchen Tool Set</h1>
     <p class="product-sku">SKU: DY-AS04-001 | Model: Anti-Scald Series</p>
-    <div class="product-price">$1.80 - $2.50 <span>/ set FOB Shenzhen</span></div>
-    <p class="product-moq">MOQ: 1000 sets | Lead Time: 25-35 days</p>
+    <p class="product-moq">MOQ: 1000 sets | Lead Time: 25-35 days<br>Contact us for current wholesale pricing.</p>
 
     <div class="feature-tags">
       <span class="tag">✓ Stainless Steel + Silicone</span>
@@ -503,7 +501,7 @@ is_bestseller: true
     <div class="related-card">
       <a href="{{ p.url }}"><img src="{{ p.image }}" alt="{{ p.title }}"></a>
       <h4><a href="{{ p.url }}" style="color:#1a1a2e; text-decoration:none;">{{ p.title }}</a></h4>
-      <div class="rel-price">{{ p.price }}</div>
+      <div class="rel-price">{% if p.price %}{{ p.price }}{% else %}Contact Us{% endif %}</div>
     </div>
     {% endfor %}
   </div>
