@@ -307,16 +307,14 @@ tags: ["With Stand", "24-Piece Set", "Gift Box", "Stainless Steel Cutlery", "Dis
 
   <!-- 左侧图片 -->
   <div class="product-gallery">
-    <img src="/assets/images/24pcs-cutlery-set-with-stand/24pcs-cutlery-set-with-stand-01.jpg" alt="24-Piece Stainless Steel Cutlery Set with Hanging Stand and Gift Box" class="main-image" id="mainImage">
+    <img src="/assets/images/24pcs-cutlery-set-with-stand/24pcs-cutlery-set-with-stand-02.jpg" alt="24-Piece Stainless Steel Cutlery Set with Hanging Stand and Gift Box" class="main-image" id="mainImage">
     <div class="thumbnail-list">
-      <img src="/assets/images/24pcs-cutlery-set-with-stand/24pcs-cutlery-set-with-stand-01.jpg" class="thumbnail active" loading="lazy" onclick="changeImage(this, '/assets/images/24pcs-cutlery-set-with-stand/24pcs-cutlery-set-with-stand-01.jpg')">
-      <img src="/assets/images/24pcs-cutlery-set-with-stand/24pcs-cutlery-set-with-stand-02.jpg" class="thumbnail" loading="lazy" onclick="changeImage(this, '/assets/images/24pcs-cutlery-set-with-stand/24pcs-cutlery-set-with-stand-02.jpg')">
+      <img src="/assets/images/24pcs-cutlery-set-with-stand/24pcs-cutlery-set-with-stand-02.jpg" class="thumbnail active" loading="lazy" onclick="changeImage(this, '/assets/images/24pcs-cutlery-set-with-stand/24pcs-cutlery-set-with-stand-02.jpg')">
       <img src="/assets/images/24pcs-cutlery-set-with-stand/24pcs-cutlery-set-with-stand-03.jpg" class="thumbnail" loading="lazy" onclick="changeImage(this, '/assets/images/24pcs-cutlery-set-with-stand/24pcs-cutlery-set-with-stand-03.jpg')">
       <img src="/assets/images/24pcs-cutlery-set-with-stand/24pcs-cutlery-set-with-stand-04.jpg" class="thumbnail" loading="lazy" onclick="changeImage(this, '/assets/images/24pcs-cutlery-set-with-stand/24pcs-cutlery-set-with-stand-04.jpg')">
       <img src="/assets/images/24pcs-cutlery-set-with-stand/24pcs-cutlery-set-with-stand-05.jpg" class="thumbnail" loading="lazy" onclick="changeImage(this, '/assets/images/24pcs-cutlery-set-with-stand/24pcs-cutlery-set-with-stand-05.jpg')">
       <img src="/assets/images/24pcs-cutlery-set-with-stand/24pcs-cutlery-set-with-stand-06.jpg" class="thumbnail" loading="lazy" onclick="changeImage(this, '/assets/images/24pcs-cutlery-set-with-stand/24pcs-cutlery-set-with-stand-06.jpg')">
       <img src="/assets/images/24pcs-cutlery-set-with-stand/24pcs-cutlery-set-with-stand-07.jpg" class="thumbnail" loading="lazy" onclick="changeImage(this, '/assets/images/24pcs-cutlery-set-with-stand/24pcs-cutlery-set-with-stand-07.jpg')">
-      <img src="/assets/images/24pcs-cutlery-set-with-stand/24pcs-cutlery-set-with-stand-08.jpg" class="thumbnail" loading="lazy" onclick="changeImage(this, '/assets/images/24pcs-cutlery-set-with-stand/24pcs-cutlery-set-with-stand-08.jpg')">
     </div>
   </div>
 
@@ -419,7 +417,7 @@ tags: ["With Stand", "24-Piece Set", "Gift Box", "Stainless Steel Cutlery", "Dis
     <h2>Packaging Options</h2>
     <div class="packaging-show">
       <div class="pack-item">
-        <img src="/assets/images/24pcs-cutlery-set-with-stand/24pcs-cutlery-set-with-stand-08.jpg" alt="Portable Gift Box Packaging">
+        <img src="/assets/images/24pcs-cutlery-set-with-stand/24pcs-cutlery-set-with-stand-05.jpg" alt="Portable Gift Box Packaging">
         <h4>Portable Gift Box</h4>
         <p style="font-size:0.85em; color:#666;">Carry-handle gift box, 15 × 13 × 31 cm, retail-ready.</p>
       </div>
@@ -429,7 +427,7 @@ tags: ["With Stand", "24-Piece Set", "Gift Box", "Stainless Steel Cutlery", "Dis
         <p style="font-size:0.85em; color:#666;">Hanging stand keeps cutlery organised and on display.</p>
       </div>
       <div class="pack-item">
-        <img src="/assets/images/24pcs-cutlery-set-with-stand/24pcs-cutlery-set-with-stand-01.jpg" alt="24-Piece Set with Stand">
+        <img src="/assets/images/24pcs-cutlery-set-with-stand/24pcs-cutlery-set-with-stand-06.jpg" alt="Rainbow Custom Set with Gift Box">
         <h4>Custom OEM Box</h4>
         <p style="font-size:0.85em; color:#666;">Custom logo and packaging design available upon request.</p>
       </div>
