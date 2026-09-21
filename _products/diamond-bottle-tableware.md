@@ -1,13 +1,13 @@
 ---
 title: "Diamond Bottle Tableware Set"
-description: "18/10 stainless steel cutlery set with unique diamond bottle container"
-material: "18/10 (304) Austenitic Stainless Steel"
+description: "410 stainless steel cutlery set with unique diamond bottle container"
+material: "410 Stainless Steel (cutlery) + ABS Bottle Container"
 finish: "Mirror Polish / PVD Gold / Silver"
 certification: "FDA, LFGB"
 packaging: "Diamond Gift Box"
 image: /assets/images/products/diamond-bottle.jpg
 category: cutlery-sets
-tags: ["18/10 SS", "Diamond Design", "PVD Gold", "Gift Box"]
+tags: ["410 SS", "Diamond Design", "PVD Gold", "Gift Box"]
 is_bestseller: true
 ---
 
@@ -312,7 +312,7 @@ is_bestseller: true
     <p class="product-moq">Contact us for current wholesale pricing.</p>
     
     <div class="feature-tags">
-      <span class="tag">✓ 18/10 Stainless Steel</span>
+      <span class="tag">✓ 410 Stainless Steel</span>
       <span class="tag">✓ Diamond Bottle Design</span>
       <span class="tag">✓ Gold/Silver Finish</span>
       <span class="tag">✓ Gift Box Packaging</span>
@@ -375,10 +375,10 @@ is_bestseller: true
   <div id="specs" class="tab-content active">
     <h2>Product Specifications</h2>
     <table class="spec-table">
-      <tr><td>Material</td><td>18/10 (304) Austenitic Stainless Steel</td></tr>
+      <tr><td>Material</td><td>410 Stainless Steel (cutlery) / ABS (bottle container)</td></tr>
       <tr><td>Finish</td><td>Mirror Polish / PVD Gold / Silver</td></tr>
       <tr><td>Set Composition</td><td>6 × Dinner Knife + 6 × Dinner Fork + 6 × Dinner Spoon + 6 × Tea Spoon (24 pieces total)</td></tr>
-      <tr><td>Container Design</td><td>Unique diamond-shaped bottle with transparent lid</td></tr>
+      <tr><td>Container Design</td><td>Unique diamond-shaped ABS bottle with transparent lid</td></tr>
       <tr><td>Weight</td><td>3.2 kg / set (including bottle container)</td></tr>
       <tr><td>Dimensions</td><td>Bottle: 18cm diameter × 22cm height</td></tr>
       <tr><td>Customization</td><td>Laser logo engraving, custom color, pattern handle</td></tr>
