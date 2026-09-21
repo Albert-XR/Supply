@@ -1,8 +1,6 @@
 ---
 title: "24-Piece 1010 Stainless Steel Gold-Plated Cutlery Set with Gift Box"
 description: "Modern 24-piece 1010 stainless steel cutlery set with gold-plated mirror finish — 6 dinner knives, 6 forks, 6 spoons and 6 coffee spoons in a premium black gift box; dishwasher safe, ideal for hotels, restaurants, retail and gifting"
-moq: "20 pieces"
-lead_time: "25-35 days"
 material: "1010 Stainless Steel"
 finish: "Gold PVD Plating / Mirror Polished"
 certification: "FDA, LFGB, SGS"
@@ -325,7 +323,7 @@ tags: ["Gold Plated", "24-Piece Set", "Gift Box", "Stainless Steel Cutlery", "Di
   <div class="product-info">
     <h1>24-Piece 1010 Stainless Steel Gold-Plated Cutlery Set with Gift Box</h1>
     <p class="product-sku">SKU: DY-GB24-001 | Model: 1010 Gift Box Series</p>
-    <p class="product-moq">MOQ: 20 pieces | Lead Time: 25-35 days<br>Contact us for current wholesale pricing.</p>
+    <p class="product-moq">Contact us for current wholesale pricing.</p>
 
     <div class="feature-tags">
       <span class="tag">✓ 1010 Stainless Steel</span>
@@ -484,7 +482,6 @@ tags: ["Gold Plated", "24-Piece Set", "Gift Box", "Stainless Steel Cutlery", "Di
     <table class="spec-table">
       <tr><td>Trade Terms</td><td>FOB Shenzhen / Guangzhou, CIF, DDP (select destinations)</td></tr>
       <tr><td>Payment</td><td>T/T 30% deposit, 70% before shipment. L/C at sight for large orders.</td></tr>
-      <tr><td>Lead Time</td><td>25-35 days after deposit. Sample: 7 days.</td></tr>
       <tr><td>Port</td><td>Shenzhen / Guangzhou / Shantou</td></tr>
       <tr><td>Shipping</td><td>Sea freight (FCL/LCL), Air freight, Express (DHL/FedEx/UPS)</td></tr>
       <tr><td>Insurance</td><td>All-risk marine insurance available</td></tr>

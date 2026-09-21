@@ -1,8 +1,6 @@
 ---
 title: "Christmas Reindeer Gold-Plated Dessert Spoon & Fork Set with Gift Box"
 description: "Cute reindeer-design stainless steel gold-plated dessert spoon and fork set, packed in a festive navy gift box. Wholesale Christmas gift flatware, OEM/ODM available."
-moq: "150 pieces"
-lead_time: "25-35 days"
 material: "Food-Grade Stainless Steel"
 finish: "Titanium Gold Plated"
 certification: "FDA, LFGB, SGS"
@@ -313,7 +311,7 @@ tags: ["Christmas", "Reindeer", "Dessert Spoon", "Gold Plated", "Gift Box Set", 
   <div class="product-info">
     <h1>Christmas Reindeer Gold-Plated Dessert Spoon &amp; Fork Set with Gift Box</h1>
     <p class="product-sku">SKU: DY-RD25-001 | Model: Christmas Reindeer Series</p>
-    <p class="product-moq">MOQ: 150 pieces | Lead Time: 25-35 days<br>Contact us for current wholesale pricing.</p>
+    <p class="product-moq">Contact us for current wholesale pricing.</p>
 
     <div class="feature-tags">
       <span class="tag">✓ Cute Reindeer Design</span>
@@ -462,7 +460,6 @@ tags: ["Christmas", "Reindeer", "Dessert Spoon", "Gold Plated", "Gift Box Set", 
     <table class="spec-table">
       <tr><td>Trade Terms</td><td>FOB Shenzhen / Guangzhou, CIF, DDP (select destinations)</td></tr>
       <tr><td>Payment</td><td>T/T 30% deposit, 70% before shipment. L/C at sight for large orders.</td></tr>
-      <tr><td>Lead Time</td><td>25-35 days after deposit. Sample: 7 days.</td></tr>
       <tr><td>Port</td><td>Shenzhen / Guangzhou / Shantou</td></tr>
       <tr><td>Shipping</td><td>Sea freight (FCL/LCL), Air freight, Express (DHL/FedEx/UPS)</td></tr>
       <tr><td>Insurance</td><td>All-risk marine insurance available</td></tr>

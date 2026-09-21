@@ -247,7 +247,7 @@ img { max-width: 100%; height: auto; }
       "name": "What is your MOQ (Minimum Order Quantity)?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "MOQ varies by product — some designs start from as low as 11 sets, while others require 100-500 units. For first-time cooperation or sample orders, we offer flexible MOQs to help you test the market."
+        "text": "MOQ varies by region and product. Tell us your target market and target quantity, and we will offer flexible terms to help you test the market."
       }
     },
     {
@@ -255,7 +255,7 @@ img { max-width: 100%; height: auto; }
       "name": "What is the production lead time?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Normally 35-50 days after order confirmation and deposit received, depending on order quantity and finishing requirements. Rush orders can be arranged case by case."
+        "text": "It depends on order quantity and finishing requirements. Rush orders can be arranged case by case — contact us for an exact schedule."
       }
     },
     {
@@ -402,14 +402,14 @@ img { max-width: 100%; height: auto; }
     <details class="faq-item">
       <summary>What is your MOQ (Minimum Order Quantity)?</summary>
       <div class="faq-answer">
-        MOQ varies by product — some designs start from as low as 11 sets, while others require 100-500 units. For first-time cooperation or sample orders, we offer flexible MOQs to help you test the market.
+        MOQ varies by region and product. Tell us your target market and target quantity, and we will offer flexible terms to help you test the market.
       </div>
     </details>
 
     <details class="faq-item">
       <summary>What is the production lead time?</summary>
       <div class="faq-answer">
-        Normally 35-50 days after order confirmation and deposit received, depending on order quantity and finishing requirements. Rush orders can be arranged case by case.
+        It depends on order quantity and finishing requirements. Rush orders can be arranged case by case — contact us for an exact schedule.
       </div>
     </details>
 

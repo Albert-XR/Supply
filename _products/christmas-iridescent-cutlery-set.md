@@ -1,8 +1,6 @@
 ---
 title: "Christmas Metallic Iridescent Cartoon Dessert Spoon & Fork Gift Set"
 description: "Festive Christmas dessert cutlery set with 3D cartoon figurine toppers (Santa, Christmas Tree) in glossy metallic iridescent finish, titanium gold stainless steel dessert spoons and forks, 2-piece and 4-piece holiday gift boxes, dishwasher safe, ideal for Christmas gifting and party tables"
-moq: "300 pieces"
-lead_time: "25-35 days"
 material: "Stainless Steel + Electroplated Plastic Figurine Topper"
 finish: "Metallic Iridescent Finish, Titanium Gold Handle"
 certification: "FDA, LFGB, SGS"
@@ -327,7 +325,7 @@ tags: ["Christmas", "Gift Box Set", "Iridescent Spoon", "Dessert Fork", "Party T
   <div class="product-info">
     <h1>Christmas Metallic Iridescent Cartoon Dessert Spoon &amp; Fork Gift Set</h1>
     <p class="product-sku">SKU: DY-XM01-002 | Model: Iridescent Figurine Series</p>
-    <p class="product-moq">MOQ: 300 pieces | Lead Time: 25-35 days<br>Contact us for current wholesale pricing.</p>
+    <p class="product-moq">Contact us for current wholesale pricing.</p>
 
     <div class="feature-tags">
       <span class="tag">✓ 4 Figurine Designs</span>
@@ -484,7 +482,6 @@ tags: ["Christmas", "Gift Box Set", "Iridescent Spoon", "Dessert Fork", "Party T
     <table class="spec-table">
       <tr><td>Trade Terms</td><td>FOB Shenzhen / Guangzhou, CIF, DDP (select destinations)</td></tr>
       <tr><td>Payment</td><td>T/T 30% deposit, 70% before shipment. L/C at sight for large orders.</td></tr>
-      <tr><td>Lead Time</td><td>25-35 days after deposit. Sample: 7 days.</td></tr>
       <tr><td>Port</td><td>Shenzhen / Guangzhou / Shantou</td></tr>
       <tr><td>Shipping</td><td>Sea freight (FCL/LCL), Air freight, Express (DHL/FedEx/UPS)</td></tr>
       <tr><td>Insurance</td><td>All-risk marine insurance available</td></tr>

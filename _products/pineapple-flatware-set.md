@@ -1,8 +1,6 @@
 ---
 title: "24-Piece Stainless Steel Flatware Set with Pineapple Holder"
 description: "Luxury pineapple-shaped cutlery set with 24-piece stainless steel flatware and decorative storage holder, dishwasher safe, perfect for parties, weddings and hotel table settings"
-moq: "11 sets"
-lead_time: "35-50 days"
 material: "Stainless Steel Cutlery + ABS Electroplated Holder"
 finish: "Mirror Polished"
 certification: "FDA, LFGB, SGS"
@@ -321,7 +319,7 @@ tags: ["Flatware Set", "Pineapple Design", "Stainless Steel Cutlery", "Party Tab
   <div class="product-info">
     <h1>24-Piece Stainless Steel Flatware Set with Pineapple Holder</h1>
     <p class="product-sku">SKU: DY-PF24-001 | Model: Pineapple Series</p>
-    <p class="product-moq">MOQ: 11 sets | Lead Time: 35-50 days<br>Contact us for current wholesale pricing.</p>
+    <p class="product-moq">Contact us for current wholesale pricing.</p>
 
     <div class="feature-tags">
       <span class="tag">✓ 24-Piece Complete Set for 6</span>
@@ -476,7 +474,6 @@ tags: ["Flatware Set", "Pineapple Design", "Stainless Steel Cutlery", "Party Tab
     <table class="spec-table">
       <tr><td>Trade Terms</td><td>FOB Shenzhen / Guangzhou, CIF, DDP (select destinations)</td></tr>
       <tr><td>Payment</td><td>T/T 30% deposit, 70% before shipment. L/C at sight for large orders.</td></tr>
-      <tr><td>Lead Time</td><td>35-50 days after deposit. Sample: 7 days.</td></tr>
       <tr><td>Port</td><td>Shenzhen / Guangzhou / Shantou</td></tr>
       <tr><td>Shipping</td><td>Sea freight (FCL/LCL), Air freight, Express (DHL/FedEx/UPS)</td></tr>
       <tr><td>Insurance</td><td>All-risk marine insurance available</td></tr>

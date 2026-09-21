@@ -1,8 +1,6 @@
 ---
 title: "4-Piece Anti-Scalding Kitchen Tool Set"
 description: "Stainless steel hot plate gripper set with silicone mini oven mitts for safe handling of hot bowls, plates and pots"
-moq: "1000 sets"
-lead_time: "25-35 days"
 material: "Stainless Steel + ABS + Food-Grade Silicone"
 finish: "Polished / Silicone Coated"
 certification: "FDA, LFGB, SGS"
@@ -321,7 +319,7 @@ is_bestseller: true
   <div class="product-info">
     <h1>4-Piece Anti-Scalding Kitchen Tool Set</h1>
     <p class="product-sku">SKU: DY-AS04-001 | Model: Anti-Scald Series</p>
-    <p class="product-moq">MOQ: 1000 sets | Lead Time: 25-35 days<br>Contact us for current wholesale pricing.</p>
+    <p class="product-moq">Contact us for current wholesale pricing.</p>
 
     <div class="feature-tags">
       <span class="tag">✓ Stainless Steel + Silicone</span>
@@ -415,7 +413,7 @@ is_bestseller: true
       <div class="pack-item">
         <img src="/assets/images/anti-scalding-set/2.jpg" alt="Color Box Packaging">
         <h4>Color Box</h4>
-        <p style="font-size:0.85em; color:#666;">Premium retail packaging with product image. MOQ: 1000 sets.</p>
+        <p style="font-size:0.85em; color:#666;">Premium retail packaging with product image.</p>
       </div>
       <div class="pack-item">
         <img src="/assets/images/anti-scalding-set/白底杏.jpg" alt="Beige Color Option">
@@ -477,7 +475,6 @@ is_bestseller: true
     <table class="spec-table">
       <tr><td>Trade Terms</td><td>FOB Shenzhen / Guangzhou, CIF, DDP (select destinations)</td></tr>
       <tr><td>Payment</td><td>T/T 30% deposit, 70% before shipment. L/C at sight for large orders.</td></tr>
-      <tr><td>Lead Time</td><td>25-35 days after deposit. Sample: 7 days.</td></tr>
       <tr><td>Port</td><td>Shenzhen / Guangzhou / Shantou</td></tr>
       <tr><td>Shipping</td><td>Sea freight (FCL/LCL), Air freight, Express (DHL/FedEx/UPS)</td></tr>
       <tr><td>Insurance</td><td>All-risk marine insurance available</td></tr>

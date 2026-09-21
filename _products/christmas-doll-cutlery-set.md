@@ -1,8 +1,6 @@
 ---
 title: "Christmas Cartoon Doll Gold-Plated Spoon & Fork Gift Box Set"
 description: "Festive Christmas cutlery gift set with 3D cartoon doll toppers (Santa, Snowman, Reindeer, Tree), gold-plated stainless steel spoons and forks in holiday gift boxes, dishwasher safe, ideal for Christmas gifting and party table settings"
-moq: "80 pieces"
-lead_time: "25-35 days"
 material: "Stainless Steel + PVC Doll Topper"
 finish: "Titanium Gold Plated"
 certification: "FDA, LFGB, SGS"
@@ -327,7 +325,7 @@ tags: ["Christmas", "Gift Box Set", "Gold Plated Spoon", "Dessert Fork", "Party 
   <div class="product-info">
     <h1>Christmas Cartoon Doll Gold-Plated Spoon &amp; Fork Gift Box Set</h1>
     <p class="product-sku">SKU: DY-XM01-001 | Model: Christmas Doll Series</p>
-    <p class="product-moq">MOQ: 80 pieces | Lead Time: 25-35 days<br>Contact us for current wholesale pricing.</p>
+    <p class="product-moq">Contact us for current wholesale pricing.</p>
 
     <div class="feature-tags">
       <span class="tag">✓ 6 Cartoon Designs</span>
@@ -485,7 +483,6 @@ tags: ["Christmas", "Gift Box Set", "Gold Plated Spoon", "Dessert Fork", "Party 
     <table class="spec-table">
       <tr><td>Trade Terms</td><td>FOB Shenzhen / Guangzhou, CIF, DDP (select destinations)</td></tr>
       <tr><td>Payment</td><td>T/T 30% deposit, 70% before shipment. L/C at sight for large orders.</td></tr>
-      <tr><td>Lead Time</td><td>25-35 days after deposit. Sample: 7 days.</td></tr>
       <tr><td>Port</td><td>Shenzhen / Guangzhou / Shantou</td></tr>
       <tr><td>Shipping</td><td>Sea freight (FCL/LCL), Air freight, Express (DHL/FedEx/UPS)</td></tr>
       <tr><td>Insurance</td><td>All-risk marine insurance available</td></tr>

@@ -24,11 +24,6 @@
     <p class="product-series">{{ p.series }}</p>
     {% endif %}
     
-    <div class="product-specs">
-      <span class="spec">MOQ: {{ p.moq | default: '500 pcs' }}</span>
-      <span class="spec">Lead: {{ p.lead_time | default: '25-35 days' }}</span>
-    </div>
-    
     {% if p.tags %}
     <div class="product-tags">
       {% for tag in p.tags %}

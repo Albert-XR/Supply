@@ -1,8 +1,6 @@
 ---
 title: "Diamond Bottle Tableware Set"
 description: "18/10 stainless steel cutlery set with unique diamond bottle container"
-moq: "500 sets"
-lead_time: "35-50 days"
 material: "18/10 (304) Austenitic Stainless Steel"
 finish: "Mirror Polish / PVD Gold / Silver"
 certification: "FDA, LFGB"
@@ -311,7 +309,7 @@ is_bestseller: true
   <div class="product-info">
     <h1>Diamond Bottle Tableware Set</h1>
     <p class="product-sku">SKU: DY-DB24-001 | Model: Diamond Series</p>
-    <p class="product-moq">MOQ: 500 sets | Lead Time: 35-50 days<br>Contact us for current wholesale pricing.</p>
+    <p class="product-moq">Contact us for current wholesale pricing.</p>
     
     <div class="feature-tags">
       <span class="tag">✓ 18/10 Stainless Steel</span>
@@ -403,7 +401,7 @@ is_bestseller: true
       <div class="pack-item">
         <img src="/assets/images/diamond-bottle/diamond-detail-4-1024.jpg" alt="Gift Box">
         <h4>Diamond Gift Box</h4>
-        <p style="font-size:0.85em; color:#666;">Premium packaging with product image. MOQ: 500 sets.</p>
+        <p style="font-size:0.85em; color:#666;">Premium packaging with product image.</p>
       </div>
       <div class="pack-item">
         <img src="/assets/images/diamond-bottle/diamond-detail-1-1024.jpg" alt="Gold Finish">
@@ -465,7 +463,6 @@ is_bestseller: true
     <table class="spec-table">
       <tr><td>Trade Terms</td><td>FOB Shenzhen / Guangzhou, CIF, DDP (select destinations)</td></tr>
       <tr><td>Payment</td><td>T/T 30% deposit, 70% before shipment. L/C at sight for large orders.</td></tr>
-      <tr><td>Lead Time</td><td>30-45 days after deposit. Sample: 7 days.</td></tr>
       <tr><td>Port</td><td>Shenzhen / Guangzhou / Shantou</td></tr>
       <tr><td>Shipping</td><td>Sea freight (FCL/LCL), Air freight, Express (DHL/FedEx/UPS)</td></tr>
       <tr><td>Insurance</td><td>All-risk marine insurance available</td></tr>

@@ -1,8 +1,6 @@
 ---
 title: "24-Piece Mirror Polished Stainless Steel Cutlery Set with Wooden Gift Box"
 description: "24-piece stainless steel flatware set in a portable wooden gift box — 6 dinner knives, 6 forks, 6 spoons and 6 coffee spoons with high mirror polish; gold, rose gold, silver, black and rainbow options, dishwasher safe, ideal for weddings, events, business gifting and retail"
-moq: "20 pieces"
-lead_time: "25-35 days"
 material: "Stainless Steel"
 finish: "High Mirror Polished / Vacuum Titanium Plating"
 certification: "FDA, LFGB, SGS"
@@ -323,7 +321,7 @@ tags: ["Wooden Gift Box", "24-Piece Set", "Mirror Polished", "Stainless Steel Cu
   <div class="product-info">
     <h1>24-Piece Mirror Polished Stainless Steel Cutlery Set with Wooden Gift Box</h1>
     <p class="product-sku">SKU: DY-WB24-003 | Model: Wooden Box 24pcs Series</p>
-    <p class="product-moq">MOQ: 20 pieces | Lead Time: 25-35 days<br>Contact us for current wholesale pricing.</p>
+    <p class="product-moq">Contact us for current wholesale pricing.</p>
 
     <div class="feature-tags">
       <span class="tag">✓ Stainless Steel</span>
@@ -482,7 +480,6 @@ tags: ["Wooden Gift Box", "24-Piece Set", "Mirror Polished", "Stainless Steel Cu
     <table class="spec-table">
       <tr><td>Trade Terms</td><td>FOB Shenzhen / Guangzhou, CIF, DDP (select destinations)</td></tr>
       <tr><td>Payment</td><td>T/T 30% deposit, 70% before shipment. L/C at sight for large orders.</td></tr>
-      <tr><td>Lead Time</td><td>25-35 days after deposit. Sample: 7 days.</td></tr>
       <tr><td>Port</td><td>Shenzhen / Guangzhou / Shantou</td></tr>
       <tr><td>Shipping</td><td>Sea freight (FCL/LCL), Air freight, Express (DHL/FedEx/UPS)</td></tr>
       <tr><td>Insurance</td><td>All-risk marine insurance available</td></tr>

@@ -1,8 +1,6 @@
 ---
 title: "410 Stainless Steel Knife Fork Spoon Set"
 description: "DINGYONG OEM/ODM 410 Stainless Steel Knife Fork Spoon Set - Hotel Restaurant Tableware Nordic/Minimalist Design Boxed"
-moq: "100 pieces"
-lead_time: "25-35 days"
 material: "410 Stainless Steel"
 finish: "Mirror Polish / PVD Gold / Silver / Black / Rose Gold / Custom"
 certification: "LFGB / FDA / SGS"
@@ -324,7 +322,7 @@ tags: ["Nordic Style", "Minimalist", "410 Stainless Steel", "Hotel Restaurant", 
   <div class="product-info">
     <h1>410 Stainless Steel Knife Fork Spoon Set - Hotel Restaurant Tableware Nordic/Minimalist Design Boxed</h1>
     <p class="product-sku">SKU: DY-SP-001 | Model: Nordic/Minimalist Series</p>
-    <p class="product-moq">MOQ: 100 pieces | Lead Time: 25-35 days<br>Contact us for current wholesale pricing.</p>
+    <p class="product-moq">Contact us for current wholesale pricing.</p>
 
     <div class="feature-tags">
       <span class="tag">✓ 410 Stainless Steel</span>
@@ -440,7 +438,6 @@ tags: ["Nordic Style", "Minimalist", "410 Stainless Steel", "Hotel Restaurant", 
         <tr><td>Carton Size</td><td>Custom / standard export carton</td></tr>
         <tr><td>Packing</td><td>Bulk packing, color box, gift box, or individual wrapping (custom)</td></tr>
         <tr><td>Quantity</td><td>1,000 - 2,000 pcs / carton (depends on item/set)</td></tr>
-        <tr><td>MOQ</td><td>100 pieces</td></tr>
         <tr><td>20'FCL Load</td><td>Approx. 22 - 26 tons</td></tr>
         <tr><td>40'FCL Load</td><td>Approx. 26 - 28 tons</td></tr>
       </table>
@@ -484,7 +481,6 @@ tags: ["Nordic Style", "Minimalist", "410 Stainless Steel", "Hotel Restaurant", 
     <table class="spec-table">
       <tr><td>Trade Terms</td><td>FOB Shenzhen / Guangzhou, CIF, DDP (select destinations)</td></tr>
       <tr><td>Payment</td><td>T/T 30% deposit, 70% before shipment. L/C at sight for large orders.</td></tr>
-      <tr><td>Lead Time</td><td>30-45 days after deposit. Sample: 7 days.</td></tr>
       <tr><td>Port</td><td>Shenzhen / Guangzhou / Shantou</td></tr>
       <tr><td>Shipping</td><td>Sea freight (FCL/LCL), Air freight, Express (DHL/FedEx/UPS)</td></tr>
       <tr><td>Insurance</td><td>All-risk marine insurance available</td></tr>
