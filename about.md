@@ -512,8 +512,8 @@ permalink: /about/
   <div class="who-grid">
     <div>
       <p>
-        Ding-Yong Products Co., Ltd is a manufacturer specializing in 410
-        stainless steel cutlery, flatware, and kitchen utensils. Based in Jieyang,
+        Ding-Yong Products Co., Ltd is a manufacturer specializing in stainless
+        steel cutlery, flatware, and kitchen utensils. Based in Jieyang,
         Guangdong, we have been serving global B2B buyers for over a decade under
         our own registered brand DINGYONG.
       </p>
