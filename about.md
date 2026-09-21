@@ -525,7 +525,7 @@ permalink: /about/
       </p>
       <p class="strengths">
         ✓ <strong>Factory Direct</strong> — No middlemen, competitive pricing<br>
-        ✓ <strong>Quality Assured</strong> — FDA, LFGB, SGS, ISO9001 certified<br>
+        ✓ <strong>Quality Assured</strong> — Pre-shipment inspection on every order, third-party testing available<br>
         ✓ <strong>Custom Capacity</strong> — Logo engraving, custom packaging, PVD colors<br>
         ✓ <strong>Fast Delivery</strong> — Ready stock, 20-45 days for customized, flexible MOQ
       </p>
@@ -582,30 +582,30 @@ permalink: /about/
   </div>
 </div>
 
-<!-- 证书墙 -->
+<!-- 质量保障 -->
 <div class="about-section">
-  <h2>Certifications &amp; Quality</h2>
-  <p class="section-subtitle">Our products passed third-party laboratory testing — safe for food contact, trusted by importers worldwide.</p>
+  <h2>Quality Assurance</h2>
+  <p class="section-subtitle">Every order goes through a structured quality process — from sample confirmation to pre-shipment inspection.</p>
   <div class="cert-grid">
     <div class="cert-card">
       <div class="cert-icon"><svg viewBox="0 0 24 24"><path d="M12 2l2.4 4.9 5.4.8-3.9 3.8.9 5.4L12 14.4 7.2 16.9l.9-5.4L4.2 7.7l5.4-.8L12 2z"/></svg></div>
-      <h4>FDA</h4>
-      <p>Food-contact material compliance for the US market</p>
+      <h4>Sample Confirmation</h4>
+      <p>Approve pre-production samples before bulk manufacturing begins</p>
     </div>
     <div class="cert-card">
       <div class="cert-icon"><svg viewBox="0 0 24 24"><path d="M12 2l2.4 4.9 5.4.8-3.9 3.8.9 5.4L12 14.4 7.2 16.9l.9-5.4L4.2 7.7l5.4-.8L12 2z"/></svg></div>
-      <h4>LFGB</h4>
-      <p>German food safety testing — stricter than EU standard</p>
+      <h4>Pre-shipment Inspection</h4>
+      <p>Every order is checked for finish, function and packing before dispatch</p>
     </div>
     <div class="cert-card">
       <div class="cert-icon"><svg viewBox="0 0 24 24"><path d="M12 2l2.4 4.9 5.4.8-3.9 3.8.9 5.4L12 14.4 7.2 16.9l.9-5.4L4.2 7.7l5.4-.8L12 2z"/></svg></div>
-      <h4>SGS</h4>
-      <p>Third-party quality inspection and audit reports</p>
+      <h4>Third-party Testing</h4>
+      <p>SGS or other independent labs can be arranged on request</p>
     </div>
     <div class="cert-card">
       <div class="cert-icon"><svg viewBox="0 0 24 24"><path d="M12 2l2.4 4.9 5.4.8-3.9 3.8.9 5.4L12 14.4 7.2 16.9l.9-5.4L4.2 7.7l5.4-.8L12 2z"/></svg></div>
-      <h4>ISO9001</h4>
-      <p>Quality management system across the whole factory</p>
+      <h4>Factory Audit Welcome</h4>
+      <p>Visit our Jieyang factory or inspect production via live video call</p>
     </div>
   </div>
 </div>
@@ -624,7 +624,7 @@ permalink: /about/
     </div>
     <div class="timeline-item">
       <div class="timeline-year">2021</div>
-      <div class="timeline-text">Products passed third-party laboratory testing and obtained food-contact safety certifications, including FDA, LFGB and SGS.</div>
+      <div class="timeline-text">Standardized our quality process — sample confirmation and pre-shipment inspection on every order.</div>
     </div>
     <div class="timeline-item">
       <div class="timeline-year">2023</div>

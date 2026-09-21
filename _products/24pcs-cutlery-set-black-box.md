@@ -3,7 +3,6 @@ title: "24-Piece Mirror Polish Stainless Steel Cutlery Set with Black Gift Box"
 description: "24-piece stainless steel flatware set in a minimalist black paper gift box — 6 dinner knives, 6 forks, 6 dinner spoons and 6 dessert spoons with high mirror polish; gold, black, rose gold, silver and rainbow options, dishwasher safe, ideal for cross-border e-commerce, retail and gifting"
 material: "Stainless Steel"
 finish: "High Mirror Polished / Vacuum Titanium Plating"
-certification: "FDA, LFGB, SGS"
 packaging: "Black Paper Gift Box 7 × 5 × 24 cm / Custom OEM"
 image: /assets/images/products/24pcs-cutlery-set-black-box.jpg
 category: cutlery-sets
@@ -382,7 +381,7 @@ tags: ["Black Gift Box", "24-Piece Set", "Mirror Polished", "Stainless Steel Cut
   <div class="tab-buttons">
     <button class="tab-btn active" onclick="switchTab('specs')">Specifications</button>
     <button class="tab-btn" onclick="switchTab('packaging')">Packaging</button>
-    <button class="tab-btn" onclick="switchTab('certification')">Certification</button>
+    <button class="tab-btn" onclick="switchTab('certification')">Quality</button>
     <button class="tab-btn" onclick="switchTab('shipping')">Shipping & Payment</button>
   </div>
 
@@ -445,34 +444,34 @@ tags: ["Black Gift Box", "24-Piece Set", "Mirror Polished", "Stainless Steel Cut
     </div>
   </div>
 
-  <!-- 认证 -->
+  <!-- 质检 -->
   <div id="certification" class="tab-content">
-    <h2>Quality Certifications</h2>
+    <h2>Quality Assurance</h2>
     <div class="cert-showcase">
       <div class="cert-item">
         <div class="cert-icon">&#9989;</div>
-        <strong>ISO 9001</strong>
-        <p style="font-size:0.8em; color:#666;">Quality Management</p>
+        <strong>Sample Confirmation</strong>
+        <p style="font-size:0.8em; color:#666;">Approve samples before bulk production</p>
       </div>
       <div class="cert-item">
-        <div class="cert-icon">&#127860;</div>
-        <strong>FDA</strong>
-        <p style="font-size:0.8em; color:#666;">Food Contact Safe</p>
+        <div class="cert-icon">&#128230;</div>
+        <strong>Pre-shipment Inspection</strong>
+        <p style="font-size:0.8em; color:#666;">Every order checked before packing</p>
       </div>
       <div class="cert-item">
-        <div class="cert-icon">&#127465;&#127466;</div>
-        <strong>LFGB</strong>
-        <p style="font-size:0.8em; color:#666;">EU Food Grade</p>
+        <div class="cert-icon">&#128300;</div>
+        <strong>Third-party Testing</strong>
+        <p style="font-size:0.8em; color:#666;">SGS or other labs arranged on request</p>
       </div>
       <div class="cert-item">
-        <div class="cert-icon">&#128200;</div>
-        <strong>SGS</strong>
-        <p style="font-size:0.8em; color:#666;">Third-party Tested</p>
+        <div class="cert-icon">&#127970;</div>
+        <strong>Factory Audit</strong>
+        <p style="font-size:0.8em; color:#666;">On-site visits or video inspection welcome</p>
       </div>
     </div>
     <p style="text-align:center; color:#666; margin-top:20px;">
-      All certifications available for download upon request.
-      <a href="mailto:sales@ding-yong.com?subject=Certification Request" style="color:#e94560;">Request Documents &rarr;</a>
+      Inspection records and quality documents available upon request.
+      <a href="mailto:sales@ding-yong.com?subject=Quality Documents Request" style="color:#e94560;">Request Documents &rarr;</a>
     </p>
   </div>
 

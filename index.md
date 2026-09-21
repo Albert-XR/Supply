@@ -276,10 +276,10 @@ img { max-width: 100%; height: auto; }
     },
     {
       "@type": "Question",
-      "name": "What certifications do your products have?",
+      "name": "How do you ensure product quality?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Our factory is ISO9001 and BSCI certified. Products comply with FDA and LFGB food-contact standards, and SGS test reports are available on request."
+        "text": "Every order goes through sample confirmation and pre-shipment inspection. Third-party testing (such as SGS) can be arranged on request, and factory audits or live video inspections are welcome."
       }
     },
     {
@@ -299,9 +299,9 @@ img { max-width: 100%; height: auto; }
   <h1>JIEYANG DINGYONG HARDWARE & PLASTIC PRODUCTS CO., LTD</h1>
   <p class="hero-subtitle">Your Strategic Partner for OEM/ODM Cutlery Solutions</p>
   <div class="hero-badges">
-    <span>✓ ISO9001 & BSCI Certified</span>
-    <span>✓ FDA & LFGB Approved</span>
-    <span>✓ 15+ Years Export Experience</span>
+    <span>✓ Pre-shipment QC on Every Order</span>
+    <span>✓ Third-party Testing on Request</span>
+    <span>✓ 12+ Years Export Experience</span>
   </div>
   <a href="/products" class="cta-button">Browse Products</a>
   <a href="/contact" class="cta-button secondary">Request Quote</a>
@@ -381,7 +381,7 @@ img { max-width: 100%; height: auto; }
     </div>
     <div class="feature">
       <h4>🔬 Quality Assured</h4>
-      <p>Rigorous in-house QC protocols to meet international standards (EU/FDA/LFGB).</p>
+      <p>Rigorous in-house QC with pre-shipment inspection on every order.</p>
     </div>
     <div class="feature">
       <h4>🚢 Agile Production</h4>
@@ -428,9 +428,9 @@ img { max-width: 100%; height: auto; }
     </details>
 
     <details class="faq-item">
-      <summary>What certifications do your products have?</summary>
+      <summary>How do you ensure product quality?</summary>
       <div class="faq-answer">
-        Our factory is ISO9001 and BSCI certified. Products comply with FDA and LFGB food-contact standards, and SGS test reports are available on request.
+        Every order goes through sample confirmation and pre-shipment inspection. Third-party testing (such as SGS) can be arranged on request, and factory audits or live video inspections are welcome.
       </div>
     </details>
 

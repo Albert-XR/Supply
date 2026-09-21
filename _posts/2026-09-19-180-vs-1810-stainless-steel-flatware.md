@@ -75,7 +75,7 @@ Regardless of grade, protect your order with these steps:
 
 - **Salt spray test** — ask the factory to run a 48-hour neutral salt spray test on samples. A quality 18/10 set shows no rust; a good 18/0 set may show only minor spotting on cut edges.
 - **Pre-shipment inspection** — inspect polish, tine alignment and plating adhesion on 2–3% of the batch (AQL 2.5 is standard for cutlery).
-- **Material certificates** — request an SGS or third-party test report confirming the composition, plus **FDA / LFGB** food-contact compliance for your destination market. Every DINGYONG shipment is backed by [these certifications](/about/).
+- **Material certificates** — request an SGS or third-party test report confirming the composition, plus **FDA / LFGB** food-contact compliance if your destination market requires it. At DINGYONG, third-party testing can be arranged on request, and every shipment goes through pre-shipment inspection.
 - **The magnet trick (use with caution)** — 18/10 forks and spoons are non-magnetic; 18/0 is magnetic. Useful for a quick spot check on arrival — but remember knife blades will always attract a magnet, even on genuine 18/10 sets.
 
 ## FAQ

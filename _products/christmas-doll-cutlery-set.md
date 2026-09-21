@@ -3,7 +3,6 @@ title: "Christmas Cartoon Doll Gold-Plated Spoon & Fork Gift Box Set"
 description: "Festive Christmas cutlery gift set with 3D cartoon doll toppers (Santa, Snowman, Reindeer, Tree), gold-plated stainless steel spoons and forks in holiday gift boxes, dishwasher safe, ideal for Christmas gifting and party table settings"
 material: "Stainless Steel + PVC Doll Topper"
 finish: "Titanium Gold Plated"
-certification: "FDA, LFGB, SGS"
 packaging: "Christmas Gift Box / Custom OEM"
 image: /assets/images/products/christmas-doll-cutlery-set.jpg
 category: festival-gift-sets
@@ -383,7 +382,7 @@ tags: ["Christmas", "Gift Box Set", "Gold Plated Spoon", "Dessert Fork", "Party 
   <div class="tab-buttons">
     <button class="tab-btn active" onclick="switchTab('specs')">Specifications</button>
     <button class="tab-btn" onclick="switchTab('packaging')">Packaging</button>
-    <button class="tab-btn" onclick="switchTab('certification')">Certification</button>
+    <button class="tab-btn" onclick="switchTab('certification')">Quality</button>
     <button class="tab-btn" onclick="switchTab('shipping')">Shipping & Payment</button>
   </div>
 
@@ -446,34 +445,34 @@ tags: ["Christmas", "Gift Box Set", "Gold Plated Spoon", "Dessert Fork", "Party 
     </div>
   </div>
 
-  <!-- 认证 -->
+  <!-- 质检 -->
   <div id="certification" class="tab-content">
-    <h2>Quality Certifications</h2>
+    <h2>Quality Assurance</h2>
     <div class="cert-showcase">
       <div class="cert-item">
         <div class="cert-icon">&#9989;</div>
-        <strong>ISO 9001</strong>
-        <p style="font-size:0.8em; color:#666;">Quality Management</p>
+        <strong>Sample Confirmation</strong>
+        <p style="font-size:0.8em; color:#666;">Approve samples before bulk production</p>
       </div>
       <div class="cert-item">
-        <div class="cert-icon">&#127860;</div>
-        <strong>FDA</strong>
-        <p style="font-size:0.8em; color:#666;">Food Contact Safe</p>
+        <div class="cert-icon">&#128230;</div>
+        <strong>Pre-shipment Inspection</strong>
+        <p style="font-size:0.8em; color:#666;">Every order checked before packing</p>
       </div>
       <div class="cert-item">
-        <div class="cert-icon">&#127465;&#127466;</div>
-        <strong>LFGB</strong>
-        <p style="font-size:0.8em; color:#666;">EU Food Grade</p>
+        <div class="cert-icon">&#128300;</div>
+        <strong>Third-party Testing</strong>
+        <p style="font-size:0.8em; color:#666;">SGS or other labs arranged on request</p>
       </div>
       <div class="cert-item">
-        <div class="cert-icon">&#128200;</div>
-        <strong>SGS</strong>
-        <p style="font-size:0.8em; color:#666;">Third-party Tested</p>
+        <div class="cert-icon">&#127970;</div>
+        <strong>Factory Audit</strong>
+        <p style="font-size:0.8em; color:#666;">On-site visits or video inspection welcome</p>
       </div>
     </div>
     <p style="text-align:center; color:#666; margin-top:20px;">
-      All certifications available for download upon request.
-      <a href="mailto:sales@ding-yong.com?subject=Certification Request" style="color:#e94560;">Request Documents &rarr;</a>
+      Inspection records and quality documents available upon request.
+      <a href="mailto:sales@ding-yong.com?subject=Quality Documents Request" style="color:#e94560;">Request Documents &rarr;</a>
     </p>
   </div>
 
