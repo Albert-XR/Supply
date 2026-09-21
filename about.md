@@ -527,7 +527,7 @@ permalink: /about/
         ✓ <strong>Factory Direct</strong> — No middlemen, competitive pricing<br>
         ✓ <strong>Quality Assured</strong> — FDA, LFGB, SGS, ISO9001 certified<br>
         ✓ <strong>Custom Capacity</strong> — Logo engraving, custom packaging, PVD colors<br>
-        ✓ <strong>Fast Delivery</strong> — efficient production scheduling and on-time shipping
+        ✓ <strong>Fast Delivery</strong> — Ready stock, 20-45 days for customized, flexible MOQ
       </p>
     </div>
     <div class="who-img">
