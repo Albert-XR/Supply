@@ -67,7 +67,7 @@ Experienced buyers check these before the grade itself:
 4. **PVD coating (gold/black sets)** — quality PVD is applied by vacuum plating and passes tape and salt-spray tests; cheap spray coatings peel within weeks.
 5. **Logo and packaging execution** — laser engraving depth, color-box print quality, barcode accuracy.
 
-For examples of how these specs come together, compare our [gold-plated 24-piece gift set](/products/gold-cutlery-set-24pcs/) (18/10 with PVD finish) and the [24-piece set in a black gift box](/products/24pcs-cutlery-set-black-box/) — same craftsmanship standards, different market positioning.
+For examples of how these specs come together, compare our [gold-plated 24-piece gift set](/products/gold-cutlery-set-24pcs/) (PVD titanium finish) and the [24-piece set in a black gift box](/products/24pcs-cutlery-set-black-box/) — same craftsmanship standards, different market positioning.
 
 ## How to Verify Quality Before Shipment
 

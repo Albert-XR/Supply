@@ -161,7 +161,7 @@ permalink: /products/
 
 <div class="products-page">
   <h1>Our Stainless Steel Products</h1>
-  <p class="products-intro">Browse our complete catalog of premium 18/10 stainless steel tableware. All products support OEM/ODM with custom logo and packaging.</p>
+  <p class="products-intro">Browse our complete catalog of premium stainless steel tableware. All products support OEM/ODM with custom logo and packaging.</p>
   
   <!-- 分类筛选 -->
   <div class="category-filter">

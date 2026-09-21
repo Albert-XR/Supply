@@ -345,7 +345,7 @@ Destination Country: [e.g., USA / Germany / Japan]
 Target Price: [optional]
 
 Requirements:
-- Material: [18/10 or 18/0]
+- Material: [410 / 18/0 / 304]
 - Finish: [Mirror Polish / Satin / Gold Plated]
 - Packaging: [Color Box / Blister / Custom]
 - Logo: [Laser Engraving / None]

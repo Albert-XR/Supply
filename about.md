@@ -512,7 +512,7 @@ permalink: /about/
   <div class="who-grid">
     <div>
       <p>
-        Ding-Yong Products Co., Ltd is a manufacturer specializing in premium 18/10
+        Ding-Yong Products Co., Ltd is a manufacturer specializing in 410
         stainless steel cutlery, flatware, and kitchen utensils. Based in Jieyang,
         Guangdong, we have been serving global B2B buyers for over a decade under
         our own registered brand DINGYONG.
@@ -554,7 +554,7 @@ permalink: /about/
         <div class="step-no">1</div>
         <div>
           <h4>Stamping &amp; Forming</h4>
-          <p>High-precision presses shape 18/10 stainless steel blanks into knife, fork and spoon profiles.</p>
+          <p>High-precision presses shape stainless steel blanks into knife, fork and spoon profiles.</p>
         </div>
       </div>
       <div class="process-item">
