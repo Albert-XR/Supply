@@ -1,3 +1,12 @@
+> **本站运维入口（中文）**
+>
+> - 访问数据分析操作清单 → [`_analytics/GUIDE.md`](_analytics/GUIDE.md)
+> - 数据自动抓取的授权配置步骤 → [`_analytics/SETUP.md`](_analytics/SETUP.md)
+>
+> 以下为 Jekyll 主题 Supply 上游自带的英文说明，与本店运维无关，可忽略。
+
+---
+
 ## Supply, an e-commerce Jekyll theme with Gumroad integration
 
 Supply is an e-commerce template for [Jekyll](https://jekyllrb.com/) + [Gumroad](https://gumroad.com), designed with [Tachyons CSS](https://github.com/tachyons-css/tachyons).
