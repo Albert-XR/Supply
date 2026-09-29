@@ -363,13 +363,45 @@ Best regards,
 </div>
 
 <script>
+// 询盘表单埋点
+// 说明：Web3Forms 是整页 POST 跳转（跳到 api.web3forms.com 再 302 回 /thank-you/），
+// 所以「提交成功」的信号由 thank-you.md 负责。这里只记录「开始填写」和「点了提交」，
+// 并把国家/数量/来源产品写进 sessionStorage，供感谢页读取做归因。
+document.addEventListener('DOMContentLoaded', function () {
+  var form = document.querySelector('.contact-form form');
+  if (!form) return;
+
+  var started = false;
+  form.addEventListener('input', function () {
+    if (started) return;
+    started = true;
+    if (typeof gtag === 'function') gtag('event', 'form_start', { form_name: 'inquiry' });
+  });
+
+  form.addEventListener('submit', function () {
+    if (typeof gtag === 'function') {
+      gtag('event', 'form_submit', { form_name: 'inquiry', transport_type: 'beacon' });
+    }
+    try {
+      var q = form.querySelector('[name="quantity"]');
+      var c = form.querySelector('[name="country"]');
+      sessionStorage.setItem('dy_inquiry_ctx', JSON.stringify({
+        quantity: q ? q.value : '',
+        country: c ? c.value : '',
+        product: new URLSearchParams(location.search).get('product') || ''
+      }));
+    } catch (err) { /* 隐私模式等场景下静默失败，不阻断提交 */ }
+  });
+});
+
 function copyTemplate() {
   var text = document.getElementById('templateText').innerText;
-  navigator.clipboard.writeText(text).then(function() {
+  navigator.clipboard.writeText(text).then(function () {
+    if (typeof gtag === 'function') gtag('event', 'template_copy', { page_path: location.pathname });
     var btn = document.querySelector('.copy-btn');
-    btn.textContent = '&#10004; Copied!';
-    setTimeout(function() {
-      btn.textContent = '&#128203; Copy Template';
+    btn.textContent = '\u2705 Copied!';
+    setTimeout(function () {
+      btn.textContent = '\uD83D\uDCCB Copy Template';
     }, 2000);
   });
 }

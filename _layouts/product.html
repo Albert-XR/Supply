@@ -32,3 +32,14 @@ layout: default
   }{% endif %}
 }
 </script>
+{% if site.google_analytics_key and site.google_analytics_key != "" %}
+<script>
+  if (typeof gtag === 'function') {
+    gtag('event', 'view_product', {
+      product_name: {{ page.title | jsonify }},
+      product_category: {{ page.category | default: '' | jsonify }},
+      product_series: {{ page.series | default: '' | jsonify }}
+    });
+  }
+</script>
+{% endif %}

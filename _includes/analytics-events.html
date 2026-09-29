@@ -1,0 +1,79 @@
+<!--
+  全站事件埋点 —— 单一事件委托实现
+  维护说明：
+  1. 只在 _layouts/default.html 里 include 一次。不要在具体 include（product-card.html /
+     whatsapp-float.html 等）里再加内联 onclick，否则会重复计数。
+  2. 新增可点击元素时，优先给它加 data-ga-event="事件名"（可选 data-ga-location="来源"），
+     无需修改本文件。
+  3. 数据同时发往 GA4（gtag）和 Microsoft Clarity（clarity('event', ...)）。
+     Clarity 只同步业务事件白名单，避免点击类事件刷屏。
+  4. 参数要在 GA4 后台 Admin → Custom definitions 注册为事件级自定义维度，否则标准报告看不到。
+     详见 _analytics/GUIDE.md 第 6 步。
+-->
+<script>
+(function () {
+  if (window.__dyAnalyticsBound) return;
+  window.__dyAnalyticsBound = true;
+
+  // 只把这些业务事件同步到 Clarity（Clarity 自定义事件有处理延迟，且过多会变噪音）
+  var CLARITY_EVENTS = ['whatsapp_click', 'product_card_click', 'form_submit', 'inquiry_submitted'];
+
+  function send(name, params) {
+    if (typeof gtag === 'function') {
+      gtag('event', name, params || {});
+    }
+    if (typeof clarity === 'function' && CLARITY_EVENTS.indexOf(name) !== -1) {
+      clarity('event', name);
+    }
+  }
+
+  // 识别 WhatsApp 链接的出现位置，用于区分不同入口的转化效果
+  function waLocation(link) {
+    if (link.classList.contains('whatsapp-float')) return 'float_button';
+    if (link.classList.contains('whatsapp-btn')) return 'contact_page_button';
+    if (link.closest('.thanks-actions')) return 'thank_you_button';
+    if (link.closest('.footer-social')) return 'footer_icon';
+    return 'inline_link';
+  }
+
+  document.addEventListener('click', function (e) {
+    var el = e.target;
+    if (!el || !el.closest) return;
+
+    // A. 通用埋点钩子：任何带 data-ga-event 的元素
+    var generic = el.closest('[data-ga-event]');
+    if (generic) {
+      send(generic.getAttribute('data-ga-event'), {
+        link_location: generic.getAttribute('data-ga-location') || ''
+      });
+    }
+
+    var link = el.closest('a');
+    if (!link) return;
+    var href = link.getAttribute('href') || '';
+
+    // B. WhatsApp 点击（覆盖浮动按钮 / 联系页按钮 / 感谢页按钮 / 页脚图标 / 页内文本链接）
+    if (href.indexOf('wa.me') !== -1) {
+      send('whatsapp_click', {
+        link_location: waLocation(link),
+        page_path: location.pathname,
+        transport_type: 'beacon'
+      });
+    }
+
+    // C. 产品列表卡片点击（products.md 循环渲染的 .product-card）
+    var card = link.closest('.product-card');
+    if (card) {
+      var titleEl = card.querySelector('.product-title');
+      send('product_card_click', {
+        product_name: titleEl ? titleEl.textContent.trim() : '',
+        product_category: card.getAttribute('data-category') || '',
+        click_target: link.classList.contains('btn-quote') ? 'quote'
+          : link.classList.contains('btn-view') ? 'view_details'
+          : 'image_or_title',
+        transport_type: 'beacon'
+      });
+    }
+  }, true);
+})();
+</script>

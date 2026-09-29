@@ -29,11 +29,20 @@ sitemap: false
 
 {% if site.google_analytics_key and site.google_analytics_key != "" %}
 <script>
+  // 询盘成功事件（真正有商业价值的转化信号）
+  // 国家/数量/来源产品由 contact.md 在提交前写入 sessionStorage（Web3Forms 整页 POST
+  // 跳转，URL 带不过来；sessionStorage 在同源跳转链路上保留）。
   if (typeof gtag === 'function') {
+    var ctx = {};
+    try { ctx = JSON.parse(sessionStorage.getItem('dy_inquiry_ctx') || '{}') || {}; } catch (e) {}
     gtag('event', 'inquiry_submitted', {
-      'event_category': 'engagement',
-      'event_label': document.referrer || 'direct'
+      inquiry_country: ctx.country || 'unknown',
+      inquiry_quantity: ctx.quantity || 'unknown',
+      product_context: ctx.product || '',
+      inquiry_referrer: document.referrer || 'direct'
     });
+    if (typeof clarity === 'function') clarity('event', 'inquiry_submitted');
+    try { sessionStorage.removeItem('dy_inquiry_ctx'); } catch (e) {}
   }
 </script>
 {% endif %}
