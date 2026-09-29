@@ -20,3 +20,23 @@ backup-images-*/
 # Local dev scripts (one-off tooling, not for production)
 scripts/
 *.bat
+
+# serve.bat renames Gemfile to Gemfile.bak while serving
+Gemfile.bak
+
+# ---- Local business data. THIS REPO IS PUBLIC: real traffic numbers must never be committed ----
+# Weekly snapshots contain country splits, keyword performance and inquiry counts
+_analytics/snapshots/[0-9]*.md
+_analytics/local/
+_analytics/*.csv
+
+# ---- Credentials (belt and braces, in case one is ever placed here by mistake) ----
+*.pem
+*.p12
+*service-account*.json
+*serviceaccount*.json
+ga4-*.json
+gsc-*.json
+.env
+.env.*
+.workbuddy/
