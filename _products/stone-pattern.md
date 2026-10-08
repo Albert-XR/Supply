@@ -353,6 +353,8 @@ tags: ["Nordic Style", "Minimalist", "410 Stainless Steel", "Hotel Restaurant", 
           <div class="form-group">
             <select name="quantity" required>
               <option value="">Select Quantity</option>
+              <option value="Samples first">Samples first</option>
+              <option value="Not sure yet">Not sure yet — please advise</option>
               <option value="100-500">100 - 500 pieces</option>
               <option value="500-1000">500 - 1,000 pieces</option>
               <option value="1000-3000">1,000 - 3,000 pieces</option>
@@ -368,7 +370,7 @@ tags: ["Nordic Style", "Minimalist", "410 Stainless Steel", "Hotel Restaurant", 
     </div>
 
     <p style="font-size:0.9em; color:#666;">
-      <strong>Need samples?</strong> Sample cost $50/set, refundable upon order. 
+      <strong>Need samples?</strong> Samples available on request, refundable on bulk orders.
       <a href="mailto:sales@ding-yong.com?subject=Sample Request: 410 Stainless Steel Knife Fork Spoon Set" style="color:#e94560;">Request Sample &rarr;</a>
     </p>
   </div>
@@ -381,7 +383,7 @@ tags: ["Nordic Style", "Minimalist", "410 Stainless Steel", "Hotel Restaurant", 
     <button class="tab-btn active" onclick="switchTab('specs')">Specifications</button>
     <button class="tab-btn" onclick="switchTab('packaging')">Packaging</button>
     <button class="tab-btn" onclick="switchTab('certification')">Quality</button>
-    <button class="tab-btn" onclick="switchTab('shipping')">Shipping & Payment</button>
+    <button class="tab-btn" onclick="switchTab('shipping')">Shipping & Logistics</button>
   </div>
 
   <!-- 规格参数 -->
@@ -397,11 +399,11 @@ tags: ["Nordic Style", "Minimalist", "410 Stainless Steel", "Hotel Restaurant", 
       <tr><td>Features</td><td>Portable, Reusable, Dishwasher-safe</td></tr>
       <tr><td>Handle Material</td><td>Stainless Steel</td></tr>
       <tr><td>Thickness</td><td>2.0 - 3.0 mm</td></tr>
-      <tr><td>Customization</td><td>Laser logo engraving, custom color/finish, private label (color +$0.10/pc, min. 100 pcs)</td></tr>
+      <tr><td>Customization</td><td>Laser logo engraving, custom color/finish, private label</td></tr>
     </table>
 
     <h3 style="margin-top:30px;">Available Colors & Customization</h3>
-    <p style="color:#666; margin-bottom:15px;">Multiple colors in stock. Custom color/finish available with +$0.10/pc, minimum order 100 pieces. Drawing-based, sample-based and full customization supported.</p>
+    <p style="color:#666; margin-bottom:15px;">Multiple colors in stock. Custom color and finish are available, alongside drawing-based, sample-based and full customization.</p>
     <div style="display:flex; gap:15px; flex-wrap:wrap; margin:15px 0;">
       <div style="text-align:center;"><div style="width:60px; height:60px; background:linear-gradient(135deg, #c0c0c0, #e8e8e8); border-radius:50%; margin-bottom:5px;"></div><span style="font-size:0.85em;">Silver</span></div>
       <div style="text-align:center;"><div style="width:60px; height:60px; background:linear-gradient(135deg, #FFD700, #FFA500); border-radius:50%; margin-bottom:5px;"></div><span style="font-size:0.85em;">Gold</span></div>
@@ -476,18 +478,13 @@ tags: ["Nordic Style", "Minimalist", "410 Stainless Steel", "Hotel Restaurant", 
 
   <!-- 运输支付 -->
   <div id="shipping" class="tab-content">
-    <h2>Shipping & Payment Terms</h2>
+    <h2>Shipping & Logistics</h2>
     <table class="spec-table">
       <tr><td>Trade Terms</td><td>FOB Shenzhen / Guangzhou, CIF, DDP (select destinations)</td></tr>
-      <tr><td>Payment</td><td>T/T 30% deposit, 70% before shipment. L/C at sight for large orders.</td></tr>
       <tr><td>Port</td><td>Shenzhen / Guangzhou / Shantou</td></tr>
       <tr><td>Shipping</td><td>Sea freight (FCL/LCL), Air freight, Express (DHL/FedEx/UPS)</td></tr>
       <tr><td>Insurance</td><td>All-risk marine insurance available</td></tr>
     </table>
-    <div style="background:#e8f4fd; padding:20px; border-radius:10px; margin-top:20px; border-left:4px solid #2196F3;">
-      <strong>&#128161; Pro Tip for New Buyers</strong>
-      <p style="margin:5px 0 0; color:#555;">For orders under $5,000, we recommend Express shipping (7-10 days). For larger orders, sea freight reduces cost by 60-70%.</p>
-    </div>
   </div>
 
 </div>

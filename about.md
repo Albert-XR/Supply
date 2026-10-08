@@ -528,7 +528,7 @@ description: "DINGYONG is a stainless steel cutlery and flatware manufacturer in
         ✓ <strong>Factory Direct</strong> — No middlemen, competitive pricing<br>
         ✓ <strong>Quality Assured</strong> — Pre-shipment inspection on every order, third-party testing available<br>
         ✓ <strong>Custom Capacity</strong> — Logo engraving, custom packaging, PVD colors<br>
-        ✓ <strong>Fast Delivery</strong> — Ready stock, 20-45 days for customized, flexible MOQ
+        ✓ <strong>Fast Delivery</strong> — Ready stock available, with flexible scheduling for customized orders
       </p>
     </div>
     <div class="who-img">

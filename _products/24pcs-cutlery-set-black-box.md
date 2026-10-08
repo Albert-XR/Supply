@@ -354,6 +354,8 @@ tags: ["Black Gift Box", "24-Piece Set", "Mirror Polished", "Stainless Steel Cut
           <div class="form-group">
             <select name="quantity" required>
               <option value="">Select Quantity</option>
+              <option value="Samples first">Samples first</option>
+              <option value="Not sure yet">Not sure yet — please advise</option>
               <option value="30-100">30 - 100 pieces</option>
               <option value="100-500">100 - 500 pieces</option>
               <option value="500-1000">500 - 1,000 pieces</option>
@@ -369,7 +371,7 @@ tags: ["Black Gift Box", "24-Piece Set", "Mirror Polished", "Stainless Steel Cut
     </div>
 
     <p style="font-size:0.9em; color:#666;">
-      <strong>Need samples?</strong> Samples available upon request, refundable upon bulk order.
+      <strong>Need samples?</strong> Samples available on request, refundable on bulk orders.
       <a href="mailto:sales@ding-yong.com?subject=Sample Request: 24-Piece Cutlery Set with Black Box" style="color:#e94560;">Request Sample &rarr;</a>
     </p>
   </div>
@@ -382,7 +384,7 @@ tags: ["Black Gift Box", "24-Piece Set", "Mirror Polished", "Stainless Steel Cut
     <button class="tab-btn active" onclick="switchTab('specs')">Specifications</button>
     <button class="tab-btn" onclick="switchTab('packaging')">Packaging</button>
     <button class="tab-btn" onclick="switchTab('certification')">Quality</button>
-    <button class="tab-btn" onclick="switchTab('shipping')">Shipping & Payment</button>
+    <button class="tab-btn" onclick="switchTab('shipping')">Shipping & Logistics</button>
   </div>
 
   <!-- 规格参数 -->
@@ -477,18 +479,13 @@ tags: ["Black Gift Box", "24-Piece Set", "Mirror Polished", "Stainless Steel Cut
 
   <!-- 运输支付 -->
   <div id="shipping" class="tab-content">
-    <h2>Shipping & Payment Terms</h2>
+    <h2>Shipping & Logistics</h2>
     <table class="spec-table">
       <tr><td>Trade Terms</td><td>FOB Shenzhen / Guangzhou, CIF, DDP (select destinations)</td></tr>
-      <tr><td>Payment</td><td>T/T 30% deposit, 70% before shipment. L/C at sight for large orders.</td></tr>
       <tr><td>Port</td><td>Shenzhen / Guangzhou / Shantou</td></tr>
       <tr><td>Shipping</td><td>Sea freight (FCL/LCL), Air freight, Express (DHL/FedEx/UPS)</td></tr>
       <tr><td>Insurance</td><td>All-risk marine insurance available</td></tr>
     </table>
-    <div style="background:#e8f4fd; padding:20px; border-radius:10px; margin-top:20px; border-left:4px solid #2196F3;">
-      <strong>&#128161; Pro Tip for New Buyers</strong>
-      <p style="margin:5px 0 0; color:#555;">For orders under $3,000, we recommend Express shipping (7-10 days). For larger orders, sea freight reduces cost by 60-70%.</p>
-    </div>
   </div>
 
 </div>

@@ -316,6 +316,7 @@ description: "Contact DINGYONG for stainless steel cutlery wholesale, OEM/ODM an
     <select name="quantity" required>
       <option value="">Target Quantity *</option>
       <option value="Samples first">Samples first</option>
+      <option value="Not sure yet">Not sure yet — please advise</option>
       <option value="Under 1,000 pcs">Under 1,000 pcs</option>
       <option value="1,000 - 5,000 pcs">1,000 - 5,000 pcs</option>
       <option value="5,000 - 10,000 pcs">5,000 - 10,000 pcs</option>

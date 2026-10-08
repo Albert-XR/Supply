@@ -356,6 +356,8 @@ tags: ["Christmas", "Gift Box Set", "Iridescent Spoon", "Dessert Fork", "Party T
           <div class="form-group">
             <select name="quantity" required>
               <option value="">Select Quantity</option>
+              <option value="Samples first">Samples first</option>
+              <option value="Not sure yet">Not sure yet — please advise</option>
               <option value="300-1000">300 - 1,000 pieces</option>
               <option value="1000-3000">1,000 - 3,000 pieces</option>
               <option value="3000-10000">3,000 - 10,000 pieces</option>
@@ -371,7 +373,7 @@ tags: ["Christmas", "Gift Box Set", "Iridescent Spoon", "Dessert Fork", "Party T
     </div>
 
     <p style="font-size:0.9em; color:#666;">
-      <strong>Need samples?</strong> Sample cost $15/set, refundable upon order.
+      <strong>Need samples?</strong> Samples available on request, refundable on bulk orders.
       <a href="mailto:sales@ding-yong.com?subject=Sample Request: Iridescent Cartoon Dessert Set" style="color:#e94560;">Request Sample &rarr;</a>
     </p>
   </div>
@@ -384,7 +386,7 @@ tags: ["Christmas", "Gift Box Set", "Iridescent Spoon", "Dessert Fork", "Party T
     <button class="tab-btn active" onclick="switchTab('specs')">Specifications</button>
     <button class="tab-btn" onclick="switchTab('packaging')">Packaging</button>
     <button class="tab-btn" onclick="switchTab('certification')">Quality</button>
-    <button class="tab-btn" onclick="switchTab('shipping')">Shipping & Payment</button>
+    <button class="tab-btn" onclick="switchTab('shipping')">Shipping & Logistics</button>
   </div>
 
   <!-- 规格参数 -->
@@ -477,18 +479,13 @@ tags: ["Christmas", "Gift Box Set", "Iridescent Spoon", "Dessert Fork", "Party T
 
   <!-- 运输支付 -->
   <div id="shipping" class="tab-content">
-    <h2>Shipping & Payment Terms</h2>
+    <h2>Shipping & Logistics</h2>
     <table class="spec-table">
       <tr><td>Trade Terms</td><td>FOB Shenzhen / Guangzhou, CIF, DDP (select destinations)</td></tr>
-      <tr><td>Payment</td><td>T/T 30% deposit, 70% before shipment. L/C at sight for large orders.</td></tr>
       <tr><td>Port</td><td>Shenzhen / Guangzhou / Shantou</td></tr>
       <tr><td>Shipping</td><td>Sea freight (FCL/LCL), Air freight, Express (DHL/FedEx/UPS)</td></tr>
       <tr><td>Insurance</td><td>All-risk marine insurance available</td></tr>
     </table>
-    <div style="background:#fff3cd; padding:20px; border-radius:10px; margin-top:20px; border-left:4px solid #FFA000;">
-      <strong>&#127877; Christmas Season Alert</strong>
-      <p style="margin:5px 0 0; color:#555;">Order by early October to arrive before December. Peak-season sea freight gets busy from November — plan 2-3 extra weeks for Q4 delivery.</p>
-    </div>
   </div>
 
 </div>

@@ -37,7 +37,6 @@ A common point of confusion: knife blades are almost always made of **410 or 420
 | Luster | Slightly grayish | Bright, mirror-like |
 | Magnetic? | Yes | No (except knife blades) |
 | Best for | Mass retail, promotions, hollow-handle sets | Hotels, restaurants, premium retail |
-| MOQ positioning | Entry-level orders | Mid-to-high-end programs |
 
 ## When 18/0 Is the Right Choice
 

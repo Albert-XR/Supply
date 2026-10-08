@@ -245,26 +245,10 @@ img { max-width: 100%; height: auto; }
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is your MOQ (Minimum Order Quantity)?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "MOQ varies by region and product. Tell us your target market and target quantity, and we will offer flexible terms to help you test the market."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What is the production lead time?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "It depends on order quantity and finishing requirements. Rush orders can be arranged case by case — contact us for an exact schedule."
-      }
-    },
-    {
-      "@type": "Question",
       "name": "Do you provide free samples?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Yes, we provide existing samples for free. You only need to cover the courier cost. Custom samples with your logo take 7-15 days and may involve a small sample fee, which is refundable in bulk orders."
+        "text": "Yes. We provide existing samples free of charge — you only cover the courier cost. Custom samples with your logo can also be arranged; contact us and we will confirm the arrangement for your project."
       }
     },
     {
@@ -281,14 +265,6 @@ img { max-width: 100%; height: auto; }
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Every order goes through sample confirmation and pre-shipment inspection. Third-party testing (such as SGS) can be arranged on request, and factory audits or live video inspections are welcome."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What are your payment terms?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "We accept T/T (30% deposit, 70% balance against B/L copy), and L/C at sight for large orders. Trade terms include FOB, CIF and EXW."
       }
     }
   ]
@@ -386,7 +362,7 @@ img { max-width: 100%; height: auto; }
     </div>
     <div class="feature">
       <h4>🚢 Agile Production</h4>
-      <p>Flexible MOQs and optimized lead times for rapid market entry.</p>
+      <p>Flexible production planning and streamlined scheduling for rapid market entry.</p>
     </div>
     <div class="feature">
       <h4>🎨 Global Footprint</h4>
@@ -434,23 +410,9 @@ img { max-width: 100%; height: auto; }
   <div class="faq-list">
 
     <details class="faq-item">
-      <summary>What is your MOQ (Minimum Order Quantity)?</summary>
-      <div class="faq-answer">
-        MOQ varies by region and product. Tell us your target market and target quantity, and we will offer flexible terms to help you test the market.
-      </div>
-    </details>
-
-    <details class="faq-item">
-      <summary>What is the production lead time?</summary>
-      <div class="faq-answer">
-        It depends on order quantity and finishing requirements. Rush orders can be arranged case by case — contact us for an exact schedule.
-      </div>
-    </details>
-
-    <details class="faq-item">
       <summary>Do you provide free samples?</summary>
       <div class="faq-answer">
-        Yes, we provide existing samples for free. You only need to cover the courier cost. Custom samples with your logo take 7-15 days and may involve a small sample fee, which is refundable in bulk orders.
+        Yes. We provide existing samples free of charge — you only cover the courier cost. Custom samples with your logo can also be arranged; contact us and we will confirm the arrangement for your project.
       </div>
     </details>
 
@@ -465,13 +427,6 @@ img { max-width: 100%; height: auto; }
       <summary>How do you ensure product quality?</summary>
       <div class="faq-answer">
         Every order goes through sample confirmation and pre-shipment inspection. Third-party testing (such as SGS) can be arranged on request, and factory audits or live video inspections are welcome.
-      </div>
-    </details>
-
-    <details class="faq-item">
-      <summary>What are your payment terms?</summary>
-      <div class="faq-answer">
-        We accept T/T (30% deposit, 70% balance against B/L copy), and L/C at sight for large orders. Trade terms include FOB, CIF and EXW.
       </div>
     </details>
 
