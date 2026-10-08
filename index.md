@@ -319,12 +319,12 @@ img { max-width: 100%; height: auto; }
     <span>Export Countries</span>
   </div>
   <div class="stat-item">
-    <strong>5M+</strong>
-    <span>Pieces Annual Output</span>
+    <strong>10M+</strong>
+    <span>Pieces Monthly Output</span>
   </div>
   <div class="stat-item">
     <strong>200+</strong>
-    <span>Factory Workers</span>
+    <span>Employees</span>
   </div>
 </div>
 
@@ -378,7 +378,7 @@ img { max-width: 100%; height: auto; }
   <div class="features-grid">
     <div class="feature">
       <h4>🏭 Factory Direct</h4>
-      <p>4,000㎡ production facility, full support for bespoke molds, finishes (PVD/Mirror/Satin), and branding.</p>
+      <p>5,000㎡ production facility, full support for bespoke molds, finishes (PVD/Mirror/Satin), and branding.</p>
     </div>
     <div class="feature">
       <h4>🔬 Quality Assured</h4>

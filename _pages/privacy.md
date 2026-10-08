@@ -27,4 +27,4 @@ You may ask us to delete the details you have sent us, or to stop using them, at
 
 ## Contact
 
-DING-YONG PRODUCTS CO., LTD — [sales@ding-yong.com](mailto:sales@ding-yong.com)
+Jieyang Dingyong Hardware & Plastic Products Co., Ltd — [sales@ding-yong.com](mailto:sales@ding-yong.com)

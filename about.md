@@ -2,7 +2,7 @@
 layout: page
 title: About Us
 permalink: /about/
-description: "DINGYONG is a stainless steel cutlery and flatware manufacturer in Guangdong, China — a 4,000㎡ factory producing cutlery sets, flatware and kitchen tools for importers, hotels and retail brands since 2014."
+description: "DINGYONG is a stainless steel cutlery and flatware manufacturer in Guangdong, China — a 5,000㎡ factory producing cutlery sets, flatware and kitchen tools for importers, hotels and retail brands since 2014."
 ---
 
 <!-- LocalBusiness Schema (About 页) -->
@@ -11,7 +11,7 @@ description: "DINGYONG is a stainless steel cutlery and flatware manufacturer in
   "@context": "https://schema.org",
   "@type": "LocalBusiness",
   "@id": "https://www.ding-yong.com/about/#localbusiness",
-  "name": "Ding-Yong Products Co., Ltd",
+  "name": "Jieyang Dingyong Hardware & Plastic Products Co., Ltd",
   "alternateName": "DINGYONG",
   "url": "https://www.ding-yong.com/about/",
   "logo": "https://www.ding-yong.com/siteicon.png",
@@ -43,7 +43,7 @@ description: "DINGYONG is a stainless steel cutlery and flatware manufacturer in
   ],
   "parentOrganization": {
     "@type": "Organization",
-    "name": "Ding-Yong Products Co., Ltd",
+    "name": "Jieyang Dingyong Hardware & Plastic Products Co., Ltd",
     "url": "https://www.ding-yong.com/"
   }
 }
@@ -55,7 +55,7 @@ description: "DINGYONG is a stainless steel cutlery and flatware manufacturer in
   "@context": "https://schema.org",
   "@type": "VideoObject",
   "name": "Ding-Yong Factory Tour",
-  "description": "Watch how your stainless steel tableware is crafted from raw steel to finished products at our 4,000 m² facility in Guangdong, China.",
+  "description": "Watch how your stainless steel tableware is crafted from raw steel to finished products at our 5,000 m² facility in Guangdong, China.",
   "thumbnailUrl": "https://i.ytimg.com/vi/rxGmVh_LP3A/maxresdefault.jpg",
   "uploadDate": "2024-01-01",
   "duration": "PT2M30S",
@@ -63,7 +63,7 @@ description: "DINGYONG is a stainless steel cutlery and flatware manufacturer in
   "embedUrl": "https://www.youtube.com/embed/rxGmVh_LP3A",
   "publisher": {
     "@type": "Organization",
-    "name": "Ding-Yong Products Co., Ltd",
+    "name": "Jieyang Dingyong Hardware & Plastic Products Co., Ltd",
     "logo": {
       "@type": "ImageObject",
       "url": "https://www.ding-yong.com/siteicon.png"
@@ -493,12 +493,12 @@ description: "DINGYONG is a stainless steel cutlery and flatware manufacturer in
     <div class="lbl">Years Experience</div>
   </div>
   <div class="stat-cell">
-    <div class="num">4,000<em>+</em></div>
+    <div class="num">5,000<em>+</em></div>
     <div class="lbl">㎡ Factory Area</div>
   </div>
   <div class="stat-cell">
-    <div class="num">50<em>+</em></div>
-    <div class="lbl">Skilled Workers</div>
+    <div class="num">200<em>+</em></div>
+    <div class="lbl">Employees</div>
   </div>
   <div class="stat-cell">
     <div class="num">10M<em>+</em></div>
@@ -513,13 +513,13 @@ description: "DINGYONG is a stainless steel cutlery and flatware manufacturer in
   <div class="who-grid">
     <div>
       <p>
-        Ding-Yong Products Co., Ltd is a manufacturer specializing in stainless
-        steel cutlery, flatware, and kitchen utensils. Based in Jieyang,
-        Guangdong, we have been serving global B2B buyers for over a decade under
-        our own registered brand DINGYONG.
+        Jieyang Dingyong Hardware & Plastic Products Co., Ltd is a manufacturer
+        specializing in stainless steel cutlery, flatware, and kitchen utensils.
+        Based in Jieyang, Guangdong, we have been serving global B2B buyers for
+        over a decade under our own registered brand DINGYONG.
       </p>
       <p>
-        Our 4,000+㎡ production facility houses 50+ skilled workers and advanced CNC
+        Our 5,000+㎡ production facility houses 200+ employees and advanced CNC
         polishing machines, enabling us to produce 10 million+ pieces monthly. From
         small custom orders to large hotel chain contracts, we provide flexible
         OEM/ODM solutions tailored to your market.
@@ -633,7 +633,7 @@ description: "DINGYONG is a stainless steel cutlery and flatware manufacturer in
     </div>
     <div class="timeline-item">
       <div class="timeline-year">2024</div>
-      <div class="timeline-text">Expanded our factory to a 4,000+㎡ production facility with upgraded equipment and capacity.</div>
+      <div class="timeline-text">Expanded our factory to a 5,000+㎡ production facility with upgraded equipment and capacity.</div>
     </div>
   </div>
 </div>

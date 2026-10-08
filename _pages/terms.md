@@ -7,7 +7,7 @@ description: "Terms of service for the DINGYONG website — use of site content,
 
 ## 1. About These Terms
 
-This website is operated by DING-YONG PRODUCTS CO., LTD ("DINGYONG", "we", "us"). By using this website you agree to these terms. If you do not agree, please do not use the site.
+This website is operated by Jieyang Dingyong Hardware & Plastic Products Co., Ltd ("DINGYONG", "we", "us"). By using this website you agree to these terms. If you do not agree, please do not use the site.
 
 ## 2. Website Content
 
