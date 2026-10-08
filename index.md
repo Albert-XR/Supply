@@ -1,6 +1,7 @@
 ---
 layout: home
-title: Home
+title: Stainless Steel Cutlery Manufacturer & OEM Supplier
+description: "DINGYONG is a stainless steel cutlery manufacturer in Guangdong, China, producing flatware, cutlery sets and gift sets for importers, wholesalers, hotels and restaurants — OEM/ODM with custom logo and packaging."
 ---
 
 <style>
@@ -390,6 +391,39 @@ img { max-width: 100%; height: auto; }
     <div class="feature">
       <h4>🎨 Global Footprint</h4>
       <p>Proven experience serving clients across Europe, the Americas, Middle East and Southeast Asia etc. 40+ countries.</p>
+    </div>
+  </div>
+</section>
+
+<!-- 采购指南（内链博客）-->
+<section>
+  <h2>Cutlery Buying Guides</h2>
+  <div class="features-grid">
+    {% for post in site.posts limit:3 %}
+    <div class="feature">
+      <h4 style="margin-bottom:8px;">
+        <a href="{{ post.url }}" style="color:#1a1a2e;text-decoration:none;">{{ post.title }}</a>
+      </h4>
+      <p style="color:#666;font-size:0.9em;line-height:1.6;margin-bottom:10px;">{{ post.description | truncate: 130 }}</p>
+      <a href="{{ post.url }}" style="color:#e94560;font-weight:bold;font-size:0.9em;">Read guide →</a>
+    </div>
+    {% endfor %}
+  </div>
+</section>
+
+<!-- 服务市场（内链市场着陆页）-->
+<section>
+  <h2>Markets We Serve</h2>
+  <div class="features-grid">
+    <div class="feature">
+      <h4>Pakistan</h4>
+      <p>Stainless steel cutlery supply for importers and wholesalers in Karachi, Lahore and across Pakistan.</p>
+      <a href="/markets/pakistan/" style="color:#e94560;font-weight:bold;font-size:0.9em;">For Pakistani buyers →</a>
+    </div>
+    <div class="feature">
+      <h4>West Africa</h4>
+      <p>Wholesale cutlery and flatware for importers in Ghana, Togo and neighbouring West African markets.</p>
+      <a href="/markets/west-africa/" style="color:#e94560;font-weight:bold;font-size:0.9em;">For West African buyers →</a>
     </div>
   </div>
 </section>

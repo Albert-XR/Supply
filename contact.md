@@ -2,6 +2,7 @@
 layout: page
 title: Contact Us
 permalink: /contact/
+description: "Contact DINGYONG for stainless steel cutlery wholesale, OEM/ODM and custom logo enquiries. WhatsApp +86 15013371880 or email sales@ding-yong.com — we reply to every enquiry."
 ---
 
 <style>

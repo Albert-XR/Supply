@@ -2,6 +2,7 @@
 layout: page
 title: About Us
 permalink: /about/
+description: "DINGYONG is a stainless steel cutlery and flatware manufacturer in Guangdong, China — a 4,000㎡ factory producing cutlery sets, flatware and kitchen tools for importers, hotels and retail brands since 2014."
 ---
 
 <!-- LocalBusiness Schema (About 页) -->

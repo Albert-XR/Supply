@@ -2,6 +2,7 @@
 layout: page
 title: Products
 permalink: /products/
+description: "Browse DINGYONG stainless steel cutlery, flatware, kitchen gadgets and gift sets — cutlery sets, spoons, forks and knives for wholesale, hotels and retail, all available for OEM/ODM with custom logo and packaging."
 ---
 
 <style>
@@ -180,6 +181,17 @@ permalink: /products/
       {% endunless %}
     {% endfor %}
   </div>
+
+  <!-- 采购指南（内链博客）-->
+  <section style="margin-top:50px;border-top:1px solid #eee;padding-top:30px;">
+    <h2 style="text-align:center;">Cutlery Buying Guides</h2>
+    <p class="products-intro">Not sure which specification fits your market? Start with our buyer guides:</p>
+    <ul style="max-width:820px;margin:0 auto;line-height:2;">
+      {% for post in site.posts %}
+      <li><a href="{{ post.url }}" style="color:#e94560;font-weight:600;">{{ post.title }}</a></li>
+      {% endfor %}
+    </ul>
+  </section>
 </div>
 
 <script>
