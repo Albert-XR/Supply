@@ -1,14 +1,14 @@
 ---
 layout: page
-title: Stainless Steel Cutlery Supplier for Ghana & West Africa
+title: Stainless Steel Cutlery Supplier for Ghana, Mali & West Africa
 permalink: /markets/west-africa/
-description: "Stainless steel cutlery manufacturer supplying importers and wholesalers in Ghana, Togo and across West Africa — cutlery sets and flatware with OEM/ODM custom logo and packaging, shipped from China."
+description: "Stainless steel cutlery manufacturer supplying importers and wholesalers in Ghana, Mali, Togo and across West Africa — cutlery sets and flatware with OEM/ODM custom logo and packaging, shipped from China."
 ---
 
 <div class="market-page">
 
 <p class="market-lede">
-  If you import stainless steel cutlery into Ghana, Togo or the wider West African market — for wholesale distribution, open markets, retail chains or hospitality supply — DINGYONG produces it. We are a cutlery manufacturer in Guangdong, China, supplying importers and wholesalers directly from our own factory since 2014.
+  If you import stainless steel cutlery into Ghana, Mali, Togo or the wider West African market — for wholesale distribution, open markets, retail chains or hospitality supply — DINGYONG produces it. We are a cutlery manufacturer in Guangdong, China, supplying importers and wholesalers directly from our own factory since 2014.
 </p>
 
 <a class="market-cta" href="https://wa.me/8615013371880" target="_blank" rel="noopener">WhatsApp: +86 150 1337 1880</a>
@@ -75,22 +75,23 @@ description: "Stainless steel cutlery manufacturer supplying importers and whole
   If you are comparing suppliers, ask how each one inspects before shipment. It is the single most useful question in cutlery sourcing.
 </p>
 
-<h2>Shipping Cutlery to Ghana and Togo</h2>
+<h2>Shipping Cutlery to Ghana, Mali and Togo</h2>
 
 <p>
-  Cutlery is dense, non-perishable cargo and ships economically by sea. Two West African ports anchor most of this trade:
+  Cutlery is dense, non-perishable cargo and ships economically by sea. The main West African ports serve both their own markets and the landlocked countries behind them:
 </p>
 
 <ul>
   <li><strong>Ghana</strong> — <strong>Tema Port</strong> is the principal gateway for Accra, Kumasi and the wider Ghanaian market, with Takoradi serving the western corridor.</li>
+  <li><strong>Mali</strong> — Mali is landlocked, so cargo arrives through a neighbouring port and moves inland by road. <strong>Bamako</strong> is normally served via the <strong>Port of Dakar</strong> (Senegal) or <strong>Abidjan</strong> (Côte d'Ivoire), and increasingly via <strong>Lomé</strong> and <strong>Tema</strong>; tell us which corridor your forwarder uses and we will quote to that port.</li>
   <li><strong>Togo</strong> — <strong>Lomé Port</strong> is a deep-water port that also handles transit cargo for landlocked markets further inland, which makes it a natural entry point for importers serving the sub-region.</li>
 </ul>
 
 <p>
-  Consignment consolidation with your other China purchases is usually possible. Tell us your destination and your preferred trade terms and we will quote accordingly — and we are happy to work with your own freight forwarder in Ghana, Togo or elsewhere in the region.
+  Consignment consolidation with your other China purchases is usually possible. Tell us your destination and your preferred trade terms and we will quote accordingly — and we are happy to work with your own freight forwarder in Ghana, Mali, Togo or elsewhere in the region.
 </p>
 
-<p class="market-note"><em>Buyers in Nigeria, Benin, Burkina Faso, Côte d'Ivoire and other neighbouring markets are welcome to contact us as well — the same range and terms apply.</em></p>
+<p class="market-note"><em>Buyers in Senegal, Nigeria, Benin, Burkina Faso, Côte d'Ivoire, Niger and other neighbouring markets are welcome to contact us as well — the same range and terms apply.</em></p>
 
 <h2>How to Start</h2>
 

@@ -398,7 +398,7 @@ img { max-width: 100%; height: auto; }
     </div>
     <div class="feature">
       <h4>West Africa</h4>
-      <p>Wholesale cutlery and flatware for importers in Ghana, Togo and neighbouring West African markets.</p>
+      <p>Wholesale cutlery and flatware for importers in Ghana, Mali, Togo and neighbouring West African markets.</p>
       <a href="/markets/west-africa/" style="color:#e94560;font-weight:bold;font-size:0.9em;">For West African buyers →</a>
     </div>
   </div>

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Importing Stainless Steel Cutlery from China: A Guide for Pakistan & West African Buyers"
-description: "A practical step-by-step guide for importers in Pakistan, Ghana, Togo and across West Africa — how to specify cutlery for your market, choose between a factory and a trading company, inspect before shipping, arrange freight, and avoid the mistakes that make first import orders expensive."
+description: "A practical step-by-step guide for importers in Pakistan, Ghana, Mali, Togo and across West Africa — how to specify cutlery for your market, choose between a factory and a trading company, inspect before shipping, arrange freight, and avoid the mistakes that make first import orders expensive."
 permalink: /blog/importing-stainless-steel-cutlery-from-china/
 date: 2026-10-06
 read_time: 9
@@ -12,7 +12,7 @@ China is the world's largest source of stainless steel cutlery, and for importer
 
 But importing has a learning curve, and most of the cost of climbing it lands on the first order. This guide walks through the six steps that matter, in the order you will face them.
 
-If you are importing specifically into Pakistan or into Ghana, Togo and the wider West African market, see our market pages for the specifics of those routes: [Pakistan](/markets/pakistan/) and [West Africa](/markets/west-africa/).
+If you are importing specifically into Pakistan or into Ghana, Mali, Togo and the wider West African market, see our market pages for the specifics of those routes: [Pakistan](/markets/pakistan/) and [West Africa](/markets/west-africa/).
 
 ## Step 1 — Define the Specification for Your Market
 
@@ -80,6 +80,7 @@ Cutlery is dense, non-perishable and non-fragile — it is close to an ideal pro
 |---|---|
 | Pakistan | Karachi Port, Port Qasim (both serve Karachi and onward distribution to Lahore, Faisalabad, Islamabad) |
 | Ghana | Tema (principal), Takoradi (western corridor) |
+| Mali | Landlocked — Bamako is normally served via Dakar (Senegal) or Abidjan (Côte d'Ivoire), and increasingly via Lomé and Tema by road |
 | Togo | Lomé (deep-water; also handles transit cargo for landlocked inland markets) |
 
 **Trade terms.** FOB and CIF are the two you will use most:
