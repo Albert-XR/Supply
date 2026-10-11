@@ -68,6 +68,56 @@ image: /assets/images/exhibition/jinhan-fair-2026-og.jpg
 }
 .ex-meet a { color: #c8102e; font-weight: bold; text-decoration: none; }
 .ex-meet a:hover { text-decoration: underline; }
+
+/* 灯箱：点击邀请函后在页内放大，点任意处 / × / Esc 关闭 */
+.ex-lightbox {
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(0, 0, 0, 0.92);
+  z-index: 10000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 26px 16px 40px;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+  cursor: zoom-out;
+}
+.ex-lightbox[hidden] { display: none; }
+.ex-lightbox img {
+  width: 100%;
+  max-width: 760px;
+  height: auto;
+  border-radius: 6px;
+  cursor: default;
+}
+.ex-lb-close {
+  position: fixed;
+  top: 12px;
+  right: 14px;
+  width: 46px;
+  height: 46px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  border-radius: 50%;
+  background: #fff;
+  color: #1a1a2e;
+  font-family: inherit;
+  font-size: 1.7em;
+  line-height: 1;
+  padding: 0 0 4px;
+  cursor: pointer;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.35);
+}
+.ex-lb-close:hover { background: #f0f0f0; }
+.ex-lb-hint {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 0.85em;
+  margin: 16px 0 0;
+}
+body.ex-lb-open { overflow: hidden; }
 </style>
 
 <div class="exhibition-page">
@@ -84,7 +134,7 @@ image: /assets/images/exhibition/jinhan-fair-2026-og.jpg
   </p>
 
   <figure class="ex-invitation">
-    <a href="/assets/images/exhibition/jinhan-fair-2026-invitation.jpg"
+    <a class="ex-zoom" href="/assets/images/exhibition/jinhan-fair-2026-invitation.jpg"
        target="_blank" rel="noopener"
        data-ga-event="invitation_view" data-ga-location="exhibition_page">
       <img src="/assets/images/exhibition/jinhan-fair-2026-invitation.jpg"
@@ -92,6 +142,14 @@ image: /assets/images/exhibition/jinhan-fair-2026-og.jpg
            alt="DINGYONG invitation to the 54th Jinhan Fair for Home &amp; Gifts — October 21–27, 2026, PWTC Expo Guangzhou, Booth No. 7B01">
     </a>
   </figure>
+
+  <!-- 灯箱：放大查看，点任意处 / × / Esc 关闭 -->
+  <div class="ex-lightbox" id="exLightbox" role="dialog" aria-modal="true" aria-label="Invitation" hidden>
+    <button type="button" class="ex-lb-close" aria-label="Close">&times;</button>
+    <img src="/assets/images/exhibition/jinhan-fair-2026-invitation.jpg"
+         alt="DINGYONG invitation to the 54th Jinhan Fair for Home &amp; Gifts, Booth No. 7B01">
+    <p class="ex-lb-hint">Click anywhere or press Esc to close</p>
+  </div>
 
   <p class="ex-download">
     Click the invitation to open it full size, or
@@ -108,3 +166,35 @@ image: /assets/images/exhibition/jinhan-fair-2026-og.jpg
   </p>
 
 </div>
+
+<script>
+// 邀请函灯箱：有 JS 时在页内放大（不再跳转到浏览器图片页），无 JS 时降级为原链接行为
+(function () {
+  var lb = document.getElementById('exLightbox');
+  var trigger = document.querySelector('.ex-zoom');
+  if (!lb || !trigger) return;
+
+  function open() {
+    lb.hidden = false;
+    document.body.classList.add('ex-lb-open');
+  }
+  function close() {
+    lb.hidden = true;
+    document.body.classList.remove('ex-lb-open');
+  }
+
+  trigger.addEventListener('click', function (e) {
+    e.preventDefault();
+    open();
+  });
+
+  lb.addEventListener('click', function (e) {
+    if (e.target.closest('img')) return;   // 点图片本身不关闭
+    close();
+  });
+
+  document.addEventListener('keydown', function (e) {
+    if (e.key === 'Escape' && !lb.hidden) close();
+  });
+})();
+</script>
