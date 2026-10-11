@@ -355,9 +355,113 @@ img {
     text-align: center;
   }
 }
+
+{% if site.exhibition.active %}
+/* ===== Exhibition announcement bar (toggle via _config.yml -> exhibition.active) ===== */
+.exb {
+  background: #c8102e;
+  color: #fff;
+  font-size: 0.9em;
+}
+.exb-inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 9px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.exb-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  color: #fff;
+  text-decoration: none;
+  padding: 0 30px;
+  text-align: center;
+}
+.exb-link:hover .exb-text { text-decoration: underline; }
+.exb-tag {
+  background: rgba(255, 255, 255, 0.22);
+  border-radius: 4px;
+  padding: 2px 8px;
+  font-size: 0.85em;
+  font-weight: bold;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+.exb-arrow { font-weight: bold; white-space: nowrap; }
+.exb-close {
+  position: absolute;
+  right: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  color: #fff;
+  font-family: inherit;
+  font-size: 1.25em;
+  line-height: 1;
+  padding: 4px 8px;
+  cursor: pointer;
+  opacity: 0.75;
+}
+.exb-close:hover { opacity: 1; }
+
+/* Exhibition link in the top navigation */
+.nav-links a.nav-exhibition {
+  background: #c8102e;
+  padding: 5px 12px;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+@media (max-width: 640px) {
+  .exb { font-size: 0.78em; }
+  .exb-arrow { display: none; }
+  .exb-link { padding: 0 24px; }
+  .nav-links { gap: 12px; }
+  .nav-links a { font-size: 0.82em; }
+  .nav-links a.nav-exhibition { padding: 4px 9px; }
+}
+{% endif %}
 </style>
 </head>
 <body>
+
+{% if site.exhibition.active %}
+<div class="exb" id="exhibitionBar">
+  <div class="exb-inner">
+    <a class="exb-link" href="{{ site.exhibition.url }}"
+       data-ga-event="exhibition_bar_click" data-ga-location="top_bar">
+      <span class="exb-tag">{{ site.exhibition.tag }}</span>
+      <span class="exb-text">{{ site.exhibition.text }}</span>
+      <span class="exb-arrow">{{ site.exhibition.link_text }} &rarr;</span>
+    </a>
+    <button class="exb-close" type="button" aria-label="Dismiss announcement"
+            data-ga-event="exhibition_bar_dismiss" data-ga-location="top_bar">&times;</button>
+  </div>
+</div>
+<script>
+// Remember dismissal locally so the bar does not reappear for the same visitor.
+(function () {
+  var bar = document.getElementById('exhibitionBar');
+  if (!bar) return;
+  var KEY = 'dy_exhibition_bar_dismissed';
+  try { if (localStorage.getItem(KEY) === '1') { bar.parentNode.removeChild(bar); return; } } catch (e) {}
+  var btn = bar.querySelector('.exb-close');
+  if (!btn) return;
+  btn.addEventListener('click', function () {
+    if (bar.parentNode) bar.parentNode.removeChild(bar);
+    try { localStorage.setItem(KEY, '1'); } catch (e) {}
+  });
+})();
+</script>
+{% endif %}
 
 <nav>
   <div class="nav-container">
@@ -369,6 +473,7 @@ img {
       <a href="/products">Products</a>
       <a href="/about">About</a>
       <a href="/blog">Blog</a>
+      {% if site.exhibition.active %}<a href="{{ site.exhibition.url }}" class="nav-exhibition" data-ga-event="exhibition_nav_click" data-ga-location="nav">Exhibition</a>{% endif %}
       <a href="/contact">Contact</a>
     </div>
   </div>
