@@ -33,6 +33,8 @@ _analytics/*.csv
 _analytics/social-posts.md
 # Social channel playbooks (Facebook group lists, copy, WhatsApp scripts)
 _analytics/social/
+# Marketplace channel notes (Alibaba rules, listing copy, backlink checklists)
+_analytics/platforms/
 
 # ---- Credentials (belt and braces, in case one is ever placed here by mistake) ----
 *.pem
