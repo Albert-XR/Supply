@@ -98,3 +98,9 @@ exhibition:
   tag: "Exhibition"
   text: "Meet us at Booth 7B01 · PWTC Expo, Guangzhou · Oct 21–27, 2026"
   link_text: "View invitation"
+
+# 阿里国际站店铺 —— 填入店铺首页 URL 后，页脚社交图标行末尾出现入口；留空则整块不渲染
+# 用途：承接只信任平台担保交易的买家。故意不放在产品页 —— 产品页访客已经看中某款产品，
+# 此时把他送去阿里，等于带他去一个有公开报价、且页内还有其他供应商推荐位的环境。
+alibaba:
+  storefront: ""
