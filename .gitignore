@@ -31,6 +31,8 @@ _analytics/local/
 _analytics/*.csv
 # Social copy drafts and GSC submission checklists (working notes, not for publication)
 _analytics/social-posts.md
+# Social channel playbooks (Facebook group lists, copy, WhatsApp scripts)
+_analytics/social/
 
 # ---- Credentials (belt and braces, in case one is ever placed here by mistake) ----
 *.pem
