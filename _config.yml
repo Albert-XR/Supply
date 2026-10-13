@@ -103,4 +103,4 @@ exhibition:
 # 用途：承接只信任平台担保交易的买家。故意不放在产品页 —— 产品页访客已经看中某款产品，
 # 此时把他送去阿里，等于带他去一个有公开报价、且页内还有其他供应商推荐位的环境。
 alibaba:
-  storefront: ""
+  storefront: "https://dingyong1688.en.alibaba.com/"
