@@ -279,6 +279,7 @@ description: "Contact DINGYONG for stainless steel cutlery wholesale, OEM/ODM an
 <div class="info-content">
 <h4>Factory Address</h4>
 <p>No. 2, 1st Floor, Maifeng Commercial Building, Chating Road, Xixi Village, Xichang Town, Jiedong District, Jieyang City, Guangdong Province, China</p>
+<p style="font-size: 0.85em; margin-top: 6px;"><a href="/visit-our-factory/">Visiting us? See routes &amp; pick-up service &rarr;</a></p>
 </div>
 </div>
 

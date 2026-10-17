@@ -606,7 +606,7 @@ description: "DINGYONG is a stainless steel cutlery and flatware manufacturer in
     <div class="cert-card">
       <div class="cert-icon"><svg viewBox="0 0 24 24"><path d="M12 2l2.4 4.9 5.4.8-3.9 3.8.9 5.4L12 14.4 7.2 16.9l.9-5.4L4.2 7.7l5.4-.8L12 2z"/></svg></div>
       <h4>Factory Audit Welcome</h4>
-      <p>Visit our Jieyang factory or inspect production via live video call</p>
+      <p>Visit our Jieyang factory or inspect production via live video call. <a href="/visit-our-factory/">See routes &amp; plan your visit &rarr;</a></p>
     </div>
   </div>
 </div>
