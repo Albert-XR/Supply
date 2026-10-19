@@ -383,7 +383,8 @@ tags: ["Stainless Steel", "Cutlery Rack", "24/30 Slots", "Non-Slip Base", "Kitch
       <tr><td>Finish</td><td>Mirror polish</td></tr>
       <tr><td>Overall Size</td><td>15 × 13 × 16 cm (L × W × H)</td></tr>
       <tr><td>Capacity</td><td>24 slots or 30 slots</td></tr>
-      <tr><td>Net Weight</td><td>Approx. 306 g (30-slot) / 305.5–310 g (24-slot)</td></tr>
+      <tr><td>Slot Layout</td><td>Two hole layouts available in the 24-slot version; single layout in the 30-slot version (see comparison below)</td></tr>
+      <tr><td>Net Weight</td><td>306 g (30-slot) / 305.5 g and 310 g (24-slot, two hole layouts)</td></tr>
       <tr><td>Base</td><td>Polished base with non-slip pad</td></tr>
       <tr><td>Handle</td><td>Built-in lifting handle for carrying a loaded rack</td></tr>
       <tr><td>Use</td><td>Western tableware storage — knives, forks, spoons, teaspoons</td></tr>
@@ -394,18 +395,22 @@ tags: ["Stainless Steel", "Cutlery Rack", "24/30 Slots", "Non-Slip Base", "Kitch
     <div style="display:flex; gap:20px; flex-wrap:wrap; margin:15px 0;">
       <div style="text-align:center; padding:18px 22px; background:#f8f9fa; border-radius:10px;">
         <div style="font-size:1.5em; font-weight:bold; color:#1a1a2e;">24</div>
-        <div style="font-size:0.85em; color:#666; margin-top:4px;">Slots · 305.5 g</div>
+        <div style="font-size:0.85em; color:#666; margin-top:4px;">Slots · hole layout A · 305.5 g</div>
       </div>
       <div style="text-align:center; padding:18px 22px; background:#f8f9fa; border-radius:10px;">
         <div style="font-size:1.5em; font-weight:bold; color:#1a1a2e;">24</div>
-        <div style="font-size:0.85em; color:#666; margin-top:4px;">Slots · 310 g</div>
+        <div style="font-size:0.85em; color:#666; margin-top:4px;">Slots · hole layout B · 310 g</div>
       </div>
       <div style="text-align:center; padding:18px 22px; background:#f8f9fa; border-radius:10px;">
         <div style="font-size:1.5em; font-weight:bold; color:#1a1a2e;">30</div>
         <div style="font-size:0.85em; color:#666; margin-top:4px;">Slots · 306 g</div>
       </div>
     </div>
-    <img src="/assets/images/square-cutlery-rack/square-cutlery-rack-07-1024.jpg" alt="24-slot and 30-slot versions of the square cutlery rack" style="width:100%; max-width:560px; border-radius:10px; margin-top:10px;">
+    <img src="/assets/images/square-cutlery-rack/square-cutlery-rack-07-1024.jpg" alt="Comparison of the two 24-slot hole layouts and the 30-slot square cutlery rack" style="width:100%; max-width:560px; border-radius:10px; margin-top:10px;">
+    <p style="font-size:0.9em; color:#666; max-width:560px;">
+      The two 24-slot versions differ in hole layout — the slots are positioned differently to suit different flatware shapes.
+      Tell us which layout you prefer, or ask for photos of both side by side.
+    </p>
   </div>
 
   <!-- 包装信息 -->
