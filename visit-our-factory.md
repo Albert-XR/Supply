@@ -23,7 +23,7 @@ description: "Planning a factory visit? DINGYONG's stainless steel cutlery facto
   "priceRange": "$$",
   "address": {
     "@type": "PostalAddress",
-    "streetAddress": "Maifeng Building, Chatting Avenue Industrial Zone, Xichang Town, Jiedong District",
+    "streetAddress": "No. 2, 1st Floor, Maifeng Commercial Building, Chating Road, Xixi Village, Xichang Town, Jiedong District",
     "addressLocality": "Jieyang City",
     "addressRegion": "Guangdong Province",
     "addressCountry": "CN"
@@ -256,10 +256,10 @@ table.visit-table .no { color: #999; }
   <div class="visit-section">
     <h2>Factory Address</h2>
     <div class="visit-card">
-      <h3>&#127981; Maifeng Building, Chatting Avenue Industrial Zone</h3>
+      <h3>&#127981; No. 2, 1st Floor, Maifeng Commercial Building</h3>
       <p>
-        Xichang Town, Jiedong District, Jieyang City, Guangdong Province, China<br>
-        (广东省揭阳市揭东区锡场镇茶亭大道工业区麦峰大厦)
+        Chating Road, Xixi Village, Xichang Town, Jiedong District, Jieyang City, Guangdong Province, China<br>
+        (广东省揭阳市揭东区锡场镇锡西村茶亭路麦峰商业楼1楼2号)
       </p>
       <div class="visit-chips">
         <span class="visit-chip"><b>10 min</b> drive from Jieyang Railway Station</span>
