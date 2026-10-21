@@ -2,7 +2,7 @@
 layout: page
 title: Meet Us at Jinhan Fair 2026 — Booth 7B01
 permalink: /jinhan-fair-2026/
-description: "DINGYONG will be exhibiting at the 54th Jinhan Fair for Home & Gifts — October 21–27, 2026, PWTC Expo, Guangzhou, Booth No. 7B01. Visit our booth to see our latest stainless steel cutlery and discuss OEM/ODM programmes."
+description: "DINGYONG is exhibiting at the 54th Jinhan Fair for Home & Gifts — October 21–27, 2026, PWTC Expo, Guangzhou, Booth No. 7B01. Visit our booth to see our latest stainless steel cutlery and discuss OEM/ODM programmes."
 image: /assets/images/exhibition/jinhan-fair-2026-og.jpg
 ---
 
@@ -69,6 +69,103 @@ image: /assets/images/exhibition/jinhan-fair-2026-og.jpg
 .ex-meet a { color: #c8102e; font-weight: bold; text-decoration: none; }
 .ex-meet a:hover { text-decoration: underline; }
 
+/* 现场实拍：一条视频 + 一组图片 */
+.ex-gallery {
+  border-top: 1px solid #ececec;
+  padding-top: 28px;
+  margin-top: 38px;
+}
+.ex-gallery h2 {
+  font-size: 1.2em;
+  margin: 0 0 8px;
+  color: #1a1a2e;
+}
+.ex-gallery-note {
+  font-size: 0.93em;
+  line-height: 1.7;
+  color: #777;
+  max-width: 560px;
+  margin: 0 auto 24px;
+}
+.ex-video { margin: 0; flex: 0 0 auto; }
+.ex-video video {
+  display: block;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  max-height: 460px;
+  margin: 0 auto;
+  border-radius: 10px;
+  background: #000;
+  box-shadow: 0 6px 22px rgba(0, 0, 0, 0.12);
+}
+
+.ex-live {
+  display: flex;
+  gap: 26px;
+  align-items: flex-start;
+  text-align: left;
+  margin: 0 0 32px;
+}
+.ex-live-text { flex: 1 1 auto; min-width: 0; }
+.ex-live-text h3 {
+  font-size: 1.02em;
+  margin: 0 0 12px;
+  color: #1a1a2e;
+}
+.ex-live-text ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 14px;
+  font-size: 0.92em;
+  line-height: 1.65;
+  color: #555;
+}
+.ex-live-text li {
+  position: relative;
+  padding-left: 20px;
+  margin-bottom: 10px;
+}
+.ex-live-text li::before {
+  content: "✓";
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: #c8102e;
+  font-weight: bold;
+}
+.ex-live-close {
+  font-size: 0.88em;
+  line-height: 1.65;
+  color: #888;
+  margin: 0;
+}
+.ex-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 14px;
+}
+.ex-grid figure { margin: 0; }
+.ex-grid img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+.ex-grid .ex-wide { grid-column: 1 / -1; }
+.ex-video figcaption,
+.ex-grid figcaption {
+  font-size: 0.84em;
+  line-height: 1.6;
+  color: #888;
+  margin-top: 9px;
+}
+@media (max-width: 520px) {
+  .ex-live { flex-direction: column; align-items: center; gap: 18px; }
+  .ex-live .ex-video video { max-height: 400px; }
+  .ex-live-text ul { font-size: 0.9em; }
+}
+
 /* 灯箱：点击邀请函后在页内放大，点任意处 / × / Esc 关闭 */
 .ex-lightbox {
   position: fixed;
@@ -127,10 +224,11 @@ body.ex-lb-open { overflow: hidden; }
   <h1>Meet Us at Booth No. 7B01</h1>
 
   <p class="ex-lede">
-    DINGYONG will be exhibiting at the 54th Jinhan Fair for Home &amp; Gifts in Guangzhou, from
+    DINGYONG is exhibiting at the 54th Jinhan Fair for Home &amp; Gifts in Guangzhou, from
     <strong>October 21 to 27, 2026</strong>, at <strong>PWTC Expo</strong>. You are warmly invited to
-    visit <strong>Booth No. 7B01</strong> — our latest stainless steel cutlery will be on display, and
-    our team will be on hand to go through finishes, packaging and OEM/ODM programmes.
+    visit <strong>Booth No. 7B01</strong> — our latest stainless steel cutlery is on display, and our
+    team is on hand to go through finishes, packaging and OEM/ODM programmes. Open daily through
+    October 27.
   </p>
 
   <figure class="ex-invitation">
@@ -158,6 +256,69 @@ body.ex-lb-open { overflow: hidden; }
        data-ga-event="invitation_download" data-ga-location="exhibition_page">download the JPG</a>
     to save or forward to your team.
   </p>
+
+  <section class="ex-gallery" aria-labelledby="exGalleryTitle">
+    <h2 id="exGalleryTitle">From the booth</h2>
+    <p class="ex-gallery-note">
+      Everything on the shelves is out in the open — no glass between you and the pieces. That is
+      deliberate: thickness, weight and finish are the three things a catalogue photo cannot show,
+      and the only way to judge them is to pick a piece up.
+    </p>
+
+    <div class="ex-live">
+      <figure class="ex-video">
+        <video controls playsinline preload="none"
+               poster="/assets/images/exhibition/jinhan-fair-2026-walkthrough-poster.jpg"
+               width="720" height="1280">
+          <source src="/assets/videos/jinhan-fair-2026-walkthrough.mp4" type="video/mp4">
+          Your browser does not support embedded video.
+          <a href="/assets/videos/jinhan-fair-2026-walkthrough.mp4">Download the walkthrough (MP4)</a>.
+        </video>
+        <figcaption>A short walk past the flatware wall.</figcaption>
+      </figure>
+
+      <div class="ex-live-text">
+        <h3>What to look at on a sample</h3>
+        <ul>
+          <li><strong>The back of the bowl</strong> — polish should carry into the curve, not stop at the edge.</li>
+          <li><strong>The rim</strong> — rolled and even, so it does not feel sharp on the lip after a year of dishwashing.</li>
+          <li><strong>The weight at the handle</strong> — hold it by the tip. If it feels light, the balance is wrong and it will sit on the plate.</li>
+          <li><strong>Where the handle meets the bowl</strong> — on plated pieces, this is where the finish shows wear first.</li>
+        </ul>
+        <p class="ex-live-close">Ten seconds, four checks. None of them show in a photo — which is why we bring the pieces to the fair.</p>
+      </div>
+    </div>
+
+    <div class="ex-grid">
+      <figure class="ex-wide">
+        <img src="/assets/images/exhibition/jinhan-fair-2026-booth.jpg"
+             width="1024" height="560" loading="lazy"
+             alt="The DINGYONG booth at Jinhan Fair 2026 — gold display shelving filled with stainless steel flatware, gift boxes and decorative containers, with two meeting tables in front">
+        <figcaption>Booth 7B01, set up the day before the doors opened.</figcaption>
+      </figure>
+
+      <figure class="ex-wide">
+        <img src="/assets/images/exhibition/jinhan-fair-2026-flatware-wall.jpg"
+             width="1024" height="768" loading="lazy"
+             alt="Close view of the flatware wall at the DINGYONG booth — rows of stainless steel spoons, forks and knives arranged on gold shelving">
+        <figcaption>The flatware wall — every handle pattern we currently run.</figcaption>
+      </figure>
+
+      <figure>
+        <img src="/assets/images/exhibition/jinhan-fair-2026-spoon-silver.jpg"
+             width="800" height="1000" loading="lazy"
+             alt="Mirror-polished stainless steel spoon held up against the display shelving at the DINGYONG booth">
+        <figcaption>Mirror polish, silver finish.</figcaption>
+      </figure>
+
+      <figure>
+        <img src="/assets/images/exhibition/jinhan-fair-2026-spoon-gold.jpg"
+             width="800" height="1000" loading="lazy"
+             alt="Gold PVD-finished stainless steel spoon held up against the display shelving at the DINGYONG booth">
+        <figcaption>Same spoon, gold PVD finish.</figcaption>
+      </figure>
+    </div>
+  </section>
 
   <p class="ex-meet">
     Would you like to fix a time with us in advance? Message us on
@@ -195,6 +356,19 @@ body.ex-lb-open { overflow: hidden; }
 
   document.addEventListener('keydown', function (e) {
     if (e.key === 'Escape' && !lb.hidden) close();
+  });
+})();
+
+// 现场视频：只记第一次播放，避免拖动进度条重复计数
+(function () {
+  var v = document.querySelector('.ex-video video');
+  if (!v) return;
+  v.addEventListener('play', function () {
+    if (v.getAttribute('data-tracked')) return;
+    v.setAttribute('data-tracked', '1');
+    if (typeof gtag === 'function') {
+      gtag('event', 'booth_video_play', { link_location: 'exhibition_page' });
+    }
   });
 })();
 </script>
