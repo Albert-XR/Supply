@@ -45,7 +45,6 @@ tags: ["Ceramic Handle", "24-Piece Set", "With Display Stand", "Gift Box", "6 Co
 }
 .thumbnail-list {
   display: flex;
-  flex-wrap: wrap;
   gap: 10px;
   margin-top: 15px;
   overflow-x: auto;

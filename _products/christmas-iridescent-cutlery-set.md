@@ -45,7 +45,6 @@ tags: ["Christmas", "Gift Box Set", "Iridescent Spoon", "Dessert Fork", "Party T
 }
 .thumbnail-list {
   display: flex;
-  flex-wrap: wrap;
   gap: 10px;
   margin-top: 15px;
   overflow-x: auto;

@@ -45,9 +45,18 @@ tags: ["Stainless Steel", "Cutlery Rack", "24/30 Slots", "Non-Slip Base", "Kitch
 }
 .thumbnail-list {
   display: flex;
-  flex-wrap: wrap;
   gap: 10px;
   margin-top: 15px;
+  overflow-x: auto;
+  max-width: 100%;
+  padding-bottom: 5px;
+}
+.thumbnail-list::-webkit-scrollbar {
+  height: 4px;
+}
+.thumbnail-list::-webkit-scrollbar-thumb {
+  background: #ccc;
+  border-radius: 2px;
 }
 .thumbnail {
   width: 80px;
@@ -58,6 +67,7 @@ tags: ["Stainless Steel", "Cutlery Rack", "24/30 Slots", "Non-Slip Base", "Kitch
   cursor: pointer;
   border: 2px solid transparent;
   transition: border-color 0.2s;
+  flex-shrink: 0;
 }
 .thumbnail:hover, .thumbnail.active {
   border-color: #e94560;

@@ -45,7 +45,6 @@ tags: ["304 Stainless Steel", "Matte Handle", "Polished Head", "Custom Gift Box"
 }
 .thumbnail-list {
   display: flex;
-  flex-wrap: wrap;
   gap: 10px;
   margin-top: 15px;
   overflow-x: auto;

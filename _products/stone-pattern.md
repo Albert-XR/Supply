@@ -45,7 +45,6 @@ tags: ["Nordic Style", "Minimalist", "410 Stainless Steel", "Hotel Restaurant", 
 }
 .thumbnail-list {
   display: flex;
-  flex-wrap: wrap;
   gap: 10px;
   margin-top: 15px;
   overflow-x: auto;          /* ← 添加：超出时横向滚动 */

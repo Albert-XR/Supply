@@ -45,7 +45,6 @@ tags: ["410 Stainless Steel", "Plum Blossom Pattern", "Embossed Handle", "Mirror
 }
 .thumbnail-list {
   display: flex;
-  flex-wrap: wrap;
   gap: 10px;
   margin-top: 15px;
   overflow-x: auto;
