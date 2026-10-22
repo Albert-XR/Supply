@@ -206,6 +206,28 @@ tags: ["Stainless Steel", "Cutlery Rack", "24/30 Slots", "Non-Slip Base", "Kitch
   border-radius: 8px;
   margin-bottom: 10px;
 }
+.pack-pair {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  margin: 14px 0 0;
+}
+.pack-pair figure {
+  margin: 0;
+  text-align: center;
+}
+.pack-pair img {
+  width: 100%;
+  border-radius: 10px;
+  background: #ffffff;
+  border: 1px solid #eee;
+}
+.pack-pair figcaption {
+  font-size: 0.83em;
+  color: #777;
+  margin-top: 8px;
+  line-height: 1.55;
+}
 
 /* 认证展示 */
 .cert-showcase {
@@ -281,6 +303,7 @@ tags: ["Stainless Steel", "Cutlery Rack", "24/30 Slots", "Non-Slip Base", "Kitch
   .form-row { grid-template-columns: 1fr; }
   .related-grid { grid-template-columns: repeat(2, 1fr); }
   .packaging-show { grid-template-columns: 1fr; }
+  .pack-pair { grid-template-columns: 1fr; }
 }
 </style>
 
@@ -303,6 +326,7 @@ tags: ["Stainless Steel", "Cutlery Rack", "24/30 Slots", "Non-Slip Base", "Kitch
       <img src="/assets/images/square-cutlery-rack/square-cutlery-rack-05-180.jpg" class="thumbnail" loading="lazy" onclick="changeImage(this, '/assets/images/square-cutlery-rack/square-cutlery-rack-05-1024.jpg')">
       <img src="/assets/images/square-cutlery-rack/square-cutlery-rack-06-180.jpg" class="thumbnail" loading="lazy" onclick="changeImage(this, '/assets/images/square-cutlery-rack/square-cutlery-rack-06-1024.jpg')">
       <img src="/assets/images/square-cutlery-rack/square-cutlery-rack-07-180.jpg" class="thumbnail" loading="lazy" onclick="changeImage(this, '/assets/images/square-cutlery-rack/square-cutlery-rack-07-1024.jpg')">
+      <img src="/assets/images/square-cutlery-rack/square-cutlery-rack-08-180.jpg" class="thumbnail" loading="lazy" onclick="changeImage(this, '/assets/images/square-cutlery-rack/square-cutlery-rack-08-1024.jpg')">
     </div>
   </div>
 
@@ -433,6 +457,20 @@ tags: ["Stainless Steel", "Cutlery Rack", "24/30 Slots", "Non-Slip Base", "Kitch
         <p style="font-size:0.85em; color:#666;">15 × 13 × 16 cm — fits standard counter depth.</p>
       </div>
     </div>
+
+    <h3 style="margin-top:34px;">Retail-Ready Gift Box</h3>
+    <p style="color:#666; margin:6px 0 0;">The rack also ships as a boxed set with matching 24-piece flatware — printed board box, moulded insert, cutlery held in place so nothing rattles in transit. Box artwork, insert shape and carton copy can all be produced to your own design.</p>
+    <div class="pack-pair">
+      <figure>
+        <img src="/assets/images/square-cutlery-rack/square-cutlery-rack-09-1024.jpg" alt="Square cutlery rack packed with a printed retail gift box" loading="lazy">
+        <figcaption>Rack and gift box, 24-piece set</figcaption>
+      </figure>
+      <figure>
+        <img src="/assets/images/square-cutlery-rack/square-cutlery-rack-10-1024.jpg" alt="Cutlery rack with spoon sizes shown alongside the retail box" loading="lazy">
+        <figcaption>Rack alone or boxed — same unit</figcaption>
+      </figure>
+    </div>
+
     <div style="background:#f8f9fa; padding:20px; border-radius:10px; margin-top:20px;">
       <h4>Packing Notes</h4>
       <p style="color:#666; margin:10px 0 0;">Standard export carton. Logo printing, retail box and mixed-slot assortments can be arranged on request — tell us your channel and we will quote the packing that fits.</p>
