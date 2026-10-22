@@ -46,6 +46,7 @@ tags: ["Gold Plated", "24-Piece Set", "Gift Box", "Stainless Steel Cutlery", "Di
 }
 .thumbnail-list {
   display: flex;
+  flex-wrap: wrap;
   gap: 10px;
   margin-top: 15px;
   overflow-x: auto;

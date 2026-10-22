@@ -45,6 +45,7 @@ tags: ["304 Stainless Steel", "Crown Bottle", "Coffee Spoon", "Fruit Fork", "Gif
 }
 .thumbnail-list {
   display: flex;
+  flex-wrap: wrap;
   gap: 10px;
   margin-top: 15px;
   overflow-x: auto;

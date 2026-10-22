@@ -46,6 +46,7 @@ tags: ["With Stand", "24-Piece Set", "Gift Box", "Stainless Steel Cutlery", "Dis
 }
 .thumbnail-list {
   display: flex;
+  flex-wrap: wrap;
   gap: 10px;
   margin-top: 15px;
   overflow-x: auto;

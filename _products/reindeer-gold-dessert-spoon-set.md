@@ -45,6 +45,7 @@ tags: ["Christmas", "Reindeer", "Dessert Spoon", "Gold Plated", "Gift Box Set", 
 }
 .thumbnail-list {
   display: flex;
+  flex-wrap: wrap;
   gap: 10px;
   margin-top: 15px;
   overflow-x: auto;
