@@ -35,6 +35,8 @@ _analytics/social-posts.md
 _analytics/social/
 # Marketplace channel notes (Alibaba rules, listing copy, backlink checklists)
 _analytics/platforms/
+# Exhibition ops notes (asset red lines, on-site checks)
+_analytics/exhibition-*.md
 
 # ---- Credentials (belt and braces, in case one is ever placed here by mistake) ----
 *.pem

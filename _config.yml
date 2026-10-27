@@ -93,7 +93,7 @@ custom_css:
 # 展会档期 —— 控制全站顶部通知条与导航栏入口是否显示
 # 展会结束后把 active 改成 false 即可一并撤下（落地页本身保留，可继续作为「往届展会」页使用）。
 exhibition:
-  active: true
+  active: false
   url: "/jinhan-fair-2026/"
   tag: "Exhibition"
   text: "Meet us at Booth 7B01 · PWTC Expo, Guangzhou · Oct 21–27, 2026"

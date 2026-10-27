@@ -1,9 +1,9 @@
 ---
 layout: page
-title: Meet Us at Jinhan Fair 2026 — Booth 7B01
+title: Jinhan Fair 2026, Guangzhou — Booth 7B01
 permalink: /jinhan-fair-2026/
-description: "DINGYONG is exhibiting at the 54th Jinhan Fair for Home & Gifts — October 21–27, 2026, PWTC Expo, Guangzhou, Booth No. 7B01. Visit our booth to see our latest stainless steel cutlery and discuss OEM/ODM programmes."
-image: /assets/images/exhibition/jinhan-fair-2026-og.jpg
+description: "DINGYONG exhibited at the 54th Jinhan Fair for Home & Gifts — October 21–27, 2026, PWTC Expo, Guangzhou, Booth No. 7B01. Photos and video from our stainless steel cutlery stand, plus the four checks buyers made on every sample."
+image: /assets/images/exhibition/jinhan-fair-2026-booth.jpg
 ---
 
 <style>
@@ -221,14 +221,14 @@ body.ex-lb-open { overflow: hidden; }
 
   <span class="ex-kicker">54th Jinhan Fair for Home &amp; Gifts</span>
 
-  <h1>Meet Us at Booth No. 7B01</h1>
+  <h1>Booth No. 7B01 at Jinhan Fair 2026</h1>
 
   <p class="ex-lede">
-    DINGYONG is exhibiting at the 54th Jinhan Fair for Home &amp; Gifts in Guangzhou, from
-    <strong>October 21 to 27, 2026</strong>, at <strong>PWTC Expo</strong>. You are warmly invited to
-    visit <strong>Booth No. 7B01</strong> — our latest stainless steel cutlery is on display, and our
-    team is on hand to go through finishes, packaging and OEM/ODM programmes. Open daily through
-    October 27.
+    DINGYONG exhibited at the 54th Jinhan Fair for Home &amp; Gifts in Guangzhou, from
+    <strong>October 21 to 27, 2026</strong>, at <strong>PWTC Expo</strong>. Across seven days at
+    <strong>Booth No. 7B01</strong> we showed the stainless steel cutlery range — finishes, packaging
+    and OEM/ODM programmes — to visiting buyers from several markets. This page is a record of the
+    stand.
   </p>
 
   <figure class="ex-invitation">
@@ -260,8 +260,8 @@ body.ex-lb-open { overflow: hidden; }
   <section class="ex-gallery" aria-labelledby="exGalleryTitle">
     <h2 id="exGalleryTitle">From the booth</h2>
     <p class="ex-gallery-note">
-      Everything on the shelves is out in the open — no glass between you and the pieces. That is
-      deliberate: thickness, weight and finish are the three things a catalogue photo cannot show,
+      Everything on the shelves was out in the open — no glass between visitors and the pieces. That
+      was deliberate: thickness, weight and finish are the three things a catalogue photo cannot show,
       and the only way to judge them is to pick a piece up.
     </p>
 
@@ -285,7 +285,7 @@ body.ex-lb-open { overflow: hidden; }
           <li><strong>The weight at the handle</strong> — hold it by the tip. If it feels light, the balance is wrong and it will sit on the plate.</li>
           <li><strong>Where the handle meets the bowl</strong> — on plated pieces, this is where the finish shows wear first.</li>
         </ul>
-        <p class="ex-live-close">Ten seconds, four checks. None of them show in a photo — which is why we bring the pieces to the fair.</p>
+        <p class="ex-live-close">Ten seconds, four checks. None of them show in a photo — which is why we brought the pieces to Guangzhou.</p>
       </div>
     </div>
 
@@ -321,9 +321,10 @@ body.ex-lb-open { overflow: hidden; }
   </section>
 
   <p class="ex-meet">
-    Would you like to fix a time with us in advance? Message us on
+    The fair is over, but the samples are still in Jieyang. Message us on
     <a href="https://wa.me/8615013371880" target="_blank" rel="noopener">WhatsApp +86 150 1337 1880</a>
-    or <a href="/contact/?product=jinhan-fair-2026">send an enquiry</a> — we will be ready for you at the booth.
+    or <a href="/contact/?product=jinhan-fair-2026">send an enquiry</a> — tell us the item you came to
+    look for and we will send video of the actual piece.
   </p>
 
 </div>

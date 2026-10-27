@@ -350,6 +350,22 @@ description: "DINGYONG is a stainless steel cutlery and flatware manufacturer in
   margin-bottom: 0;
 }
 
+.tradeshow-note {
+  text-align: center;
+  margin: 26px 0 0;
+  font-size: 0.98em;
+}
+
+.tradeshow-note a {
+  color: #c8102e;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.tradeshow-note a:hover {
+  text-decoration: underline;
+}
+
 .tradeshow-row-title {
   text-align: center;
   color: #555;
@@ -668,6 +684,10 @@ description: "DINGYONG is a stainless steel cutlery and flatware manufacturer in
     <img src="/assets/images/tradeshows/tradeshow-10.jpg" alt="Happy customers taking selfie at Dingyong booth" loading="lazy">
     <img src="/assets/images/tradeshows/tradeshow-13.jpg" alt="Team with clients at Canton Fair booth" loading="lazy">
   </div>
+
+  <p class="tradeshow-note">
+    <a href="/jinhan-fair-2026/">Jinhan Fair 2026, Guangzhou — booth 7B01: photos, video and what buyers checked &rarr;</a>
+  </p>
 </div>
 
 <!-- CTA 收口 -->
