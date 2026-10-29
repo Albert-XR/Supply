@@ -275,6 +275,82 @@ description: "DINGYONG is a stainless steel cutlery and flatware manufacturer in
   line-height: 1.5;
 }
 
+/* 产品合规 */
+.compliance-panel {
+  background: #f8f9fa;
+  border-left: 4px solid #1a1a2e;
+  border-radius: 12px;
+  padding: 30px 32px;
+}
+
+.compliance-head {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  margin-bottom: 22px;
+}
+
+.compliance-head .compliance-icon {
+  width: 52px;
+  height: 52px;
+  flex-shrink: 0;
+  background: #fcebeb;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.compliance-head .compliance-icon svg {
+  width: 26px;
+  height: 26px;
+  fill: #e94560;
+}
+
+.compliance-head h3 {
+  margin: 0;
+  color: #1a1a2e;
+  font-size: 1.15em;
+}
+
+.compliance-num {
+  margin: 4px 0 0;
+  color: #e94560;
+  font-size: 0.92em;
+  font-weight: 600;
+}
+
+.compliance-facts {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px 24px;
+  margin: 0 0 20px;
+}
+
+.compliance-facts dt {
+  color: #888;
+  font-size: 0.8em;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  margin-bottom: 3px;
+}
+
+.compliance-facts dd {
+  margin: 0;
+  color: #333;
+  font-size: 0.95em;
+  line-height: 1.55;
+}
+
+.compliance-scope {
+  margin: 0;
+  padding-top: 18px;
+  border-top: 1px solid #e5e7eb;
+  color: #666;
+  font-size: 0.9em;
+  line-height: 1.7;
+}
+
 /* 时间线 */
 .timeline-section {
   margin: 70px 0;
@@ -472,6 +548,15 @@ description: "DINGYONG is a stainless steel cutlery and flatware manufacturer in
     grid-template-columns: repeat(2, 1fr);
   }
 
+  .compliance-panel {
+    padding: 24px 20px;
+  }
+
+  .compliance-facts {
+    grid-template-columns: 1fr;
+    gap: 14px;
+  }
+
   .tradeshow-row {
     flex-wrap: wrap;
   }
@@ -627,6 +712,53 @@ description: "DINGYONG is a stainless steel cutlery and flatware manufacturer in
   </div>
 </div>
 
+<!-- 产品合规 -->
+<div class="about-section">
+  <h2>Product Compliance</h2>
+  <p class="section-subtitle">Documented conformity where a market requires it — and clear about where it does not apply.</p>
+  <div class="compliance-panel">
+    <div class="compliance-head">
+      <div class="compliance-icon"><svg viewBox="0 0 24 24"><path d="M12 1L3 5v6c0 5.6 3.8 10.7 9 12 5.2-1.3 9-6.4 9-12V5l-9-4zm-1.1 15.2L6.8 12l1.4-1.4 2.7 2.7 5.4-5.4 1.4 1.4-6.8 6.9z"/></svg></div>
+      <div>
+        <h3>EAEU Declaration of Conformity</h3>
+        <p class="compliance-num">No. РОСС RU Д-CN.РА01.В.29537/26</p>
+      </div>
+    </div>
+    <dl class="compliance-facts">
+      <div>
+        <dt>Standard</dt>
+        <dd>GOST R 51687-2021 — corrosion-resistant steel tableware and kitchen utensils, general technical conditions</dd>
+      </div>
+      <div>
+        <dt>Registered</dt>
+        <dd>26 August 2026</dd>
+      </div>
+      <div>
+        <dt>Valid through</dt>
+        <dd>24 August 2031</dd>
+      </div>
+      <div>
+        <dt>Manufacturer of record</dt>
+        <dd>Jieyang Dingyong Hardware &amp; Plastic Products Co., Ltd</dd>
+      </div>
+      <div>
+        <dt>Declaration holder</dt>
+        <dd>Authorised representative in the Russian Federation</dd>
+      </div>
+      <div>
+        <dt>Testing laboratory</dt>
+        <dd>Accredited laboratory, accreditation No. RA.RU.21ОМ79</dd>
+      </div>
+    </dl>
+    <p class="compliance-scope">
+      <strong>Scope:</strong> this declaration is valid within the Eurasian Economic Union (Russia, Belarus,
+      Kazakhstan, Armenia, Kyrgyzstan) and does not extend to other destinations. For FDA, LFGB or any other
+      market-specific requirement, we arrange testing with an independent laboratory before shipment — tell us
+      your target market and we will confirm what documentation is needed.
+    </p>
+  </div>
+</div>
+
 <!-- 发展历程 -->
 <div class="timeline-section">
   <h2>Our Journey</h2>
@@ -650,6 +782,10 @@ description: "DINGYONG is a stainless steel cutlery and flatware manufacturer in
     <div class="timeline-item">
       <div class="timeline-year">2024</div>
       <div class="timeline-text">Expanded our factory to a 5,000+㎡ production facility with upgraded equipment and capacity.</div>
+    </div>
+    <div class="timeline-item">
+      <div class="timeline-year">2026</div>
+      <div class="timeline-text">Registered our stainless steel tableware under an EAEU Declaration of Conformity to GOST R 51687-2021, adding documented market access across Russia and the Eurasian Economic Union.</div>
     </div>
   </div>
 </div>
