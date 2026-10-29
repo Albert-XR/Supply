@@ -320,11 +320,37 @@ description: "DINGYONG is a stainless steel cutlery and flatware manufacturer in
   font-weight: 600;
 }
 
+.compliance-body {
+  display: grid;
+  grid-template-columns: minmax(0, 400px) minmax(0, 1fr);
+  gap: 36px;
+  align-items: start;
+}
+
+.compliance-doc {
+  margin: 0;
+}
+
+.compliance-doc img {
+  width: 100%;
+  display: block;
+  border-radius: 8px;
+  border: 1px solid #e5e7eb;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.09);
+}
+
+.compliance-doc figcaption {
+  margin-top: 10px;
+  font-size: 0.78em;
+  color: #8a8f98;
+  line-height: 1.55;
+}
+
 .compliance-facts {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 16px 24px;
-  margin: 0 0 20px;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px 20px;
+  margin: 0;
 }
 
 .compliance-facts dt {
@@ -343,7 +369,7 @@ description: "DINGYONG is a stainless steel cutlery and flatware manufacturer in
 }
 
 .compliance-scope {
-  margin: 0;
+  margin: 28px 0 0;
   padding-top: 18px;
   border-top: 1px solid #e5e7eb;
   color: #666;
@@ -552,9 +578,18 @@ description: "DINGYONG is a stainless steel cutlery and flatware manufacturer in
     padding: 24px 20px;
   }
 
+  .compliance-body {
+    grid-template-columns: 1fr;
+    gap: 26px;
+  }
+
   .compliance-facts {
     grid-template-columns: 1fr;
     gap: 14px;
+  }
+
+  .compliance-scope {
+    margin-top: 22px;
   }
 
   .tradeshow-row {
@@ -717,10 +752,16 @@ description: "DINGYONG is a stainless steel cutlery and flatware manufacturer in
   <h2>Product Compliance</h2>
   <p class="section-subtitle">Documented conformity where a market requires it — and clear about where it does not apply.</p>
   <div class="compliance-panel">
+    <div class="compliance-body">
+      <figure class="compliance-doc">
+        <img src="/assets/images/about/ru-declaration-gostr.jpg" alt="Russian national declaration of conformity, registration number РОСС RU Д-CN.РА01.В.29537/26, valid to 24 August 2031" loading="lazy">
+        <figcaption>State registry extract (Rosaccreditation) — registration number, status and validity.</figcaption>
+      </figure>
+      <div class="compliance-info">
     <div class="compliance-head">
       <div class="compliance-icon"><svg viewBox="0 0 24 24"><path d="M12 1L3 5v6c0 5.6 3.8 10.7 9 12 5.2-1.3 9-6.4 9-12V5l-9-4zm-1.1 15.2L6.8 12l1.4-1.4 2.7 2.7 5.4-5.4 1.4 1.4-6.8 6.9z"/></svg></div>
       <div>
-        <h3>EAEU Declaration of Conformity</h3>
+        <h3>Russian National Declaration of Conformity</h3>
         <p class="compliance-num">No. РОСС RU Д-CN.РА01.В.29537/26</p>
       </div>
     </div>
@@ -749,12 +790,15 @@ description: "DINGYONG is a stainless steel cutlery and flatware manufacturer in
         <dt>Testing laboratory</dt>
         <dd>Accredited laboratory, accreditation No. RA.RU.21ОМ79</dd>
       </div>
-    </dl>
+        </dl>
+      </div>
+    </div>
     <p class="compliance-scope">
-      <strong>Scope:</strong> this declaration is valid within the Eurasian Economic Union (Russia, Belarus,
-      Kazakhstan, Armenia, Kyrgyzstan) and does not extend to other destinations. For FDA, LFGB or any other
-      market-specific requirement, we arrange testing with an independent laboratory before shipment — tell us
-      your target market and we will confirm what documentation is needed.
+      <strong>Scope:</strong> this declaration is registered under the Russian Federation's national conformity
+      system (GOST R) and is valid for the Russian market. It is not an EAEU-wide approval and does not extend to
+      other destinations. For FDA, LFGB or any other market-specific requirement, we arrange testing with an
+      independent laboratory before shipment — tell us your target market and we will confirm what documentation
+      is needed.
     </p>
   </div>
 </div>
@@ -785,7 +829,7 @@ description: "DINGYONG is a stainless steel cutlery and flatware manufacturer in
     </div>
     <div class="timeline-item">
       <div class="timeline-year">2026</div>
-      <div class="timeline-text">Registered our stainless steel tableware under an EAEU Declaration of Conformity to GOST R 51687-2021, adding documented market access across Russia and the Eurasian Economic Union.</div>
+      <div class="timeline-text">Registered our stainless steel tableware under a Russian national Declaration of Conformity to GOST R 51687-2021, adding documented market access for the Russian Federation.</div>
     </div>
   </div>
 </div>
