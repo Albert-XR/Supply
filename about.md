@@ -161,6 +161,60 @@ description: "DINGYONG is a stainless steel cutlery and flatware manufacturer in
   box-shadow: 0 8px 30px rgba(0,0,0,0.12);
 }
 
+/* 工厂实景图片墙 */
+.factory-strip {
+  position: relative;
+  margin: 0 0 46px;
+  overflow: hidden;
+}
+
+/* 两端半透明白纱：照片轮廓仍可见，模拟画布外的延续 */
+.factory-strip::before,
+.factory-strip::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 150px;
+  z-index: 2;
+  pointer-events: none;
+}
+
+.factory-strip::before {
+  left: 0;
+  background: linear-gradient(90deg, #fff 12%, rgba(255,255,255,0.72) 52%, rgba(255,255,255,0) 100%);
+}
+
+.factory-strip::after {
+  right: 0;
+  background: linear-gradient(270deg, #fff 12%, rgba(255,255,255,0.72) 52%, rgba(255,255,255,0) 100%);
+}
+
+.factory-row {
+  display: flex;
+  gap: 18px;
+  margin-bottom: 26px;
+}
+
+.factory-row:last-child {
+  margin-bottom: 0;
+}
+
+.factory-row img {
+  flex: 0 0 auto;
+  width: 22%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+  display: block;
+  background: #eef0f3;
+}
+
+/* 第二行左移半格，形成错位节奏 */
+.factory-row--offset {
+  margin-left: -10%;
+}
+
 /* 工厂视频 + 生产流程 */
 .factory-grid {
   display: grid;
@@ -570,6 +624,34 @@ description: "DINGYONG is a stainless steel cutlery and flatware manufacturer in
     gap: 30px;
   }
 
+  /* 移动端改为横向滑动浏览，取消两端白纱 */
+  .factory-strip {
+    margin-bottom: 34px;
+  }
+
+  .factory-strip::before,
+  .factory-strip::after {
+    display: none;
+  }
+
+  .factory-row {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    scroll-snap-type: x mandatory;
+    padding-bottom: 8px;
+    margin-bottom: 14px;
+  }
+
+  .factory-row img {
+    width: 62%;
+    height: 168px;
+    scroll-snap-align: start;
+  }
+
+  .factory-row--offset {
+    margin-left: 0;
+  }
+
   .cert-grid {
     grid-template-columns: repeat(2, 1fr);
   }
@@ -677,6 +759,26 @@ description: "DINGYONG is a stainless steel cutlery and flatware manufacturer in
 <div class="about-section">
   <h2>Inside Our Factory</h2>
   <p class="section-subtitle">See how your tableware is crafted — from raw steel to finished products.</p>
+
+  <div class="factory-strip">
+    <div class="factory-row">
+      <img src="/assets/images/about/factory/factory-01.jpg" alt="Stainless steel coil stock waiting to be stamped" loading="lazy">
+      <img src="/assets/images/about/factory/factory-02.jpg" alt="Steel coils stacked in the raw material area" loading="lazy">
+      <img src="/assets/images/about/factory/factory-03.jpg" alt="Mechanical press forming flatware blanks" loading="lazy">
+      <img src="/assets/images/about/factory/factory-04.jpg" alt="Press working area set up for cutlery production" loading="lazy">
+      <img src="/assets/images/about/factory/factory-05.jpg" alt="Progressive die and tooling for spoon forming" loading="lazy">
+      <img src="/assets/images/about/factory/factory-06.jpg" alt="Formed blanks leaving the die" loading="lazy">
+    </div>
+    <div class="factory-row factory-row--offset">
+      <img src="/assets/images/about/factory/factory-07.jpg" alt="Polishing line running the length of the workshop" loading="lazy">
+      <img src="/assets/images/about/factory/factory-08.jpg" alt="Corridor between production bays" loading="lazy">
+      <img src="/assets/images/about/factory/factory-09.jpg" alt="Operators running presses on the shop floor" loading="lazy">
+      <img src="/assets/images/about/factory/factory-10.jpg" alt="Press machine fed from a steel coil" loading="lazy">
+      <img src="/assets/images/about/factory/factory-11.jpg" alt="Wide view of the stamping workshop" loading="lazy">
+      <img src="/assets/images/about/factory/factory-12.jpg" alt="Flywheel and press mechanism detail" loading="lazy">
+    </div>
+  </div>
+
   <div class="factory-grid">
     <div class="video-box">
       <iframe
