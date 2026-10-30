@@ -161,7 +161,7 @@ description: "DINGYONG is a stainless steel cutlery and flatware manufacturer in
   box-shadow: 0 8px 30px rgba(0,0,0,0.12);
 }
 
-/* 工厂实景图片墙 */
+/* 工厂实景图片墙：两行反向匀速滚动 */
 .factory-strip {
   position: relative;
   margin: 0 0 46px;
@@ -175,7 +175,7 @@ description: "DINGYONG is a stainless steel cutlery and flatware manufacturer in
   position: absolute;
   top: 0;
   bottom: 0;
-  width: 150px;
+  width: clamp(72px, 11vw, 160px);
   z-index: 2;
   pointer-events: none;
 }
@@ -191,8 +191,7 @@ description: "DINGYONG is a stainless steel cutlery and flatware manufacturer in
 }
 
 .factory-row {
-  display: flex;
-  gap: 18px;
+  overflow: hidden;
   margin-bottom: 26px;
 }
 
@@ -200,19 +199,60 @@ description: "DINGYONG is a stainless steel cutlery and flatware manufacturer in
   margin-bottom: 0;
 }
 
-.factory-row img {
+/* 轨道内含两组相同照片，位移到 -50% 时首尾正好重合，循环无缝 */
+.factory-track {
+  display: flex;
+  width: max-content;
+  will-change: transform;
+  animation: factory-marquee 64s linear infinite;
+}
+
+@keyframes factory-marquee {
+  from {
+    transform: translate3d(0, 0, 0);
+  }
+  to {
+    transform: translate3d(-50%, 0, 0);
+  }
+}
+
+/* 第二行反向并略慢，避免两行同步走过的呆板感 */
+.factory-row--reverse .factory-track {
+  animation-direction: reverse;
+  animation-duration: 78s;
+}
+
+.factory-track img {
   flex: 0 0 auto;
-  width: 22%;
+  width: clamp(200px, 19vw, 260px);
   height: 200px;
+  margin-right: 18px;
   object-fit: cover;
   border-radius: 10px;
   display: block;
   background: #eef0f3;
 }
 
-/* 第二行左移半格，形成错位节奏 */
-.factory-row--offset {
-  margin-left: -10%;
+/* 悬停暂停，方便看清某张照片 */
+.factory-strip:hover .factory-track {
+  animation-play-state: paused;
+}
+
+/* 尊重系统的「减少动态效果」设置：停住动画，改回手指滑动 */
+@media (prefers-reduced-motion: reduce) {
+  .factory-track {
+    animation: none;
+  }
+
+  .factory-row {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .factory-strip::before,
+  .factory-strip::after {
+    display: none;
+  }
 }
 
 /* 工厂视频 + 生产流程 */
@@ -624,32 +664,30 @@ description: "DINGYONG is a stainless steel cutlery and flatware manufacturer in
     gap: 30px;
   }
 
-  /* 移动端改为横向滑动浏览，取消两端白纱 */
+  /* 移动端保留滚动，但照片放大、行距收紧；白纱按屏宽收窄 */
   .factory-strip {
     margin-bottom: 34px;
   }
 
+  /* 150px 的白纱在 390px 屏上会吃掉大半画面，必须收窄 */
   .factory-strip::before,
   .factory-strip::after {
-    display: none;
+    width: 46px;
   }
 
   .factory-row {
-    overflow-x: auto;
-    -webkit-overflow-scrolling: touch;
-    scroll-snap-type: x mandatory;
-    padding-bottom: 8px;
     margin-bottom: 14px;
   }
 
-  .factory-row img {
-    width: 62%;
-    height: 168px;
-    scroll-snap-align: start;
+  .factory-track img {
+    width: 56vw;
+    max-width: 300px;
+    height: 172px;
+    margin-right: 14px;
   }
 
-  .factory-row--offset {
-    margin-left: 0;
+  .factory-row--reverse .factory-track {
+    animation-duration: 84s;
   }
 
   .cert-grid {
@@ -762,20 +800,37 @@ description: "DINGYONG is a stainless steel cutlery and flatware manufacturer in
 
   <div class="factory-strip">
     <div class="factory-row">
-      <img src="/assets/images/about/factory/factory-01.jpg" alt="Stainless steel coil stock waiting to be stamped" loading="lazy">
-      <img src="/assets/images/about/factory/factory-02.jpg" alt="Steel coils stacked in the raw material area" loading="lazy">
-      <img src="/assets/images/about/factory/factory-03.jpg" alt="Mechanical press forming flatware blanks" loading="lazy">
-      <img src="/assets/images/about/factory/factory-04.jpg" alt="Press working area set up for cutlery production" loading="lazy">
-      <img src="/assets/images/about/factory/factory-05.jpg" alt="Progressive die and tooling for spoon forming" loading="lazy">
-      <img src="/assets/images/about/factory/factory-06.jpg" alt="Formed blanks leaving the die" loading="lazy">
+      <div class="factory-track">
+        <img src="/assets/images/about/factory/factory-01.jpg" alt="Stainless steel coil stock waiting to be stamped" decoding="async">
+        <img src="/assets/images/about/factory/factory-02.jpg" alt="Steel coils stacked in the raw material area" decoding="async">
+        <img src="/assets/images/about/factory/factory-03.jpg" alt="Mechanical press forming flatware blanks" decoding="async">
+        <img src="/assets/images/about/factory/factory-04.jpg" alt="Press working area set up for cutlery production" decoding="async">
+        <img src="/assets/images/about/factory/factory-05.jpg" alt="Progressive die and tooling for spoon forming" decoding="async">
+        <img src="/assets/images/about/factory/factory-06.jpg" alt="Formed blanks leaving the die" decoding="async">
+        <!-- 重复一组：轨道滚到 -50% 时首尾重合，形成无缝循环 -->
+        <img src="/assets/images/about/factory/factory-01.jpg" alt="" aria-hidden="true" decoding="async">
+        <img src="/assets/images/about/factory/factory-02.jpg" alt="" aria-hidden="true" decoding="async">
+        <img src="/assets/images/about/factory/factory-03.jpg" alt="" aria-hidden="true" decoding="async">
+        <img src="/assets/images/about/factory/factory-04.jpg" alt="" aria-hidden="true" decoding="async">
+        <img src="/assets/images/about/factory/factory-05.jpg" alt="" aria-hidden="true" decoding="async">
+        <img src="/assets/images/about/factory/factory-06.jpg" alt="" aria-hidden="true" decoding="async">
+      </div>
     </div>
-    <div class="factory-row factory-row--offset">
-      <img src="/assets/images/about/factory/factory-07.jpg" alt="Polishing line running the length of the workshop" loading="lazy">
-      <img src="/assets/images/about/factory/factory-08.jpg" alt="Corridor between production bays" loading="lazy">
-      <img src="/assets/images/about/factory/factory-09.jpg" alt="Operators running presses on the shop floor" loading="lazy">
-      <img src="/assets/images/about/factory/factory-10.jpg" alt="Press machine fed from a steel coil" loading="lazy">
-      <img src="/assets/images/about/factory/factory-11.jpg" alt="Wide view of the stamping workshop" loading="lazy">
-      <img src="/assets/images/about/factory/factory-12.jpg" alt="Flywheel and press mechanism detail" loading="lazy">
+    <div class="factory-row factory-row--reverse">
+      <div class="factory-track">
+        <img src="/assets/images/about/factory/factory-07.jpg" alt="Polishing line running the length of the workshop" decoding="async">
+        <img src="/assets/images/about/factory/factory-08.jpg" alt="Corridor between production bays" decoding="async">
+        <img src="/assets/images/about/factory/factory-09.jpg" alt="Operators running presses on the shop floor" decoding="async">
+        <img src="/assets/images/about/factory/factory-10.jpg" alt="Press machine fed from a steel coil" decoding="async">
+        <img src="/assets/images/about/factory/factory-11.jpg" alt="Wide view of the stamping workshop" decoding="async">
+        <img src="/assets/images/about/factory/factory-12.jpg" alt="Flywheel and press mechanism detail" decoding="async">
+        <img src="/assets/images/about/factory/factory-07.jpg" alt="" aria-hidden="true" decoding="async">
+        <img src="/assets/images/about/factory/factory-08.jpg" alt="" aria-hidden="true" decoding="async">
+        <img src="/assets/images/about/factory/factory-09.jpg" alt="" aria-hidden="true" decoding="async">
+        <img src="/assets/images/about/factory/factory-10.jpg" alt="" aria-hidden="true" decoding="async">
+        <img src="/assets/images/about/factory/factory-11.jpg" alt="" aria-hidden="true" decoding="async">
+        <img src="/assets/images/about/factory/factory-12.jpg" alt="" aria-hidden="true" decoding="async">
+      </div>
     </div>
   </div>
 
