@@ -199,12 +199,12 @@ description: "DINGYONG is a stainless steel cutlery and flatware manufacturer in
   margin-bottom: 0;
 }
 
-/* 轨道内含两组相同照片，位移到 -50% 时首尾正好重合，循环无缝 */
+/* 轨道内含两套相同照片，位移到 -50% 时首尾正好重合，循环无缝 */
 .factory-track {
   display: flex;
   width: max-content;
   will-change: transform;
-  animation: factory-marquee 64s linear infinite;
+  animation: factory-marquee 62s linear infinite;
 }
 
 @keyframes factory-marquee {
@@ -216,10 +216,10 @@ description: "DINGYONG is a stainless steel cutlery and flatware manufacturer in
   }
 }
 
-/* 第二行反向并略慢，避免两行同步走过的呆板感 */
+/* 第二行反向滚；周期只有 4 张，时长按比例缩短，保证两行速度一致 */
 .factory-row--reverse .factory-track {
   animation-direction: reverse;
-  animation-duration: 78s;
+  animation-duration: 74s;
 }
 
 .factory-track img {
@@ -686,10 +686,6 @@ description: "DINGYONG is a stainless steel cutlery and flatware manufacturer in
     margin-right: 14px;
   }
 
-  .factory-row--reverse .factory-track {
-    animation-duration: 84s;
-  }
-
   .cert-grid {
     grid-template-columns: repeat(2, 1fr);
   }
@@ -801,6 +797,7 @@ description: "DINGYONG is a stainless steel cutlery and flatware manufacturer in
   <div class="factory-strip">
     <div class="factory-row">
       <div class="factory-track">
+        <!-- 上行 9 张（原料 → 模具 → 通道 → 压头 → 车间 → 成品仓） -->
         <img src="/assets/images/about/factory/factory-coil.jpg" alt="Stainless steel coil stock in the raw material area" decoding="async">
         <img src="/assets/images/about/factory/factory-die.jpg" alt="Progressive die and feed mechanism on a stamping press" decoding="async">
         <img src="/assets/images/about/factory/factory-corridor.jpg" alt="Aisle between rows of machines on the shop floor" decoding="async">
@@ -810,7 +807,7 @@ description: "DINGYONG is a stainless steel cutlery and flatware manufacturer in
         <img src="/assets/images/about/factory/factory-wheel.jpg" alt="Flywheel and drive train of a mechanical press" decoding="async">
         <img src="/assets/images/about/factory/factory-operator.jpg" alt="Operator loading parts at a press" decoding="async">
         <img src="/assets/images/about/factory/factory-press.jpg" alt="Mechanical press forming flatware blanks" decoding="async">
-        <!-- 重复一组：轨道滚到 -50% 时首尾重合，形成无缝循环 -->
+        <!-- 复制一整套：轨道滚到 -50% 时首尾重合，形成无缝循环 -->
         <img src="/assets/images/about/factory/factory-coil.jpg" alt="" aria-hidden="true" decoding="async">
         <img src="/assets/images/about/factory/factory-die.jpg" alt="" aria-hidden="true" decoding="async">
         <img src="/assets/images/about/factory/factory-corridor.jpg" alt="" aria-hidden="true" decoding="async">
@@ -824,25 +821,26 @@ description: "DINGYONG is a stainless steel cutlery and flatware manufacturer in
     </div>
     <div class="factory-row factory-row--reverse">
       <div class="factory-track">
-        <!-- 上行逆序：两行反方向滚，同屏上下永远看到不同的图 -->
-        <img src="/assets/images/about/factory/factory-press.jpg" alt="Mechanical press forming flatware blanks" decoding="async">
-        <img src="/assets/images/about/factory/factory-operator.jpg" alt="Operator loading parts at a press" decoding="async">
-        <img src="/assets/images/about/factory/factory-wheel.jpg" alt="Flywheel and drive train of a mechanical press" decoding="async">
-        <img src="/assets/images/about/factory/factory-cartons.jpg" alt="Packed cartons on pallets in the finished goods area" decoding="async">
-        <img src="/assets/images/about/factory/factory-shopfloor.jpg" alt="Wide view of the stamping workshop" decoding="async">
-        <img src="/assets/images/about/factory/factory-press-head.jpg" alt="Press head and tooling with coolant lines" decoding="async">
-        <img src="/assets/images/about/factory/factory-corridor.jpg" alt="Aisle between rows of machines on the shop floor" decoding="async">
-        <img src="/assets/images/about/factory/factory-die.jpg" alt="Progressive die and feed mechanism on a stamping press" decoding="async">
-        <img src="/assets/images/about/factory/factory-coil.jpg" alt="Stainless steel coil stock in the raw material area" decoding="async">
-        <img src="/assets/images/about/factory/factory-press.jpg" alt="" aria-hidden="true" decoding="async">
-        <img src="/assets/images/about/factory/factory-operator.jpg" alt="" aria-hidden="true" decoding="async">
-        <img src="/assets/images/about/factory/factory-wheel.jpg" alt="" aria-hidden="true" decoding="async">
-        <img src="/assets/images/about/factory/factory-cartons.jpg" alt="" aria-hidden="true" decoding="async">
-        <img src="/assets/images/about/factory/factory-shopfloor.jpg" alt="" aria-hidden="true" decoding="async">
-        <img src="/assets/images/about/factory/factory-press-head.jpg" alt="" aria-hidden="true" decoding="async">
-        <img src="/assets/images/about/factory/factory-corridor.jpg" alt="" aria-hidden="true" decoding="async">
-        <img src="/assets/images/about/factory/factory-die.jpg" alt="" aria-hidden="true" decoding="async">
-        <img src="/assets/images/about/factory/factory-coil.jpg" alt="" aria-hidden="true" decoding="async">
+        <!-- 下行另外 9 张：同一车间、不同机位，与上行不重复一张 -->
+        <img src="/assets/images/about/factory/factory-b-coil.jpg" alt="Stainless steel coils stored in the outdoor yard" decoding="async">
+        <img src="/assets/images/about/factory/factory-b-machinist.jpg" alt="Operator setting up a stamping press" decoding="async">
+        <img src="/assets/images/about/factory/factory-b-workshop.jpg" alt="Rows of stamping presses on the workshop floor" decoding="async">
+        <img src="/assets/images/about/factory/factory-b-tooling.jpg" alt="Transfer tooling and safety-guarded feed mechanism" decoding="async">
+        <img src="/assets/images/about/factory/factory-b-aisle.jpg" alt="Walkway running alongside the press lines" decoding="async">
+        <img src="/assets/images/about/factory/factory-b-press.jpg" alt="Blue press stations in the stamping bay" decoding="async">
+        <img src="/assets/images/about/factory/factory-b-feed.jpg" alt="Decoiler feeding steel strip into a press line" decoding="async">
+        <img src="/assets/images/about/factory/factory-b-workbench.jpg" alt="Work benches and material trolleys in the workshop" decoding="async">
+        <img src="/assets/images/about/factory/factory-b-floor.jpg" alt="Bright stamping bay with rows of machines" decoding="async">
+        <!-- 复制一整套：轨道滚到 -50% 时首尾重合，形成无缝循环 -->
+        <img src="/assets/images/about/factory/factory-b-coil.jpg" alt="" aria-hidden="true" decoding="async">
+        <img src="/assets/images/about/factory/factory-b-machinist.jpg" alt="" aria-hidden="true" decoding="async">
+        <img src="/assets/images/about/factory/factory-b-workshop.jpg" alt="" aria-hidden="true" decoding="async">
+        <img src="/assets/images/about/factory/factory-b-tooling.jpg" alt="" aria-hidden="true" decoding="async">
+        <img src="/assets/images/about/factory/factory-b-aisle.jpg" alt="" aria-hidden="true" decoding="async">
+        <img src="/assets/images/about/factory/factory-b-press.jpg" alt="" aria-hidden="true" decoding="async">
+        <img src="/assets/images/about/factory/factory-b-feed.jpg" alt="" aria-hidden="true" decoding="async">
+        <img src="/assets/images/about/factory/factory-b-workbench.jpg" alt="" aria-hidden="true" decoding="async">
+        <img src="/assets/images/about/factory/factory-b-floor.jpg" alt="" aria-hidden="true" decoding="async">
       </div>
     </div>
   </div>
