@@ -801,35 +801,48 @@ description: "DINGYONG is a stainless steel cutlery and flatware manufacturer in
   <div class="factory-strip">
     <div class="factory-row">
       <div class="factory-track">
-        <img src="/assets/images/about/factory/factory-01.jpg" alt="Stainless steel coil stock waiting to be stamped" decoding="async">
-        <img src="/assets/images/about/factory/factory-02.jpg" alt="Steel coils stacked in the raw material area" decoding="async">
-        <img src="/assets/images/about/factory/factory-03.jpg" alt="Mechanical press forming flatware blanks" decoding="async">
-        <img src="/assets/images/about/factory/factory-04.jpg" alt="Press working area set up for cutlery production" decoding="async">
-        <img src="/assets/images/about/factory/factory-05.jpg" alt="Progressive die and tooling for spoon forming" decoding="async">
-        <img src="/assets/images/about/factory/factory-06.jpg" alt="Formed blanks leaving the die" decoding="async">
+        <img src="/assets/images/about/factory/factory-coil.jpg" alt="Stainless steel coil stock in the raw material area" decoding="async">
+        <img src="/assets/images/about/factory/factory-die.jpg" alt="Progressive die and feed mechanism on a stamping press" decoding="async">
+        <img src="/assets/images/about/factory/factory-corridor.jpg" alt="Aisle between rows of machines on the shop floor" decoding="async">
+        <img src="/assets/images/about/factory/factory-press-head.jpg" alt="Press head and tooling with coolant lines" decoding="async">
+        <img src="/assets/images/about/factory/factory-shopfloor.jpg" alt="Wide view of the stamping workshop" decoding="async">
+        <img src="/assets/images/about/factory/factory-cartons.jpg" alt="Packed cartons on pallets in the finished goods area" decoding="async">
+        <img src="/assets/images/about/factory/factory-wheel.jpg" alt="Flywheel and drive train of a mechanical press" decoding="async">
+        <img src="/assets/images/about/factory/factory-operator.jpg" alt="Operator loading parts at a press" decoding="async">
+        <img src="/assets/images/about/factory/factory-press.jpg" alt="Mechanical press forming flatware blanks" decoding="async">
         <!-- 重复一组：轨道滚到 -50% 时首尾重合，形成无缝循环 -->
-        <img src="/assets/images/about/factory/factory-01.jpg" alt="" aria-hidden="true" decoding="async">
-        <img src="/assets/images/about/factory/factory-02.jpg" alt="" aria-hidden="true" decoding="async">
-        <img src="/assets/images/about/factory/factory-03.jpg" alt="" aria-hidden="true" decoding="async">
-        <img src="/assets/images/about/factory/factory-04.jpg" alt="" aria-hidden="true" decoding="async">
-        <img src="/assets/images/about/factory/factory-05.jpg" alt="" aria-hidden="true" decoding="async">
-        <img src="/assets/images/about/factory/factory-06.jpg" alt="" aria-hidden="true" decoding="async">
+        <img src="/assets/images/about/factory/factory-coil.jpg" alt="" aria-hidden="true" decoding="async">
+        <img src="/assets/images/about/factory/factory-die.jpg" alt="" aria-hidden="true" decoding="async">
+        <img src="/assets/images/about/factory/factory-corridor.jpg" alt="" aria-hidden="true" decoding="async">
+        <img src="/assets/images/about/factory/factory-press-head.jpg" alt="" aria-hidden="true" decoding="async">
+        <img src="/assets/images/about/factory/factory-shopfloor.jpg" alt="" aria-hidden="true" decoding="async">
+        <img src="/assets/images/about/factory/factory-cartons.jpg" alt="" aria-hidden="true" decoding="async">
+        <img src="/assets/images/about/factory/factory-wheel.jpg" alt="" aria-hidden="true" decoding="async">
+        <img src="/assets/images/about/factory/factory-operator.jpg" alt="" aria-hidden="true" decoding="async">
+        <img src="/assets/images/about/factory/factory-press.jpg" alt="" aria-hidden="true" decoding="async">
       </div>
     </div>
     <div class="factory-row factory-row--reverse">
       <div class="factory-track">
-        <img src="/assets/images/about/factory/factory-07.jpg" alt="Polishing line running the length of the workshop" decoding="async">
-        <img src="/assets/images/about/factory/factory-08.jpg" alt="Corridor between production bays" decoding="async">
-        <img src="/assets/images/about/factory/factory-09.jpg" alt="Operators running presses on the shop floor" decoding="async">
-        <img src="/assets/images/about/factory/factory-10.jpg" alt="Press machine fed from a steel coil" decoding="async">
-        <img src="/assets/images/about/factory/factory-11.jpg" alt="Wide view of the stamping workshop" decoding="async">
-        <img src="/assets/images/about/factory/factory-12.jpg" alt="Flywheel and press mechanism detail" decoding="async">
-        <img src="/assets/images/about/factory/factory-07.jpg" alt="" aria-hidden="true" decoding="async">
-        <img src="/assets/images/about/factory/factory-08.jpg" alt="" aria-hidden="true" decoding="async">
-        <img src="/assets/images/about/factory/factory-09.jpg" alt="" aria-hidden="true" decoding="async">
-        <img src="/assets/images/about/factory/factory-10.jpg" alt="" aria-hidden="true" decoding="async">
-        <img src="/assets/images/about/factory/factory-11.jpg" alt="" aria-hidden="true" decoding="async">
-        <img src="/assets/images/about/factory/factory-12.jpg" alt="" aria-hidden="true" decoding="async">
+        <!-- 上行逆序：两行反方向滚，同屏上下永远看到不同的图 -->
+        <img src="/assets/images/about/factory/factory-press.jpg" alt="Mechanical press forming flatware blanks" decoding="async">
+        <img src="/assets/images/about/factory/factory-operator.jpg" alt="Operator loading parts at a press" decoding="async">
+        <img src="/assets/images/about/factory/factory-wheel.jpg" alt="Flywheel and drive train of a mechanical press" decoding="async">
+        <img src="/assets/images/about/factory/factory-cartons.jpg" alt="Packed cartons on pallets in the finished goods area" decoding="async">
+        <img src="/assets/images/about/factory/factory-shopfloor.jpg" alt="Wide view of the stamping workshop" decoding="async">
+        <img src="/assets/images/about/factory/factory-press-head.jpg" alt="Press head and tooling with coolant lines" decoding="async">
+        <img src="/assets/images/about/factory/factory-corridor.jpg" alt="Aisle between rows of machines on the shop floor" decoding="async">
+        <img src="/assets/images/about/factory/factory-die.jpg" alt="Progressive die and feed mechanism on a stamping press" decoding="async">
+        <img src="/assets/images/about/factory/factory-coil.jpg" alt="Stainless steel coil stock in the raw material area" decoding="async">
+        <img src="/assets/images/about/factory/factory-press.jpg" alt="" aria-hidden="true" decoding="async">
+        <img src="/assets/images/about/factory/factory-operator.jpg" alt="" aria-hidden="true" decoding="async">
+        <img src="/assets/images/about/factory/factory-wheel.jpg" alt="" aria-hidden="true" decoding="async">
+        <img src="/assets/images/about/factory/factory-cartons.jpg" alt="" aria-hidden="true" decoding="async">
+        <img src="/assets/images/about/factory/factory-shopfloor.jpg" alt="" aria-hidden="true" decoding="async">
+        <img src="/assets/images/about/factory/factory-press-head.jpg" alt="" aria-hidden="true" decoding="async">
+        <img src="/assets/images/about/factory/factory-corridor.jpg" alt="" aria-hidden="true" decoding="async">
+        <img src="/assets/images/about/factory/factory-die.jpg" alt="" aria-hidden="true" decoding="async">
+        <img src="/assets/images/about/factory/factory-coil.jpg" alt="" aria-hidden="true" decoding="async">
       </div>
     </div>
   </div>
