@@ -7,5 +7,15 @@ Sitemap: {{ site.url }}/sitemap.xml
 User-agent: *
 Allow: /
 
+# OpenAI training crawler: blocked from model training. This does NOT affect
+# whether ChatGPT can cite the site (that is OAI-SearchBot, allowed below).
 User-agent: GPTBot
 Disallow: /
+
+# ChatGPT search indexing / citation and user-triggered page opens:
+# explicitly allowed so a future blanket AI rule cannot silently break GEO.
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /

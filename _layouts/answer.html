@@ -1,0 +1,101 @@
+---
+layout: default
+---
+
+<article class="blog-post answer-page">
+  <header class="post-header">
+    <p class="answer-kicker">Buyer question</p>
+    <h1>{{ page.title }}</h1>
+    <p class="post-meta">Answered by DINGYONG Team · Jieyang, Guangdong, China</p>
+  </header>
+
+  <div class="post-body">
+    {% if page.answer %}
+    <div class="geo-answer">
+      <strong>Short answer</strong>
+      <p>{{ page.answer }}</p>
+    </div>
+    {% endif %}
+
+    {{ content }}
+
+    {% if page.faq and page.faq.mainEntity %}
+    <section class="faq-block">
+      <h2>Questions buyers also ask</h2>
+      {% for q in page.faq.mainEntity %}
+      <div class="faq-item">
+        <h3>{{ q.name }}</h3>
+        <p>{{ q.acceptedAnswer.text }}</p>
+      </div>
+      {% endfor %}
+    </section>
+    {% endif %}
+  </div>
+
+  <div class="post-cta">
+    <h3>Need a Cutlery Manufacturer for Your Market?</h3>
+    <p>DINGYONG manufactures stainless steel flatware for wholesale, OEM and ODM orders, with specifications tailored to your market.</p>
+    <a class="post-cta-btn" href="/contact/">Send an Enquiry</a>
+    <a class="post-cta-link" href="/products/">Browse Products →</a>
+  </div>
+</article>
+
+{% include faq-schema.html %}
+
+<style>
+.answer-page .answer-kicker {
+  color: #e94560;
+  font-size: 0.78em;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  margin: 0 0 10px;
+}
+
+.geo-answer {
+  border-left: 4px solid #e94560;
+  background: #f8f9fa;
+  border-radius: 0 10px 10px 0;
+  padding: 16px 20px;
+  margin: 0 0 28px;
+}
+
+.geo-answer > strong {
+  display: block;
+  color: #1a1a2e;
+  font-size: 0.8em;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+}
+
+.geo-answer p {
+  margin: 0;
+  color: #333;
+  line-height: 1.75;
+}
+
+.faq-block {
+  margin-top: 42px;
+  border-top: 1px solid #eee;
+  padding-top: 8px;
+}
+
+.faq-item h3 {
+  margin-bottom: 6px;
+}
+
+.faq-item p {
+  margin: 0 0 14px;
+}
+
+.related-reading {
+  margin-top: 30px;
+  font-size: 0.95em;
+  color: #555;
+}
+
+.related-reading a {
+  color: #e94560;
+}
+</style>

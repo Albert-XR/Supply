@@ -40,11 +40,12 @@ description: "Browse DINGYONG stainless steel cutlery, flatware, kitchen gadgets
   margin: 30px 0;
 }
 
-/* B2B 产品卡片增强样式 */
+/* B2B 产品卡片增强样式 —— 整卡可点（点击空白/标签由事件委托转到详情页） */
 .product-card {
   display: flex;
   flex-direction: column;
   height: 100%;
+  cursor: pointer;
 }
 
 .product-info {

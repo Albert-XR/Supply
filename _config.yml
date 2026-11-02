@@ -24,6 +24,8 @@ collections:
   products:
     _hide_content: false
     output: true
+  answers:
+    output: true
 
 permalink: /:title/ # pretty
 

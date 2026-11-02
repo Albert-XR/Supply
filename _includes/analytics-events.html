@@ -49,6 +49,29 @@
     }
 
     var link = el.closest('a');
+    var card = el.closest('.product-card');
+
+    // D. 整卡可点：点到卡片内非链接区域（标签 chip、系列文字、空白处）时进详情页。
+    //    Clarity 回放显示访客会点标题/文字而非卡片上的按钮；只在选中文字时放行。
+    if (!link && card) {
+      var selText = '';
+      try { selText = window.getSelection ? window.getSelection().toString() : ''; } catch (err) {}
+      if (selText.length) return;
+      var main = card.querySelector('.product-title a') || card.querySelector('.product-image-wrapper a');
+      if (main) {
+        var t = card.querySelector('.product-title');
+        send('product_card_click', {
+          product_name: t ? t.textContent.trim() : '',
+          product_category: card.getAttribute('data-category') || '',
+          click_target: 'card_body',
+          transport_type: 'beacon'
+        });
+        // 让 beacon 先入队再跳转（capture 阶段同步导航会丢事件）
+        setTimeout(function () { window.location.assign(main.href); }, 0);
+      }
+      return;
+    }
+
     if (!link) return;
     var href = link.getAttribute('href') || '';
 
@@ -61,8 +84,7 @@
       });
     }
 
-    // C. 产品列表卡片点击（products.md 循环渲染的 .product-card）
-    var card = link.closest('.product-card');
+    // C. 产品列表卡片点击（products.md 循环渲染的 .product-card；card 已在上面取得）
     if (card) {
       var titleEl = card.querySelector('.product-title');
       send('product_card_click', {

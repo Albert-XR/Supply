@@ -1,0 +1,12 @@
+{%- comment -%}
+  FAQPage 结构化数据统一入口。
+  页面 front matter 里写 faq: 对象（含 "@context" / "@type" / mainEntity），
+  本 include 用 jsonify 输出 JSON-LD，自动处理引号转义。
+  可见的 Q&A 区块由 post.html / answer.html 从同一个 page.faq 渲染，
+  保证结构化数据与页面可见内容逐字一致（Google 的硬性要求）。
+{%- endcomment -%}
+{%- if page.faq and page.faq.mainEntity -%}
+<script type="application/ld+json">
+{{ page.faq | jsonify }}
+</script>
+{%- endif -%}

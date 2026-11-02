@@ -5,6 +5,26 @@ description: "A practical buyer's guide to 18/0, 18/8 and 18/10 stainless steel 
 permalink: /blog/180-vs-1810-stainless-steel-flatware/
 date: 2026-09-19
 read_time: 7
+answer: "18/0, 18/8 and 18/10 all contain about 18% chromium; the second number is nickel, at roughly 0%, 8% and 10%. More nickel means better corrosion resistance and a deeper, longer-lasting lustre. Choose 18/10 for hotels and premium retail, and 18/0 for promotional or mass retail sets. Knife blades are normally 410 or 420 martensitic steel even on an 18/10 set, because blades need hardening to hold an edge."
+faq:
+  "@context": "https://schema.org"
+  "@type": "FAQPage"
+  mainEntity:
+    - "@type": "Question"
+      name: "Is 18/10 stainless steel dishwasher safe?"
+      acceptedAnswer:
+        "@type": "Answer"
+        text: "Yes — that is one of its main advantages. Nickel stabilizes the alloy against pitting and graying from detergents and heat."
+    - "@type": "Question"
+      name: "Why is my 18/10 knife magnetic?"
+      acceptedAnswer:
+        "@type": "Answer"
+        text: "Knife blades use 410/420 martensitic steel for edge retention. This is industry-standard, not a defect."
+    - "@type": "Question"
+      name: "Can I mix 18/0 and 18/10 in one set?"
+      acceptedAnswer:
+        "@type": "Answer"
+        text: "Yes, and it is common: 18/10 forks and spoons with 410 blades balances cost and quality well. Even an 18/0 hollow-handle line with 18/10 solid pieces can hit a specific price point."
 ---
 
 If you are sourcing stainless steel cutlery for the first time, the fastest answer is this:
@@ -77,17 +97,6 @@ Regardless of grade, protect your order with these steps:
 - **Material certificates** — request an SGS or third-party test report confirming the composition, plus **FDA / LFGB** food-contact compliance if your destination market requires it. At DINGYONG, third-party testing can be arranged on request, and every shipment goes through pre-shipment inspection.
 - **The magnet trick (use with caution)** — 18/10 forks and spoons are non-magnetic; 18/0 is magnetic. Useful for a quick spot check on arrival — but remember knife blades will always attract a magnet, even on genuine 18/10 sets.
 
-## FAQ
-
-**Is 18/10 stainless steel dishwasher safe?**
-Yes — that is one of its main advantages. Nickel stabilizes the alloy against pitting and graying from detergents and heat.
-
-**Why is my 18/10 knife magnetic?**
-Knife blades use 410/420 martensitic steel for edge retention. This is industry-standard, not a defect.
-
-**Can I mix 18/0 and 18/10 in one set?**
-Yes, and it is common: 18/10 forks and spoons with 410 blades balances cost and quality well. Even an 18/0 hollow-handle line with 18/10 solid pieces can hit a specific price point.
-
 ## The Bottom Line
 
 | You are importing... | Choose |
@@ -99,3 +108,7 @@ Yes, and it is common: 18/10 forks and spoons with 410 blades balances cost and 
 The grade is a cost decision; the craftsmanship is a supplier decision. If you are comparing quotes between factories, ask for the salt spray report and pre-shipment AQL standard first — those tell you more than the "18/10" stamped on the box.
 
 Planning an order? [Talk to us on WhatsApp](https://wa.me/8615013371880) or browse our [flatware collection](/products/) to see both grades in real products.
+
+<p class="related-reading"><strong>Related answers</strong><br>
+<a href="/answers/bulk-24-piece-cutlery-set-supplier/">Who supplies 24-piece cutlery sets in bulk</a> · <a href="/answers/cutlery-quality-check-before-shipment/">How do I check quality before shipment</a> · <a href="/products/">Browse all flatware</a>
+</p>

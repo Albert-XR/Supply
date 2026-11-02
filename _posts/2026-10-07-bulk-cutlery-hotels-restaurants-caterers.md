@@ -6,6 +6,31 @@ permalink: /blog/bulk-cutlery-hotels-restaurants-caterers/
 date: 2026-10-07
 read_time: 8
 image: /assets/images/square-handle-flatware/square-handle-01-1024.jpg
+answer: "For a hotel, restaurant or catering operation, specify thickness (gauge), construction and durability before appearance. Thickness is measured in millimetres on the fork shank and spoon bowl and drives weight, balance and how long a piece holds its shape in a commercial dishwasher. Choose solid handles for heavy-use settings, buy the full range at once for a new opening, and keep the original specification on file so replacement pieces match."
+faq:
+  "@context": "https://schema.org"
+  "@type": "FAQPage"
+  mainEntity:
+    - "@type": "Question"
+      name: "How many pieces should a restaurant order per seat?"
+      acceptedAnswer:
+        "@type": "Answer"
+        text: "Plan for more covers than you have seats — cutlery is lost, broken and removed from service faster than most operators expect. Multiplying your seat count by a replacement buffer is more realistic than ordering one piece per seat."
+    - "@type": "Question"
+      name: "Can I match cutlery we bought years ago?"
+      acceptedAnswer:
+        "@type": "Answer"
+        text: "Usually yes, if the shape is still in production. Send the factory a photo and the original documentation if you have it. If the exact mould is gone, a close alternative is often available — order a sample first so you can compare in your own light."
+    - "@type": "Question"
+      name: "Is thicker cutlery always better?"
+      acceptedAnswer:
+        "@type": "Answer"
+        text: "Not automatically. Thicker means heavier, more durable and more expensive. Match the specification to the setting: fine dining justifies it, a high-volume cafeteria may not need it. What you should never accept is cutlery so thin that it bends in normal use."
+    - "@type": "Question"
+      name: "Do you supply individual replacement pieces, not just full sets?"
+      acceptedAnswer:
+        "@type": "Answer"
+        text: "Yes — tell us which items you need and we will confirm what can be supplied as individual pieces."
 ---
 
 Buying cutlery for a hotel, restaurant chain or catering operation is a different job from buying it for a retail shelf. Retail buyers optimise for appearance and price point. Hospitality buyers have to optimise for something less visible: **how the cutlery behaves after three hundred trips through a commercial dishwasher.**
@@ -104,22 +129,12 @@ Engraving requires no new tooling, so it can be added to orders at modest volume
 - **Not specifying thickness.** "Stainless steel spoon" is not a specification. Give a millimetre figure.
 - **Splitting a rollout between suppliers.** Two factories produce two subtly different pieces, and guests notice at the table.
 
-## FAQ
-
-**How many pieces should a restaurant order per seat?**
-Plan for more covers than you have seats — cutlery is lost, broken and removed from service faster than most operators expect. Multiplying your seat count by a replacement buffer is more realistic than ordering one piece per seat.
-
-**Can I match cutlery we bought years ago?**
-Usually yes, if the shape is still in production. Send the factory a photo and the original documentation if you have it. If the exact mould is gone, a close alternative is often available — order a sample first so you can compare in your own light.
-
-**Is thicker cutlery always better?**
-Not automatically. Thicker means heavier, more durable and more expensive. Match the specification to the setting: fine dining justifies it, a high-volume cafeteria may not need it. What you should never accept is cutlery so thin that it bends in normal use.
-
-**Do you supply individual replacement pieces, not just full sets?**
-Yes — tell us which items you need and we will confirm what can be supplied as individual pieces.
-
 ## The Bottom Line
 
 For commercial use, specify **thickness, construction and durability** before appearance — then protect yourself with a documented specification, a small buffer of high-loss pieces, and a supplier who confirms they can reproduce the line later.
 
 Specifying cutlery for a hotel, restaurant group or catering operation? [Send us your requirements on WhatsApp](https://wa.me/8615013371880) or browse our [flatware range](/products/) to find a family of designs that covers both place settings and serving pieces.
+
+<p class="related-reading"><strong>Related answers</strong><br>
+<a href="/answers/cutlery-quality-check-before-shipment/">How do I check quality before shipment</a> · <a href="/answers/custom-logo-and-packaging-for-cutlery/">Custom logo and packaging</a> · <a href="/products/">Browse all flatware</a>
+</p>
