@@ -1,6 +1,6 @@
 ---
-title: "Luxury Marble-Pattern Ceramic Handle 24-Piece Cutlery Set with Display Stand"
-description: "Luxury 24-piece cutlery set with marble-pattern ceramic handles and gold mirror-polished heads — 6 dinner knives, 6 dinner forks, 6 dinner spoons and 6 tea spoons, presented on a gold hanging display stand and packed in a gift box. Six colour options, ideal for home dining, gifting and retail, with OEM/ODM custom logo and packaging."
+title: "24-Piece Stainless Steel Cutlery Set with Ceramic Handle — Wholesale & OEM"
+description: "24-piece stainless steel cutlery set with ceramic handles, supplied wholesale for importers and retail buyers: 6 dinner knives, 6 dinner forks, 6 dinner spoons and 6 teaspoons, gold mirror-polished heads, marble-pattern handles, gift box and display stand. Six colour options, OEM/ODM logo engraving and custom packaging available."
 material: "Stainless Steel + Ceramic Handle"
 finish: "Gold Mirror-Polished Head / Marble-Pattern Ceramic Handle"
 packaging: "24-Piece Gift Box with Display Stand / Custom OEM"
@@ -317,7 +317,13 @@ tags: ["Ceramic Handle", "24-Piece Set", "With Display Stand", "Gift Box", "6 Co
 
   <!-- Right: info -->
   <div class="product-info">
-    <h1>Luxury Marble-Pattern Ceramic Handle 24-Piece Cutlery Set with Display Stand</h1>
+    <h1>24-Piece Stainless Steel Cutlery Set with Ceramic Handle — Wholesale &amp; OEM</h1>
+    <p style="font-size:0.95em; line-height:1.7; color:#444; margin:12px 0 18px;">
+      A 24-piece stainless steel cutlery set built for wholesale and retail buyers: 6 dinner knives,
+      6 dinner forks, 6 dinner spoons and 6 teaspoons, each with a marble-pattern ceramic handle
+      and a gold mirror-polished head. Supplied in a gift box with a gold display stand; laser logo
+      engraving and custom packaging are available on OEM/ODM orders.
+    </p>
     <p class="product-sku">SKU: DY-CH24-001 | Model: Marble Ceramic Series</p>
     <p class="product-moq">Contact us for current wholesale pricing.</p>
 
