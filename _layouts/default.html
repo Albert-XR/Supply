@@ -569,31 +569,40 @@ img {
     <!-- 公司品牌 -->
     <div class="footer-brand">
       <h3>DING-YONG</h3>
-      <p class="tagline">Premium Stainless Steel Tableware Manufacturer since 2014. Specializing in cutlery, flatware and kitchen utensils.</p>
+      <p class="tagline">{% if page.lang == 'fr' %}Fabricant de couverts et ménagères en acier inoxydable depuis 2014. Spécialiste des arts de la table et des ustensiles de cuisine.{% else %}Premium Stainless Steel Tableware Manufacturer since 2014. Specializing in cutlery, flatware and kitchen utensils.{% endif %}</p>
       <div class="cert-badges">
-        <span class="cert-badge">Pre-shipment QC</span>
+        <span class="cert-badge">{% if page.lang == 'fr' %}Contrôle qualité avant expédition{% else %}Pre-shipment QC{% endif %}</span>
         <span class="cert-badge">OEM / ODM</span>
-        <span class="cert-badge">Factory Direct</span>
-        <span class="cert-badge">Since 2014</span>
+        <span class="cert-badge">{% if page.lang == 'fr' %}Vente directe usine{% else %}Factory Direct{% endif %}</span>
+        <span class="cert-badge">{% if page.lang == 'fr' %}Depuis 2014{% else %}Since 2014{% endif %}</span>
       </div>
     </div>
 
     <!-- 快速链接 -->
     <div class="footer-links">
-      <h4>Quick Links</h4>
+      <h4>{% if page.lang == 'fr' %}Liens rapides{% else %}Quick Links{% endif %}</h4>
       <ul>
+        {% if page.lang == 'fr' %}
+        <li><a href="/fr/">Accueil</a></li>
+        <li><a href="/fr/produits/">Produits</a></li>
+        <li><a href="/fr/a-propos/">À propos</a></li>
+        <li><a href="/blog">Blog (EN)</a></li>
+        <li><a href="/fr/contact/">Contact</a></li>
+        <li><a href="/visit-our-factory/">Visitez notre usine (EN)</a></li>
+        {% else %}
         <li><a href="/">Home</a></li>
         <li><a href="/products">Products</a></li>
         <li><a href="/about">About Us</a></li>
         <li><a href="/blog">Blog</a></li>
         <li><a href="/contact">Contact</a></li>
         <li><a href="/visit-our-factory/">Visit Our Factory</a></li>
+        {% endif %}
       </ul>
     </div>
 
     <!-- 联系方式 -->
     <div class="footer-contact">
-      <h4>Contact Us</h4>
+      <h4>{% if page.lang == 'fr' %}Contactez-nous{% else %}Contact Us{% endif %}</h4>
       <div class="contact-item">
         <span class="contact-icon">&#9742;</span>
         <span>+86 150-1337-1880</span>
@@ -610,7 +619,7 @@ img {
 
     <!-- 社交媒体 -->
     <div class="footer-social">
-      <h4>Follow Us</h4>
+      <h4>{% if page.lang == 'fr' %}Suivez-nous{% else %}Follow Us{% endif %}</h4>
       <div class="social-icons">
         <a href="https://www.facebook.com/dingyongcutlery" class="social-icon" title="Facebook" target="_blank" rel="noopener">f</a>
         <a href="https://www.linkedin.com/in/kaylee-stainless-steel-cutlery-manufacturer-80861528a/" class="social-icon" title="LinkedIn" target="_blank" rel="noopener">in</a>
