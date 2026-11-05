@@ -181,7 +181,7 @@ description: "Découvrez les couverts en acier inoxydable DINGYONG : ménagères
   <p class="products-intro">Nos gammes phares présentées en français. Tous nos produits sont disponibles en OEM/ODM avec logo et emballage personnalisés.</p>
 
   <div class="full-catalog-note">
-    Vous consultez notre sélection en français. Le <a href="/products/">catalogue complet (27 références)</a> est disponible en anglais — n'hésitez pas à nous <a href="/fr/contact/">contacter</a> pour toute référence qui ne figure pas ici.
+    Vous consultez notre sélection en français. Le <a href="/products/">catalogue complet ({{ site.products.size }} références)</a> est disponible en anglais — n'hésitez pas à nous <a href="/fr/contact/">contacter</a> pour toute référence qui ne figure pas ici.
   </div>
 
   <!-- 分类筛选 -->
