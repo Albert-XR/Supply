@@ -245,6 +245,18 @@ description: "Contact DINGYONG for stainless steel cutlery wholesale, OEM/ODM an
   font-size: 0.9em;
   margin: 0 0 15px 0;
 }
+/* 模板 pre 必须换行，否则长行在手机上撑破布局（存量 bug，法语版同步修） */
+.inquiry-template-full pre {
+  background: #f5f5f5;
+  padding: 15px;
+  border-radius: 6px;
+  font-size: 0.85em;
+  line-height: 1.6;
+  color: #555;
+  overflow-x: auto;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
 </style>
 
 <div class="contact-page">

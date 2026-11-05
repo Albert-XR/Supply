@@ -33,8 +33,13 @@
     {% endif %}
     
     <div class="product-actions">
+      {% if page.lang == 'fr' %}
+      <a href="{{ p.url }}" class="btn-view">Voir la fiche</a>
+      <a href="/fr/contact/?product={{ p.title | url_encode }}" class="btn-quote">Demander un devis</a>
+      {% else %}
       <a href="{{ p.url }}" class="btn-view">View Details</a>
       <a href="/contact/?product={{ p.title | url_encode }}" class="btn-quote">Get Quote</a>
+      {% endif %}
     </div>
   </div>
 </div>

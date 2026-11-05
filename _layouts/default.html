@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="{% if page.lang == 'fr' %}fr{% else %}en{% endif %}">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,6 +11,15 @@
 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 
 {% seo %}
+
+<!-- hreflang 语言互链（单一数据源 _data/alternates.yml，同时驱动导航切换器） -->
+{% assign alt_entry = site.data.alternates | where: "en", page.url | first %}
+{% unless alt_entry %}{% assign alt_entry = site.data.alternates | where: "fr", page.url | first %}{% endunless %}
+{% if alt_entry %}
+<link rel="alternate" hreflang="en" href="{{ alt_entry.en | absolute_url }}">
+<link rel="alternate" hreflang="fr" href="{{ alt_entry.fr | absolute_url }}">
+<link rel="alternate" hreflang="x-default" href="{{ alt_entry.en | absolute_url }}">
+{% endif %}
 
 {% if site.google_analytics_key and site.google_analytics_key != "" %}
 <!-- Google tag (gtag.js) -->
@@ -73,7 +82,7 @@ okkiAdd("analytics", { siteId: "459179-33941", gId: "" });
     "email": "sales@ding-yong.com",
     "telephone": "+86-150-1337-1880",
     "areaServed": ["US","CA","GB","DE","FR","IT","ES","JP","KR","AU","AE","SA","BR"],
-    "availableLanguage": ["English","Chinese"]
+    "availableLanguage": ["English","French"]
   }
 }
 </script>
@@ -130,6 +139,21 @@ nav {
 
 .nav-links a:hover {
   opacity: 0.8;
+}
+
+/* 导航语言切换按钮（hreflang 对应的另一语言版本） */
+.nav-links a.nav-lang-switch {
+  border: 1px solid rgba(255,255,255,0.45);
+  padding: 3px 10px;
+  border-radius: 4px;
+  font-size: 0.8em;
+  font-weight: bold;
+  letter-spacing: 0.03em;
+  margin-left: 4px;
+}
+.nav-links a.nav-lang-switch:hover {
+  background: rgba(255,255,255,0.12);
+  opacity: 1;
 }
 
 /* 基础样式 */
@@ -467,6 +491,14 @@ img {
     font-size: 0.92em;
   }
 }
+
+/* 移动端导航：语言切换按钮加入后收窄字号，避免 390px 屏横向溢出
+   （上面的同款规则包在 exhibition.active 里，展会关闭时不生效，故独立一份） */
+@media (max-width: 640px) {
+  .nav-links { gap: 12px; }
+  .nav-links a { font-size: 0.82em; }
+  .nav-links a.nav-lang-switch { padding: 2px 7px; font-size: 0.75em; }
+}
 </style>
 </head>
 <body>
@@ -508,11 +540,20 @@ img {
            alt="DINGYONG 鼎用" height="40">
     </a>
     <div class="nav-links">
+      {% if page.lang == 'fr' %}
+      <a href="/fr/produits/">Produits</a>
+      <a href="/fr/a-propos/">À propos</a>
+      <a href="/blog">Blog</a>
+      <a href="/fr/contact/">Contact</a>
+      {% if alt_entry %}<a href="{{ alt_entry.en }}" class="nav-lang-switch" data-ga-event="lang_switch_click" data-ga-location="nav" data-ga-direction="fr_to_en">EN</a>{% endif %}
+      {% else %}
       <a href="/products">Products</a>
       <a href="/about">About</a>
       <a href="/blog">Blog</a>
       {% if site.exhibition.active %}<a href="{{ site.exhibition.url }}" class="nav-exhibition" data-ga-event="exhibition_nav_click" data-ga-location="nav">Exhibition</a>{% endif %}
       <a href="/contact">Contact</a>
+      {% if alt_entry %}<a href="{{ alt_entry.fr }}" class="nav-lang-switch" data-ga-event="lang_switch_click" data-ga-location="nav" data-ga-direction="en_to_fr">FR</a>{% endif %}
+      {% endif %}
     </div>
   </div>
 </nav>

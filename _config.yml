@@ -24,6 +24,8 @@ collections:
   products:
     _hide_content: false
     output: true
+  products_fr:
+    output: true
   answers:
     output: true
 
@@ -36,6 +38,13 @@ defaults:
       type: "products"
     values:
       layout: "product"
+  -
+    scope:
+      path: ""
+      type: "products_fr"
+    values:
+      layout: "product"
+      lang: "fr"
   -
     scope:
       path: ""

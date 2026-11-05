@@ -1,0 +1,31 @@
+# 语言互链单一数据源：hreflang 与导航语言切换器都从这里读。
+# en/fr 必须与 Jekyll 最终 URL 完全一致（含末尾斜杠）。
+# 新增法语页时：把一对加进来，英文页与法语页即自动互挂 hreflang + 出现切换按钮。
+- en: /
+  fr: /fr/
+- en: /products/
+  fr: /fr/produits/
+- en: /about/
+  fr: /fr/a-propos/
+- en: /contact/
+  fr: /fr/contact/
+- en: /products/multi-size-gift-box-cutlery-set/
+  fr: /fr/produits/multi-size-gift-box-cutlery-set/
+- en: /products/gold-cutlery-set-24pcs/
+  fr: /fr/produits/gold-cutlery-set-24pcs/
+- en: /products/cutlery-set-wooden-box-24pcs/
+  fr: /fr/produits/cutlery-set-wooden-box-24pcs/
+- en: /products/portugal-24pcs-gift-box/
+  fr: /fr/produits/portugal-24pcs-gift-box/
+- en: /products/24pcs-cutlery-set-with-stand/
+  fr: /fr/produits/24pcs-cutlery-set-with-stand/
+- en: /products/star-diamond-24pcs-cutlery-set/
+  fr: /fr/produits/star-diamond-24pcs-cutlery-set/
+- en: /products/ceramic-handle-24pcs-cutlery-set/
+  fr: /fr/produits/ceramic-handle-24pcs-cutlery-set/
+- en: /products/square-handle-flatware-set/
+  fr: /fr/produits/square-handle-flatware-set/
+- en: /products/square-handle-gold-5-piece-flatware-set/
+  fr: /fr/produits/square-handle-gold-5-piece-flatware-set/
+- en: /products/portugal-flatware-set/
+  fr: /fr/produits/portugal-flatware-set/
