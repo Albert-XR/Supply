@@ -2,7 +2,7 @@
 layout: page
 title: Stainless Steel Cutlery Supplier for Ghana, Mali & West Africa
 permalink: /markets/west-africa/
-description: "Stainless steel cutlery manufacturer supplying importers and wholesalers in Ghana, Mali, Togo and across West Africa — cutlery sets and flatware with OEM/ODM custom logo and packaging, shipped from China."
+description: "Factory-direct stainless steel cutlery manufacturer — 10M+ pieces monthly output — supplying importers and wholesalers in Ghana, Mali, Togo and across West Africa. Cutlery sets and gift sets with OEM/ODM custom logo and packaging, shipped from China."
 ---
 
 <div class="market-page">

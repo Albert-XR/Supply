@@ -1,7 +1,7 @@
 ---
 layout: home
 title: Stainless Steel Cutlery Manufacturer & OEM Supplier
-description: "DINGYONG is a stainless steel cutlery manufacturer in Guangdong, China, producing flatware, cutlery sets and gift sets for importers, wholesalers, hotels and restaurants — OEM/ODM with custom logo and packaging."
+description: "Factory-direct cutlery manufacturer in Guangdong, China since 2014 — 5,000 m² plant, 200+ workers, 10M+ pieces monthly output. DINGYONG produces stainless steel flatware, cutlery sets and gift sets for importers, wholesalers, hotels and restaurants, with OEM/ODM custom logo and packaging."
 ---
 
 <style>
