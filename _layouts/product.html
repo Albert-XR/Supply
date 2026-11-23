@@ -11,6 +11,20 @@ layout: default
 			<div class="product-container {% if page.full_width %}max-container{% endif %}">
 
 						{{ content }}
+
+						{% unless page.lang == 'fr' %}
+						<section class="buyer-guides" style="margin:48px 0 8px;padding:24px 0 0;border-top:1px solid #e5e5e5;font-family:Arial,Helvetica,sans-serif;">
+							<h2 style="font-size:1.15em;color:#1a1a2e;margin:0 0 6px;">Sourcing questions buyers ask</h2>
+							<p style="font-size:0.9em;color:#666;margin:0 0 16px;line-height:1.6;">Practical guides from the DINGYONG factory team on specifying, verifying and ordering stainless steel cutlery.</p>
+							<ul style="list-style:none;padding:0;margin:0;display:flex;flex-wrap:wrap;gap:10px;">
+								<li style="margin:0;"><a data-ga-event="buyer_guide_click" data-ga-location="product_page" href="/answers/bulk-24-piece-cutlery-set-supplier/" style="display:inline-block;padding:9px 14px;border:1px solid #ddd;border-radius:6px;color:#1a1a2e;text-decoration:none;font-size:0.88em;line-height:1.4;">Bulk 24-piece set supply &rarr;</a></li>
+								<li style="margin:0;"><a data-ga-event="buyer_guide_click" data-ga-location="product_page" href="/answers/verify-odm-cutlery-supplier/" style="display:inline-block;padding:9px 14px;border:1px solid #ddd;border-radius:6px;color:#1a1a2e;text-decoration:none;font-size:0.88em;line-height:1.4;">How to verify an ODM supplier &rarr;</a></li>
+								<li style="margin:0;"><a data-ga-event="buyer_guide_click" data-ga-location="product_page" href="/answers/restaurant-cutlery-wholesale-checklist/" style="display:inline-block;padding:9px 14px;border:1px solid #ddd;border-radius:6px;color:#1a1a2e;text-decoration:none;font-size:0.88em;line-height:1.4;">Restaurant buying checklist &rarr;</a></li>
+								<li style="margin:0;"><a data-ga-event="buyer_guide_click" data-ga-location="product_page" href="/answers/cutlery-quality-check-before-shipment/" style="display:inline-block;padding:9px 14px;border:1px solid #ddd;border-radius:6px;color:#1a1a2e;text-decoration:none;font-size:0.88em;line-height:1.4;">Quality checks before shipment &rarr;</a></li>
+							</ul>
+						</section>
+						{% endunless %}
+
 			</div>
 	</section>
 </div>

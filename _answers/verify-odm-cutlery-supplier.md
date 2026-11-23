@@ -23,6 +23,26 @@ faq:
       acceptedAnswer:
         "@type": "Answer"
         text: "Ask for monthly output in pieces, headcount and the number of production lines, then compare against your order size and delivery window. A factory producing 10 million+ pieces per month with 200+ workers, for instance, absorbs six-figure set orders without retooling the schedule."
+    - "@type": "Question"
+      name: "What is the difference between OEM and ODM cutlery?"
+      acceptedAnswer:
+        "@type": "Answer"
+        text: "ODM (original design manufacturing) starts from the factory's existing tooling and product platform — you specify steel grade, piece weight, finish, set composition, logo and packaging, and the factory runs it on proven equipment. OEM (original equipment manufacturing) starts from your own design or drawing, which may require dedicated tooling. Both are available at a cutlery manufacturer; ODM is the faster route because the engineering already exists."
+    - "@type": "Question"
+      name: "Can an ODM cutlery supplier make a completely new handle shape?"
+      acceptedAnswer:
+        "@type": "Answer"
+        text: "Yes, but a genuinely new silhouette needs new stamping or forging tooling, while a new finish, engraving, colour or piece-weight target usually does not. Ask the supplier which parts of your brief ride on existing tooling and which require development — a real factory can tell you the difference on the first call, because it runs the line itself."
+    - "@type": "Question"
+      name: "Which stainless steel grades can a cutlery ODM factory run?"
+      acceptedAnswer:
+        "@type": "Answer"
+        text: "410 (18/0) is the workhorse grade for high-volume sets: hard, magnetic and dishwasher-durable. 18/10 and 18/8 are used where higher corrosion resistance and lustre are specified. Confirm the grade, thickness and target piece weight in writing before samples, and verify the delivered pieces against the approved sample rather than against a catalogue claim."
+    - "@type": "Question"
+      name: "How do I protect my logo and packaging artwork with an ODM supplier?"
+      acceptedAnswer:
+        "@type": "Answer"
+        text: "Supply final artwork files with clear usage terms, approve a physical or printed proof before bulk production, and keep the approved sample as the reference for the order. Agree in writing that your logo, patterns and packaging design are used only for your order. A factory that handles OEM/ODM routinely will have a standard sample-approval record for this."
 ---
 
 ## Why verification matters more than the price
@@ -70,6 +90,21 @@ Agree in writing on how the order is checked before it leaves China:
 - **testing** arranged on request for market-specific requirements, through third-party labs.
 
 Inspection records and quality documents should be available to you before the container is sealed. If the supplier resists third-party inspection, treat that as the loudest red flag of all.
+
+## Verification spec sheet — what to put in your enquiry
+
+Send this table as the backbone of your first enquiry. A manufacturer fills it in from its own records; a trading desk will have to forward it to someone else, which is itself the answer.
+
+| Checkpoint | What to request | What a factory can state directly |
+|---|---|---|
+| Legal identity | Business licence, registered name, manufacturing address | One named company, one plant address, one manufacturer of record |
+| Capacity | Monthly output in pieces, headcount, in-house process list | 10M+ pieces/month, 200+ staff, stamping / polishing / PVD / packing in-house |
+| Product scope | Existing set formats, steel grades, finish options | 24-piece gift sets, hotel-weight flatware, 410 (18/0) and 18/10, mirror and PVD finishes |
+| Sample approval | Pre-production sample, approved-sample reference | Physical samples on request, refundable on bulk orders |
+| Quality control | In-line checkpoints, pre-shipment inspection, testing on request | Inspection records issued before the container is sealed |
+| Logistics | Nearest airport / port, packing plan per order | Jieyang Chaoshan International Airport (SWA); carton plan confirmed per order |
+
+Note what is deliberately absent: no claimed third-party certificates, no fixed minimums and no promised shipping window. Those are confirmed against your actual specification and destination, not published as marketing claims. The point of verification is that the supplier answers from evidence rather than from a brochure.
 
 ## What ODM actually gives you
 

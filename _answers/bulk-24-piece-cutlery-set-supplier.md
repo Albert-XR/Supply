@@ -18,6 +18,31 @@ faq:
       acceptedAnswer:
         "@type": "Answer"
         text: "Yes. Logo laser engraving, custom PVD colours and custom printed gift boxes are available on OEM/ODM orders. The factory can also produce an insert card, hang tag and barcode label to your brief."
+    - "@type": "Question"
+      name: "Who are the cutlery suppliers for bulk gift sets in China?"
+      acceptedAnswer:
+        "@type": "Answer"
+        text: "Cutlery suppliers fall into two groups: factories that own the stamping, polishing and packing lines, and trading companies that source from them. For bulk gift sets, buying from the manufacturer of record removes one layer between your specification and the production line. Jieyang in Guangdong is one of China's three main stainless steel cutlery clusters, alongside Chaozhou and Yangjiang, and is where DINGYONG's 5,000 m² plant is located."
+    - "@type": "Question"
+      name: "How do I compare cutlery suppliers before placing a bulk order?"
+      acceptedAnswer:
+        "@type": "Answer"
+        text: "Compare four things that a brochure cannot fake: the legal manufacturer name and plant address, monthly output in pieces, whether polishing and PVD coating are in-house, and the pre-shipment inspection record. Then approve a physical sample against your own weight and finish specification. Our [four-gate supplier verification checklist](/answers/verify-odm-cutlery-supplier/) sets out the documents to request at each step."
+    - "@type": "Question"
+      name: "What set sizes can a cutlery factory supply besides 24-piece?"
+      acceptedAnswer:
+        "@type": "Answer"
+        text: "Common gift-box configurations run 12, 16, 24, 36 and 48 pieces, from a two-person box to a twelve-person set. The composition is part of your specification rather than a fixed catalogue item: a five-piece place setting, a service-for-eight format or a mixed knife/fork/spoon count can all be built on the same production line."
+    - "@type": "Question"
+      name: "Can I mix different set configurations in one order?"
+      acceptedAnswer:
+        "@type": "Answer"
+        text: "Yes. Importers commonly combine two or three set sizes under one gift-box design to cover different retail price points, or order piece families separately as open stock for hospitality use. Confirm the per-configuration packing plan with the factory against your quantity and destination; it is worked out per order rather than quoted from a fixed carton table."
+    - "@type": "Question"
+      name: "What steel grade is used for bulk cutlery sets?"
+      acceptedAnswer:
+        "@type": "Answer"
+        text: "410 (18/0) stainless steel is the standard for high-volume gift sets — hard, magnetic and durable in daily dishwashing. 18/10 and 18/8 can be specified where higher corrosion resistance and lustre are required. State the grade, thickness and target piece weight in your specification and verify them on the approved pre-production sample."
 ---
 
 ## What a standard 24-piece set contains
@@ -29,7 +54,19 @@ faq:
 | Dinner spoon | 6 |
 | Teaspoon | 6 |
 
-A 24-piece set is six place settings of four pieces. Some buyers prefer a five-piece place setting, or a 16-piece or 48-piece configuration for a different retail price point — the set composition is part of the specification you send us, not something fixed by the factory.
+A 24-piece set is six place settings of four pieces. The composition is part of the specification you send us, not something fixed by the factory — a five-piece place setting, or a different total piece count, is equally standard.
+
+## Available configurations
+
+| Set size | Place settings | Typical composition | Common use |
+|---|---|---|---|
+| 12-piece | 2 | 3 × 4-piece settings (or 2 × 6-piece) | Promotional / sample box |
+| 16-piece | 4 | 4 × 4-piece settings | Entry retail |
+| 24-piece | 6 | 6 × 4-piece settings | Core gift-box format |
+| 36-piece | 9 | 9 × 4-piece settings | Family / hospitality |
+| 48-piece | 12 | 12 × 4-piece settings | Large-format gift |
+
+Configurations above are composition guidance, not fixed stock items. The factory builds the set to your specification, including five-piece place settings, mixed piece counts and open-stock packing for hospitality buyers. Carton quantity and packing dimensions are confirmed per order against your configuration and destination rather than published as a fixed table — ask for the packing plan when you [send your specification](/contact/).
 
 ## Who and where the manufacturer is
 
