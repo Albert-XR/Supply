@@ -11,7 +11,7 @@ description: "Factory-direct stainless steel cutlery manufacturer — 10M+ piece
   If you import stainless steel cutlery into Ghana, Mali, Togo or the wider West African market — for wholesale distribution, open markets, retail chains or hospitality supply — DINGYONG produces it. We are a cutlery manufacturer in Guangdong, China, supplying importers and wholesalers directly from our own factory since 2014.
 </p>
 
-<a class="market-cta" href="https://wa.me/8615013371880" target="_blank" rel="noopener">WhatsApp: +86 150 1337 1880</a>
+<a class="market-cta" href="https://wa.me/8615013371880?text=Hello%20DINGYONG%2C%20I%27m%20interested%20in%20your%20stainless%20steel%20cutlery.%20Please%20send%20product%20details%20and%20sample%20information." target="_blank" rel="noopener">WhatsApp: +86 150 1337 1880</a>
 <a class="market-cta secondary" href="/contact/?product=west-africa-market">Request a Quote</a>
 
 <h2>Why West African Importers Buy Cutlery from China</h2>
@@ -109,7 +109,7 @@ description: "Factory-direct stainless steel cutlery manufacturer — 10M+ piece
 <div class="market-cta-block">
   <h3>Talk to the Factory</h3>
   <p>Send us the cutlery you are looking for — we will come back with options and a quotation.</p>
-  <a href="https://wa.me/8615013371880" target="_blank" rel="noopener">WhatsApp +86 150 1337 1880</a>
+  <a href="https://wa.me/8615013371880?text=Hello%20DINGYONG%2C%20I%27m%20interested%20in%20your%20stainless%20steel%20cutlery.%20Please%20send%20product%20details%20and%20sample%20information." target="_blank" rel="noopener">WhatsApp +86 150 1337 1880</a>
   <a href="mailto:sales@ding-yong.com">sales@ding-yong.com</a>
 </div>
 

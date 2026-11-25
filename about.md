@@ -1042,7 +1042,7 @@ description: "Inside the DINGYONG cutlery factory: a 5,000 m² plant in Jieyang,
 <div class="cta-band">
   <h2>Ready to Start Your Order?</h2>
   <p>Get a factory-direct quote, request free samples, or discuss your OEM/ODM project with our team.</p>
-  <a class="cta-btn" href="https://wa.me/8615013371880" target="_blank" rel="noopener">Get a Quote on WhatsApp</a>
+  <a class="cta-btn" href="https://wa.me/8615013371880?text=Hello%20DINGYONG%2C%20I%27m%20interested%20in%20your%20stainless%20steel%20cutlery.%20Please%20send%20product%20details%20and%20sample%20information." target="_blank" rel="noopener">Get a Quote on WhatsApp</a>
   <p class="cta-contact">
     Or email us at <a href="mailto:sales@ding-yong.com">sales@ding-yong.com</a> — we reply within 24 hours.
   </p>

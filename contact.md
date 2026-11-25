@@ -281,7 +281,7 @@ description: "Contact DINGYONG for stainless steel cutlery wholesale, OEM/ODM an
 <div class="info-icon">&#128241;</div>
 <div class="info-content">
 <h4>WhatsApp / WeChat</h4>
-<p><a href="https://wa.me/8615013371880" target="_blank">+86 150-1337-1880</a></p>
+<p><a href="https://wa.me/8615013371880?text=Hello%20DINGYONG%2C%20I%27m%20interested%20in%20your%20stainless%20steel%20cutlery.%20Please%20send%20product%20details%20and%20sample%20information." target="_blank">+86 150-1337-1880</a></p>
 <p style="font-size: 0.85em; color: #888; margin-top: 5px;">Fastest response for urgent matters</p>
 </div>
 </div>
@@ -314,7 +314,9 @@ description: "Contact DINGYONG for stainless steel cutlery wholesale, OEM/ODM an
 <form action="https://api.web3forms.com/submit" method="POST">
   <input type="hidden" name="access_key" value="{{ site.web3forms_access_key }}">
   <input type="hidden" name="subject" value="New Website Inquiry from Contact Page">
+  <input type="hidden" name="product_context" id="product-context" value="">
   <input type="hidden" name="redirect" id="form-redirect" value="">
+  <p id="product-context-note" style="display:none;margin:0 0 14px;padding:10px 12px;background:#f6f7fb;border-left:3px solid #e94560;font-size:0.9em;color:#333;line-height:1.5;"></p>
   <script>document.getElementById('form-redirect').value = window.location.origin + '/thank-you/';</script>
   <input type="checkbox" name="botcheck" class="hidden" style="display:none;" tabindex="-1" autocomplete="off">
   <div class="cform-row">
@@ -326,8 +328,8 @@ description: "Contact DINGYONG for stainless steel cutlery wholesale, OEM/ODM an
     <input type="text" name="country" placeholder="Country / Region">
   </div>
   <div class="cform-row">
-    <select name="quantity" required>
-      <option value="">Target Quantity *</option>
+    <select name="quantity">
+      <option value="">Target Quantity (optional)</option>
       <option value="Samples first">Samples first</option>
       <option value="Not sure yet">Not sure yet — please advise</option>
       <option value="Under 1,000 pcs">Under 1,000 pcs</option>
@@ -341,7 +343,7 @@ description: "Contact DINGYONG for stainless steel cutlery wholesale, OEM/ODM an
 </form>
 </div>
 
-<a href="https://wa.me/8615013371880" target="_blank" class="whatsapp-btn">&#128172; Chat on WhatsApp Now</a>
+<a href="https://wa.me/8615013371880?text=Hello%20DINGYONG%2C%20I%27m%20interested%20in%20your%20stainless%20steel%20cutlery.%20Please%20send%20product%20details%20and%20sample%20information." target="_blank" class="whatsapp-btn">&#128172; Chat on WhatsApp Now</a>
 
 </div>
 
@@ -386,6 +388,21 @@ document.addEventListener('DOMContentLoaded', function () {
   var form = document.querySelector('.contact-form form');
   if (!form) return;
 
+  // Product-page CTA carries ?product=<slug>; add it to the enquiry and show a confirmation line.
+  var product = '';
+  try { product = new URLSearchParams(location.search).get('product') || ''; } catch (err) {}
+  if (product) {
+    var ctxInput = document.getElementById('product-context');
+    if (ctxInput) ctxInput.value = product;
+    var subj = form.querySelector('[name="subject"]');
+    if (subj) subj.value = 'New Website Inquiry - ' + product;
+    var note = document.getElementById('product-context-note');
+    if (note) {
+      note.textContent = 'Enquiring about: ' + product + ' - we have added this reference to your enquiry.';
+      note.style.display = 'block';
+    }
+  }
+
   var started = false;
   form.addEventListener('input', function () {
     if (started) return;
@@ -403,7 +420,7 @@ document.addEventListener('DOMContentLoaded', function () {
       sessionStorage.setItem('dy_inquiry_ctx', JSON.stringify({
         quantity: q ? q.value : '',
         country: c ? c.value : '',
-        product: new URLSearchParams(location.search).get('product') || ''
+        product: product
       }));
     } catch (err) { /* 隐私模式等场景下静默失败，不阻断提交 */ }
   });

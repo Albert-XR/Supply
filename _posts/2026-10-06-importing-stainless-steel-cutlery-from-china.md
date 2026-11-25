@@ -141,7 +141,7 @@ Two rules: **make sure the invoice, packing list and B/L agree with each other**
 
 Importing cutlery successfully is mostly about the boring parts: a written specification, an approved sample, a pre-shipment inspection, correct packing, and honest documents. Get those right and the pricing takes care of itself.
 
-Want to start with a specification and a sample? [Send us a photo on WhatsApp](https://wa.me/8615013371880) of the cutlery you want to import, and we will reply with the closest match from our [product catalogue](/products/) plus a quotation for your market.
+Want to start with a specification and a sample? [Send us a photo on WhatsApp](https://wa.me/8615013371880?text=Hello%20DINGYONG%2C%20I%27m%20interested%20in%20your%20stainless%20steel%20cutlery.%20Please%20send%20product%20details%20and%20sample%20information.) of the cutlery you want to import, and we will reply with the closest match from our [product catalogue](/products/) plus a quotation for your market.
 
 <p class="related-reading"><strong>Related answers</strong><br>
 <a href="/answers/import-cutlery-from-jieyang-to-west-africa/">Importing from Jieyang to West Africa</a> · <a href="/answers/cutlery-quality-check-before-shipment/">How do I check quality before shipment</a> · <a href="/markets/pakistan/">Pakistan market page</a> · <a href="/markets/west-africa/">West Africa market page</a>

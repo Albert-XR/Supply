@@ -1043,7 +1043,7 @@ description: "DINGYONG est un fabricant de couverts et de ménagères en acier i
 <div class="cta-band">
   <h2>Prêt à lancer votre commande ?</h2>
   <p>Obtenez un devis direct usine, demandez des échantillons gratuits ou parlez de votre projet OEM/ODM avec notre équipe.</p>
-  <a class="cta-btn" href="https://wa.me/8615013371880" target="_blank" rel="noopener">Obtenir un devis sur WhatsApp</a>
+  <a class="cta-btn" href="https://wa.me/8615013371880?text=Bonjour%20DINGYONG%2C%20je%20m%27int%C3%A9resse%20%C3%A0%20vos%20couverts%20en%20acier%20inoxydable.%20Merci%20de%20m%27envoyer%20les%20d%C3%A9tails%20produits%20et%20les%20informations%20sur%20les%20%C3%A9chantillons." target="_blank" rel="noopener">Obtenir un devis sur WhatsApp</a>
   <p class="cta-contact">
     Ou écrivez-nous à <a href="mailto:sales@ding-yong.com">sales@ding-yong.com</a> — nous répondons sous 24 heures.
   </p>

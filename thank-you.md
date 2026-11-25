@@ -22,7 +22,7 @@ sitemap: false
   <p>Your inquiry has been received. Our sales team will reply within <strong>24 hours</strong> (Mon&ndash;Sat).</p>
   <p>For urgent matters, reach us directly on WhatsApp.</p>
   <div class="thanks-actions">
-    <a class="thanks-btn whatsapp" href="https://wa.me/8615013371880" target="_blank">&#128172; Chat on WhatsApp</a>
+    <a class="thanks-btn whatsapp" href="https://wa.me/8615013371880?text=Hello%20DINGYONG%2C%20I%27m%20interested%20in%20your%20stainless%20steel%20cutlery.%20Please%20send%20product%20details%20and%20sample%20information." target="_blank">&#128172; Chat on WhatsApp</a>
     <a class="thanks-btn primary" href="/products/">Continue Browsing Products</a>
   </div>
 </div>

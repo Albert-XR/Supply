@@ -107,7 +107,7 @@ Regardless of grade, protect your order with these steps:
 
 The grade is a cost decision; the craftsmanship is a supplier decision. If you are comparing quotes between factories, ask for the salt spray report and pre-shipment AQL standard first — those tell you more than the "18/10" stamped on the box.
 
-Planning an order? [Talk to us on WhatsApp](https://wa.me/8615013371880) or browse our [flatware collection](/products/) to see both grades in real products.
+Planning an order? [Talk to us on WhatsApp](https://wa.me/8615013371880?text=Hello%20DINGYONG%2C%20I%27m%20interested%20in%20your%20stainless%20steel%20cutlery.%20Please%20send%20product%20details%20and%20sample%20information.) or browse our [flatware collection](/products/) to see both grades in real products.
 
 <p class="related-reading"><strong>Related answers</strong><br>
 <a href="/answers/bulk-24-piece-cutlery-set-supplier/">Who supplies 24-piece cutlery sets in bulk</a> · <a href="/answers/cutlery-quality-check-before-shipment/">How do I check quality before shipment</a> · <a href="/products/">Browse all flatware</a>

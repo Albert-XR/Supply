@@ -322,7 +322,7 @@ body.ex-lb-open { overflow: hidden; }
 
   <p class="ex-meet">
     The fair is over, but the samples are still in Jieyang. Message us on
-    <a href="https://wa.me/8615013371880" target="_blank" rel="noopener">WhatsApp +86 150 1337 1880</a>
+    <a href="https://wa.me/8615013371880?text=Hello%20DINGYONG%2C%20I%27m%20interested%20in%20your%20stainless%20steel%20cutlery.%20Please%20send%20product%20details%20and%20sample%20information." target="_blank" rel="noopener">WhatsApp +86 150 1337 1880</a>
     or <a href="/contact/?product=jinhan-fair-2026">send an enquiry</a> — tell us the item you came to
     look for and we will send video of the actual piece.
   </p>

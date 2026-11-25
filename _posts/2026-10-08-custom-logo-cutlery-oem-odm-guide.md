@@ -135,7 +135,7 @@ Two stages deserve your full attention.
 
 Custom logo cutlery is not complicated, but it rewards preparation. Decide the market and channel first, arrive with artwork and a packaging concept, approve a branded sample properly, and inspect before shipment.
 
-Looking for a factory to produce your own branded cutlery? [Send us a photo on WhatsApp](https://wa.me/8615013371880) of the product you have in mind and we will reply with the closest match, or browse our [product catalogue](/products/) to see what can be branded.
+Looking for a factory to produce your own branded cutlery? [Send us a photo on WhatsApp](https://wa.me/8615013371880?text=Hello%20DINGYONG%2C%20I%27m%20interested%20in%20your%20stainless%20steel%20cutlery.%20Please%20send%20product%20details%20and%20sample%20information.) of the product you have in mind and we will reply with the closest match, or browse our [product catalogue](/products/) to see what can be branded.
 
 <p class="related-reading"><strong>Related answers</strong><br>
 <a href="/answers/custom-logo-and-packaging-for-cutlery/">Can a factory put our logo and packaging on the set</a> · <a href="/answers/bulk-24-piece-cutlery-set-supplier/">Who supplies 24-piece sets in bulk</a> · <a href="/products/">Browse all flatware</a>

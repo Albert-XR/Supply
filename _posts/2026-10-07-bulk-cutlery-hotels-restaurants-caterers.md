@@ -133,7 +133,7 @@ Engraving requires no new tooling, so it can be added to orders at modest volume
 
 For commercial use, specify **thickness, construction and durability** before appearance — then protect yourself with a documented specification, a small buffer of high-loss pieces, and a supplier who confirms they can reproduce the line later.
 
-Specifying cutlery for a hotel, restaurant group or catering operation? [Send us your requirements on WhatsApp](https://wa.me/8615013371880) or browse our [flatware range](/products/) to find a family of designs that covers both place settings and serving pieces.
+Specifying cutlery for a hotel, restaurant group or catering operation? [Send us your requirements on WhatsApp](https://wa.me/8615013371880?text=Hello%20DINGYONG%2C%20I%27m%20interested%20in%20your%20stainless%20steel%20cutlery.%20Please%20send%20product%20details%20and%20sample%20information.) or browse our [flatware range](/products/) to find a family of designs that covers both place settings and serving pieces.
 
 <p class="related-reading"><strong>Related answers</strong><br>
 <a href="/answers/cutlery-quality-check-before-shipment/">How do I check quality before shipment</a> · <a href="/answers/custom-logo-and-packaging-for-cutlery/">Custom logo and packaging</a> · <a href="/products/">Browse all flatware</a>

@@ -499,9 +499,9 @@ tags: ["Stainless Steel", "Durian Egg Design", "Rainbow Finish", "Gift Box Set",
 <!-- 底部CTA -->
 <div class="bottom-cta">
   <h2>Ready to Order?</h2>
-  <p>Get your custom quote within 24 hours. Free sample available for serious buyers.</p>
-  <a href="/contact" class="cta-button">Get Free Quote</a>
-  <a href="https://wa.me/8615013371880" class="cta-button secondary" target="_blank">Chat on WhatsApp</a>
+  <p>Request a quote for this set. Samples available on request, refundable on bulk orders.</p>
+  <a href="/contact/?product={{ page.slug }}" class="cta-button">Get Free Quote</a>
+  <a href="https://wa.me/8615013371880?text=Hi%20DINGYONG%2C%20I%27d%20like%20to%20enquire%20about%20{{ page.slug }}.%20Please%20send%20details%20and%20sample%20information." class="cta-button secondary" target="_blank">Chat on WhatsApp</a>
 </div>
 
 <script>

@@ -282,7 +282,7 @@ description: "Contactez DINGYONG pour la vente en gros de couverts en acier inox
 <div class="info-icon">&#128241;</div>
 <div class="info-content">
 <h4>WhatsApp / WeChat</h4>
-<p><a href="https://wa.me/8615013371880" target="_blank">+86 150-1337-1880</a></p>
+<p><a href="https://wa.me/8615013371880?text=Bonjour%20DINGYONG%2C%20je%20m%27int%C3%A9resse%20%C3%A0%20vos%20couverts%20en%20acier%20inoxydable.%20Merci%20de%20m%27envoyer%20les%20d%C3%A9tails%20produits%20et%20les%20informations%20sur%20les%20%C3%A9chantillons." target="_blank">+86 150-1337-1880</a></p>
 <p style="font-size: 0.85em; color: #888; margin-top: 5px;">La réponse la plus rapide pour les demandes urgentes</p>
 </div>
 </div>
@@ -315,7 +315,9 @@ description: "Contactez DINGYONG pour la vente en gros de couverts en acier inox
 <form action="https://api.web3forms.com/submit" method="POST">
   <input type="hidden" name="access_key" value="{{ site.web3forms_access_key }}">
   <input type="hidden" name="subject" value="New Website Inquiry from FR Contact Page">
+  <input type="hidden" name="product_context" id="product-context" value="">
   <input type="hidden" name="redirect" id="form-redirect" value="">
+  <p id="product-context-note" style="display:none;margin:0 0 14px;padding:10px 12px;background:#f6f7fb;border-left:3px solid #e94560;font-size:0.9em;color:#333;line-height:1.5;"></p>
   <script>document.getElementById('form-redirect').value = window.location.origin + '/thank-you/';</script>
   <input type="checkbox" name="botcheck" class="hidden" style="display:none;" tabindex="-1" autocomplete="off">
   <div class="cform-row">
@@ -327,8 +329,8 @@ description: "Contactez DINGYONG pour la vente en gros de couverts en acier inox
     <input type="text" name="country" placeholder="Pays / Région">
   </div>
   <div class="cform-row">
-    <select name="quantity" required>
-      <option value="">Quantité visée *</option>
+    <select name="quantity">
+      <option value="">Quantité visée (facultatif)</option>
       <option value="Samples first">D'abord des échantillons</option>
       <option value="Not sure yet">Pas encore sûr — merci de conseiller</option>
       <option value="Under 1,000 pcs">Moins de 1 000 pièces</option>
@@ -342,7 +344,7 @@ description: "Contactez DINGYONG pour la vente en gros de couverts en acier inox
 </form>
 </div>
 
-<a href="https://wa.me/8615013371880" target="_blank" class="whatsapp-btn">&#128172; Discuter sur WhatsApp</a>
+<a href="https://wa.me/8615013371880?text=Bonjour%20DINGYONG%2C%20je%20m%27int%C3%A9resse%20%C3%A0%20vos%20couverts%20en%20acier%20inoxydable.%20Merci%20de%20m%27envoyer%20les%20d%C3%A9tails%20produits%20et%20les%20informations%20sur%20les%20%C3%A9chantillons." target="_blank" class="whatsapp-btn">&#128172; Discuter sur WhatsApp</a>
 
 </div>
 
@@ -386,6 +388,21 @@ document.addEventListener('DOMContentLoaded', function () {
   var form = document.querySelector('.contact-form form');
   if (!form) return;
 
+  // La fiche produit transmet ?product=<slug>; on l'ajoute a la demande et on l'affiche.
+  var product = '';
+  try { product = new URLSearchParams(location.search).get('product') || ''; } catch (err) {}
+  if (product) {
+    var ctxInput = document.getElementById('product-context');
+    if (ctxInput) ctxInput.value = product;
+    var subj = form.querySelector('[name="subject"]');
+    if (subj) subj.value = 'New Website Inquiry (FR) - ' + product;
+    var note = document.getElementById('product-context-note');
+    if (note) {
+      note.textContent = 'Demande concernant : ' + product + ' - cette reference a ete ajoutee a votre demande.';
+      note.style.display = 'block';
+    }
+  }
+
   var started = false;
   form.addEventListener('input', function () {
     if (started) return;
@@ -403,7 +420,7 @@ document.addEventListener('DOMContentLoaded', function () {
       sessionStorage.setItem('dy_inquiry_ctx', JSON.stringify({
         quantity: q ? q.value : '',
         country: c ? c.value : '',
-        product: new URLSearchParams(location.search).get('product') || ''
+        product: product
       }));
     } catch (err) { /* 隐私模式等场景下静默失败，不阻断提交 */ }
   });

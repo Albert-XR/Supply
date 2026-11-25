@@ -527,9 +527,9 @@ tags: ["Manche céramique", "24 pièces", "Avec support", "Coffret cadeau", "6 c
 <!-- Bottom CTA -->
 <div class="bottom-cta">
   <h2>Prêt à commander ?</h2>
-  <p>Recevez votre devis personnalisé sous 24 heures. Échantillon gratuit pour les acheteurs sérieux.</p>
-  <a href="/fr/contact/" class="cta-button">Obtenir un devis gratuit</a>
-  <a href="https://wa.me/8615013371880" class="cta-button secondary" target="_blank">Discuter sur WhatsApp</a>
+  <p>Demandez un devis pour ce coffret. Échantillons disponibles sur demande, remboursables sur commande en gros.</p>
+  <a href="/fr/contact/?product={{ page.slug }}" class="cta-button">Obtenir un devis gratuit</a>
+  <a href="https://wa.me/8615013371880?text=Bonjour%20DINGYONG%2C%20je%20souhaite%20me%20renseigner%20sur%20{{ page.slug }}.%20Merci%20de%20m%27envoyer%20les%20d%C3%A9tails%20et%20les%20informations%20sur%20les%20%C3%A9chantillons." class="cta-button secondary" target="_blank">Discuter sur WhatsApp</a>
 </div>
 
 <script>
